@@ -92,13 +92,14 @@
             bottom: 20px;
             left: 340px;
             right: 20px;
-            background: rgba(30, 41, 59, 0.95);
+            background: rgba(255, 255, 255, 0.95);
             padding: 15px 20px;
             border-radius: 12px;
             display: flex;
             gap: 30px;
             z-index: 1000;
-            border: 1px solid #334155;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
         }
         .stat {
             text-align: center;
@@ -110,7 +111,7 @@
         }
         .stat-label {
             font-size: 0.75rem;
-            color: #94a3b8;
+            color: #64748b;
         }
         .controls {
             margin-bottom: 1rem;
@@ -288,7 +289,7 @@ let selectedPartners = new Set();
 function initMap() {
     map = L.map('map').setView([50.0, 10.0], 4);
     
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
         attribution: '©OpenStreetMap, ©CartoDB'
     }).addTo(map);
     
