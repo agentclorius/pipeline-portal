@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The €1,000 Devices Collecting Dust in Your Drawers | Returna</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #1a1a2e;
+            background: #ffffff;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-bottom: 12px;
+            line-height: 1.2;
+        }
+        
+        .subtitle {
+            font-size: 1.15rem;
+            color: #6b7280;
+            font-style: italic;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1a1a2e;
+            margin-top: 45px;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            margin-bottom: 18px;
+            font-size: 1.05rem;
+        }
+        
+        .lead {
+            font-size: 1.15rem;
+            color: #374151;
+        }
+        
+        ul, ol {
+            margin: 20px 0;
+            padding-left: 28px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            font-size: 1.05rem;
+        }
+        
+        strong {
+            font-weight: 600;
+            color: #1a1a2e;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border-left: 4px solid #0ea5e9;
+            padding: 24px 28px;
+            margin: 30px 0;
+            border-radius: 0 12px 12px 0;
+        }
+        
+        .highlight-box p {
+            margin: 0;
+            font-size: 1.1rem;
+            color: #0c4a6e;
+        }
+        
+        .warning-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 4px solid #f59e0b;
+            padding: 24px 28px;
+            margin: 30px 0;
+            border-radius: 0 12px 12px 0;
+        }
+        
+        .warning-box p {
+            margin: 0;
+            font-size: 1.1rem;
+            color: #92400e;
+        }
+        
+        .danger-box {
+            background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+            border-left: 4px solid #ef4444;
+            padding: 24px 28px;
+            margin: 30px 0;
+            border-radius: 0 12px 12px 0;
+        }
+        
+        .danger-box p {
+            margin: 0;
+            font-size: 1.1rem;
+            color: #991b1b;
+        }
+        
+        .comparison-box {
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 28px;
+            margin: 30px 0;
+        }
+        
+        .comparison-box h3 {
+            font-size: 1.1rem;
+            color: #64748b;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+        
+        .comparison-item {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .comparison-item.highlight {
+            background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+            border: 2px solid #10b981;
+        }
+        
+        .comparison-item.danger {
+            background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+            border: 2px solid #ef4444;
+        }
+        
+        .comparison-item h4 {
+            font-size: 0.95rem;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+        
+        .comparison-item .value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #1a1a2e;
+        }
+        
+        .comparison-item.highlight .value {
+            color: #059669;
+        }
+        
+        .comparison-item.danger .value {
+            color: #dc2626;
+        }
+        
+        .stat-callout {
+            text-align: center;
+            padding: 35px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #2d2d44 100%);
+            color: white;
+            border-radius: 16px;
+            margin: 35px 0;
+        }
+        
+        .stat-callout .number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #60a5fa;
+        }
+        
+        .stat-callout .label {
+            font-size: 1.1rem;
+            color: #94a3b8;
+            margin-top: 8px;
+        }
+        
+        .stat-callout.danger .number {
+            color: #f87171;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.95rem;
+        }
+        
+        th {
+            background: #f1f5f9;
+            padding: 14px 16px;
+            text-align: left;
+            font-weight: 600;
+            color: #475569;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        td {
+            padding: 14px 16px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        tr:hover {
+            background: #f8fafc;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #1a1a2e 0%, #2d2d44 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 16px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        .cta-section h2 {
+            color: white;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        
+        .cta-section p {
+            color: #94a3b8;
+            margin-bottom: 25px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #3b82f6;
+            color: white;
+            padding: 14px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.05rem;
+        }
+        
+        .footer {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #e5e7eb;
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.9rem;
+        }
+        
+        .logo {
+            font-weight: 700;
+            font-size: 1.3rem;
+            color: #1a1a2e;
+            margin-bottom: 30px;
+        }
+        
+        .source {
+            font-size: 0.85rem;
+            color: #9ca3af;
+            font-style: italic;
+        }
+        
+        @media print {
+            body {
+                padding: 40px;
+            }
+            .cta-section {
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">↩ Returna</div>
+    
+    <h1>The €1,000 Devices Collecting Dust in Your Drawers</h1>
+    <p class="subtitle">Why redeploying idle IT assets beats buying new — and how to do it at scale</p>
+    
+    <p class="lead">Every enterprise has them. Laptops in desk drawers. Phones in storage closets. Devices sitting with former employees who left months ago. IT assets that still work, still have value, but aren't doing anything.</p>
+    
+    <p>These aren't broken devices. They're not obsolete. They're just... <strong>idle</strong>.</p>
+    
+    <p>And while they sit there, your company is ordering brand new hardware at €1,000+ per unit — if you can get it at all.</p>
+    
+    <h2>The hidden fleet nobody talks about</h2>
+    
+    <p>The numbers are staggering. According to research by Oomnitza and YouGov:</p>
+    
+    <ul>
+        <li><strong>50% of companies</strong> have lost at least 5% of their endpoint devices when employees leave</li>
+        <li>Among large enterprises (10,000+ employees), <strong>25% lose more than 10%</strong> of devices at offboarding</li>
+        <li>Most of these devices still contain corporate data</li>
+    </ul>
+    
+    <p>The combination of remote work, hybrid offices, and high employee turnover has created a massive pool of untracked, underutilised IT assets scattered across homes and offices worldwide.</p>
+    
+    <h2>The math that changes everything</h2>
+    
+    <div class="comparison-box">
+        <h3>Value per idle device</h3>
+        <div class="comparison-grid">
+            <div class="comparison-item">
+                <h4>Traditional Buyback</h4>
+                <div class="value">€100-150</div>
+            </div>
+            <div class="comparison-item highlight">
+                <h4>Redeploy Instead</h4>
+                <div class="value">€1,000+</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="stat-callout">
+        <div class="number">8-10×</div>
+        <div class="label">more value from redeployment vs. buyback</div>
+    </div>
+    
+    <p>For a company with 10,000 employees, if even 200 devices can be redeployed instead of replaced:</p>
+    
+    <div class="comparison-box">
+        <div class="comparison-grid">
+            <div class="comparison-item">
+                <h4>Traditional approach</h4>
+                <div class="value">€25,000</div>
+            </div>
+            <div class="comparison-item highlight">
+                <h4>Redeployment approach</h4>
+                <div class="value">€220,000</div>
+            </div>
+        </div>
+    </div>
+    
+    <p>That's not a rounding error. That's a line item that matters.</p>
+    
+    <h2>Why this matters more in 2026</h2>
+    
+    <p>If this math wasn't compelling enough, the market is making it urgent:</p>
+    
+    <div class="danger-box">
+        <p><strong>Dell and Lenovo have announced price increases of up to 15%</strong> — and that's just the beginning. The Consumer Technology Association projects 20-30% increases if tariffs escalate further.</p>
+    </div>
+    
+    <ul>
+        <li><strong>Memory shortages are crushing supply</strong> — HBM production for AI is eating consumer DRAM capacity</li>
+        <li><strong>Sub-€600 business laptops</strong> are becoming nearly impossible to source</li>
+        <li><strong>Lead times are stretching</strong> — 12+ weeks for some chipsets, 40+ weeks for advanced components</li>
+        <li><strong>Some vendors are selling PCs without RAM</strong> — customers must source their own</li>
+    </ul>
+    
+    <div class="comparison-box">
+        <h3>IDC's 2026 PC Market Scenarios</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Scenario</th>
+                    <th>Market Impact</th>
+                    <th>Price Increase</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Base case</td>
+                    <td>-2.4% shipments</td>
+                    <td>+4-6%</td>
+                </tr>
+                <tr>
+                    <td>Moderate</td>
+                    <td>-4.9% shipments</td>
+                    <td>+4-6%</td>
+                </tr>
+                <tr>
+                    <td>Pessimistic</td>
+                    <td>-8.9% shipments</td>
+                    <td>+6-8%</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="source">Source: IDC, December 2025. Note: Dell/Lenovo's 15% announced increases exceed these projections.</p>
+    </div>
+    
+    <div class="stat-callout danger">
+        <div class="number">6 months to 10 years</div>
+        <div class="label">Analyst estimates for how long the "pricing apocalypse" could last</div>
+    </div>
+    
+    <div class="warning-box">
+        <p><strong>Industry recommendation:</strong> "Extend refresh cycles from 12 to 18-24 months, and consider incorporating second-user or ex-lease devices to bridge supply gaps."<br><span class="source">— Mobileworxs, February 2026</span></p>
+    </div>
+    
+    <p>The days of "just order new ones" are over. Companies that can extend device lifecycles and redeploy existing assets have a real cost advantage.</p>
+    
+    <h2>What's actually wrong with these devices?</h2>
+    
+    <p>Here's what we see with "idle" enterprise devices:</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Condition</th>
+                <th>Solution</th>
+                <th>Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data on device</td>
+                <td>Certified data erasure</td>
+                <td>€25</td>
+            </tr>
+            <tr>
+                <td>Needs reinstall</td>
+                <td>Fresh OS deployment</td>
+                <td>€15</td>
+            </tr>
+            <tr>
+                <td>Cosmetic damage</td>
+                <td>Top cover skin + keyboard print</td>
+                <td>€50-100</td>
+            </tr>
+            <tr>
+                <td>Minor repair</td>
+                <td>Component replacement</td>
+                <td>€50-150</td>
+            </tr>
+            <tr>
+                <td>Needs upgrade</td>
+                <td>Memory/SSD upgrade</td>
+                <td>€50-200</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <p>Most idle devices need nothing more than a wipe and a reinstall. Very few are actually end-of-life.</p>
+    
+    <h2>The remote workforce problem</h2>
+    
+    <p>With distributed workforces, device collection is broken. Devices are:</p>
+    
+    <ul>
+        <li>At former employees' home addresses</li>
+        <li>In regional offices with no IT presence</li>
+        <li>With contractors who finished their engagement</li>
+        <li>In desk drawers at co-working spaces</li>
+    </ul>
+    
+    <p>This is exactly the problem Returna solves.</p>
+    
+    <h2>How Returna turns idle assets into working devices</h2>
+    
+    <ol>
+        <li><strong>Collection</strong> — We coordinate pickup from any location globally</li>
+        <li><strong>Secure transport</strong> — Full chain of custody through certified logistics</li>
+        <li><strong>Processing</strong> — Local Return Hubs handle data erasure (NIST 800-88) and diagnostics</li>
+        <li><strong>Decision point</strong> — Redeploy, refurbish, or resell based on real condition</li>
+        <li><strong>Return to service</strong> — Devices go back into your fleet</li>
+    </ol>
+    
+    <h2>The sustainability angle</h2>
+    
+    <p>Every laptop that gets a second life:</p>
+    <ul>
+        <li>Avoids ~300kg of CO2 emissions from manufacturing a replacement</li>
+        <li>Keeps valuable materials in circulation</li>
+        <li>Reduces e-waste</li>
+    </ul>
+    
+    <div class="highlight-box">
+        <p>Unlike most sustainability initiatives, this one <strong>saves money</strong> instead of costing it.</p>
+    </div>
+    
+    <div class="cta-section">
+        <h2>Ready to put your idle assets back to work?</h2>
+        <p>Returna handles the logistics, processing, and redeployment coordination globally — so you can stop buying new devices for problems that don't require them.</p>
+        <a href="https://returna.com/contact" class="cta-button">Contact Returna →</a>
+    </div>
+    
+    <div class="footer">
+        <p><strong>Returna</strong> is the global platform for IT asset end-of-life management.<br>
+        We help enterprises collect, process, and redeploy devices through our network of certified Return Hubs worldwide.</p>
+    </div>
+</body>
+</html>
