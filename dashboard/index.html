@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Command Center — Kasper Horn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-dark: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a25;
+            --border: rgba(255,255,255,0.06);
+            --text-primary: #ffffff;
+            --text-secondary: #8888a0;
+            --text-muted: #555566;
+            --accent-returna: #10b981;
+            --accent-scandic: #3b82f6;
+            --accent-certus: #8b5cf6;
+            --glow-returna: rgba(16, 185, 129, 0.15);
+            --glow-scandic: rgba(59, 130, 246, 0.15);
+            --glow-certus: rgba(139, 92, 246, 0.15);
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Animated background */
+        .bg-gradient {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(ellipse at 20% 20%, var(--glow-returna) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 80%, var(--glow-scandic) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 50%, var(--glow-certus) 0%, transparent 50%);
+            animation: gradientMove 20s ease-in-out infinite;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        @keyframes gradientMove {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(-20px, 20px) scale(1.05); }
+            66% { transform: translate(20px, -20px) scale(0.95); }
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .greeting {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: clamp(32px, 6vw, 56px);
+            font-weight: 800;
+            letter-spacing: -1px;
+            background: linear-gradient(135deg, #fff 0%, #888 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 16px;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: var(--text-secondary);
+            font-weight: 400;
+        }
+
+        .time-display {
+            margin-top: 24px;
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        .time-display span {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            margin-bottom: 60px;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .stat-label {
+            font-size: 13px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 4px;
+        }
+
+        /* Company Cards */
+        .companies {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 24px;
+            margin-bottom: 60px;
+        }
+
+        .company-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 32px;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            display: block;
+        }
+
+        .company-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .company-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(255,255,255,0.1);
+            background: var(--bg-card-hover);
+        }
+
+        .company-card:hover::before {
+            opacity: 1;
+        }
+
+        .company-card.returna::before { background: linear-gradient(90deg, var(--accent-returna), transparent); }
+        .company-card.scandic::before { background: linear-gradient(90deg, var(--accent-scandic), transparent); }
+        .company-card.certus::before { background: linear-gradient(90deg, var(--accent-certus), transparent); }
+
+        .company-card:hover .card-arrow {
+            transform: translateX(4px);
+            opacity: 1;
+        }
+
+        .card-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 24px;
+        }
+
+        .card-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .returna .card-icon { 
+            background: linear-gradient(135deg, var(--accent-returna), #059669);
+            box-shadow: 0 8px 32px var(--glow-returna);
+        }
+        .scandic .card-icon { 
+            background: linear-gradient(135deg, var(--accent-scandic), #1d4ed8);
+            box-shadow: 0 8px 32px var(--glow-scandic);
+        }
+        .certus .card-icon { 
+            background: linear-gradient(135deg, var(--accent-certus), #6d28d9);
+            box-shadow: 0 8px 32px var(--glow-certus);
+        }
+
+        .card-arrow {
+            color: var(--text-muted);
+            font-size: 20px;
+            transition: all 0.3s ease;
+            opacity: 0.5;
+        }
+
+        .card-title {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+        }
+
+        .card-description {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            margin-bottom: 28px;
+        }
+
+        .card-stats {
+            display: flex;
+            gap: 24px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+        }
+
+        .card-stat {
+            flex: 1;
+        }
+
+        .card-stat-value {
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .returna .card-stat-value { color: var(--accent-returna); }
+        .scandic .card-stat-value { color: var(--accent-scandic); }
+        .certus .card-stat-value { color: var(--accent-certus); }
+
+        .card-stat-label {
+            font-size: 12px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 2px;
+        }
+
+        /* Status Pills */
+        .status-row {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .status-pill {
+            font-size: 11px;
+            font-weight: 600;
+            padding: 6px 12px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .status-active {
+            background: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+        }
+
+        .status-progress {
+            background: rgba(59, 130, 246, 0.15);
+            color: #60a5fa;
+        }
+
+        .status-pending {
+            background: rgba(251, 191, 36, 0.15);
+            color: #fbbf24;
+        }
+
+        /* Quick Actions */
+        .section-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        .quick-links {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .quick-link {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px 20px;
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .quick-link:hover {
+            background: var(--bg-card-hover);
+            color: var(--text-primary);
+            border-color: rgba(255,255,255,0.1);
+        }
+
+        .quick-link-icon {
+            font-size: 18px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding-top: 40px;
+            border-top: 1px solid var(--border);
+            margin-top: 60px;
+        }
+
+        .footer-text {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .footer-text a {
+            color: var(--text-secondary);
+            text-decoration: none;
+        }
+
+        .clorius-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 12px;
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .container {
+                padding: 24px 16px;
+            }
+
+            .companies {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-bar {
+                gap: 32px;
+            }
+
+            .card-stats {
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Access Control -->
+    <style>
+        #access-overlay {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: #0a0a0f;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .access-box {
+            text-align: center;
+            max-width: 400px;
+            padding: 48px;
+        }
+        .access-box h2 {
+            font-family: 'Inter', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 8px;
+            border: none;
+        }
+        .access-box p {
+            font-family: 'Inter', sans-serif;
+            color: #8888a0;
+            margin-bottom: 32px;
+            font-size: 14px;
+        }
+        .access-box input {
+            width: 100%;
+            padding: 14px 20px;
+            background: #12121a;
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 12px;
+            color: #fff;
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        .access-box input:focus {
+            outline: none;
+            border-color: #10b981;
+        }
+        .access-box button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #10b981, #059669);
+            border: none;
+            border-radius: 12px;
+            color: #fff;
+            font-size: 15px;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+            margin-top: 16px;
+            transition: opacity 0.2s;
+        }
+        .access-box button:hover { opacity: 0.9; }
+        .access-error {
+            color: #ef4444;
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            margin-top: 16px;
+            display: none;
+        }
+        .access-lock {
+            font-size: 48px;
+            margin-bottom: 24px;
+        }
+    </style>
+
+    <div id="access-overlay">
+        <div class="access-box">
+            <div class="access-lock">🔒</div>
+            <h2>Command Center</h2>
+            <p>Enter access code to continue</p>
+            <input type="password" id="access-input" placeholder="Access code" onkeypress="if(event.key==='Enter')checkAccess()">
+            <button onclick="checkAccess()">Unlock</button>
+            <p class="access-error" id="access-error">Incorrect access code</p>
+        </div>
+    </div>
+
+    <script>
+    const validCodes = ['Clorius2026'];
+    function checkAccess() {
+        const input = document.getElementById('access-input').value;
+        if (validCodes.includes(input)) {
+            document.getElementById('access-overlay').style.display = 'none';
+            document.getElementById('main-content').style.display = 'block';
+            sessionStorage.setItem('cc_auth', input);
+        } else {
+            document.getElementById('access-error').style.display = 'block';
+            document.getElementById('access-input').value = '';
+        }
+    }
+    // Auto-unlock if already authenticated this session
+    (function() {
+        const key = sessionStorage.getItem('cc_auth');
+        if (key && validCodes.includes(key)) {
+            document.addEventListener('DOMContentLoaded', function() {
+                document.getElementById('access-overlay').style.display = 'none';
+                document.getElementById('main-content').style.display = 'block';
+            });
+        }
+    })();
+    </script>
+
+    <div id="main-content" style="display:none">
+    <div class="bg-gradient"></div>
+    
+    <div class="container">
+        <header>
+            <p class="greeting">Command Center</p>
+            <h1>Welcome back, Kasper</h1>
+            <p class="subtitle">Your projects at a glance</p>
+            <p class="time-display">
+                <span id="currentTime"></span> · <span id="currentDate"></span>
+            </p>
+        </header>
+
+        <div class="stats-bar">
+            <div class="stat">
+                <div class="stat-value">3</div>
+                <div class="stat-label">Companies</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">43</div>
+                <div class="stat-label">Pipeline Prospects</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">31</div>
+                <div class="stat-label">Contacts Found</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">10</div>
+                <div class="stat-label">Presentations</div>
+            </div>
+        </div>
+
+        <div class="companies">
+            <a href="returna.html" class="company-card returna">
+                <div class="card-header">
+                    <div class="card-icon">R</div>
+                    <span class="card-arrow">→</span>
+                </div>
+                <div class="status-row">
+                    <span class="status-pill status-active">Seed Round</span>
+                    <span class="status-pill status-progress">GBT Onboarding</span>
+                </div>
+                <h2 class="card-title">Returna</h2>
+                <p class="card-description">Global ITAD orchestration platform. Building the Return Hub network and closing seed round.</p>
+                <div class="card-stats">
+                    <div class="card-stat">
+                        <div class="card-stat-value">43</div>
+                        <div class="card-stat-label">Prospects</div>
+                    </div>
+                    <div class="card-stat">
+                        <div class="card-stat-value">26</div>
+                        <div class="card-stat-label">Contacts</div>
+                    </div>
+                    <div class="card-stat">
+                        <div class="card-stat-value">6M</div>
+                        <div class="card-stat-label">DKK Round</div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="scandic-it.html" class="company-card scandic">
+                <div class="card-header">
+                    <div class="card-icon">S</div>
+                    <span class="card-arrow">→</span>
+                </div>
+                <div class="status-row">
+                    <span class="status-pill status-progress">Website Build</span>
+                    <span class="status-pill status-active">GTM Ready</span>
+                </div>
+                <h2 class="card-title">Scandic IT</h2>
+                <p class="card-description">Full-service ITAD operations. Website rebuild and go-to-market strategy in progress.</p>
+                <div class="card-stats">
+                    <div class="card-stat">
+                        <div class="card-stat-value">5</div>
+                        <div class="card-stat-label">Blog Posts</div>
+                    </div>
+                    <div class="card-stat">
+                        <div class="card-stat-value">1</div>
+                        <div class="card-stat-label">Mockup</div>
+                    </div>
+                    <div class="card-stat">
+                        <div class="card-stat-value">15+</div>
+                        <div class="card-stat-label">Years Exp</div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="certus.html" class="company-card certus">
+                <div class="card-header">
+                    <div class="card-icon">C</div>
+                    <span class="card-arrow">→</span>
+                </div>
+                <div class="status-row">
+                    <span class="status-pill status-pending">Setup Needed</span>
+                </div>
+                <h2 class="card-title">Certus</h2>
+                <p class="card-description">Certified data erasure software for ITAD. Nordic sales director role.</p>
+                <div class="card-stats">
+                    <div class="card-stat">
+                        <div class="card-stat-value">—</div>
+                        <div class="card-stat-label">Pipeline</div>
+                    </div>
+                    <div class="card-stat">
+                        <div class="card-stat-value">—</div>
+                        <div class="card-stat-label">Materials</div>
+                    </div>
+                    <div class="card-stat">
+                        <div class="card-stat-value">Nordic</div>
+                        <div class="card-stat-label">Region</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <section>
+            <h3 class="section-title">Quick Access</h3>
+            <div class="quick-links">
+                <a href="returna.html#pipeline" class="quick-link">
+                    <span class="quick-link-icon">📊</span>
+                    Partner Pipeline
+                </a>
+                <a href="returna.html#materials" class="quick-link">
+                    <span class="quick-link-icon">📁</span>
+                    Presentations
+                </a>
+                <a href="scandic-it.html#website" class="quick-link">
+                    <span class="quick-link-icon">🌐</span>
+                    Website Preview
+                </a>
+                <a href="scandic-it.html#blog" class="quick-link">
+                    <span class="quick-link-icon">✍️</span>
+                    Blog Posts
+                </a>
+                <a href="returna.html#tasks" class="quick-link">
+                    <span class="quick-link-icon">✅</span>
+                    Task Overview
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <p class="footer-text">Last updated: <span id="lastUpdate">February 20, 2026</span></p>
+            <p class="clorius-badge">⚙️ Maintained by Clorius</p>
+        </footer>
+    </div>
+
+    <script>
+        // Update time
+        function updateTime() {
+            const now = new Date();
+            const timeOpts = { hour: '2-digit', minute: '2-digit', hour12: false };
+            const dateOpts = { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' };
+            
+            document.getElementById('currentTime').textContent = now.toLocaleTimeString('en-GB', timeOpts);
+            document.getElementById('currentDate').textContent = now.toLocaleDateString('en-GB', dateOpts);
+        }
+        
+        updateTime();
+        setInterval(updateTime, 60000);
+    </script>
+    </div>
+</body>
+</html>
