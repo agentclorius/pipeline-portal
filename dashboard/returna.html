@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Returna — Command Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg-dark: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a25;
+            --border: rgba(255,255,255,0.06);
+            --text-primary: #ffffff;
+            --text-secondary: #8888a0;
+            --text-muted: #555566;
+            --accent: #10b981;
+            --accent-dim: rgba(16, 185, 129, 0.15);
+            --accent-glow: rgba(16, 185, 129, 0.2);
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .bg-gradient {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(ellipse at 30% 0%, var(--accent-glow) 0%, transparent 60%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+
+        .back-link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 10px 16px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            transition: all 0.2s ease;
+        }
+
+        .back-link:hover {
+            color: var(--text-primary);
+            background: var(--bg-card-hover);
+        }
+
+        header { margin-bottom: 48px; }
+
+        .company-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .company-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, var(--accent), #059669);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 700;
+            box-shadow: 0 8px 32px var(--accent-dim);
+        }
+
+        h1 {
+            font-size: 42px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-bottom: 12px;
+        }
+
+        .tagline {
+            font-size: 18px;
+            color: var(--text-secondary);
+            max-width: 600px;
+        }
+
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 16px;
+            margin-bottom: 48px;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .stat-card-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        .stat-card-label {
+            font-size: 11px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 4px;
+        }
+
+        section { margin-bottom: 48px; }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Pipeline */
+        .pipeline-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .region-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .region-name { font-size: 14px; font-weight: 600; color: var(--text-primary); margin-bottom: 4px; }
+        .region-count { font-size: 24px; font-weight: 700; color: var(--accent); }
+        .region-contacts { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+
+        .region-status {
+            display: inline-block;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 4px 8px;
+            border-radius: 6px;
+            margin-top: 8px;
+            text-transform: uppercase;
+        }
+
+        .status-complete { background: rgba(16, 185, 129, 0.15); color: #34d399; }
+        .status-partial { background: rgba(251, 191, 36, 0.15); color: #fbbf24; }
+
+        /* Materials */
+        .materials-category {
+            margin-bottom: 32px;
+        }
+
+        .category-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .materials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 12px;
+        }
+
+        .material-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px 20px;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .material-card:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(255,255,255,0.1);
+            transform: translateX(4px);
+        }
+
+        .material-icon { font-size: 24px; }
+
+        .material-info { flex: 1; min-width: 0; }
+
+        .material-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .material-meta {
+            font-size: 11px;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .material-type {
+            font-size: 9px;
+            font-weight: 600;
+            padding: 4px 8px;
+            border-radius: 4px;
+            background: var(--accent-dim);
+            color: var(--accent);
+            text-transform: uppercase;
+            flex-shrink: 0;
+        }
+
+        /* Tasks */
+        .task-list { display: flex; flex-direction: column; gap: 12px; }
+
+        .task-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .task-priority { width: 8px; height: 8px; border-radius: 50%; }
+        .priority-high { background: #ef4444; }
+        .priority-medium { background: #fbbf24; }
+        .priority-low { background: #10b981; }
+
+        .task-content { flex: 1; }
+        .task-title { font-size: 14px; font-weight: 500; color: var(--text-primary); }
+        .task-meta { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+
+        .task-status {
+            font-size: 11px;
+            font-weight: 600;
+            padding: 6px 12px;
+            border-radius: 8px;
+            text-transform: uppercase;
+        }
+
+        .task-open { background: rgba(59, 130, 246, 0.15); color: #60a5fa; }
+        .task-waiting { background: rgba(251, 191, 36, 0.15); color: #fbbf24; }
+        .task-done { background: rgba(16, 185, 129, 0.15); color: #34d399; }
+
+        /* Timeline */
+        .timeline { display: flex; flex-direction: column; gap: 16px; }
+
+        .timeline-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .timeline-date { text-align: center; min-width: 60px; }
+        .timeline-month { font-size: 12px; font-weight: 600; color: var(--accent); text-transform: uppercase; }
+        .timeline-day { font-size: 28px; font-weight: 700; color: var(--text-primary); }
+
+        .timeline-content h4 { font-size: 16px; font-weight: 600; color: var(--text-primary); margin-bottom: 4px; }
+        .timeline-content p { font-size: 13px; color: var(--text-secondary); }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 32px; }
+            .stats-row { grid-template-columns: repeat(2, 1fr); }
+            .materials-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Access Control -->
+    <style>
+        #access-overlay {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: #0a0a0f;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .access-box {
+            text-align: center;
+            max-width: 400px;
+            padding: 48px;
+        }
+        .access-box h2 {
+            font-family: 'Inter', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 8px;
+            border: none;
+        }
+        .access-box p {
+            font-family: 'Inter', sans-serif;
+            color: #8888a0;
+            margin-bottom: 32px;
+            font-size: 14px;
+        }
+        .access-box input {
+            width: 100%;
+            padding: 14px 20px;
+            background: #12121a;
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 12px;
+            color: #fff;
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        .access-box input:focus {
+            outline: none;
+            border-color: #10b981;
+        }
+        .access-box button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #10b981, #059669);
+            border: none;
+            border-radius: 12px;
+            color: #fff;
+            font-size: 15px;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+            margin-top: 16px;
+            transition: opacity 0.2s;
+        }
+        .access-box button:hover { opacity: 0.9; }
+        .access-error {
+            color: #ef4444;
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            margin-top: 16px;
+            display: none;
+        }
+        .access-lock {
+            font-size: 48px;
+            margin-bottom: 24px;
+        }
+    </style>
+
+    <div id="access-overlay">
+        <div class="access-box">
+            <div class="access-lock">🔒</div>
+            <h2>Command Center</h2>
+            <p>Enter access code to continue</p>
+            <input type="password" id="access-input" placeholder="Access code" onkeypress="if(event.key==='Enter')checkAccess()">
+            <button onclick="checkAccess()">Unlock</button>
+            <p class="access-error" id="access-error">Incorrect access code</p>
+        </div>
+    </div>
+
+    <script>
+    const validCodes = ['Clorius2026'];
+    function checkAccess() {
+        const input = document.getElementById('access-input').value;
+        if (validCodes.includes(input)) {
+            document.getElementById('access-overlay').style.display = 'none';
+            document.getElementById('main-content').style.display = 'block';
+            sessionStorage.setItem('cc_auth', input);
+        } else {
+            document.getElementById('access-error').style.display = 'block';
+            document.getElementById('access-input').value = '';
+        }
+    }
+    // Auto-unlock if already authenticated this session
+    (function() {
+        const key = sessionStorage.getItem('cc_auth');
+        if (key && validCodes.includes(key)) {
+            document.addEventListener('DOMContentLoaded', function() {
+                document.getElementById('access-overlay').style.display = 'none';
+                document.getElementById('main-content').style.display = 'block';
+            });
+        }
+    })();
+    </script>
+
+    <div id="main-content" style="display:none">
+    <div class="bg-gradient"></div>
+    
+    <div class="container">
+        <nav class="nav">
+            <a href="index.html" class="back-link">← Back to Dashboard</a>
+        </nav>
+
+        <header>
+            <div class="company-badge">
+                <div class="company-icon">R</div>
+            </div>
+            <h1>Returna</h1>
+            <p class="tagline">Global orchestration and execution platform for IT asset end-of-life. Building the Return Hub network.</p>
+        </header>
+
+        <div class="stats-row">
+            <div class="stat-card">
+                <div class="stat-card-value">43</div>
+                <div class="stat-card-label">Prospects</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-value">31</div>
+                <div class="stat-card-label">Contacts</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-value">6M</div>
+                <div class="stat-card-label">DKK Seed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-value">1</div>
+                <div class="stat-card-label">Enterprise</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-value">35+</div>
+                <div class="stat-card-label">Documents</div>
+            </div>
+        </div>
+
+        <section id="pipeline">
+            <h3 class="section-title">Partner Pipeline by Region</h3>
+            <div class="pipeline-summary">
+                <div class="region-card">
+                    <div class="region-name">🇩🇰🇸🇪🇳🇴🇫🇮 Nordics</div>
+                    <div class="region-count">6</div>
+                    <div class="region-contacts">6 contacts</div>
+                    <span class="region-status status-complete">Complete</span>
+                </div>
+                <div class="region-card">
+                    <div class="region-name">🇬🇧🇮🇪 UK & Ireland</div>
+                    <div class="region-count">10</div>
+                    <div class="region-contacts">10 contacts</div>
+                    <span class="region-status status-complete">Complete</span>
+                </div>
+                <div class="region-card">
+                    <div class="region-name">🇩🇪🇦🇹🇨🇭 DACH</div>
+                    <div class="region-count">5</div>
+                    <div class="region-contacts">5 contacts</div>
+                    <span class="region-status status-complete">Complete</span>
+                </div>
+                <div class="region-card">
+                    <div class="region-name">🇪🇸🇫🇷🇮🇹 Southern</div>
+                    <div class="region-count">5</div>
+                    <div class="region-contacts">5 contacts</div>
+                    <span class="region-status status-complete">Complete</span>
+                </div>
+                <div class="region-card">
+                    <div class="region-name">🇵🇱🇧🇬🇭🇺 Eastern</div>
+                    <div class="region-count">4</div>
+                    <div class="region-contacts">4 contacts</div>
+                    <span class="region-status status-complete">Complete</span>
+                </div>
+                <div class="region-card">
+                    <div class="region-name">🇺🇸🇨🇦 North America</div>
+                    <div class="region-count">8</div>
+                    <div class="region-contacts">8 contacts</div>
+                    <span class="region-status status-complete">Complete</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="materials">
+            <h3 class="section-title">All Materials & Documents</h3>
+            
+            <div class="materials-category">
+                <h4 class="category-title">📊 Investor Materials</h4>
+                <div class="materials-grid">
+                    <a href="../returna/investor/regulatory-tailwinds-2026.html" class="material-card" target="_blank">
+                        <span class="material-icon">📋</span>
+                        <div class="material-info">
+                            <div class="material-title">Regulatory Tailwinds Brief</div>
+                            <div class="material-meta">NIS2 + Compliance angle</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/investor/regulatory-tailwinds-2026-DA.html" class="material-card" target="_blank">
+                        <span class="material-icon">📋</span>
+                        <div class="material-info">
+                            <div class="material-title">Regulatory Tailwinds (Danish)</div>
+                            <div class="material-meta">Same content in Danish</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/investor/cap-table-feb-2026.html" class="material-card" target="_blank">
+                        <span class="material-icon">📈</span>
+                        <div class="material-info">
+                            <div class="material-title">Cap Table</div>
+                            <div class="material-meta">Feb 2026 ownership structure</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/investor/budget-3m-24mdr-feb-2026.html" class="material-card" target="_blank">
+                        <span class="material-icon">💰</span>
+                        <div class="material-info">
+                            <div class="material-title">Budget (3M + 24M)</div>
+                            <div class="material-meta">Funding scenarios</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/investor/budget-tranche-feb-2026.html" class="material-card" target="_blank">
+                        <span class="material-icon">💰</span>
+                        <div class="material-info">
+                            <div class="material-title">Budget (Tranche)</div>
+                            <div class="material-meta">Staged investment</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/investor/competitor-analysis-suppleo.html" class="material-card" target="_blank">
+                        <span class="material-icon">🔍</span>
+                        <div class="material-info">
+                            <div class="material-title">Competitor Analysis: Suppleo</div>
+                            <div class="material-meta">DaaS vs ITAD positioning</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/investor/scandic-it-walkthrough.html" class="material-card" target="_blank">
+                        <span class="material-icon">🏭</span>
+                        <div class="material-info">
+                            <div class="material-title">Scandic IT Walkthrough</div>
+                            <div class="material-meta">8 station tour guide</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/investor/station-talking-points.html" class="material-card" target="_blank">
+                        <span class="material-icon">🎤</span>
+                        <div class="material-info">
+                            <div class="material-title">Station Talking Points</div>
+                            <div class="material-meta">Investor meeting script</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/investor/talking-points-tuesday.html" class="material-card" target="_blank">
+                        <span class="material-icon">🎤</span>
+                        <div class="material-info">
+                            <div class="material-title">Talking Points (Tuesday)</div>
+                            <div class="material-meta">Meeting prep</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="materials-category">
+                <h4 class="category-title">🤝 Partner Materials</h4>
+                <div class="materials-grid">
+                    <a href="../returna/returna-partner-onboarding-presentation.html" class="material-card" target="_blank">
+                        <span class="material-icon">📊</span>
+                        <div class="material-info">
+                            <div class="material-title">Partner Presentation</div>
+                            <div class="material-meta">8-slide Return Hub pitch</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/tier-system-one-pager.html" class="material-card" target="_blank">
+                        <span class="material-icon">🏆</span>
+                        <div class="material-info">
+                            <div class="material-title">Partner Tier System</div>
+                            <div class="material-meta">TRC-aligned certification</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/onboarding-flow-one-pager.html" class="material-card" target="_blank">
+                        <span class="material-icon">🗺️</span>
+                        <div class="material-info">
+                            <div class="material-title">Onboarding Flow</div>
+                            <div class="material-meta">Prospect → Active journey</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/Return-Hub-Onboarding-Flow.pdf" class="material-card" target="_blank">
+                        <span class="material-icon">📄</span>
+                        <div class="material-info">
+                            <div class="material-title">Onboarding Flow (PDF)</div>
+                            <div class="material-meta">Print-ready version</div>
+                        </div>
+                        <span class="material-type">PDF</span>
+                    </a>
+                    <a href="../returna/Return-Hub-Tier-System.pdf" class="material-card" target="_blank">
+                        <span class="material-icon">📄</span>
+                        <div class="material-info">
+                            <div class="material-title">Tier System (PDF)</div>
+                            <div class="material-meta">Print-ready version</div>
+                        </div>
+                        <span class="material-type">PDF</span>
+                    </a>
+                    <a href="../returna/outreach-templates.md" class="material-card" target="_blank">
+                        <span class="material-icon">📧</span>
+                        <div class="material-info">
+                            <div class="material-title">Outreach Email Templates</div>
+                            <div class="material-meta">6 partner outreach templates</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                    <a href="../returna/partner-scoring-system.md" class="material-card" target="_blank">
+                        <span class="material-icon">📏</span>
+                        <div class="material-info">
+                            <div class="material-title">Partner Scoring Rubric</div>
+                            <div class="material-meta">0-100 point evaluation</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="materials-category">
+                <h4 class="category-title">🔐 Sales Materials (NIS2 / Compliance)</h4>
+                <div class="materials-grid">
+                    <a href="../returna/content/nis2-itad-one-pager.html" class="material-card" target="_blank">
+                        <span class="material-icon">🔒</span>
+                        <div class="material-info">
+                            <div class="material-title">NIS2 ITAD One-Pager</div>
+                            <div class="material-meta">Returna design, requirements table</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/sales-materials/nis2-presentation.html" class="material-card" target="_blank">
+                        <span class="material-icon">📊</span>
+                        <div class="material-info">
+                            <div class="material-title">NIS2 Presentation (DA)</div>
+                            <div class="material-meta">Danish compliance deck</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/sales-materials/nis2-presentation-en.html" class="material-card" target="_blank">
+                        <span class="material-icon">📊</span>
+                        <div class="material-info">
+                            <div class="material-title">NIS2 Presentation (EN)</div>
+                            <div class="material-meta">English compliance deck</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/sales-materials/NIS2-Returna.pptx" class="material-card" target="_blank">
+                        <span class="material-icon">📑</span>
+                        <div class="material-info">
+                            <div class="material-title">NIS2 PowerPoint</div>
+                            <div class="material-meta">Editable slides</div>
+                        </div>
+                        <span class="material-type">PPTX</span>
+                    </a>
+                    <a href="../returna/sales-materials/nis2-email-pitch.md" class="material-card" target="_blank">
+                        <span class="material-icon">📧</span>
+                        <div class="material-info">
+                            <div class="material-title">NIS2 Email Pitch</div>
+                            <div class="material-meta">Cold outreach template</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="materials-category">
+                <h4 class="category-title">✍️ Blog Posts (CCS Insight Series)</h4>
+                <div class="materials-grid">
+                    <a href="../returna/content/blog-01-the-40-percent-gap.md" class="material-card" target="_blank">
+                        <span class="material-icon">📝</span>
+                        <div class="material-info">
+                            <div class="material-title">Blog 1: The 40% Gap</div>
+                            <div class="material-meta">Enterprise device recovery crisis</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                    <a href="../returna/content/blog-02-scale-demands-simplicity.md" class="material-card" target="_blank">
+                        <span class="material-icon">📝</span>
+                        <div class="material-info">
+                            <div class="material-title">Blog 2: Scale Demands Simplicity</div>
+                            <div class="material-meta">Why complexity kills device programs</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                    <a href="../returna/content/blog-03-from-sustainability-to-strategy.md" class="material-card" target="_blank">
+                        <span class="material-icon">📝</span>
+                        <div class="material-info">
+                            <div class="material-title">Blog 3: Sustainability to Strategy</div>
+                            <div class="material-meta">ESG as business driver</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                    <a href="../returna/content/linkedin-posts-blog-01.md" class="material-card" target="_blank">
+                        <span class="material-icon">💼</span>
+                        <div class="material-info">
+                            <div class="material-title">LinkedIn Posts (Blog 1)</div>
+                            <div class="material-meta">Social promotion ready</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                    <a href="../returna/content/linkedin-posts-blog-02.md" class="material-card" target="_blank">
+                        <span class="material-icon">💼</span>
+                        <div class="material-info">
+                            <div class="material-title">LinkedIn Posts (Blog 2)</div>
+                            <div class="material-meta">Social promotion ready</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                    <a href="../returna/content/linkedin-posts-blog-03.md" class="material-card" target="_blank">
+                        <span class="material-icon">💼</span>
+                        <div class="material-info">
+                            <div class="material-title">LinkedIn Posts (Blog 3)</div>
+                            <div class="material-meta">Social promotion ready</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="materials-category">
+                <h4 class="category-title">📊 Presentations & Content</h4>
+                <div class="materials-grid">
+                    <a href="../returna/presentations/resale-economics-presentation.html" class="material-card" target="_blank">
+                        <span class="material-icon">💵</span>
+                        <div class="material-info">
+                            <div class="material-title">Resale Economics</div>
+                            <div class="material-meta">Value recovery model</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/presentations/resale-economics-dark.html" class="material-card" target="_blank">
+                        <span class="material-icon">💵</span>
+                        <div class="material-info">
+                            <div class="material-title">Resale Economics (Dark)</div>
+                            <div class="material-meta">Dark mode version</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/content/blog-idle-devices.html" class="material-card" target="_blank">
+                        <span class="material-icon">📰</span>
+                        <div class="material-info">
+                            <div class="material-title">Blog: Idle Devices</div>
+                            <div class="material-meta">Market analysis article</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/presentations/ai-device-grading-research.html" class="material-card" target="_blank">
+                        <span class="material-icon">🤖</span>
+                        <div class="material-info">
+                            <div class="material-title">AI Device Grading Research</div>
+                            <div class="material-meta">GPT-4 Vision feasibility</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="materials-category">
+                <h4 class="category-title">🔬 Research & Pipeline</h4>
+                <div class="materials-grid">
+                    <a href="../returna/partner-pipeline.csv" class="material-card" target="_blank">
+                        <span class="material-icon">📊</span>
+                        <div class="material-info">
+                            <div class="material-title">Partner Pipeline (CSV)</div>
+                            <div class="material-meta">43 prospects, all regions</div>
+                        </div>
+                        <span class="material-type">CSV</span>
+                    </a>
+                    <a href="../returna/research/na-pipeline-tracker.md" class="material-card" target="_blank">
+                        <span class="material-icon">🇺🇸</span>
+                        <div class="material-info">
+                            <div class="material-title">NA Pipeline Tracker</div>
+                            <div class="material-meta">USA + Canada prospects</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                    <a href="../returna/research/canada-pipeline-research.md" class="material-card" target="_blank">
+                        <span class="material-icon">🇨🇦</span>
+                        <div class="material-info">
+                            <div class="material-title">Canada Research</div>
+                            <div class="material-meta">Ontario, Quebec, BC</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                    <a href="../returna/research/dach-pipeline-2026-02-12.md" class="material-card" target="_blank">
+                        <span class="material-icon">🇩🇪</span>
+                        <div class="material-info">
+                            <div class="material-title">DACH Research</div>
+                            <div class="material-meta">Germany, Austria, Switzerland</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                    <a href="../returna/research/eastern-europe-pipeline.md" class="material-card" target="_blank">
+                        <span class="material-icon">🇵🇱</span>
+                        <div class="material-info">
+                            <div class="material-title">Eastern Europe Research</div>
+                            <div class="material-meta">Poland, Bulgaria, Hungary</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                    <a href="../returna/research/uk-ireland-pipeline-2026-02-13.md" class="material-card" target="_blank">
+                        <span class="material-icon">🇬🇧</span>
+                        <div class="material-info">
+                            <div class="material-title">UK & Ireland Research</div>
+                            <div class="material-meta">10 prospects</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                    <a href="../returna/nordic-itad-research.md" class="material-card" target="_blank">
+                        <span class="material-icon">🇩🇰</span>
+                        <div class="material-info">
+                            <div class="material-title">Nordic Research</div>
+                            <div class="material-meta">DK, SE, NO, FI</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="materials-category">
+                <h4 class="category-title">📜 Legal & Corporate</h4>
+                <div class="materials-grid">
+                    <a href="../returna/ejeraftale-FINAL-v2.pdf" class="material-card" target="_blank">
+                        <span class="material-icon">📜</span>
+                        <div class="material-info">
+                            <div class="material-title">Ejeraftale (Final)</div>
+                            <div class="material-meta">Shareholder agreement</div>
+                        </div>
+                        <span class="material-type">PDF</span>
+                    </a>
+                    <a href="../returna/ejeraftale-rettelser-til-hoejbak.html" class="material-card" target="_blank">
+                        <span class="material-icon">✏️</span>
+                        <div class="material-info">
+                            <div class="material-title">Ejeraftale Corrections</div>
+                            <div class="material-meta">11 items for lawyer</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../returna/investor/team-roles-overview.md" class="material-card" target="_blank">
+                        <span class="material-icon">👥</span>
+                        <div class="material-info">
+                            <div class="material-title">Team Roles Overview</div>
+                            <div class="material-meta">Leadership titles</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="tasks">
+            <h3 class="section-title">Active Tasks</h3>
+            <div class="task-list">
+                <div class="task-item">
+                    <div class="task-priority priority-high"></div>
+                    <div class="task-content">
+                        <div class="task-title">Investor Proposal Review</div>
+                        <div class="task-meta">Expected from Jens Ole (6M DKK / 20%)</div>
+                    </div>
+                    <span class="task-status task-waiting">Waiting</span>
+                </div>
+                <div class="task-item">
+                    <div class="task-priority priority-low"></div>
+                    <div class="task-content">
+                        <div class="task-title">DACH Contact Research</div>
+                        <div class="task-meta">AfB Austria ✓, ReCircle Tech ✓</div>
+                    </div>
+                    <span class="task-status task-done">Done</span>
+                </div>
+                <div class="task-item">
+                    <div class="task-priority priority-low"></div>
+                    <div class="task-content">
+                        <div class="task-title">Eastern Europe Contact Research</div>
+                        <div class="task-meta">GreenWEEE ✓, ITAD4U ✓, ITAD Hungary ✓</div>
+                    </div>
+                    <span class="task-status task-done">Done</span>
+                </div>
+                <div class="task-item">
+                    <div class="task-priority priority-low"></div>
+                    <div class="task-content">
+                        <div class="task-title">Partner Outreach</div>
+                        <div class="task-meta">On hold until platform ready</div>
+                    </div>
+                    <span class="task-status task-waiting">On Hold</span>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-title">Key Milestones</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <div class="timeline-month">Mar</div>
+                        <div class="timeline-day">01</div>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>GBT Go-Live</h4>
+                        <p>First enterprise customer — Global Business Travel (~20K employees)</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <div class="timeline-month">Feb</div>
+                        <div class="timeline-day">26</div>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Ejeraftale Review</h4>
+                        <p>Investor agreement with Jens Ole and Henrik</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <div class="timeline-month">Feb</div>
+                        <div class="timeline-day">17</div>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Investor Meeting ✓</h4>
+                        <p>Walkthrough at Scandic IT completed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
+</body>
+</html>
