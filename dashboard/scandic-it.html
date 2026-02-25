@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scandic IT — Command Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg-dark: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a25;
+            --border: rgba(255,255,255,0.06);
+            --text-primary: #ffffff;
+            --text-secondary: #8888a0;
+            --text-muted: #555566;
+            --accent: #3b82f6;
+            --accent-dim: rgba(59, 130, 246, 0.15);
+            --accent-glow: rgba(59, 130, 246, 0.2);
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .bg-gradient {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(ellipse at 30% 0%, var(--accent-glow) 0%, transparent 60%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+
+        .back-link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 10px 16px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            transition: all 0.2s ease;
+        }
+
+        .back-link:hover {
+            color: var(--text-primary);
+            background: var(--bg-card-hover);
+        }
+
+        header { margin-bottom: 48px; }
+
+        .company-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .company-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, var(--accent), #1d4ed8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 700;
+            box-shadow: 0 8px 32px var(--accent-dim);
+        }
+
+        h1 {
+            font-size: 42px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-bottom: 12px;
+        }
+
+        .tagline {
+            font-size: 18px;
+            color: var(--text-secondary);
+            max-width: 600px;
+        }
+
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 16px;
+            margin-bottom: 48px;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .stat-card-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        .stat-card-label {
+            font-size: 11px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 4px;
+        }
+
+        section { margin-bottom: 48px; }
+
+        .section-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        /* Website Preview */
+        .preview-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .preview-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 24px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .preview-dots { display: flex; gap: 8px; }
+        .preview-dot { width: 12px; height: 12px; border-radius: 50%; }
+        .preview-dot.red { background: #ff5f57; }
+        .preview-dot.yellow { background: #febc2e; }
+        .preview-dot.green { background: #28c840; }
+
+        .preview-url {
+            background: var(--bg-dark);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 12px;
+            color: var(--text-muted);
+            font-family: monospace;
+        }
+
+        .preview-body { padding: 32px; text-align: center; }
+
+        .preview-status {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--accent-dim);
+            color: var(--accent);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .preview-title { font-size: 24px; font-weight: 700; margin-bottom: 8px; }
+        .preview-desc { color: var(--text-secondary); font-size: 15px; margin-bottom: 20px; }
+
+        .preview-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--accent);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.2s ease;
+        }
+
+        .preview-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px var(--accent-dim);
+        }
+
+        /* Blog Posts */
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 16px;
+        }
+
+        .blog-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: block;
+        }
+
+        .blog-card:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(255,255,255,0.1);
+            transform: translateY(-2px);
+        }
+
+        .blog-number {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: var(--accent-dim);
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 32px;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+
+        .blog-title { font-size: 17px; font-weight: 600; color: var(--text-primary); margin-bottom: 8px; }
+        .blog-desc { font-size: 13px; color: var(--text-secondary); margin-bottom: 12px; }
+
+        .blog-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        /* Materials */
+        .materials-category { margin-bottom: 32px; }
+
+        .category-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .materials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 12px;
+        }
+
+        .material-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px 20px;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .material-card:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(255,255,255,0.1);
+            transform: translateX(4px);
+        }
+
+        .material-icon { font-size: 24px; }
+        .material-info { flex: 1; min-width: 0; }
+        .material-title { font-size: 14px; font-weight: 600; color: var(--text-primary); }
+        .material-meta { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+
+        .material-type {
+            font-size: 9px;
+            font-weight: 600;
+            padding: 4px 8px;
+            border-radius: 4px;
+            background: var(--accent-dim);
+            color: var(--accent);
+            text-transform: uppercase;
+            flex-shrink: 0;
+        }
+
+        /* GTM Section */
+        .gtm-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 16px;
+        }
+
+        .gtm-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+        }
+
+        .gtm-icon { font-size: 32px; margin-bottom: 16px; }
+        .gtm-title { font-size: 16px; font-weight: 600; color: var(--text-primary); margin-bottom: 8px; }
+        .gtm-desc { font-size: 13px; color: var(--text-secondary); }
+
+        .gtm-status {
+            display: inline-block;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 6px;
+            margin-top: 12px;
+            text-transform: uppercase;
+        }
+
+        .gtm-ready { background: rgba(16, 185, 129, 0.15); color: #34d399; }
+        .gtm-progress { background: rgba(59, 130, 246, 0.15); color: #60a5fa; }
+
+        /* Capabilities */
+        .capabilities { display: flex; flex-wrap: wrap; gap: 12px; }
+
+        .capability {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 12px 16px;
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+
+        .capability-icon { font-size: 16px; }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 32px; }
+            .stats-row { grid-template-columns: repeat(2, 1fr); }
+            .blog-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Access Control -->
+    <style>
+        #access-overlay {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: #0a0a0f;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .access-box {
+            text-align: center;
+            max-width: 400px;
+            padding: 48px;
+        }
+        .access-box h2 {
+            font-family: 'Inter', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 8px;
+            border: none;
+        }
+        .access-box p {
+            font-family: 'Inter', sans-serif;
+            color: #8888a0;
+            margin-bottom: 32px;
+            font-size: 14px;
+        }
+        .access-box input {
+            width: 100%;
+            padding: 14px 20px;
+            background: #12121a;
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 12px;
+            color: #fff;
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        .access-box input:focus {
+            outline: none;
+            border-color: #10b981;
+        }
+        .access-box button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #10b981, #059669);
+            border: none;
+            border-radius: 12px;
+            color: #fff;
+            font-size: 15px;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+            margin-top: 16px;
+            transition: opacity 0.2s;
+        }
+        .access-box button:hover { opacity: 0.9; }
+        .access-error {
+            color: #ef4444;
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            margin-top: 16px;
+            display: none;
+        }
+        .access-lock {
+            font-size: 48px;
+            margin-bottom: 24px;
+        }
+    </style>
+
+    <div id="access-overlay">
+        <div class="access-box">
+            <div class="access-lock">🔒</div>
+            <h2>Command Center</h2>
+            <p>Enter access code to continue</p>
+            <input type="password" id="access-input" placeholder="Access code" onkeypress="if(event.key==='Enter')checkAccess()">
+            <button onclick="checkAccess()">Unlock</button>
+            <p class="access-error" id="access-error">Incorrect access code</p>
+        </div>
+    </div>
+
+    <script>
+    const validCodes = ['Clorius2026'];
+    function checkAccess() {
+        const input = document.getElementById('access-input').value;
+        if (validCodes.includes(input)) {
+            document.getElementById('access-overlay').style.display = 'none';
+            document.getElementById('main-content').style.display = 'block';
+            sessionStorage.setItem('cc_auth', input);
+        } else {
+            document.getElementById('access-error').style.display = 'block';
+            document.getElementById('access-input').value = '';
+        }
+    }
+    // Auto-unlock if already authenticated this session
+    (function() {
+        const key = sessionStorage.getItem('cc_auth');
+        if (key && validCodes.includes(key)) {
+            document.addEventListener('DOMContentLoaded', function() {
+                document.getElementById('access-overlay').style.display = 'none';
+                document.getElementById('main-content').style.display = 'block';
+            });
+        }
+    })();
+    </script>
+
+    <div id="main-content" style="display:none">
+    <div class="bg-gradient"></div>
+    
+    <div class="container">
+        <nav class="nav">
+            <a href="index.html" class="back-link">← Back to Dashboard</a>
+        </nav>
+
+        <header>
+            <div class="company-badge">
+                <div class="company-icon">S</div>
+            </div>
+            <h1>Scandic IT</h1>
+            <p class="tagline">Full-service ITAD operations since 2016. Reverse logistics, certified data erasure, and IT lifecycle management.</p>
+        </header>
+
+        <div class="stats-row">
+            <div class="stat-card">
+                <div class="stat-card-value">15+</div>
+                <div class="stat-card-label">Years Exp</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-value">50K+</div>
+                <div class="stat-card-label">Devices</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-value">5</div>
+                <div class="stat-card-label">Blog Posts</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-value">3</div>
+                <div class="stat-card-label">Strategy Docs</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-card-value">1</div>
+                <div class="stat-card-label">Website</div>
+            </div>
+        </div>
+
+        <section id="website">
+            <h3 class="section-title">Website Build</h3>
+            <div class="preview-card">
+                <div class="preview-header">
+                    <div class="preview-dots">
+                        <span class="preview-dot red"></span>
+                        <span class="preview-dot yellow"></span>
+                        <span class="preview-dot green"></span>
+                    </div>
+                    <div class="preview-url">scandic-it.com</div>
+                </div>
+                <div class="preview-body">
+                    <div class="preview-status">🔨 In Development</div>
+                    <h3 class="preview-title">Homepage Mockup Ready</h3>
+                    <p class="preview-desc">Full responsive design with services, trust indicators, and contact form. Awaiting review before Astro build.</p>
+                    <a href="../scandic-it/index.html" class="preview-btn" target="_blank">
+                        View Preview →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h3 class="section-title">Blog Content (SEO)</h3>
+            <div class="blog-grid">
+                <a href="../scandic-it/blog/01-hvad-er-itad.html" class="blog-card" target="_blank">
+                    <div class="blog-number">01</div>
+                    <h4 class="blog-title">Hvad er ITAD?</h4>
+                    <p class="blog-desc">Complete beginner's guide to IT Asset Disposition with 7-step process visualization.</p>
+                    <div class="blog-meta">
+                        <span>~2000 ord</span>
+                        <span>•</span>
+                        <span>Danish</span>
+                    </div>
+                </a>
+                <a href="../scandic-it/blog/02-certificeret-datasletning.html" class="blog-card" target="_blank">
+                    <div class="blog-number">02</div>
+                    <h4 class="blog-title">Certificeret Datasletning</h4>
+                    <p class="blog-desc">GDPR requirements, NIST 800-88 standards, and comparison table vs formatting.</p>
+                    <div class="blog-meta">
+                        <span>~2200 ord</span>
+                        <span>•</span>
+                        <span>Danish</span>
+                    </div>
+                </a>
+                <a href="../scandic-it/blog/03-it-buyback.html" class="blog-card" target="_blank">
+                    <div class="blog-number">03</div>
+                    <h4 class="blog-title">IT Buyback</h4>
+                    <p class="blog-desc">Value calculator, grading scale (A/B/C/D), and tips to maximize device value.</p>
+                    <div class="blog-meta">
+                        <span>~1800 ord</span>
+                        <span>•</span>
+                        <span>Danish</span>
+                    </div>
+                </a>
+                <a href="../scandic-it/blog/04-box-programme.html" class="blog-card" target="_blank">
+                    <div class="blog-number">04</div>
+                    <h4 class="blog-title">Box Programme</h4>
+                    <p class="blog-desc">Ship-to-employee returns explained with flow diagram and use cases.</p>
+                    <div class="blog-meta">
+                        <span>~1700 ord</span>
+                        <span>•</span>
+                        <span>Danish</span>
+                    </div>
+                </a>
+                <a href="../scandic-it/blog/05-refurbishment-process.html" class="blog-card" target="_blank">
+                    <div class="blog-number">05</div>
+                    <h4 class="blog-title">Refurbishment Process</h4>
+                    <p class="blog-desc">Grade D → B transformation story with 7-step process and 2-year warranty angle.</p>
+                    <div class="blog-meta">
+                        <span>~2500 ord</span>
+                        <span>•</span>
+                        <span>Danish</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-title">All Materials</h3>
+            
+            <div class="materials-category">
+                <h4 class="category-title">🌐 Website & Content</h4>
+                <div class="materials-grid">
+                    <a href="../scandic-it/index.html" class="material-card" target="_blank">
+                        <span class="material-icon">🏠</span>
+                        <div class="material-info">
+                            <div class="material-title">Homepage Mockup</div>
+                            <div class="material-meta">Full responsive design</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../scandic-it/website-structure.md" class="material-card" target="_blank">
+                        <span class="material-icon">🗺️</span>
+                        <div class="material-info">
+                            <div class="material-title">Website Structure</div>
+                            <div class="material-meta">Sitemap and page hierarchy</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                    <a href="../scandic-it/homepage-copy.md" class="material-card" target="_blank">
+                        <span class="material-icon">✍️</span>
+                        <div class="material-info">
+                            <div class="material-title">Homepage Copy</div>
+                            <div class="material-meta">Hero, services, USPs, CTAs</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="materials-category">
+                <h4 class="category-title">📈 Strategy & GTM</h4>
+                <div class="materials-grid">
+                    <a href="../scandic-it/gtm-strategy.md" class="material-card" target="_blank">
+                        <span class="material-icon">🎯</span>
+                        <div class="material-info">
+                            <div class="material-title">GTM Strategy</div>
+                            <div class="material-meta">Full go-to-market plan</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                    <a href="../returna/research/ai-device-grading-research.md" class="material-card" target="_blank">
+                        <span class="material-icon">🤖</span>
+                        <div class="material-info">
+                            <div class="material-title">AI Device Grading</div>
+                            <div class="material-meta">GPT-4 Vision feasibility</div>
+                        </div>
+                        <span class="material-type">MD</span>
+                    </a>
+                    <a href="../returna/research/ai-device-grading-research.pdf" class="material-card" target="_blank">
+                        <span class="material-icon">📄</span>
+                        <div class="material-info">
+                            <div class="material-title">AI Grading (PDF)</div>
+                            <div class="material-meta">7-page research document</div>
+                        </div>
+                        <span class="material-type">PDF</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="materials-category">
+                <h4 class="category-title">📝 Blog Posts</h4>
+                <div class="materials-grid">
+                    <a href="../scandic-it/blog/01-hvad-er-itad.html" class="material-card" target="_blank">
+                        <span class="material-icon">📰</span>
+                        <div class="material-info">
+                            <div class="material-title">Hvad er ITAD?</div>
+                            <div class="material-meta">~2000 words, Danish</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../scandic-it/blog/02-certificeret-datasletning.html" class="material-card" target="_blank">
+                        <span class="material-icon">📰</span>
+                        <div class="material-info">
+                            <div class="material-title">Certificeret Datasletning</div>
+                            <div class="material-meta">~2200 words, Danish</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../scandic-it/blog/03-it-buyback.html" class="material-card" target="_blank">
+                        <span class="material-icon">📰</span>
+                        <div class="material-info">
+                            <div class="material-title">IT Buyback</div>
+                            <div class="material-meta">~1800 words, Danish</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../scandic-it/blog/04-box-programme.html" class="material-card" target="_blank">
+                        <span class="material-icon">📰</span>
+                        <div class="material-info">
+                            <div class="material-title">Box Programme</div>
+                            <div class="material-meta">~1700 words, Danish</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                    <a href="../scandic-it/blog/05-refurbishment-process.html" class="material-card" target="_blank">
+                        <span class="material-icon">📰</span>
+                        <div class="material-info">
+                            <div class="material-title">Refurbishment Process</div>
+                            <div class="material-meta">~2500 words, Danish</div>
+                        </div>
+                        <span class="material-type">HTML</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-title">GTM Strategy Overview</h3>
+            <div class="gtm-grid">
+                <div class="gtm-card">
+                    <div class="gtm-icon">🎯</div>
+                    <h4 class="gtm-title">Target Customers</h4>
+                    <p class="gtm-desc">Danish SMB (50-500 emp), Nordic Enterprise, Box Programme customers</p>
+                    <span class="gtm-status gtm-ready">Defined</span>
+                </div>
+                <div class="gtm-card">
+                    <div class="gtm-icon">📈</div>
+                    <h4 class="gtm-title">Inbound Strategy</h4>
+                    <p class="gtm-desc">SEO keywords, content topics, LinkedIn presence</p>
+                    <span class="gtm-status gtm-ready">Ready</span>
+                </div>
+                <div class="gtm-card">
+                    <div class="gtm-icon">📧</div>
+                    <h4 class="gtm-title">Outbound Strategy</h4>
+                    <p class="gtm-desc">Email campaigns, cold outreach templates, MSP partnerships</p>
+                    <span class="gtm-status gtm-ready">Ready</span>
+                </div>
+                <div class="gtm-card">
+                    <div class="gtm-icon">🏆</div>
+                    <h4 class="gtm-title">Competitive Position</h4>
+                    <p class="gtm-desc">vs TBS, GreenMobile, IT Relation — differentiators mapped</p>
+                    <span class="gtm-status gtm-ready">Ready</span>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-title">Capabilities</h3>
+            <div class="capabilities">
+                <div class="capability"><span class="capability-icon">🔒</span>NIST 800-88 Erasure</div>
+                <div class="capability"><span class="capability-icon">📦</span>Box Programme</div>
+                <div class="capability"><span class="capability-icon">🔧</span>Repair & Refurb</div>
+                <div class="capability"><span class="capability-icon">🏠</span>Home Pickup</div>
+                <div class="capability"><span class="capability-icon">🏢</span>Office Pickup</div>
+                <div class="capability"><span class="capability-icon">♻️</span>Certified Recycling</div>
+                <div class="capability"><span class="capability-icon">💰</span>Buyback</div>
+                <div class="capability"><span class="capability-icon">📊</span>Reporting</div>
+                <div class="capability"><span class="capability-icon">🛡️</span>ISO 27001</div>
+                <div class="capability"><span class="capability-icon">🌱</span>ISO 14001</div>
+                <div class="capability"><span class="capability-icon">✅</span>R2 Certified</div>
+                <div class="capability"><span class="capability-icon">📋</span>NAID Member</div>
+            </div>
+        </section>
+    </div>
+    </div>
+</body>
+</html>
