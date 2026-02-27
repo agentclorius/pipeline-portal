@@ -87,9 +87,13 @@ Export CSV
     })();
   </script> </body> </html>  <script>(function(){let pipelineData = [];
 try {
-  const resp = await fetch('/data.json');
-  const json = await resp.json();
-  pipelineData = json.pipeline || [];
+  const xhr = new XMLHttpRequest();
+  xhr.open('GET', '/data.json', false);
+  xhr.send();
+  if (xhr.status === 200) {
+    const json = JSON.parse(xhr.responseText);
+    pipelineData = json.pipeline || [];
+  }
 } catch(e) {
   console.error('Failed to load pipeline data:', e);
 }
