@@ -1,0 +1,5111 @@
+{
+  "pipeline": [
+    {
+      "id": "org-81",
+      "slug": "gigacycle",
+      "name": "Gigacycle",
+      "industry": "ITAD",
+      "website": "gigacycle.co.uk",
+      "address": "",
+      "region": "UK & Ireland",
+      "state": "",
+      "country": "UK",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 78,
+      "isPipeline": true,
+      "originalLabel": "Prospect",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-54",
+          "name": "Daniel Owens",
+          "title": "Trade Sales",
+          "email": "daniel.owens@gigacycle.co.uk",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-152",
+          "name": "Denver Hodgson",
+          "title": "Managing Director",
+          "email": "denver.hodgson@gigacycle.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/denver-hodgson-8ab70a71/"
+        },
+        {
+          "id": "contact-677",
+          "name": "Natalie Heaney",
+          "title": "Trade Sales",
+          "email": "natalie.heaney@gigacycle.co.uk",
+          "phone": "'+44 7881557664",
+          "linkedin": "https://www.linkedin.com/in/natalie-heaney-5b88b31b6"
+        }
+      ],
+      "notes": [
+        "Manchester. 28,000 sq ft facility. ADISA Distinction. Clients: NHS, Government, FTSE 100."
+      ],
+      "certifications": [
+        "ADISA"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇬🇧",
+        "region": "UK & Ireland",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Verify size",
+        "lastTouch": "2026-02-06"
+      },
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": "2026-02-26T08:47:29.349Z"
+    },
+    {
+      "id": "org-139",
+      "slug": "premier-it-disposal",
+      "name": "Premier IT Disposal",
+      "industry": "ITAD",
+      "website": "premieritdisposal.co.uk",
+      "address": "",
+      "region": "UK & Ireland",
+      "state": "",
+      "country": "UK",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "Customer",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-82",
+          "name": "Graham Ashton",
+          "title": "Director",
+          "email": "",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-171",
+          "name": "Henry Ashton",
+          "title": "",
+          "email": "henry@premiergrouprecycling.co.uk",
+          "phone": "07734539185",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-236",
+          "name": "Will Paget",
+          "title": "",
+          "email": "will@premiergrouprecycling.co.uk",
+          "phone": "07740249223",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "Rebate-backed ITAD model. Needs size verification."
+      ],
+      "certifications": [
+        "ISO 27001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇬🇧",
+        "region": "UK & Ireland",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": false,
+        "contact": "TBD",
+        "nextAction": "Verify size + contacts",
+        "lastTouch": "2026-02-13"
+      },
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": "2026-02-26T08:47:29.349Z"
+    },
+    {
+      "id": "org-166",
+      "slug": "s2s-group",
+      "name": "S2S Group",
+      "industry": "ITAD",
+      "website": "s2s.uk.com",
+      "address": "",
+      "region": "UK & Ireland",
+      "state": "",
+      "country": "UK",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 83,
+      "isPipeline": true,
+      "originalLabel": "Hot lead",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-88",
+          "name": "Mike Fleming",
+          "title": "",
+          "email": "suppliers@s2s.uk.com",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-106",
+          "name": "Matthew Smith",
+          "title": "ITAD Manager",
+          "email": "",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-177",
+          "name": "Alan Duckinfield",
+          "title": "",
+          "email": "alan.dukinfield@s2s.uk.com",
+          "phone": "07887647120",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-1128",
+          "name": "Rachel Hall",
+          "title": "",
+          "email": "Rachel.hall@s2s.uk.com",
+          "phone": "",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "Yorkshire. Est 1987. ISO 27001, ADISA, NPSA certified. £4.3M revenue growing."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇬🇧",
+        "region": "UK & Ireland",
+        "employees": 40,
+        "revenue": "€5M",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "info@s2s.uk.com",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-02-05"
+      },
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": "2026-02-26T08:47:29.349Z"
+    },
+    {
+      "id": "org-187",
+      "slug": "stone-group",
+      "name": "Stone Group",
+      "industry": "ITAD",
+      "website": "stonegroup.co.uk",
+      "address": "",
+      "region": "UK & Ireland",
+      "state": "",
+      "country": "UK",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "Prospect",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-94",
+          "name": "Tim Westbrook",
+          "title": "Chief Sales & Marketing Officer",
+          "email": "tim.westbrook@stonegroup.co.uk",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-181",
+          "name": "Chris Hykin",
+          "title": "CTO",
+          "email": "Chris.hykin@stonegroup.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/chris-hykin-26265616/"
+        },
+        {
+          "id": "contact-241",
+          "name": "Lawrence Richards",
+          "title": "COO",
+          "email": "lawrence.richards@stonegroup.co.uk",
+          "phone": "",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "Major UK ITAD. Public sector + enterprise. ADISA certified."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇬🇧",
+        "region": "UK & Ireland",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "TBD",
+        "nextAction": "Research contact",
+        "lastTouch": "2026-02-15"
+      },
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": "2026-02-26T08:47:29.349Z"
+    },
+    {
+      "id": "org-216",
+      "slug": "vyta",
+      "name": "Vyta",
+      "industry": "ITAD",
+      "website": "vyta.com",
+      "address": "",
+      "region": "UK & Ireland",
+      "state": "",
+      "country": "UK/Ireland",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 84,
+      "isPipeline": true,
+      "originalLabel": "Use another supplier",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-99",
+          "name": "Reece Gammons",
+          "title": "Trade Sales",
+          "email": "",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-187",
+          "name": "Dan Elson",
+          "title": "CTO",
+          "email": "dan.elson@vyta.com",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-188",
+          "name": "Dominic",
+          "title": "",
+          "email": "info@vyta.com",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-189",
+          "name": "Susie Arrowsmith",
+          "title": "",
+          "email": "susie.arrowsmith@vyta.com",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-240",
+          "name": "Giles Ward",
+          "title": "",
+          "email": "giles.ward@vyta.com",
+          "phone": "07824514980",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-934",
+          "name": "Andrew Bywater-Read",
+          "title": "UK Operations Manager",
+          "email": "andrew.bywater-read@vyta.com",
+          "phone": "'+44 330 551 9983",
+          "linkedin": "https://www.linkedin.com/in/andrew-bywater-read-237a141ab"
+        },
+        {
+          "id": "contact-935",
+          "name": "Daniel Elson",
+          "title": "Chief Technology Officer",
+          "email": "",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/daniel-elson-94371113"
+        },
+        {
+          "id": "contact-936",
+          "name": "Aidan Timlin",
+          "title": "Operations Manager",
+          "email": "aidan.timlin@vyta.com",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/aidan-timlin-28066251"
+        },
+        {
+          "id": "contact-937",
+          "name": "Leigh Medhurst",
+          "title": "Chief Development Officer",
+          "email": "leigh.medhurst@vyta.com",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/leigh-medhurst-b125733"
+        }
+      ],
+      "notes": [
+        "Dublin, Belfast, Chelmsford. Blancco Gold Partner. Only ADISA DIAL 3 in UK/Ireland. Award-winning."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇬🇧",
+        "region": "UK & Ireland",
+        "employees": 150,
+        "revenue": "€19M",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "info@vyta.com",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-02-05"
+      },
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": "2026-02-26T08:47:29.349Z"
+    },
+    {
+      "id": "org-366",
+      "slug": "mitrade",
+      "name": "MiTrade",
+      "industry": "",
+      "website": "mitrade.it",
+      "address": "",
+      "region": "Southern Europe",
+      "state": "",
+      "country": "Italy",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "researching",
+      "score": 68,
+      "isPipeline": true,
+      "originalLabel": "Hot lead",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-339",
+          "name": "Jason",
+          "title": "",
+          "email": "Jason.w@mitrade.co.uk",
+          "phone": "07972153145",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-344",
+          "name": "Belinda",
+          "title": "",
+          "email": "belinda@nlts.co.uk",
+          "phone": "",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "Lombardy/North Italy. Professional ITAD for SMBs and Corporates. Need size verification."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇮🇹",
+        "region": "Southern Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "info@mitrade.it",
+        "nextAction": "Research size and certs",
+        "lastTouch": "2026-02-05"
+      },
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": "2026-02-26T08:47:29.349Z"
+    },
+    {
+      "id": "org-442",
+      "slug": "inrego",
+      "name": "Inrego",
+      "industry": "IT Service Provider",
+      "website": "inrego.se",
+      "address": "Kemistvägen 3, 183 79 Täby, Sweden",
+      "region": "Nordics",
+      "state": "Stockholms län",
+      "country": "Sweden",
+      "lat": 60.1282,
+      "lng": 18.6435,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "Prospect",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-410",
+          "name": "Valentina Falconi",
+          "title": "",
+          "email": "",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-1389",
+          "name": "Sebastian Holmström",
+          "title": "Sustainability Manager",
+          "email": "sebastian.holmstrom@inrego.se",
+          "phone": "'+46-0-8-501-090-00",
+          "linkedin": "https://www.linkedin.com/in/sebastian-holmstrom"
+        },
+        {
+          "id": "contact-1390",
+          "name": "Henrik Nilsson",
+          "title": "Founder & CEO",
+          "email": "henrik.nilsson@inrego.se",
+          "phone": "'+46-0-8-501-090-00",
+          "linkedin": "https://www.linkedin.com/in/henrik-nilsson-a62930243"
+        },
+        {
+          "id": "contact-1391",
+          "name": "Jonas Carlsson",
+          "title": "COO",
+          "email": "jonas.carlsson@inrego.se",
+          "phone": "'+46-0-8-501-090-00",
+          "linkedin": "https://www.linkedin.com/in/jonas-carlsson-6856ba15"
+        },
+        {
+          "id": "contact-1392",
+          "name": "Daniel Bonde",
+          "title": "CIO, CSO",
+          "email": "daniel.bonde@inrego.se",
+          "phone": "'+46-0-8-501-090-00",
+          "linkedin": "https://www.linkedin.com/in/daniel-bonde-156a142"
+        }
+      ],
+      "notes": [
+        "Leading Swedish ITAD/refurb. Strong resale channel."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇸🇪",
+        "region": "Nordics",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "TBD",
+        "nextAction": "Research contact",
+        "lastTouch": "2026-02-15"
+      },
+      "createdAt": "2026-02-26T08:47:29.350Z",
+      "updatedAt": "2026-02-26T08:47:29.350Z",
+      "lastVerified": "2026-02-26T08:47:29.350Z"
+    },
+    {
+      "id": "org-475",
+      "slug": "renewtech",
+      "name": "Renewtech",
+      "industry": "IT Service Provider",
+      "website": "renewtech.com",
+      "address": "Casablancaweg 10, 1047 Amsterdam, Noord-Holland, Netherlands",
+      "region": "Western Europe",
+      "state": "Noord-Holland",
+      "country": "Netherlands",
+      "lat": 52.1326,
+      "lng": 5.2913,
+      "stage": "researching",
+      "score": 78,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-449",
+          "name": "Tony Groot",
+          "title": "ITAD Manager Benelux",
+          "email": "tony@renewtech.com",
+          "phone": "'+41415617077",
+          "linkedin": "https://www.linkedin.com/in/tonygroot"
+        },
+        {
+          "id": "contact-450",
+          "name": "Roger van Norden",
+          "title": "CEO",
+          "email": "roger@renewtech.eu",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/rogervannorden"
+        }
+      ],
+      "notes": [
+        "Amsterdam. ISO 9001. Also serves German market via renewtech.de."
+      ],
+      "certifications": [
+        "ISO 27001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇳🇱",
+        "region": "Western Europe",
+        "employees": 76,
+        "revenue": "€28M",
+        "iso27001": true,
+        "iso14001": null,
+        "contact": "info@renewtech.com",
+        "nextAction": "Research more",
+        "lastTouch": "2026-02-05"
+      },
+      "createdAt": "2026-02-26T08:47:29.350Z",
+      "updatedAt": "2026-02-26T08:47:29.350Z",
+      "lastVerified": "2026-02-26T08:47:29.350Z"
+    },
+    {
+      "id": "org-1010",
+      "slug": "foxway",
+      "name": "Foxway",
+      "industry": "ITAD, Broker",
+      "website": "foxway.com",
+      "address": "Delta 6, 8382 Hinnerup, , Denmark",
+      "region": "Nordics",
+      "state": "",
+      "country": "Estonia/Sweden",
+      "lat": 56.2639,
+      "lng": 9.5018,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-661",
+          "name": "Chris Farrell",
+          "title": "VP of PC - Recommerce Foxway Group // General Manager Foxway UK Ltd",
+          "email": "chris.farrell@foxway.com",
+          "phone": "'+44 7402301107",
+          "linkedin": "https://www.linkedin.com/in/chrisfarrellglobal"
+        },
+        {
+          "id": "contact-662",
+          "name": "Benjamin D",
+          "title": "Technical Account Manager",
+          "email": "",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/benjmdaniels"
+        },
+        {
+          "id": "contact-663",
+          "name": "Mike Deal",
+          "title": "UK Operations & Facilities Support Officer",
+          "email": "",
+          "phone": "'+44 1245 206159",
+          "linkedin": "https://www.linkedin.com/in/mike-deal-554b09b5"
+        },
+        {
+          "id": "contact-664",
+          "name": "Damien K",
+          "title": "Process Engineer",
+          "email": "",
+          "phone": "'+44 1245 206159",
+          "linkedin": "https://www.linkedin.com/in/damien-k-30a9b61a0"
+        },
+        {
+          "id": "contact-665",
+          "name": "Norbert BAKTAI",
+          "title": "IT Technician",
+          "email": "",
+          "phone": "'+44 1245 206159",
+          "linkedin": "https://www.linkedin.com/in/norbertbaktai"
+        },
+        {
+          "id": "contact-1236",
+          "name": "Ulrik Lind",
+          "title": "CFO / Foxway A/S",
+          "email": "ulrik.lind@foxway.com",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/ulrik-lind-614595b"
+        },
+        {
+          "id": "contact-1237",
+          "name": "Tommy Danielsson",
+          "title": "Vice President",
+          "email": "tommy@dcc.dk",
+          "phone": "'+45 8698 8660",
+          "linkedin": "https://www.linkedin.com/in/tommydanielsson"
+        },
+        {
+          "id": "contact-1238",
+          "name": "Henrik Andreassen",
+          "title": "Director of Operations",
+          "email": "henrik@andreassen.com",
+          "phone": "'+45 63 60 11 92",
+          "linkedin": "https://www.linkedin.com/in/henrik-andreassen-4aa68210"
+        },
+        {
+          "id": "contact-1239",
+          "name": "Carsten Morris Clausen",
+          "title": "IT Director / CIO",
+          "email": "cacl@dcc.dk",
+          "phone": "'+45 8698 8660",
+          "linkedin": "https://www.linkedin.com/in/carstenmorrisclausen"
+        }
+      ],
+      "notes": [
+        "Major Nordic ITAD player. Enterprise clients. Strong resale."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇪🇪",
+        "region": "Nordics",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "TBD",
+        "nextAction": "Research contact",
+        "lastTouch": "2026-02-15"
+      },
+      "createdAt": "2026-02-26T08:47:29.350Z",
+      "updatedAt": "2026-02-26T08:47:29.350Z",
+      "lastVerified": "2026-02-26T08:47:29.350Z"
+    },
+    {
+      "id": "org-1054",
+      "slug": "revac-as",
+      "name": "Revac AS",
+      "industry": "ITAD",
+      "website": "revac.no",
+      "address": "Haukeveien 11, 3174 Revetal, Norway",
+      "region": "Nordics",
+      "state": "Vestfold",
+      "country": "Norway",
+      "lat": 60.472,
+      "lng": 8.4689,
+      "stage": "researching",
+      "score": 77,
+      "isPipeline": true,
+      "originalLabel": "Do Not Contact",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-1296",
+          "name": "Pal Holtan Leskovsky",
+          "title": "",
+          "email": "pal@revac.no",
+          "phone": "'+47 926 56 290",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-1297",
+          "name": "Anders Aas",
+          "title": "",
+          "email": "",
+          "phone": "'+47 905 81 160",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-2785",
+          "name": "Harald Anholt",
+          "title": "",
+          "email": "harald@revac.no",
+          "phone": "",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "Certus customer. Strong ITAD division (Revac REUSE). Warm relationship via Kasper."
+      ],
+      "certifications": [
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇳🇴",
+        "region": "Nordics",
+        "employees": 147,
+        "revenue": "€52M",
+        "iso27001": false,
+        "iso14001": true,
+        "contact": "",
+        "nextAction": "Score and qualify",
+        "lastTouch": "2026-02-05"
+      },
+      "createdAt": "2026-02-26T08:47:29.351Z",
+      "updatedAt": "2026-02-26T08:47:29.351Z",
+      "lastVerified": "2026-02-26T08:47:29.351Z"
+    },
+    {
+      "id": "org-1119",
+      "slug": "circular-computing",
+      "name": "Circular Computing",
+      "industry": "IT Service Provider",
+      "website": "circularcomputing.com",
+      "address": "Railway Triangle, PO6 1TY Portsmouth, Hampshire, United Kingdom",
+      "region": "UK & Ireland",
+      "state": "England",
+      "country": "UK",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-1385",
+          "name": "Simon De Gruchy",
+          "title": "Chief Operations Officer",
+          "email": "simon@a2c.co.uk",
+          "phone": "'+44 (0)2392 530290",
+          "linkedin": "https://www.linkedin.com/in/simon-de-gruchy-95542317"
+        },
+        {
+          "id": "contact-1386",
+          "name": "Nil Carcacer Fabregas",
+          "title": "Operations Manager",
+          "email": "nil.fabregas@circularcomputing.com",
+          "phone": "'+44 (0)2392 530291",
+          "linkedin": "https://www.linkedin.com/in/nil-carcacer-fabregas"
+        }
+      ],
+      "notes": [
+        "Premium remanufacturer. Strong ESG story. BS 8887 certified."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇬🇧",
+        "region": "UK & Ireland",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "TBD",
+        "nextAction": "Research contact",
+        "lastTouch": "2026-02-15"
+      },
+      "createdAt": "2026-02-26T08:47:29.351Z",
+      "updatedAt": "2026-02-26T08:47:29.351Z",
+      "lastVerified": "2026-02-26T08:47:29.351Z"
+    },
+    {
+      "id": "org-1460",
+      "slug": "iqtec-services",
+      "name": "IQTEC SERVICES",
+      "industry": "Broker",
+      "website": "iqtec.es",
+      "address": "Calle Ferrocarril, 16, Meco, Spain",
+      "region": "Southern Europe",
+      "state": "Comunidad de Madrid",
+      "country": "Spain",
+      "lat": 40.4637,
+      "lng": -3.7492,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "Prospect",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-2008",
+          "name": "Tony Pelayo",
+          "title": "Founder & Director",
+          "email": "tony.pelayo@iqtec.es",
+          "phone": "'+34 918 84 85 62",
+          "linkedin": "https://www.linkedin.com/in/tony-pelayo-35a09656"
+        },
+        {
+          "id": "contact-2009",
+          "name": "Jose Luis",
+          "title": "Project Manager",
+          "email": "Jose.Luis@iqtec.es",
+          "phone": "'+34 918 84 85 62",
+          "linkedin": "https://www.linkedin.com/in/jlarroyobazan"
+        },
+        {
+          "id": "contact-2010",
+          "name": "Enrique de Blas Alonso",
+          "title": "CEO",
+          "email": "enrique.blas@iqtec.es",
+          "phone": "'+34 918 84 85 62",
+          "linkedin": "https://www.linkedin.com/in/enrique-de-blas-alonso-67877718"
+        }
+      ],
+      "notes": [
+        "Blancco's ONLY ITAD partner in Spain. ISO 14001. NIST 800-88 compliant."
+      ],
+      "certifications": [
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇪🇸",
+        "region": "Southern Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": true,
+        "contact": "TBD",
+        "nextAction": "Research decision-maker",
+        "lastTouch": "2026-02-13"
+      },
+      "createdAt": "2026-02-26T08:47:29.353Z",
+      "updatedAt": "2026-02-26T08:47:29.353Z",
+      "lastVerified": "2026-02-26T08:47:29.353Z"
+    },
+    {
+      "id": "org-1610",
+      "slug": "out-of-use",
+      "name": "Out of Use",
+      "industry": "",
+      "website": "outofuse.be",
+      "address": "",
+      "region": "Western Europe",
+      "state": "",
+      "country": "Belgium",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "researching",
+      "score": 72,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-2241",
+          "name": "Mark Adriaenssens",
+          "title": "",
+          "email": "mark@outofuse.com",
+          "phone": "'+320478305873",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "Belgium. ITAD, data destruction, data center dismantling. 30% reuse rate. CO2 tracking. Nature partnership. Needs size/cert verification."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇧🇪",
+        "region": "Western Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Verify size/certs",
+        "lastTouch": "2026-02-06"
+      },
+      "createdAt": "2026-02-26T08:47:29.353Z",
+      "updatedAt": "2026-02-26T08:47:29.353Z",
+      "lastVerified": "2026-02-26T08:47:29.353Z"
+    },
+    {
+      "id": "org-1656",
+      "slug": "greenit",
+      "name": "GreenIT",
+      "industry": "Broker",
+      "website": "greenitdk.com",
+      "address": "Ladytown, County Kildare, W91 HH2C, Ireland",
+      "region": "Nordics",
+      "state": "County Kildare",
+      "country": "Denmark",
+      "lat": 53.1424,
+      "lng": -7.6921,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "Prospect",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-2313",
+          "name": "Martin Reddy",
+          "title": "Managing Director",
+          "email": "martin.reddy@recosi.net",
+          "phone": "'+353 45409150",
+          "linkedin": "https://www.linkedin.com/in/martin-reddy-01888814"
+        },
+        {
+          "id": "contact-2314",
+          "name": "Lina Gudziunaite",
+          "title": "Operations Manager",
+          "email": "lina.gudziunaite@greenit.ie",
+          "phone": "'+353 45409150",
+          "linkedin": "https://www.linkedin.com/in/lina-gudziunaite-48210160"
+        }
+      ],
+      "notes": [
+        "Danish ITAD company. Needs capability verification."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇩🇰",
+        "region": "Nordics",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "TBD",
+        "nextAction": "Research contact",
+        "lastTouch": "2026-02-15"
+      },
+      "createdAt": "2026-02-26T08:47:29.353Z",
+      "updatedAt": "2026-02-26T08:47:29.353Z",
+      "lastVerified": "2026-02-26T08:47:29.353Z"
+    },
+    {
+      "id": "org-pipeline-1642",
+      "slug": "second-it-store-gmbh",
+      "name": "Second IT Store GmbH",
+      "industry": "ITAD",
+      "website": "second-it.de",
+      "address": "",
+      "region": "DACH",
+      "state": "",
+      "country": "Germany",
+      "lat": 51.1657,
+      "lng": 10.4515,
+      "stage": "qualified",
+      "score": 82,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Schwäbisch Hall. ISO 9001/14001/45001/27001. Blancco erasure. Own logistics (2023). eBay Award 2021. Perfect size."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇩🇪",
+        "region": "DACH",
+        "employees": 30,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "remarketing@second-it.de",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-02-06"
+      },
+      "createdAt": "2026-02-26T08:47:29.354Z",
+      "updatedAt": "2026-02-26T08:47:29.354Z",
+      "lastVerified": "2026-02-26T08:47:29.354Z"
+    },
+    {
+      "id": "org-pipeline-1643",
+      "slug": "swiss-remarketing",
+      "name": "Swiss Remarketing",
+      "industry": "ITAD",
+      "website": "swissremarketing.com",
+      "address": "",
+      "region": "DACH",
+      "state": "",
+      "country": "Switzerland",
+      "lat": 46.8182,
+      "lng": 8.2275,
+      "stage": "researching",
+      "score": 76,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Zürich. ISO 9001/14001/45001. Blancco Silver Partner. Microsoft Authorized Refurbisher. 3,000 sqm facility, 100K items/year. Clients: Nestlé, Swiss Post, Swiss Federal Gov."
+      ],
+      "certifications": [
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇨🇭",
+        "region": "DACH",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": true,
+        "contact": "Via website",
+        "nextAction": "Verify size/certs",
+        "lastTouch": "2026-02-06"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1644",
+      "slug": "k-p-computer",
+      "name": "K&P Computer",
+      "industry": "ITAD",
+      "website": "kpc.de",
+      "address": "",
+      "region": "DACH",
+      "state": "",
+      "country": "Germany",
+      "lat": 51.1657,
+      "lng": 10.4515,
+      "stage": "researching",
+      "score": 75,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Wiesbaden. ISO 27001 + BSI. 260 employees is borderline size."
+      ],
+      "certifications": [
+        "ISO 27001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇩🇪",
+        "region": "DACH",
+        "employees": 260,
+        "revenue": "€10M",
+        "iso27001": true,
+        "iso14001": null,
+        "contact": "+49 6122 7071 0",
+        "nextAction": "Verify tech gap",
+        "lastTouch": "2026-02-05"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1645",
+      "slug": "afb",
+      "name": "AfB",
+      "industry": "ITAD",
+      "website": "afb-group.eu",
+      "address": "",
+      "region": "DACH",
+      "state": "",
+      "country": "Germany",
+      "lat": 51.1657,
+      "lng": 10.4515,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Largest social enterprise ITAD in Europe. DE/AT/FR/SK presence."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇩🇪",
+        "region": "DACH",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "TBD",
+        "nextAction": "Research contact",
+        "lastTouch": "2026-02-15"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1646",
+      "slug": "bb-net",
+      "name": "BB-Net",
+      "industry": "ITAD",
+      "website": "bb-net.de",
+      "address": "",
+      "region": "DACH",
+      "state": "",
+      "country": "Germany",
+      "lat": 51.1657,
+      "lng": 10.4515,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Strong German ITAD with own resale brand."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇩🇪",
+        "region": "DACH",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "TBD",
+        "nextAction": "Research contact",
+        "lastTouch": "2026-02-15"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1647",
+      "slug": "bechtle-remarketing",
+      "name": "Bechtle Remarketing",
+      "industry": "ITAD",
+      "website": "bechtle.com",
+      "address": "",
+      "region": "DACH",
+      "state": "",
+      "country": "Germany",
+      "lat": 51.1657,
+      "lng": 10.4515,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Part of major IT group. Enterprise reach across DACH."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇩🇪",
+        "region": "DACH",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "TBD",
+        "nextAction": "Research contact",
+        "lastTouch": "2026-02-15"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1648",
+      "slug": "euratech",
+      "name": "EURATECH",
+      "industry": "ITAD",
+      "website": "euratech.de",
+      "address": "",
+      "region": "DACH",
+      "state": "",
+      "country": "Germany",
+      "lat": 51.1657,
+      "lng": 10.4515,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "TOP PROSPECT 82/100. Owner-operated, 5000m² facility, 100K assets/yr. Clients: Ratiodata, Landratsamt München."
+      ],
+      "certifications": [
+        "ISO 27001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇩🇪",
+        "region": "DACH",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": false,
+        "contact": "info@euratech.de — info@euratech.de",
+        "nextAction": "Draft outreach",
+        "lastTouch": "2026-02-12"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1649",
+      "slug": "mak-it-remarketing",
+      "name": "MAK-IT Remarketing",
+      "industry": "ITAD",
+      "website": "mak-computer.com",
+      "address": "",
+      "region": "DACH",
+      "state": "",
+      "country": "Germany",
+      "lat": 51.1657,
+      "lng": 10.4515,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "75/100. Small team, ISO 27001, B2B focused, Europe-wide ops."
+      ],
+      "certifications": [
+        "ISO 27001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇩🇪",
+        "region": "DACH",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": false,
+        "contact": "kontakt@mak-computer.com — kontakt@mak-computer.com",
+        "nextAction": "Verify size",
+        "lastTouch": "2026-02-12"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1650",
+      "slug": "second-it",
+      "name": "Second IT",
+      "industry": "ITAD",
+      "website": "second-it.de",
+      "address": "",
+      "region": "DACH",
+      "state": "",
+      "country": "Germany",
+      "lat": 51.1657,
+      "lng": 10.4515,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "70/100. BSI-compliant, has online store. Needs size verification."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇩🇪",
+        "region": "DACH",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "TBD",
+        "nextAction": "Verify size + platform",
+        "lastTouch": "2026-02-12"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1651",
+      "slug": "it-remarketing-austria",
+      "name": "IT Remarketing Austria",
+      "industry": "ITAD",
+      "website": "itremarketing.at",
+      "address": "",
+      "region": "DACH",
+      "state": "",
+      "country": "Austria",
+      "lat": 47.5162,
+      "lng": 14.5501,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "68/100. Small, DSGVO-compliant. Needs verification."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇦🇹",
+        "region": "DACH",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "TBD",
+        "nextAction": "Verify size + contacts",
+        "lastTouch": "2026-02-12"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1652",
+      "slug": "recircle-tech",
+      "name": "ReCircle Tech",
+      "industry": "ITAD",
+      "website": "recircletech.com",
+      "address": "",
+      "region": "DACH",
+      "state": "",
+      "country": "Germany",
+      "lat": 51.1657,
+      "lng": 10.4515,
+      "stage": "researching",
+      "score": null,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Small team (2-10). Berlin+Brighton+Düsseldorf. GDPR compliant. Mehmet has RWTH background."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇩🇪",
+        "region": "DACH",
+        "employees": 0,
+        "revenue": "",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "Mehmet Göksu (Düsseldorf), Tom Mairs (Berlin)",
+        "nextAction": "Draft outreach via info@",
+        "lastTouch": "2026-02-20"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1653",
+      "slug": "rnew-itad",
+      "name": "Rnew ITAD",
+      "industry": "ITAD",
+      "website": "rnewitad.pl",
+      "address": "",
+      "region": "Eastern Europe",
+      "state": "",
+      "country": "Poland",
+      "lat": 51.9194,
+      "lng": 19.1451,
+      "stage": "researching",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Osielsko (near Bydgoszcz). Polish ITAD. Need to verify size and certifications."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇵🇱",
+        "region": "Eastern Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "kontakt@rnewitad.pl",
+        "nextAction": "Research size and certs",
+        "lastTouch": "2026-02-05"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1654",
+      "slug": "itad4u",
+      "name": "ITAD4U",
+      "industry": "ITAD",
+      "website": "itad4u.com",
+      "address": "",
+      "region": "Eastern Europe",
+      "state": "",
+      "country": "Bulgaria",
+      "lat": 42.7339,
+      "lng": 25.4858,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "STRATEGIC 70/100. Single partner for all Eastern Europe coverage."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇧🇬",
+        "region": "Eastern Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "emea@itad4u.com — emea@itad4u.com",
+        "nextAction": "Research contacts",
+        "lastTouch": "2026-02-11"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1655",
+      "slug": "r-pass",
+      "name": "R-PASS",
+      "industry": "ITAD",
+      "website": "r-pass.cz",
+      "address": "",
+      "region": "Eastern Europe",
+      "state": "",
+      "country": "Czech Republic",
+      "lat": 49.8175,
+      "lng": 15.473,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Backup for Czech coverage. Not full ITAD."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇨🇿",
+        "region": "Eastern Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "wholesale@r-pass.cz — wholesale@r-pass.cz",
+        "nextAction": "Verify capabilities",
+        "lastTouch": "2026-02-11"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1656",
+      "slug": "renewtech-czech",
+      "name": "Renewtech Czech",
+      "industry": "ITAD",
+      "website": "renewtech.cz",
+      "address": "",
+      "region": "Eastern Europe",
+      "state": "",
+      "country": "Czech Republic",
+      "lat": 49.8175,
+      "lng": 15.473,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Likely part of Nordic Renewtech. Czech ITAD packages. ISO 27001."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇨🇿",
+        "region": "Eastern Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "TBD",
+        "nextAction": "Verify relationship to Renewtech",
+        "lastTouch": "2026-02-13"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1657",
+      "slug": "itad-hungary-marseus",
+      "name": "ITAD Hungary (Marseus)",
+      "industry": "ITAD",
+      "website": "itadhungary.hu / marseus.com",
+      "address": "",
+      "region": "Eastern Europe",
+      "state": "",
+      "country": "Hungary",
+      "lat": 47.1625,
+      "lng": 19.5033,
+      "stage": "qualified",
+      "score": null,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Hungary coverage. 20+ years experience. EU presence. Strong resale channel."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇭🇺",
+        "region": "Eastern Europe",
+        "employees": 0,
+        "revenue": "",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "MD via ugyvezeto@marseus.hu",
+        "nextAction": "Draft outreach",
+        "lastTouch": "2026-02-20"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1658",
+      "slug": "greenweee",
+      "name": "GreenWEEE",
+      "industry": "ITAD",
+      "website": "greenweee.ro",
+      "address": "",
+      "region": "Eastern Europe",
+      "state": "",
+      "country": "Romania",
+      "lat": 45.9432,
+      "lng": 24.9668,
+      "stage": "qualified",
+      "score": null,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Romania/CEE coverage. WEEELABEX certified. Major investments in recycling capacity."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇷🇴",
+        "region": "Eastern Europe",
+        "employees": 0,
+        "revenue": "",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "Marius Costache (General Manager)",
+        "nextAction": "Draft outreach",
+        "lastTouch": "2026-02-20"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1659",
+      "slug": "easyrecycle-aps",
+      "name": "EasyRecycle ApS",
+      "industry": "ITAD",
+      "website": "easyrecycle.dk",
+      "address": "",
+      "region": "Nordics",
+      "state": "",
+      "country": "Denmark",
+      "lat": 56.2639,
+      "lng": 9.5018,
+      "stage": "contacted",
+      "score": 85,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "PRIORITY 1. Frederikshavn. ISO 9001/14001/27001/27701. EY Entrepreneur 2024 nominee. Kasper calling directly."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇩🇰",
+        "region": "Nordics",
+        "employees": 52,
+        "revenue": "€1.7M",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "+45 28 22 20 00",
+        "nextAction": "Kasper calling",
+        "lastTouch": "2026-02-06"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1660",
+      "slug": "remade-in-sweden-ab",
+      "name": "Remade in Sweden AB",
+      "industry": "ITAD",
+      "website": "remadeinsweden.se",
+      "address": "",
+      "region": "Nordics",
+      "state": "",
+      "country": "Sweden",
+      "lat": 60.1282,
+      "lng": 18.6435,
+      "stage": "qualified",
+      "score": 82,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Stockholm. ISO 9001/14001/27001. Amazon customer. Focus on repair/refurb."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇸🇪",
+        "region": "Nordics",
+        "employees": 18,
+        "revenue": "€1.5M",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "info@remadeinsweden.se",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-02-05"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1661",
+      "slug": "reuseit-sweden-ab",
+      "name": "ReuseIT Sweden AB",
+      "industry": "ITAD",
+      "website": "reuseit.se",
+      "address": "",
+      "region": "Nordics",
+      "state": "",
+      "country": "Sweden",
+      "lat": 60.1282,
+      "lng": 18.6435,
+      "stage": "researching",
+      "score": 75,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Växjö. Part of larger group (265 companies) - need to verify independence."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇸🇪",
+        "region": "Nordics",
+        "employees": 34,
+        "revenue": "€18.6M",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "+46 470 70 35 00",
+        "nextAction": "Verify independence",
+        "lastTouch": "2026-02-05"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1662",
+      "slug": "3stepit",
+      "name": "3stepIT",
+      "industry": "ITAD",
+      "website": "3stepit.com",
+      "address": "",
+      "region": "Nordics",
+      "state": "",
+      "country": "Finland",
+      "lat": 61.9241,
+      "lng": 25.7482,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Pan-Nordic lifecycle mgmt. Finland/Sweden/Norway/Denmark presence."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇫🇮",
+        "region": "Nordics",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "TBD",
+        "nextAction": "Research contact",
+        "lastTouch": "2026-02-15"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1663",
+      "slug": "recipo",
+      "name": "Recipo",
+      "industry": "ITAD",
+      "website": "recipo.no",
+      "address": "",
+      "region": "Nordics",
+      "state": "",
+      "country": "Norway",
+      "lat": 60.472,
+      "lng": 8.4689,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Norwegian recycler/ITAD. Needs deeper research."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇳🇴",
+        "region": "Nordics",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "TBD",
+        "nextAction": "Research contact",
+        "lastTouch": "2026-02-15"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1664",
+      "slug": "ecoit",
+      "name": "EcoIT",
+      "industry": "ITAD",
+      "website": "ecoit.fi",
+      "address": "",
+      "region": "Nordics",
+      "state": "",
+      "country": "Finland",
+      "lat": 61.9241,
+      "lng": 25.7482,
+      "stage": "researching",
+      "score": 65,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Finnish IT circular economy company. Need to verify size and certifications."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇫🇮",
+        "region": "Nordics",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "+358 9 7510 1500",
+        "nextAction": "Research size and certs",
+        "lastTouch": "2026-02-05"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1665",
+      "slug": "greentec",
+      "name": "Greentec",
+      "industry": "ITAD",
+      "website": "greentec.com",
+      "address": "",
+      "region": "North America",
+      "state": "",
+      "country": "Canada",
+      "lat": 56.1304,
+      "lng": -106.3468,
+      "stage": "researching",
+      "score": 85,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "TOP PICK Ontario. R2+NAID certified. 25+ years. Right size for Return Hub."
+      ],
+      "certifications": [
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇨🇦",
+        "region": "North America",
+        "employees": 50,
+        "revenue": "",
+        "iso27001": false,
+        "iso14001": true,
+        "contact": "Sean Baxter (VP Sales)",
+        "nextAction": "Research contact email",
+        "lastTouch": "2026-02-19"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1666",
+      "slug": "quantum-lifecycle-partners",
+      "name": "Quantum Lifecycle Partners",
+      "industry": "ITAD",
+      "website": "quantumlifecycle.com",
+      "address": "",
+      "region": "North America",
+      "state": "",
+      "country": "Canada",
+      "lat": 56.1304,
+      "lng": -106.3468,
+      "stage": "researching",
+      "score": 78,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "National coverage (coast-to-coast). Full certs. HQ Toronto. Larger company."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇨🇦",
+        "region": "North America",
+        "employees": 100,
+        "revenue": "",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "",
+        "nextAction": "Research contact",
+        "lastTouch": "2026-02-19"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1667",
+      "slug": "hypertec",
+      "name": "Hypertec",
+      "industry": "ITAD",
+      "website": "hypertec.com",
+      "address": "",
+      "region": "North America",
+      "state": "",
+      "country": "Canada",
+      "lat": 56.1304,
+      "lng": -106.3468,
+      "stage": "researching",
+      "score": 72,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Montreal HQ. ITAD + hardware mfg. Quebec coverage."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇨🇦",
+        "region": "North America",
+        "employees": 200,
+        "revenue": "",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "",
+        "nextAction": "Research contact",
+        "lastTouch": "2026-02-19"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1668",
+      "slug": "synetic-technologies",
+      "name": "Synetic Technologies",
+      "industry": "ITAD",
+      "website": "synetic.com",
+      "address": "",
+      "region": "North America",
+      "state": "",
+      "country": "USA",
+      "lat": 37.0902,
+      "lng": -95.7129,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "TOP NA PROSPECT. Fortune 500 experience, Navy veteran founder."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇺🇸",
+        "region": "North America",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "TBD",
+        "nextAction": "Research contact email",
+        "lastTouch": "2026-02-10"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1669",
+      "slug": "technocycle",
+      "name": "TechnoCycle",
+      "industry": "ITAD",
+      "website": "technocycle.com",
+      "address": "",
+      "region": "North America",
+      "state": "",
+      "country": "USA",
+      "lat": 37.0902,
+      "lng": -95.7129,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Texas coverage. ExxonMobil engineering background."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇺🇸",
+        "region": "North America",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "recycle@technocycle.com — recycle@technocycle.com",
+        "nextAction": "Draft outreach",
+        "lastTouch": "2026-02-10"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1670",
+      "slug": "securis",
+      "name": "Securis",
+      "industry": "ITAD",
+      "website": "securis.com",
+      "address": "",
+      "region": "North America",
+      "state": "",
+      "country": "USA",
+      "lat": 37.0902,
+      "lng": -95.7129,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Northeast USA coverage. ~$4M revenue."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇺🇸",
+        "region": "North America",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "TBD",
+        "nextAction": "Research contact",
+        "lastTouch": "2026-02-10"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1671",
+      "slug": "maxicom-canada",
+      "name": "Maxicom Canada",
+      "industry": "ITAD",
+      "website": "maxicom.ca",
+      "address": "",
+      "region": "North America",
+      "state": "",
+      "country": "Canada",
+      "lat": 56.1304,
+      "lng": -106.3468,
+      "stage": "researching",
+      "score": null,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Global ITAD group. Offices across Canada. Toronto, Montreal, Vancouver, Calgary."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇨🇦",
+        "region": "North America",
+        "employees": 0,
+        "revenue": "",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "Tej Preet",
+        "nextAction": "Verify contact role",
+        "lastTouch": "2026-02-19"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1672",
+      "slug": "poweron",
+      "name": "PowerON",
+      "industry": "ITAD",
+      "website": "poweronservices.com",
+      "address": "",
+      "region": "North America",
+      "state": "",
+      "country": "USA",
+      "lat": 37.0902,
+      "lng": -95.7129,
+      "stage": "qualified",
+      "score": null,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "California/West Coast coverage for GBT."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇺🇸",
+        "region": "North America",
+        "employees": 0,
+        "revenue": "",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "Brent Kelley (President/CEO)",
+        "nextAction": "Draft outreach",
+        "lastTouch": "2026-02-19"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1673",
+      "slug": "revertia",
+      "name": "Revertia",
+      "industry": "ITAD",
+      "website": "revertia.com",
+      "address": "",
+      "region": "Southern Europe",
+      "state": "",
+      "country": "Spain",
+      "lat": 40.4637,
+      "lng": -3.7492,
+      "stage": "qualified",
+      "score": 76,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Madrid & Galicia. Two facilities. Nationwide Spain. RAEE management, ITAD, buyback."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇪🇸",
+        "region": "Southern Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Verify size/certs",
+        "lastTouch": "2026-02-06"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1674",
+      "slug": "distruzione-documenti",
+      "name": "Distruzione Documenti",
+      "industry": "ITAD",
+      "website": "distruzionedocumenti.com",
+      "address": "",
+      "region": "Southern Europe",
+      "state": "",
+      "country": "Italy",
+      "lat": 41.8719,
+      "lng": 12.5674,
+      "stage": "researching",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "ADISA certified (unusual for Italy). ITAD, data erasure, RAEE disposal."
+      ],
+      "certifications": [
+        "ADISA"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇮🇹",
+        "region": "Southern Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Verify size",
+        "lastTouch": "2026-02-06"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1675",
+      "slug": "novaltti-networks",
+      "name": "Novaltti Networks",
+      "industry": "ITAD",
+      "website": "novaltti.com",
+      "address": "",
+      "region": "Southern Europe",
+      "state": "",
+      "country": "Spain",
+      "lat": 40.4637,
+      "lng": -3.7492,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Founded in Spain, HQ in Gijón Asturias. IT lifecycle services."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇪🇸",
+        "region": "Southern Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "TBD",
+        "nextAction": "Verify size + contacts",
+        "lastTouch": "2026-02-13"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1676",
+      "slug": "gruppo-xera",
+      "name": "Gruppo Xera",
+      "industry": "ITAD",
+      "website": "gruppoxera.com",
+      "address": "",
+      "region": "Southern Europe",
+      "state": "",
+      "country": "Italy",
+      "lat": 41.8719,
+      "lng": 12.5674,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Works with multinationals. Xera Distribution division for ITAD."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇮🇹",
+        "region": "Southern Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "TBD",
+        "nextAction": "Verify size + contacts",
+        "lastTouch": "2026-02-13"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1677",
+      "slug": "greenpctech",
+      "name": "GREENPCTECH",
+      "industry": "ITAD",
+      "website": "greenpctech.com",
+      "address": "",
+      "region": "Southern Europe",
+      "state": "",
+      "country": "Portugal",
+      "lat": 39.3999,
+      "lng": -8.2245,
+      "stage": "researching",
+      "score": 68,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Portugal. ITAD, refurbishment, remarketing. GDPR compliant. ESG focus. Sourced in Portugal, ships worldwide. Needs size/cert verification."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇵🇹",
+        "region": "Southern Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Verify size/certs",
+        "lastTouch": "2026-02-06"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1678",
+      "slug": "bit4k",
+      "name": "BIT4K",
+      "industry": "ITAD",
+      "website": "bit4k.com",
+      "address": "",
+      "region": "Southern Europe",
+      "state": "",
+      "country": "Italy",
+      "lat": 41.8719,
+      "lng": 12.5674,
+      "stage": "researching",
+      "score": 65,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Working on HP Renew, Dell, Microsoft certs. Smaller player - might be flexible."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇮🇹",
+        "region": "Southern Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Verify size/certs",
+        "lastTouch": "2026-02-06"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1679",
+      "slug": "tier1-asset-management",
+      "name": "Tier1 Asset Management",
+      "industry": "ITAD",
+      "website": "tier1.com",
+      "address": "",
+      "region": "UK & Ireland",
+      "state": "",
+      "country": "UK",
+      "lat": 55.3781,
+      "lng": -3.436,
+      "stage": "researching",
+      "score": 79,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Manchester + Essex. Crown Commercial Service framework. Merged with EOL IT. At upper size limit."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇬🇧",
+        "region": "UK & Ireland",
+        "employees": 111,
+        "revenue": "€27M",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "service@tier1.com",
+        "nextAction": "Assess fit",
+        "lastTouch": "2026-02-05"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1680",
+      "slug": "secure-itad",
+      "name": "Secure-ITAD",
+      "industry": "ITAD",
+      "website": "secure-itad.com",
+      "address": "",
+      "region": "UK & Ireland",
+      "state": "",
+      "country": "UK",
+      "lat": 55.3781,
+      "lng": -3.436,
+      "stage": "researching",
+      "score": 72,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "UK + hubs in Ireland, Belgium, Germany. Full ITAD, global remarketing. Multi-country interesting."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ADISA"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇬🇧",
+        "region": "UK & Ireland",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Verify size",
+        "lastTouch": "2026-02-06"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1681",
+      "slug": "astralis-technology",
+      "name": "Astralis Technology",
+      "industry": "ITAD",
+      "website": "astralistech.co.uk",
+      "address": "",
+      "region": "UK & Ireland",
+      "state": "",
+      "country": "UK",
+      "lat": 55.3781,
+      "lng": -3.436,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Small company (est. 2024). Triple ISO. ADISA certified. Ziperase for erasure."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇬🇧",
+        "region": "UK & Ireland",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "info@astralistech.co.uk — info@astralistech.co.uk",
+        "nextAction": "Verify size + contacts",
+        "lastTouch": "2026-02-13"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1682",
+      "slug": "dgd-technology",
+      "name": "DGD Technology",
+      "industry": "ITAD",
+      "website": "dgdtechnology.ie",
+      "address": "",
+      "region": "UK & Ireland",
+      "state": "",
+      "country": "Ireland",
+      "lat": 53.1424,
+      "lng": -7.6921,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Irish ITAD. Local coverage. Needs size + cert verification."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇮🇪",
+        "region": "UK & Ireland",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "TBD",
+        "nextAction": "Verify size + contacts",
+        "lastTouch": "2026-02-13"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1683",
+      "slug": "kefron",
+      "name": "Kefron",
+      "industry": "ITAD",
+      "website": "kefron.com",
+      "address": "",
+      "region": "UK & Ireland",
+      "state": "",
+      "country": "Ireland",
+      "lat": 53.1424,
+      "lng": -7.6921,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Irish ITAD provider. Multi-service. Needs verification."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇮🇪",
+        "region": "UK & Ireland",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "TBD",
+        "nextAction": "Verify capabilities",
+        "lastTouch": "2026-02-13"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1684",
+      "slug": "atf-gaia",
+      "name": "ATF Gaia",
+      "industry": "ITAD",
+      "website": "atf-gaia.fr",
+      "address": "",
+      "region": "Western Europe",
+      "state": "",
+      "country": "France",
+      "lat": 46.2276,
+      "lng": 2.2137,
+      "stage": "qualified",
+      "score": 80,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Paris region. Social enterprise. Part of Groupe ATF. Tech Data partner. IT buyback/refurb."
+      ],
+      "certifications": [
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇫🇷",
+        "region": "Western Europe",
+        "employees": 75,
+        "revenue": "€8.8M",
+        "iso27001": null,
+        "iso14001": true,
+        "contact": "contact@atf-gaia.fr",
+        "nextAction": "Verify ISO 27001",
+        "lastTouch": "2026-02-05"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1685",
+      "slug": "huiskes",
+      "name": "Huiskes",
+      "industry": "ITAD",
+      "website": "huiskes.com",
+      "address": "",
+      "region": "Western Europe",
+      "state": "",
+      "country": "Netherlands",
+      "lat": 52.1326,
+      "lng": 5.2913,
+      "stage": "researching",
+      "score": 74,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "R2v3 + e-Stewards (rare in Europe!). ITAD, metal/electronics recycling. Good for US multinationals."
+      ],
+      "certifications": [
+        "R2"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇳🇱",
+        "region": "Western Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Verify size",
+        "lastTouch": "2026-02-06"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1686",
+      "slug": "silosmash",
+      "name": "SiloSmash",
+      "industry": "ITAD",
+      "website": "silosmash.com",
+      "address": "",
+      "region": "Western Europe",
+      "state": "",
+      "country": "Netherlands",
+      "lat": 52.1326,
+      "lng": 5.2913,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Dutch ITAD. Needs verification."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇳🇱",
+        "region": "Western Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "TBD",
+        "nextAction": "Research contact",
+        "lastTouch": "2026-02-15"
+      },
+      "createdAt": "2026-02-26T08:47:29.355Z",
+      "updatedAt": "2026-02-26T08:47:29.355Z",
+      "lastVerified": "2026-02-26T08:47:29.355Z"
+    },
+    {
+      "id": "org-pipeline-1687",
+      "slug": "circular365",
+      "name": "Circular365",
+      "industry": "ITAD",
+      "website": "circular365.nl",
+      "address": "",
+      "region": "Western Europe",
+      "state": "",
+      "country": "Netherlands",
+      "lat": 52.1326,
+      "lng": 5.2913,
+      "stage": "new",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Dutch circular IT company."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇳🇱",
+        "region": "Western Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": false,
+        "iso14001": false,
+        "contact": "TBD",
+        "nextAction": "Research contact",
+        "lastTouch": "2026-02-15"
+      },
+      "createdAt": "2026-02-26T08:47:29.356Z",
+      "updatedAt": "2026-02-26T08:47:29.356Z",
+      "lastVerified": "2026-02-26T08:47:29.356Z"
+    },
+    {
+      "id": "org-pipeline-1688",
+      "slug": "econocom",
+      "name": "Econocom",
+      "industry": "ITAD",
+      "website": "econocom.com",
+      "address": "",
+      "region": "Western Europe",
+      "state": "",
+      "country": "Belgium/France",
+      "lat": 50.5039,
+      "lng": 4.4699,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Major European lifecycle company. Multi-country presence."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇧🇪",
+        "region": "Western Europe",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "TBD",
+        "nextAction": "Research contact",
+        "lastTouch": "2026-02-15"
+      },
+      "createdAt": "2026-02-26T08:47:29.356Z",
+      "updatedAt": "2026-02-26T08:47:29.356Z",
+      "lastVerified": "2026-02-26T08:47:29.356Z"
+    },
+    {
+      "id": "org-1",
+      "slug": "a2c-services-ltd",
+      "name": "A2C Services Ltd",
+      "industry": "ITAD",
+      "website": "",
+      "address": "Portsmouth",
+      "region": "Rockingham County",
+      "state": "New Hampshire",
+      "country": "United States",
+      "lat": 43.1939,
+      "lng": -71.5724,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-371",
+          "name": "Rod Neale",
+          "title": "",
+          "email": "Rod.Neale@a2c.co.uk",
+          "phone": "(0)23 9438 4025",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "IT asset reclaim & remanufacture. 30+ yrs experience. World's only certified remanufacture facility. Portsmouth."
+      ],
+      "certifications": [],
+      "services": [
+        "Remanufacturing",
+        "IT Asset Reclaim"
+      ],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.348Z",
+      "updatedAt": "2026-02-26T10:10:54.216512Z",
+      "lastVerified": "2026-02-26T10:10:54.216512Z"
+    },
+    {
+      "id": "org-2",
+      "slug": "absolute-it-asset-disposals-ltd",
+      "name": "Absolute IT Asset Disposals Ltd",
+      "industry": "ITAD",
+      "website": "http://www.absoluteitad.com/",
+      "address": "",
+      "region": "",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 75,
+      "isPipeline": true,
+      "originalLabel": "Prospect",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-36",
+          "name": "Emily Roberts",
+          "title": "Business Development Manager",
+          "email": "",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-72",
+          "name": "Aydan",
+          "title": "",
+          "email": "aydan@absoluteitad.com",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-118",
+          "name": "Rob Lewis",
+          "title": "",
+          "email": "https://www.linkedin.com/in/rob-lewis-ba0b6b1/",
+          "phone": "",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "Secure asset disposal & data sanitisation. NCSC CPA approved Infosec Level 5. Near-zero landfill. Serves NHS, Gov, FTSE 100."
+      ],
+      "certifications": [
+        "NCSC CPA"
+      ],
+      "services": [
+        "ITAD",
+        "Data Sanitisation",
+        "Supply Chain"
+      ],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.348Z",
+      "updatedAt": "2026-02-26T10:10:54.216512Z",
+      "lastVerified": "2026-02-26T10:10:54.216512Z"
+    },
+    {
+      "id": "org-12",
+      "slug": "bak2-group-ltd",
+      "name": "bak2 Group LTD",
+      "industry": "ITAD",
+      "website": "http://www.bak2.com",
+      "address": "Essex",
+      "region": "Essex",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "Prospect",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-306",
+          "name": "Gregoire Dumoulin",
+          "title": "",
+          "email": "gregoire.dumoulin@bak2.com",
+          "phone": "'+3309 72 41 86 89",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "French refurbisher since 2002. 15M+ products reconditioned. 30 staff, 400+ clients. ISO 9001 & 14001. EuraClimat label."
+      ],
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001"
+      ],
+      "services": [
+        "Refurbishment",
+        "Lifecycle Management"
+      ],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T10:10:54.216512Z",
+      "lastVerified": "2026-02-26T10:10:54.216512Z"
+    },
+    {
+      "id": "org-15",
+      "slug": "blackmore-ricotech",
+      "name": "Blackmore Ricotech",
+      "industry": "ITAD",
+      "website": "",
+      "address": "",
+      "region": "",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 78,
+      "isPipeline": true,
+      "originalLabel": "Customer",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-39",
+          "name": "Christine Malone",
+          "title": "Sales & Marketing Administrator",
+          "email": "",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-101",
+          "name": "Darren",
+          "title": "",
+          "email": "",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-120",
+          "name": "Simon Barfoot",
+          "title": "Director",
+          "email": "simon.barfoot@blackmoreuk.com",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/simon-barfoot/"
+        },
+        {
+          "id": "contact-122",
+          "name": "Woody",
+          "title": "",
+          "email": "admin@blackmoreuk.com",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-223",
+          "name": "James Turbett",
+          "title": "Head of Remarketing",
+          "email": "james.turbett@blackmoreuk.com",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/james-turbett-349b9a7a/"
+        },
+        {
+          "id": "contact-242",
+          "name": "James Derrick",
+          "title": "Risk and Compliance Officer",
+          "email": "james.derrick@blackmoreuk.com",
+          "phone": "07446842401",
+          "linkedin": "https://www.linkedin.com/in/jamesderrick/"
+        },
+        {
+          "id": "contact-2763",
+          "name": "Matt Wilkinson",
+          "title": "",
+          "email": "matt.wilkinson@blackmoreuk.com",
+          "phone": "",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "Leading ITAD in South West UK. ADISA 8.0 Dial 3 certified (first in UK). NHS & public sector clients. Own facility."
+      ],
+      "certifications": [
+        "ADISA"
+      ],
+      "services": [
+        "ITAD",
+        "Data Destruction",
+        "Recycling"
+      ],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T10:10:54.216512Z",
+      "lastVerified": "2026-02-26T10:10:54.216512Z"
+    },
+    {
+      "id": "org-16",
+      "slug": "bpr-group-europe-ltd",
+      "name": "BPR Group Europe Ltd",
+      "industry": "ITAD",
+      "website": "",
+      "address": "Essex",
+      "region": "Essex",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 65,
+      "isPipeline": true,
+      "originalLabel": "Warm lead",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-308",
+          "name": "Sammy Badraia",
+          "title": "",
+          "email": "sammy.badraia@recorra.co.uk",
+          "phone": "07860 504 522",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-309",
+          "name": "Mario Izzo",
+          "title": "",
+          "email": "mario.izzo@securepaper.co.uk",
+          "phone": "07525 966591",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "ITAD & WEEE recycling. Uses Blancco. 76 employees. London-based. Also does shredding."
+      ],
+      "certifications": [],
+      "services": [
+        "ITAD",
+        "WEEE Recycling",
+        "Shredding"
+      ],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T10:10:54.216512Z",
+      "lastVerified": "2026-02-26T10:10:54.216512Z"
+    },
+    {
+      "id": "org-18",
+      "slug": "bristol-waste-company",
+      "name": "Bristol Waste Company",
+      "industry": "ITAD",
+      "website": "",
+      "address": "Bristol",
+      "region": "Bristol City",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 68,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Certified ITAD service. Collect, wipe, test, reuse, recycle. Digital Inclusion Scheme. Bristol region + beyond."
+      ],
+      "certifications": [],
+      "services": [
+        "ITAD",
+        "Data Erasure",
+        "Refurbishment"
+      ],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T10:10:54.216512Z",
+      "lastVerified": "2026-02-26T10:10:54.216512Z"
+    },
+    {
+      "id": "org-19",
+      "slug": "cdl",
+      "name": "CDL",
+      "industry": "ITAD",
+      "website": "",
+      "address": "",
+      "region": "",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 72,
+      "isPipeline": true,
+      "originalLabel": "Incorrect Profile",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-40",
+          "name": "Ian Henry",
+          "title": "Sales Manager",
+          "email": "",
+          "phone": "",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "Computer Disposals Ltd, Runcorn. Secure recycling & data sanitisation. Acquired by Restore Group."
+      ],
+      "certifications": [],
+      "services": [
+        "ITAD",
+        "Data Sanitisation",
+        "Recycling"
+      ],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T10:10:54.216512Z",
+      "lastVerified": "2026-02-26T10:10:54.216512Z"
+    },
+    {
+      "id": "org-21",
+      "slug": "ccl-north-ltd",
+      "name": "CCL (NORTH) Ltd",
+      "industry": "ITAD",
+      "website": "",
+      "address": "Irvine",
+      "region": "Orange County",
+      "state": "California",
+      "country": "United States",
+      "lat": 36.7783,
+      "lng": -119.4179,
+      "stage": "qualified",
+      "score": 68,
+      "isPipeline": true,
+      "originalLabel": "Warm lead",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-231",
+          "name": "Kris Wardrope",
+          "title": "",
+          "email": "kris@cclnorth.com",
+          "phone": "01294 278844",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-272",
+          "name": "Alison Gallacher",
+          "title": "",
+          "email": "Alison@cclnorth.com",
+          "phone": "07810410738",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "IT disposal & data destruction. Own processing facility in Irvine, Scotland. Nationwide collections."
+      ],
+      "certifications": [],
+      "services": [
+        "IT Disposal",
+        "Data Destruction",
+        "Hard Drive Shredding"
+      ],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T10:10:54.216512Z",
+      "lastVerified": "2026-02-26T10:10:54.216512Z"
+    },
+    {
+      "id": "org-23",
+      "slug": "charterhouse-muller-uk-limited",
+      "name": "Charterhouse Muller UK Limited",
+      "industry": "ITAD",
+      "website": "https://www.charterhousemuller.com/",
+      "address": "Reading",
+      "region": "",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 80,
+      "isPipeline": true,
+      "originalLabel": "Hot lead",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-252",
+          "name": "Nicola Milsom-James",
+          "title": "",
+          "email": "nmilsom@charterhousemuller.com",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-253",
+          "name": "Scott Newland",
+          "title": "",
+          "email": "snewland@charterhousemuller.com",
+          "phone": "'+44 7730 747940",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-606",
+          "name": "Tom Needham",
+          "title": "Sales & Marketing Manager",
+          "email": "tom.needham@charterhousemuller.com",
+          "phone": "(004) 411-89569000",
+          "linkedin": "https://www.linkedin.com/in/tomneedham1"
+        },
+        {
+          "id": "contact-607",
+          "name": "Paul Baguley",
+          "title": "ITAD Business Development Manager",
+          "email": "",
+          "phone": "(004) 411-89569000",
+          "linkedin": "https://www.linkedin.com/in/paulbaguleyit"
+        }
+      ],
+      "notes": [
+        "Now Academia Lifecycle Solutions. ADISA Distinction. ISO 27001/14001/9001/45001. Full ITAD with own processing. Blancco certified."
+      ],
+      "certifications": [
+        "ADISA",
+        "ISO 27001",
+        "ISO 14001",
+        "ISO 9001",
+        "ISO 45001",
+        "Cyber Essentials Plus"
+      ],
+      "services": [
+        "ITAD",
+        "Data Erasure",
+        "Refurbishment",
+        "Recycling"
+      ],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T10:10:54.216512Z",
+      "lastVerified": "2026-02-26T10:10:54.216512Z"
+    },
+    {
+      "id": "org-33",
+      "slug": "complyit-ltd",
+      "name": "ComplyIT Ltd",
+      "industry": "ITAD",
+      "website": "",
+      "address": "Stockton-On-Tees",
+      "region": "Stockton-on-Tees",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 60,
+      "isPipeline": true,
+      "originalLabel": "Customer",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-284",
+          "name": "Chris Allen",
+          "title": "",
+          "email": "chris.allen@complyit.co.uk",
+          "phone": "07807086826",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "IT disposal, data erasure, secure tracked vehicles. UK-wide. Free collection service."
+      ],
+      "certifications": [],
+      "services": [
+        "IT Disposal",
+        "Data Erasure"
+      ],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T10:10:54.216512Z",
+      "lastVerified": "2026-02-26T10:10:54.216512Z"
+    },
+    {
+      "id": "org-36",
+      "slug": "computer-recyclers-uk",
+      "name": "Computer Recyclers uk",
+      "industry": "ITAD",
+      "website": "http://www.computerrecyclersuk.com/",
+      "address": "",
+      "region": "",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 78,
+      "isPipeline": true,
+      "originalLabel": "Warm lead",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-45",
+          "name": "Tyrone Griffiths",
+          "title": "Managing Director",
+          "email": "",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/tyrone-griffiths-34876530/"
+        },
+        {
+          "id": "contact-140",
+          "name": "Marcus",
+          "title": "",
+          "email": "Marcus@computerrecyclersuk.com",
+          "phone": "",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "ITAD & data destruction. ISO 9001/14001/27001. ADISA 8.0. Own facility in Wales. NHS, Gov, Police clients. Carbon Neutral."
+      ],
+      "certifications": [
+        "ADISA",
+        "ISO 9001",
+        "ISO 14001",
+        "ISO 27001"
+      ],
+      "services": [
+        "ITAD",
+        "Data Destruction",
+        "Refurbishment"
+      ],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T10:10:54.216512Z",
+      "lastVerified": "2026-02-26T10:10:54.216512Z"
+    },
+    {
+      "id": "org-37",
+      "slug": "computer-remarketing-services-ltd",
+      "name": "Computer Remarketing Services Ltd.",
+      "industry": "ITAD",
+      "website": "",
+      "address": "Milton Keynes",
+      "region": "Milton Keynes",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 72,
+      "isPipeline": true,
+      "originalLabel": "",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "One of Europe's largest IT refurbishers. Microsoft Authorised Refurbisher. Own facility. Rebox-IT e-commerce."
+      ],
+      "certifications": [
+        "Microsoft Authorised Refurbisher"
+      ],
+      "services": [
+        "Refurbishment",
+        "Remarketing"
+      ],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T10:10:54.216512Z",
+      "lastVerified": "2026-02-26T10:10:54.216512Z"
+    },
+    {
+      "id": "org-38",
+      "slug": "computer-waste-ltd",
+      "name": "Computer Waste LTD",
+      "industry": "ITAD",
+      "website": "https://www.computer-waste.co.uk/",
+      "address": "",
+      "region": "",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 60,
+      "isPipeline": true,
+      "originalLabel": "Prospect",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-141",
+          "name": "Nigel Thompson",
+          "title": "MD",
+          "email": "info@computer-waste.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/nigel-thompson-16313592/"
+        }
+      ],
+      "notes": [
+        "IT disposal & data destruction. EA licensed. WEEE compliant. Basic but legitimate operation."
+      ],
+      "certifications": [],
+      "services": [
+        "IT Disposal",
+        "Data Destruction"
+      ],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T10:10:54.216512Z",
+      "lastVerified": "2026-02-26T10:10:54.216512Z"
+    },
+    {
+      "id": "org-39",
+      "slug": "concept-management-consulting-limited",
+      "name": "Concept Management Consulting Limited",
+      "industry": "ITAD",
+      "website": "conceptmanagement.co.uk",
+      "address": "Bolton",
+      "region": "Chittenden County",
+      "state": "Vermont",
+      "country": "United States",
+      "lat": 44.5588,
+      "lng": -72.5778,
+      "stage": "qualified",
+      "score": 55,
+      "isPipeline": true,
+      "originalLabel": "Warm lead",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-18",
+          "name": "Mark Wilding",
+          "title": "Managing Director",
+          "email": "mark@conceptmanagement.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/markwilding07962377377"
+        },
+        {
+          "id": "contact-28",
+          "name": "John Davies",
+          "title": "",
+          "email": "john.davies@conceptmanagement.co.uk",
+          "phone": "",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "Data destruction & IT disposals. WEEE recycling. Small operation."
+      ],
+      "certifications": [],
+      "services": [
+        "Data Destruction",
+        "WEEE Recycling"
+      ],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T10:10:54.216512Z",
+      "lastVerified": "2026-02-26T10:10:54.216512Z"
+    },
+    {
+      "id": "org-42",
+      "slug": "crt-uk-ltd",
+      "name": "CRT UK Ltd",
+      "industry": "ITAD",
+      "website": "",
+      "address": "Warrington",
+      "region": "Warrington",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 60,
+      "isPipeline": true,
+      "originalLabel": "Warm lead",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-310",
+          "name": "Mike Welsh",
+          "title": "",
+          "email": "mwelsh@crtuk.co.uk",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-311",
+          "name": "Stephen Rakestraw",
+          "title": "",
+          "email": "srakestraw@crtuk.co.uk",
+          "phone": "",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "ICT waste recycling, North-West England. Data destruction. Nationwide free collections."
+      ],
+      "certifications": [],
+      "services": [
+        "ICT Recycling",
+        "Data Destruction"
+      ],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T10:10:54.216512Z",
+      "lastVerified": "2026-02-26T10:10:54.216512Z"
+    },
+    {
+      "id": "org-41",
+      "slug": "covenco-uk-ltd",
+      "name": "Covenco UK Ltd.",
+      "industry": "ITAD",
+      "website": "",
+      "address": "Oxfordshire",
+      "region": "Oxfordshire",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 76,
+      "isPipeline": false,
+      "originalLabel": "Prospect",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-243",
+          "name": "Steve Holingsworth",
+          "title": "Director",
+          "email": "steve.hollingsworth@covenco.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/sthollingsworth/"
+        }
+      ],
+      "notes": [
+        "UK ITAD with own warehouse & data sanitization facility. ISO 14001 + ISO 27001. Hardware reconditioning & resale. UK-wide collection. Certified disk erasure (DOD standards)."
+      ],
+      "certifications": [
+        "ISO 14001",
+        "ISO 27001"
+      ],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T10:10:54.216512Z",
+      "lastVerified": "2026-02-26T10:10:54.216512Z"
+    },
+    {
+      "id": "org-483",
+      "slug": "1st-technologies",
+      "name": "1st Technologies",
+      "industry": "ITAD",
+      "website": "https://www.1st-tech.co.uk/how-we-do-it/itad-asset-recovery-and-data-erasure/",
+      "address": "Unit X Bee Mill, PR3 3XL Preston, Lancashire, United Kingdom",
+      "region": "Lancashire",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 74,
+      "isPipeline": false,
+      "originalLabel": "Prospect",
+      "dataQuality": "unverified",
+      "contacts": [
+        {
+          "id": "contact-462",
+          "name": "Luke Alder",
+          "title": "Warehouse and Logistics Manager",
+          "email": "luke@1st-tech.co.uk",
+          "phone": "'+44 1254 878800",
+          "linkedin": "https://www.linkedin.com/in/luke-alder-56a808136"
+        },
+        {
+          "id": "contact-463",
+          "name": "Ben Craig",
+          "title": "1st Technologies ltd",
+          "email": "ben@1st-tech.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/ben-craig-0341777a"
+        }
+      ],
+      "notes": [
+        "UK ITAD. Datacentre disposition, asset recovery, certified data erasure. UK & European decommissioning. Own remarketing routes."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.350Z",
+      "updatedAt": "2026-02-26T08:47:29.350Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-487",
+      "slug": "7digits-b-v",
+      "name": "7Digits B.V",
+      "industry": "ITAD",
+      "website": "https://7digits.eu/nl/",
+      "address": "Boezemweg 21A, 2641 KG Pijnacker, Zuid-Holland, Netherlands",
+      "region": "Pijnacker-Nootdorp",
+      "state": "Zuid-Holland",
+      "country": "Netherlands",
+      "lat": 52.1326,
+      "lng": 5.2913,
+      "stage": "qualified",
+      "score": 72,
+      "isPipeline": false,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "unverified",
+      "contacts": [
+        {
+          "id": "contact-467",
+          "name": "Rob Lips",
+          "title": "Director",
+          "email": "rob@7digits.nl",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/rllips"
+        },
+        {
+          "id": "contact-468",
+          "name": "Reinier Loozekoot",
+          "title": "Business Development Manager",
+          "email": "reinier@7digits.nl",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/reinier-loozekoot-611b9919"
+        }
+      ],
+      "notes": [
+        "Netherlands ITAD. Hardware buyback, data erasure, data carrier destruction, IT hardware donation. Certified. Also has Spanish office (7Digits España)."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.350Z",
+      "updatedAt": "2026-02-26T08:47:29.350Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-551",
+      "slug": "asecca",
+      "name": "ASECCA",
+      "industry": "ITAD",
+      "website": "http://www.asecca.co.uk",
+      "address": "43 Northgate, LA3 3PA Lancaster, Lancashire, United Kingdom",
+      "region": "Lancashire",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": false,
+      "originalLabel": "Prospect",
+      "dataQuality": "unverified",
+      "contacts": [
+        {
+          "id": "contact-572",
+          "name": "Charlie Page",
+          "title": "Client Management Manager and Partner Sales Manager",
+          "email": "charlie.page@asecca.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/charlie-page-6490133a"
+        },
+        {
+          "id": "contact-573",
+          "name": "Jeff Pilkington",
+          "title": "Director",
+          "email": "jeff.pilkington@asecca.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/jeff-pilkington-8925413a"
+        },
+        {
+          "id": "contact-574",
+          "name": "Stefan Hutton",
+          "title": "Operations Manager",
+          "email": "stefan.hutton@asecca.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/stefan-hutton-6bb67961"
+        },
+        {
+          "id": "contact-575",
+          "name": "Jonny Clegg",
+          "title": "Corporate Operations Director",
+          "email": "jonny.clegg@asecca.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/jonny-clegg-9aba2b9b"
+        }
+      ],
+      "notes": [
+        "UK IT recycling. Provides recycling services to enterprises (SD Worx client). Appears to have own processing."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.350Z",
+      "updatedAt": "2026-02-26T08:47:29.350Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-1253",
+      "slug": "actif-azur",
+      "name": "ACTIF AZUR",
+      "industry": "Broker",
+      "website": "https://actif-azur.com/",
+      "address": "282 RUE DES CISTES, 06600 Antibes, PACA, France",
+      "region": "Alpes-Maritimes",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France",
+      "lat": 46.2276,
+      "lng": 2.2137,
+      "stage": "qualified",
+      "score": 65,
+      "isPipeline": false,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "unverified",
+      "contacts": [
+        {
+          "id": "contact-1656",
+          "name": "Romain Allegrucci",
+          "title": "Technicien supérieur systèmes et réseaux",
+          "email": "",
+          "phone": "'+33<b>04 93 74 86 60</b>",
+          "linkedin": "https://www.linkedin.com/in/systeme-reseaux-romain-allegrucci"
+        },
+        {
+          "id": "contact-1657",
+          "name": "Francis Jacquet",
+          "title": "Président de ACTIF Azur SA",
+          "email": "",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/francis-jacquet-a0a80b47"
+        }
+      ],
+      "notes": [
+        "France (Antibes). IT services + DEEE collection, data erasure, equipment collection from enterprises. Small but has facility."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.352Z",
+      "updatedAt": "2026-02-26T08:47:29.352Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-1257",
+      "slug": "atoutek-rachat-reconditionnement-de-mat-riel-infor",
+      "name": "ATOUTEK - Rachat & Reconditionnement de Matériel Informatique",
+      "industry": "Broker",
+      "website": "http://www.atoutek.fr",
+      "address": "97 RUE LAMARCK, 75018 PARIS, , France",
+      "region": "Département de Paris",
+      "state": "Île-de-France",
+      "country": "France",
+      "lat": 46.2276,
+      "lng": 2.2137,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": false,
+      "originalLabel": "Prospect",
+      "dataQuality": "unverified",
+      "contacts": [
+        {
+          "id": "contact-1661",
+          "name": "Sami Hadjout",
+          "title": "Business Developer IT",
+          "email": "sami.hadjout@atoutek.fr",
+          "phone": "'+33 7 45 89 15 00",
+          "linkedin": "https://www.linkedin.com/in/sami-hadjout"
+        },
+        {
+          "id": "contact-1662",
+          "name": "Jessica BALAGUER",
+          "title": "Chef de projet",
+          "email": "jessica.balaguer@kiatoo.com",
+          "phone": "'+33 7 45 89 15 00",
+          "linkedin": "https://www.linkedin.com/in/jessica-balaguer"
+        }
+      ],
+      "notes": [
+        "France. Buys back enterprise IT equipment. On-site collection, data erasure, reconditioning & resale. Circular economy focus."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.352Z",
+      "updatedAt": "2026-02-26T08:47:29.352Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-1417",
+      "slug": "alfa-recycling",
+      "name": "ALFA RECYCLING",
+      "industry": "ITAD",
+      "website": "https://www.alfa-recycling.fr/en/",
+      "address": "Rue Joseph Cugnot, 69720 Saint-Bonnet-de-Mure, France",
+      "region": "Rhône",
+      "state": "Auvergne-Rhône-Alpes",
+      "country": "France",
+      "lat": 46.2276,
+      "lng": 2.2137,
+      "stage": "qualified",
+      "score": 68,
+      "isPipeline": false,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "unverified",
+      "contacts": [],
+      "notes": [
+        "France. WEEE collection & recycling in Saint-Bonnet-de-Mûre. Own facilities."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.352Z",
+      "updatedAt": "2026-02-26T08:47:29.352Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-1478",
+      "slug": "7digits-espa-a",
+      "name": "7Digits España",
+      "industry": "Broker",
+      "website": "http://www.7digits.es",
+      "address": "Madrid, Spain",
+      "region": "Madrid",
+      "state": "Community of Madrid",
+      "country": "Spain",
+      "lat": 40.4637,
+      "lng": -3.7492,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": false,
+      "originalLabel": "Prospect",
+      "dataQuality": "unverified",
+      "contacts": [
+        {
+          "id": "contact-2036",
+          "name": "Marcel van der Werf",
+          "title": "General Manager for Spain",
+          "email": "mvdw@7digits.es",
+          "phone": "'+34 915 45 89 92",
+          "linkedin": "https://www.linkedin.com/in/marcel-van-der-werf-875b976"
+        }
+      ],
+      "notes": [
+        "Spain office of 7Digits. ITAD services - hardware buyback, data erasure. Part of 7Digits group (Netherlands HQ)."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.353Z",
+      "updatedAt": "2026-02-26T08:47:29.353Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-1717",
+      "slug": "agirepair",
+      "name": "AGiRepair",
+      "industry": "IT Service Provider",
+      "website": "http://www.agirepair.com",
+      "address": "220 Huff Avenue, Greensburg, PA 15601, United States",
+      "region": "Westmoreland County",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "lat": 37.0902,
+      "lng": -95.7129,
+      "stage": "qualified",
+      "score": 72,
+      "isPipeline": false,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "unverified",
+      "contacts": [
+        {
+          "id": "contact-2395",
+          "name": "John Yetsconish",
+          "title": "Co-Owner",
+          "email": "john@agirepair.com",
+          "phone": "'+1 8456595730",
+          "linkedin": "https://www.linkedin.com/in/johnyetsconish"
+        },
+        {
+          "id": "contact-2396",
+          "name": "Steven Coulter",
+          "title": "Chief Technology Officer",
+          "email": "scoulter@agpartsworldwide.com",
+          "phone": "'+1 8456595730",
+          "linkedin": "https://www.linkedin.com/in/steven-coulter-bb7168105"
+        },
+        {
+          "id": "contact-2397",
+          "name": "Jonathan Nestor",
+          "title": "Director of Operations",
+          "email": "jonathan@agirepair.com",
+          "phone": "'+1 8456595730",
+          "linkedin": "https://www.linkedin.com/in/jonathan-nestor-a7a04289"
+        },
+        {
+          "id": "contact-2398",
+          "name": "Matt Damich",
+          "title": "Chief Financial Officer",
+          "email": "matthew@agirepair.com",
+          "phone": "'+1 8456595730",
+          "linkedin": "https://www.linkedin.com/in/matt-damich-233927b"
+        }
+      ],
+      "notes": [
+        "USA. Device lifecycle management - warranty, buyback, parts, repair. 10K+ schools & corps. 1M+ devices protected. Device repair facilities."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.354Z",
+      "updatedAt": "2026-02-26T08:47:29.354Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-338",
+      "slug": "ace-it-relocation-ltd",
+      "name": "Ace IT Relocation Ltd",
+      "industry": "ITAD",
+      "website": "https://aceitrelocation.co.uk/",
+      "address": "Dormansland",
+      "region": "Surrey",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 72,
+      "isPipeline": false,
+      "originalLabel": "Warm lead",
+      "dataQuality": "unverified",
+      "contacts": [
+        {
+          "id": "contact-226",
+          "name": "Kyle Taylor",
+          "title": "",
+          "email": "kyle.taylor@aceitrelocation.co.uk",
+          "phone": "",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "UK. Data centre ITAD, secure disposal, IT relocation. 30+ years experience."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-538",
+      "slug": "advance-services",
+      "name": "Advance Services",
+      "industry": "ITAD",
+      "website": "https://www.advance-services.co.uk/",
+      "address": "Unit B4, RG7 4PN Reading, Berkshire, United Kingdom",
+      "region": "Berkshire",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": false,
+      "originalLabel": "Prospect",
+      "dataQuality": "unverified",
+      "contacts": [
+        {
+          "id": "contact-552",
+          "name": "Michael Quennell",
+          "title": "IT Asset Account Director",
+          "email": "michael.quennell@advance-services.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/michael-quennell"
+        }
+      ],
+      "notes": [
+        "UK ITAD. Secure IT disposals, IT recycling. Refurbishment & redeployment. Zero landfill policy."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.350Z",
+      "updatedAt": "2026-02-26T08:47:29.350Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-1247",
+      "slug": "afb-social-green-it",
+      "name": "AfB social & green IT",
+      "industry": "ITAD",
+      "website": "http://www.afb-group.eu",
+      "address": "Carl-Metz Straße 4, 76275 Ettlingen, Baden-Württemberg, Germany",
+      "region": "Karlsruhe",
+      "state": "Baden-Württemberg",
+      "country": "Germany",
+      "lat": 51.1657,
+      "lng": 10.4515,
+      "stage": "qualified",
+      "score": 78,
+      "isPipeline": false,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "unverified",
+      "contacts": [
+        {
+          "id": "contact-1642",
+          "name": "Timo Matheja",
+          "title": "Product Owner",
+          "email": "timo.matheja@afb24.com",
+          "phone": "'+49 221 8000230",
+          "linkedin": "https://www.linkedin.com/in/timo-matheja"
+        },
+        {
+          "id": "contact-1643",
+          "name": "Martin Michael",
+          "title": "Refurbishment Koordinator",
+          "email": "martin.michael@afb-group.eu",
+          "phone": "'+49 221 8000230",
+          "linkedin": "https://www.linkedin.com/in/martin-michael-6974ab235"
+        },
+        {
+          "id": "contact-1644",
+          "name": "Christoph Teusch",
+          "title": "Sustainability Manager",
+          "email": "christoph.teusch@afb-group.eu",
+          "phone": "'+49 221 8000230",
+          "linkedin": "https://www.linkedin.com/in/christoph-teusch-8942b5178"
+        },
+        {
+          "id": "contact-1671",
+          "name": "Gabriel Talleux",
+          "title": "Directeur général",
+          "email": "gabriel.talleux@afb-group.eu",
+          "phone": "'+49 221 8000230",
+          "linkedin": "https://www.linkedin.com/in/gabriel-talleux-26007790"
+        },
+        {
+          "id": "contact-1672",
+          "name": "Manon Buffet",
+          "title": "Directrice des opérations",
+          "email": "manon.buffet@afb-group.eu",
+          "phone": "'+49 221 8000230",
+          "linkedin": "https://www.linkedin.com/in/manon-buffet"
+        },
+        {
+          "id": "contact-1673",
+          "name": "Eric Laur",
+          "title": "Managing Director",
+          "email": "eric.laur@afb-group.eu",
+          "phone": "'+49 221 8000230",
+          "linkedin": "https://www.linkedin.com/in/ericlaur"
+        }
+      ],
+      "notes": [
+        "Germany. Premium IT refurbishment. 20+ years, 2,000+ B2B partners. Ankauf, refurbishment, resale. Social enterprise (employs people with disabilities). Large scale."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.352Z",
+      "updatedAt": "2026-02-26T08:47:29.352Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-1311",
+      "slug": "alt-eco-lm-eco-production",
+      "name": "Alt Eco (LM Eco Production)",
+      "industry": "ITAD",
+      "website": "http://www.lmecoproduction.fr",
+      "address": "14 Avenue Barthélémy Thimonnier, 69300 Caluire-et-Cuire, Auvergne-Rhône-Alpes, France",
+      "region": "Rhône",
+      "state": "Auvergne-Rhône-Alpes",
+      "country": "France",
+      "lat": 46.2276,
+      "lng": 2.2137,
+      "stage": "qualified",
+      "score": 68,
+      "isPipeline": false,
+      "originalLabel": "Prospect",
+      "dataQuality": "unverified",
+      "contacts": [
+        {
+          "id": "contact-1761",
+          "name": "Cyril Berthier",
+          "title": "Président",
+          "email": "cberthier@alt-eco.fr",
+          "phone": "'+33 428291955",
+          "linkedin": "https://www.linkedin.com/in/cyril-berthier121184"
+        },
+        {
+          "id": "contact-1762",
+          "name": "Mourad Sebai",
+          "title": "Gestionnaire Achats et Reventes",
+          "email": "msebai@alt-eco.fr",
+          "phone": "'+33 618629727",
+          "linkedin": "https://www.linkedin.com/in/mourad-sebaï-6b4a742a"
+        },
+        {
+          "id": "contact-1763",
+          "name": "Pierre-Emmanuel Jottras",
+          "title": "Responsable des achats",
+          "email": "pjottras@alt-eco.fr",
+          "phone": "'+33 603119269",
+          "linkedin": "https://www.linkedin.com/in/pjottras"
+        }
+      ],
+      "notes": [
+        "France. Refurbished high-tech specialist. Enterprise IT buyback (reprise). Now rebranded as Alt-Eco. Own reconditioning facility."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.352Z",
+      "updatedAt": "2026-02-26T08:47:29.352Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-1719",
+      "slug": "ampletech-refresh",
+      "name": "AmpleTech Refresh",
+      "industry": "ITAD",
+      "website": "http://www.ampletechrefresh.com",
+      "address": "5720 S 40th St, Phoenix, Arizona 85040, United States",
+      "region": "Maricopa County",
+      "state": "Arizona",
+      "country": "United States",
+      "lat": 37.0902,
+      "lng": -95.7129,
+      "stage": "qualified",
+      "score": 75,
+      "isPipeline": false,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "unverified",
+      "contacts": [
+        {
+          "id": "contact-2399",
+          "name": "Antoinette Lopez",
+          "title": "Production Manager",
+          "email": "alopez@ampletechrefresh.com",
+          "phone": "'+1 4804988200",
+          "linkedin": "https://www.linkedin.com/in/antoinette-lopez-565494211"
+        },
+        {
+          "id": "contact-2400",
+          "name": "Moreen Cunag",
+          "title": "Business Development Manager",
+          "email": "cmoreen@ampletechrefresh.com",
+          "phone": "'+1 480-498-8200",
+          "linkedin": "https://www.linkedin.com/in/moreen-cunag-70aba422b"
+        },
+        {
+          "id": "contact-2401",
+          "name": "Kesh Kesic",
+          "title": "President",
+          "email": "kkesic@ampletechrefresh.com",
+          "phone": "'+1 4804988200",
+          "linkedin": "https://www.linkedin.com/in/kesh-kesic-35836010"
+        }
+      ],
+      "notes": [
+        "USA. R2v3-certified ITAD. Data destruction, asset remarketing, decommissioning. Nationwide pickup. On-site and off-site services."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.354Z",
+      "updatedAt": "2026-02-26T08:47:29.354Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-1816",
+      "slug": "alta-technologies",
+      "name": "Alta Technologies",
+      "industry": "ITAD",
+      "website": "https://altatechnologies.com/",
+      "address": "3850 Annapolis Lane North, Minneapolis, MN, USA",
+      "region": "Hennepin County",
+      "state": "Minnesota",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 76,
+      "isPipeline": false,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "unverified",
+      "contacts": [
+        {
+          "id": "contact-2571",
+          "name": "Eugene Olaru",
+          "title": "Director of Operations",
+          "email": "eugene.o@altatechnologies.com",
+          "phone": "763-475-5376",
+          "linkedin": "https://www.linkedin.com/in/eugene-olaru-3aa00933"
+        },
+        {
+          "id": "contact-2572",
+          "name": "Chris Lykken",
+          "title": "Product Manager",
+          "email": "chris.l@altatechnologies.com",
+          "phone": "763-475-5376",
+          "linkedin": "https://www.linkedin.com/in/chris-lykken"
+        },
+        {
+          "id": "contact-2573",
+          "name": "Nathan Martine",
+          "title": "Inside Sales Representative",
+          "email": "nmartine@altatechnologies.com",
+          "phone": "763-475-5376",
+          "linkedin": "https://www.linkedin.com/in/nathan-martine-18b6072aa"
+        }
+      ],
+      "notes": [
+        "UK/USA. Enterprise IT resale & ITAD services. R2v3 certified. 1.3M+ systems/parts. Data sanitization, decommissioning. Since 1995."
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.354Z",
+      "updatedAt": "2026-02-26T08:47:29.354Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-114",
+      "slug": "kocycle",
+      "name": "KOcycle",
+      "industry": "ITAD",
+      "website": "https://www.kocycle.com/",
+      "address": "",
+      "region": "",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 75,
+      "isPipeline": true,
+      "originalLabel": "Warm lead",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-61",
+          "name": "Tyler Scorey",
+          "title": "eSales Manager",
+          "email": "",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-157",
+          "name": "Oliver Mason",
+          "title": "MD",
+          "email": "oliver.mason@kocycle.com",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/oliver-mason-5a38b982/"
+        },
+        {
+          "id": "contact-158",
+          "name": "Mike Mclellan",
+          "title": "Technical Director",
+          "email": "michael.mclellan@kocycle.com",
+          "phone": "07718633090",
+          "linkedin": "https://www.linkedin.com/in/mike-mclellan-29654644/"
+        },
+        {
+          "id": "contact-184",
+          "name": "Shane",
+          "title": "",
+          "email": "",
+          "phone": "",
+          "linkedin": ""
+        }
+      ],
+      "notes": "KOcycle - B-Corp, ADISA 8.0 Level 2, 300k+ assets/yr, award-winning sustainability",
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-118",
+      "slug": "rapid-it",
+      "name": "Rapid IT",
+      "industry": "ITAD",
+      "website": "https://rapidit.co.uk/",
+      "address": "Wyre Street, Padiham, Burnley, Lancashire BB12 8DF, United Kingdom",
+      "region": "Lancashire",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 65,
+      "isPipeline": true,
+      "originalLabel": "Hot lead",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-159",
+          "name": "Chris Stevenson",
+          "title": "Customer Relationship Director",
+          "email": "chris@rapidit.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/chris-stevenson-90/"
+        },
+        {
+          "id": "contact-160",
+          "name": "Lindsay Bowker",
+          "title": "Office & Compliance Manager",
+          "email": "lindsay@rapidit.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/lindsay-bowker-99047415b/"
+        },
+        {
+          "id": "contact-161",
+          "name": "Dave Bannister",
+          "title": "MD",
+          "email": "dave@rapidit.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/dave-bannister-b35176b8/"
+        },
+        {
+          "id": "contact-162",
+          "name": "Nick Garrity",
+          "title": "IT Technician",
+          "email": "nick@rapidit.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/nick-garrity-2b717b138/"
+        },
+        {
+          "id": "contact-1977",
+          "name": "Jack Capstick",
+          "title": "Software Lead",
+          "email": "jack.capstick@rapidit.co.uk",
+          "phone": "'+44 12 8279 8256",
+          "linkedin": "https://www.linkedin.com/in/jack-capstick-71008b278"
+        }
+      ],
+      "notes": "Rapid IT - IT lifecycle, donations, relocations, CSR-focused",
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-123",
+      "slug": "mac-itad-the-bookyard-ltd",
+      "name": "MAC ITAD / The Bookyard LTD",
+      "industry": "ITAD",
+      "website": "https://www.macitad.com/",
+      "address": "",
+      "region": "",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 62,
+      "isPipeline": true,
+      "originalLabel": "Prospect",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-163",
+          "name": "Tammi Hargreaves",
+          "title": "Office Manager",
+          "email": "admin@thebookyard.com",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/tammi-hargreaves-751256210/"
+        },
+        {
+          "id": "contact-191",
+          "name": "Ryan",
+          "title": "",
+          "email": "ryan@thebookyard.com",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-245",
+          "name": "Chris Hanson Jones",
+          "title": "Site Leader",
+          "email": "",
+          "phone": "",
+          "linkedin": ""
+        }
+      ],
+      "notes": "MAC ITAD / The Bookyard - Apple-specific ITAD, largest indie Apple parts supplier UK",
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-128",
+      "slug": "midlands-i-t-recycling-ltd-t-as-compuclear",
+      "name": "MIDLANDS I.T. RECYCLING LTD t/as COMPUCLEAR",
+      "industry": "ITAD",
+      "website": "https://compu-clear.myshopify.com/",
+      "address": "",
+      "region": "",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 60,
+      "isPipeline": true,
+      "originalLabel": "Warm lead",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-22",
+          "name": "Richard Woodward-Smith",
+          "title": "Owner",
+          "email": "richard@compuclear.net",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/richard-woodward-smith-b85086204"
+        },
+        {
+          "id": "contact-168",
+          "name": "Steve Macdonald",
+          "title": "Director",
+          "email": "steve@compuclear.net",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/steve-macdonald-1b72b256/"
+        }
+      ],
+      "notes": "CompuClear (Midlands IT Recycling) - IT recycling, Stourbridge facility, retail arm",
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-130",
+      "slug": "n2s-network-2-supplies-ltd",
+      "name": "N2S Network 2 Supplies Ltd",
+      "industry": "ITAD",
+      "website": "http://www.n2s.co.uk",
+      "address": "Bury St Edmunds",
+      "region": "Suffolk",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 78,
+      "isPipeline": true,
+      "originalLabel": "Prospect",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-244",
+          "name": "Andrew Gomarsall",
+          "title": "",
+          "email": "andrew.gomarsall@n2s.co.uk",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-790",
+          "name": "Simon Taylor",
+          "title": "Director",
+          "email": "",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/simon-taylor-61235a100"
+        },
+        {
+          "id": "contact-791",
+          "name": "Mimi Moll",
+          "title": "IT & Telecoms Sustainability Lead",
+          "email": "mimi.moll@n2s.co.uk",
+          "phone": "'+44 1284761111",
+          "linkedin": "https://www.linkedin.com/in/mimi-moll"
+        },
+        {
+          "id": "contact-792",
+          "name": "Andrew Gomarsall MBE",
+          "title": "Executive Director - Business & Sustainability",
+          "email": "",
+          "phone": "'+44 1284761111",
+          "linkedin": "https://www.linkedin.com/in/andrewgomarsall"
+        },
+        {
+          "id": "contact-793",
+          "name": "Robert Bolton",
+          "title": "Director Of Operations",
+          "email": "robert.bolton@n2s.co.uk",
+          "phone": "'+44 1284761111",
+          "linkedin": "https://www.linkedin.com/in/robert-bolton-412416aa"
+        },
+        {
+          "id": "contact-1361",
+          "name": "James Bates",
+          "title": "",
+          "email": "",
+          "phone": "",
+          "linkedin": ""
+        }
+      ],
+      "notes": "N2S - Industry leader sustainable ITAM, data cleansing, site audits, circular economy pioneer",
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-134",
+      "slug": "ocm-business-systems-ltd",
+      "name": "OCM Business Systems Ltd",
+      "industry": "ITAD",
+      "website": "http://www.ocmbiz.com/",
+      "address": "",
+      "region": "",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 68,
+      "isPipeline": true,
+      "originalLabel": "Customer",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-64",
+          "name": "Richard Done",
+          "title": "Sales Director",
+          "email": "",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-169",
+          "name": "Paul Mills",
+          "title": "Operations Manager",
+          "email": "paul@ocmbiz.com",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/paul-mills-971b8522/"
+        }
+      ],
+      "notes": "OCM Business Systems - Secure IT/EPoS disposal, laptop recycling, UK collection",
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-135",
+      "slug": "oden-services-uk-ltd",
+      "name": "Oden Services UK Ltd",
+      "industry": "ITAD",
+      "website": "http://www.odenservicesuk.co.uk/",
+      "address": "",
+      "region": "",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 65,
+      "isPipeline": true,
+      "originalLabel": "Hot lead",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-81",
+          "name": "Andrew South",
+          "title": "Director",
+          "email": "andrews@odenservicesuk.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/andrew-south-a5272331/"
+        },
+        {
+          "id": "contact-170",
+          "name": "Paul Seward",
+          "title": "Director",
+          "email": "pauls@odenservicesuk.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/andrew-south-a5272331/"
+        }
+      ],
+      "notes": "Oden Services UK - IT recycling & WEEE specialists, compliant tailored service",
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-142",
+      "slug": "protech-city",
+      "name": "Protech City",
+      "industry": "ITAD",
+      "website": "protechgroup.co",
+      "address": "Peterlee",
+      "region": "County Durham",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 68,
+      "isPipeline": true,
+      "originalLabel": "Warm lead",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-35",
+          "name": "Ian Murphy",
+          "title": "Chief Operating Officer",
+          "email": "ian.murphy@protechyourdata.com",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/ian-murphy-8b306a68"
+        }
+      ],
+      "notes": "Protech City - ICO approved, secure disposal, in-house fleet GPS/CCTV, DBS screened staff",
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-150",
+      "slug": "rdc",
+      "name": "RDC",
+      "industry": "ITAD",
+      "website": "https://rdc.co.uk/",
+      "address": "Springwood Drive, CM7 2YN Braintree, England, United Kingdom",
+      "region": "Essex",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 72,
+      "isPipeline": true,
+      "originalLabel": "Prospect",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-451",
+          "name": "Dale Bearder",
+          "title": "Warehouse Manager",
+          "email": "dale.bearder@rdc.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/dale-bearder-bb082a18b"
+        },
+        {
+          "id": "contact-452",
+          "name": "Simon Baldry",
+          "title": "Product Management Coordinator",
+          "email": "simon.baldry@rdc.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/simon-baldry-174993124"
+        }
+      ],
+      "notes": "RDC (now Computacenter Circular Services) - major ITAD, acquired by Computacenter",
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-151",
+      "slug": "re-tek-uk-ltd",
+      "name": "Re-Tek UK Ltd",
+      "industry": "ITAD",
+      "website": "https://www.re-tek.co.uk/, http://www.re-tek.co.uk",
+      "address": "2 Hurlawcrook Place, G75 0AP East Kilbride, Scotland, United Kingdom",
+      "region": "South Lanarkshire",
+      "state": "Scotland",
+      "country": "United Kingdom",
+      "lat": 56.4907,
+      "lng": -4.2026,
+      "stage": "qualified",
+      "score": 80,
+      "isPipeline": true,
+      "originalLabel": "Prospect",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-85",
+          "name": "Paul McHugh",
+          "title": "Sales Director",
+          "email": "",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-174",
+          "name": "Gordon Lowrie",
+          "title": "MD",
+          "email": "gordonlowrie@re-tek.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/gordon-lowrie-a878712b/"
+        },
+        {
+          "id": "contact-175",
+          "name": "John Flemming",
+          "title": "IT Manager",
+          "email": "johnfleming@re-tek.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/john-fleming-712415128/"
+        },
+        {
+          "id": "contact-176",
+          "name": "Paul Stephen",
+          "title": "Technical and Compliance Director",
+          "email": "paulstephen@re-tek.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/paulstephen1965/"
+        },
+        {
+          "id": "contact-844",
+          "name": "Owen Docherty",
+          "title": "Account Manager",
+          "email": "owendocherty@re-tek.co.uk",
+          "phone": "'+44 1355271118",
+          "linkedin": "https://www.linkedin.com/in/owen-docherty-69b0ba198"
+        },
+        {
+          "id": "contact-845",
+          "name": "John Fleming",
+          "title": "IT Manager",
+          "email": "",
+          "phone": "'+44 1355271118",
+          "linkedin": "https://www.linkedin.com/in/john-fleming-092601240"
+        },
+        {
+          "id": "contact-846",
+          "name": "Kevin Culligan",
+          "title": "Co-founder and Chair at Re-tek UK",
+          "email": "kevinculligan@re-tek.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/kevin-culligan-4902089"
+        },
+        {
+          "id": "contact-847",
+          "name": "John Hannah",
+          "title": "System Cleaner/ Tech",
+          "email": "",
+          "phone": "'+44 1355271118",
+          "linkedin": "https://www.linkedin.com/in/john-hannah-1b3703173"
+        },
+        {
+          "id": "contact-848",
+          "name": "William McPherson",
+          "title": "Project Director",
+          "email": "",
+          "phone": "'+44 1355271118",
+          "linkedin": "https://www.linkedin.com/in/william-mcpherson-859165115"
+        }
+      ],
+      "notes": "Re-Tek UK (now Circular IT Group) - Complete lifecycle, pre-stage to ITAD, rebranded Jan 2025",
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-153",
+      "slug": "recycle-it-uk",
+      "name": "Recycle IT UK",
+      "industry": "ITAD",
+      "website": "https://www.recycleit.co.uk/",
+      "address": "Burnley",
+      "region": "",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "Warm lead",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-83",
+          "name": "Ben Simpson",
+          "title": "Sales Director",
+          "email": "",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-108",
+          "name": "Carl Greenwood",
+          "title": "",
+          "email": "c.greenwood@recycleit.co.uk",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-220",
+          "name": "Rob Doherty",
+          "title": "Director",
+          "email": "r.doherty@recycleit.co.uk",
+          "phone": "07866427322",
+          "linkedin": "https://www.linkedin.com/in/robert-doherty-72159b46/"
+        }
+      ],
+      "notes": "Recycle IT UK - 20yr ITAD, public sector/emergency services, value recovery, imaging/deployment",
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-161",
+      "slug": "restore-technology",
+      "name": "Restore Technology",
+      "industry": "ITAD",
+      "website": "https://www.restore.co.uk/Technology",
+      "address": "",
+      "region": "",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 82,
+      "isPipeline": true,
+      "originalLabel": "Warm lead",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-84",
+          "name": "Will Awdas",
+          "title": "Head of Direct Sales",
+          "email": "",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-123",
+          "name": "Quentin",
+          "title": "Commercial Director",
+          "email": "",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/quentin-j-72730418/"
+        },
+        {
+          "id": "contact-124",
+          "name": "Paul Flowers",
+          "title": "Secure Destruction Portfolio Manager",
+          "email": "paul.flowers@restore-technology.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/paul-flowers-19453423/"
+        },
+        {
+          "id": "contact-125",
+          "name": "Patrick Adcock",
+          "title": "Operations Director",
+          "email": "",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/patrick-adcock-2261b027/"
+        },
+        {
+          "id": "contact-126",
+          "name": "Hema Patel",
+          "title": "Assurance & Compliance",
+          "email": "",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/hemapatel86/"
+        },
+        {
+          "id": "contact-127",
+          "name": "Info",
+          "title": "",
+          "email": "info@restore-technology.co.uk",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-254",
+          "name": "Nick Hassett",
+          "title": "Information Security Manager",
+          "email": "Nick.hassett@restore-technology.co.uk",
+          "phone": "'+44 345 646 4666",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-291",
+          "name": "Duncan Gooding",
+          "title": "Managing Director",
+          "email": "duncan.gooding@restore-technology.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/duncan-gooding-3737991/"
+        },
+        {
+          "id": "contact-292",
+          "name": "Carl Jackson",
+          "title": "Head of Systems",
+          "email": "carl.jackson@restore-technology.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/carlrjackson1/"
+        },
+        {
+          "id": "contact-293",
+          "name": "Stephen Mcclean",
+          "title": "Compliance and Quality Manager",
+          "email": "stephen.mcclean@restore-technology.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/stephen-mcclean-70144617/"
+        },
+        {
+          "id": "contact-294",
+          "name": "Sue Chapman",
+          "title": "Compliance",
+          "email": "sue.chapman@restore-technology.co.uk",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/susan-chapman-24076445/"
+        },
+        {
+          "id": "contact-1311",
+          "name": "Alex Doune",
+          "title": "",
+          "email": "alex.doune@restore-technology.co.uk",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-2287",
+          "name": "Mitchell",
+          "title": "",
+          "email": "",
+          "phone": "07938601741",
+          "linkedin": ""
+        }
+      ],
+      "notes": "Restore Technology - Major UK ITAD, acquired PRM Green/CDL/Euro Recycling/IT Efficient, nationwide",
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-163",
+      "slug": "reuse-technology-group-limited",
+      "name": "Reuse Technology Group Limited",
+      "industry": "ITAD",
+      "website": "https://reusetechgroup.com",
+      "address": "Unit D2 Thamesview Business Centre , RM13 8BT Rainham, Essex, United Kingdom",
+      "region": "Greater London",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 72,
+      "isPipeline": true,
+      "originalLabel": "Prospect",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-528",
+          "name": "William Chapman",
+          "title": "ITAD Manager",
+          "email": "william@reusetechgroup.com",
+          "phone": "00441708558297",
+          "linkedin": "https://www.linkedin.com/in/william-chapman-4b7995107"
+        }
+      ],
+      "notes": "Reuse Technology Group - ITAD, ADISA 8.0, data destruction, WEEE recycling, CO2e reporting",
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": null
+    },
+    {
+      "id": "org-168",
+      "slug": "se-recycling-ltd",
+      "name": "SE Recycling Ltd",
+      "industry": "ITAD",
+      "website": "https://www.ser-limited.com/",
+      "address": "",
+      "region": "",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "stage": "qualified",
+      "score": 70,
+      "isPipeline": true,
+      "originalLabel": "Warm lead",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-91",
+          "name": "Odette",
+          "title": "Office Manager",
+          "email": "odette@ser-limited.com",
+          "phone": "",
+          "linkedin": "https://www.linkedin.com/in/odetteclaudialamlake/"
+        },
+        {
+          "id": "contact-107",
+          "name": "Dave",
+          "title": "",
+          "email": "dave@ser-limited.com",
+          "phone": "",
+          "linkedin": ""
+        },
+        {
+          "id": "contact-178",
+          "name": "Justin",
+          "title": "",
+          "email": "justin@ser-limited.com",
+          "phone": "",
+          "linkedin": ""
+        }
+      ],
+      "notes": "SE Recycling - Secure IT disposal, data destruction, ITAD, asset management, multiple locations",
+      "certifications": [],
+      "services": [],
+      "pipelineData": null,
+      "createdAt": "2026-02-26T08:47:29.349Z",
+      "updatedAt": "2026-02-26T08:47:29.349Z",
+      "lastVerified": null
+    }
+  ],
+  "lastUpdated": "2026-02-27T09:30:00"
+}
