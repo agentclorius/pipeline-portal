@@ -12549,13 +12549,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website, generic name. Cannot verify as ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: No website, generic name. Cannot verify as ITAD processor.",
+      "Rejected: Renew IT \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -12586,13 +12587,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor.",
+      "Rejected: Lifecycle+ \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -12660,13 +12662,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: CHG Meridian is a leasing/finance company. No own ITAD processing facilities."
+      "[2026-03-02 enrichment] REJECTED: CHG Meridian is a leasing/finance company. No own ITAD processing facilities.",
+      "Rejected: CHG Meridian \u2014 IT leasing/financial services, not ITAD processor"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -12705,13 +12708,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor.",
+      "Rejected: Greenbox \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -12742,13 +12746,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor.",
+      "Rejected: Inspire Technology \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -12779,13 +12784,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Name suggests reseller, not ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: No website. Name suggests reseller, not ITAD processor.",
+      "Rejected: Motor City Computer \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -12816,32 +12822,33 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor.",
+      "Rejected: Ringrow Co Ltd \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
     "id": "org-428",
     "slug": "tes-amm",
     "name": "Tes-Amm",
-    "industry": "",
-    "website": "",
+    "industry": "ITAD",
+    "website": "http://www.tes-amm.co.uk/",
     "address": "",
     "region": "",
     "state": "",
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "rejected",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 60,
+    "isPipeline": true,
     "originalLabel": "Warm lead",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-392",
@@ -12869,14 +12876,19 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: Duplicate of org-479 TES (formerly Tes-Amm)."
+      "[2026-03-02 enrichment] REJECTED: Duplicate of org-479 TES (formerly Tes-Amm).",
+      "TES-AMM \u2014 Global WEEE recycler, formed 2005. Electronics waste recovery, precious metals recycling. ISO 14001 certified. UK and Asia operations."
     ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "WEEE Recycling",
+      "Precious Metals Recovery",
+      "E-waste Processing"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
-    "lastVerified": "2026-03-02T09:03:22.032955+00:00"
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
+    "lastVerified": "2026-03-03T15:02:51.434634Z"
   },
   {
     "id": "org-429",
@@ -12906,13 +12918,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: SERI is a standards body (Sustainable Electronics Recycling International), not a processor."
+      "[2026-03-02 enrichment] REJECTED: SERI is a standards body (Sustainable Electronics Recycling International), not a processor.",
+      "Rejected: SERI \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -12934,13 +12947,14 @@
     "dataQuality": "rejected",
     "contacts": [],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: Fourcom is a Danish IT reseller. No ITAD processing."
+      "[2026-03-02 enrichment] REJECTED: Fourcom is a Danish IT reseller. No ITAD processing.",
+      "Rejected: Fourcom \u2014 Danish IT distributor, not ITAD"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -12992,7 +13006,7 @@
     "id": "org-432",
     "slug": "revac",
     "name": "Revac",
-    "industry": "",
+    "industry": "ITAD",
     "website": "",
     "address": "",
     "region": "",
@@ -13000,11 +13014,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "rejected",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 60,
+    "isPipeline": true,
     "originalLabel": "Customer",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-400",
@@ -13016,32 +13030,36 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor.",
+      "Revac \u2014 One of Scandinavia's biggest WEEE recyclers. Plants in Norway and Sweden. Processes 70% of Norway's post-consumer WEEE."
     ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "WEEE Recycling",
+      "E-waste Processing"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
-    "lastVerified": "2026-03-02T09:03:22.032955+00:00"
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
+    "lastVerified": "2026-03-03T15:02:51.434634Z"
   },
   {
     "id": "org-433",
     "slug": "tier-1-asset",
     "name": "Tier 1 Asset",
-    "industry": "",
-    "website": "",
+    "industry": "ITAD",
+    "website": "https://www.tier1.com/",
     "address": "",
     "region": "",
     "state": "",
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "rejected",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-401",
@@ -13053,42 +13071,54 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor.",
+      "Tier 1 Asset Management \u2014 Manchester UK. Specialist ITAD, secure disposal of end-of-lifecycle IT equipment. Est. 1995, 64000+ clients. Bridges-backed. Website: tier1.com"
     ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "ITAD",
+      "Secure Disposal",
+      "IT Recycling",
+      "Refurbishment"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
-    "lastVerified": "2026-03-02T09:03:22.032955+00:00"
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
+    "lastVerified": "2026-03-03T15:02:51.434634Z"
   },
   {
     "id": "org-434",
     "slug": "stena-recycling",
     "name": "STENA Recycling",
-    "industry": "",
-    "website": "",
+    "industry": "ITAD",
+    "website": "https://www.stenarecycling.com/",
     "address": "",
     "region": "",
     "state": "",
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "rejected",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 70,
+    "isPipeline": true,
     "originalLabel": "",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: STENA Recycling is metals/waste recycling, not IT-specific ITAD processing."
+      "[2026-03-02 enrichment] REJECTED: STENA Recycling is metals/waste recycling, not IT-specific ITAD processing.",
+      "STENA Recycling \u2014 Major Scandinavian recycling group. Circular IT services via Stena Confidential: collection, secure data erasure, reuse, recycling. Operations in Sweden, Denmark, Norway, Finland, Poland. Website: stenarecycling.com"
     ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "WEEE Recycling",
+      "Circular IT",
+      "Data Erasure",
+      "E-waste Processing"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
-    "lastVerified": "2026-03-02T09:03:22.032955+00:00"
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
+    "lastVerified": "2026-03-03T15:02:51.434634Z"
   },
   {
     "id": "org-435",
@@ -13142,32 +13172,33 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: ED Data (ed.dk) is a Danish IT distributor/reseller. No ITAD processing facilities."
+      "[2026-03-02 enrichment] REJECTED: ED Data (ed.dk) is a Danish IT distributor/reseller. No ITAD processing facilities.",
+      "Rejected: ED Data (ed.dk) \u2014 Danish IT distributor/reseller, not ITAD processor"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
     "id": "org-436",
     "slug": "kuusakoski",
     "name": "Kuusakoski",
-    "industry": "",
-    "website": "",
+    "industry": "ITAD",
+    "website": "https://www.kuusakoski.com/",
     "address": "",
     "region": "",
     "state": "",
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "rejected",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 70,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-404",
@@ -13179,14 +13210,20 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: Kuusakoski is Finnish metals/WEEE recycling. Not ITAD processing focused."
+      "[2026-03-02 enrichment] REJECTED: Kuusakoski is Finnish metals/WEEE recycling. Not ITAD processing focused.",
+      "Kuusakoski \u2014 Finnish recycling group, ITAD/data security services. Operations in Finland, Sweden, Estonia, UK, US. Reuse and component recycling. Website: kuusakoski.com"
     ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "ITAD",
+      "Data Security",
+      "WEEE Recycling",
+      "Reuse"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
-    "lastVerified": "2026-03-02T09:03:22.032955+00:00"
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
+    "lastVerified": "2026-03-03T15:02:51.434634Z"
   },
   {
     "id": "org-437",
@@ -13216,13 +13253,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Too generic name to verify."
+      "[2026-03-02 enrichment] REJECTED: No website. Too generic name to verify.",
+      "Rejected: Refurb \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -13241,7 +13279,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Do Not Contact",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-406",
@@ -13253,13 +13291,14 @@
       }
     ],
     "notes": [
-      "REJECTED: ATEA logistics arm. Large Nordic IT reseller - too big, has own systems."
+      "REJECTED: ATEA logistics arm. Large Nordic IT reseller - too big, has own systems.",
+      "Rejected: ATEA Sweden \u2014 IT logistics/services, not ITAD processing facility"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": null
   },
   {
@@ -13331,13 +13370,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: Elgiganten is a consumer electronics retailer. Not ITAD."
+      "[2026-03-02 enrichment] REJECTED: Elgiganten is a consumer electronics retailer. Not ITAD.",
+      "Rejected: Elgiganten \u2014 Consumer electronics retailer"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -13368,13 +13408,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify processing capabilities."
+      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify processing capabilities.",
+      "Rejected: Elitecom/SpecialMinds \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -13454,19 +13495,19 @@
     "id": "org-444",
     "slug": "3-step-it",
     "name": "3 Step IT",
-    "industry": "",
-    "website": "",
+    "industry": "ITAD",
+    "website": "https://www.3stepit.com/",
     "address": "",
     "region": "",
     "state": "",
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "rejected",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 70,
+    "isPipeline": true,
     "originalLabel": "",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-412",
@@ -13478,14 +13519,20 @@
       }
     ],
     "notes": [
-      "REJECTED: No website found. Cannot verify."
+      "REJECTED: No website found. Cannot verify.",
+      "3 Step IT \u2014 Helsinki-based circular IT lifecycle management. Technology leasing, ITAD, remarketing. Major European player expanding to US. Website: 3stepit.com"
     ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "IT Lifecycle Management",
+      "ITAD",
+      "Remarketing",
+      "Leasing"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
+    "lastVerified": "2026-03-03T15:02:51.434634Z"
   },
   {
     "id": "org-445",
@@ -13531,19 +13578,19 @@
     "id": "org-446",
     "slug": "national-asset-disposals",
     "name": "National Asset Disposals",
-    "industry": "",
-    "website": "",
+    "industry": "ITAD",
+    "website": "https://www.nad.co.uk/",
     "address": "",
     "region": "",
     "state": "",
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "rejected",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 65,
+    "isPipeline": true,
     "originalLabel": "Hot lead",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-414",
@@ -13555,14 +13602,19 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor.",
+      "National Asset Disposals \u2014 UK ITAD, 64000+ clients, 40+ years combined experience. Free computer recycling and IT disposal nationwide. Website: nad.co.uk"
     ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "ITAD",
+      "Computer Recycling",
+      "IT Disposal"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
-    "lastVerified": "2026-03-02T09:03:22.032955+00:00"
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
+    "lastVerified": "2026-03-03T15:02:51.434634Z"
   },
   {
     "id": "org-447",
@@ -13592,13 +13644,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor.",
+      "Rejected: Somerset Technology \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -13620,13 +13673,14 @@
     "dataQuality": "rejected",
     "contacts": [],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor.",
+      "Rejected: Livingstone Technologies \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -13648,13 +13702,14 @@
     "dataQuality": "rejected",
     "contacts": [],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor.",
+      "Rejected: Valutech \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -13676,13 +13731,14 @@
     "dataQuality": "rejected",
     "contacts": [],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: Nomura Research Institute - financial IT services company. Not ITAD."
+      "[2026-03-02 enrichment] REJECTED: Nomura Research Institute - financial IT services company. Not ITAD.",
+      "Rejected: Nomura Research Institute Europe \u2014 Financial IT services, not ITAD"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -13704,13 +13760,14 @@
     "dataQuality": "rejected",
     "contacts": [],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: Jagex is a video game company (RuneScape). Not ITAD."
+      "[2026-03-02 enrichment] REJECTED: Jagex is a video game company (RuneScape). Not ITAD.",
+      "Rejected: Jagex \u2014 Game developer, not ITAD"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -13749,13 +13806,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor.",
+      "Rejected: Midtech \u2014 NHS Innovation Hub, not ITAD"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -13786,13 +13844,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor.",
+      "Rejected: ZOOC Ltd \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -13823,13 +13882,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Likely marketing agency. Not ITAD."
+      "[2026-03-02 enrichment] REJECTED: No website. Likely marketing agency. Not ITAD.",
+      "Rejected: Visarc Ltd \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -13860,13 +13920,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor.",
+      "Rejected: Idevice Lab Ltd \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -13897,13 +13958,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: No website. Cannot verify as ITAD processor.",
+      "Rejected: Urban Network \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -13934,13 +13996,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: Surfe is a LinkedIn CRM tool company. Not ITAD."
+      "[2026-03-02 enrichment] REJECTED: Surfe is a LinkedIn CRM tool company. Not ITAD.",
+      "Rejected: Surfe \u2014 French SaaS/LinkedIn tool, not ITAD"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -13987,13 +14050,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: Mobile Reborn is a refurb phone retailer. No own ITAD processing facilities."
+      "[2026-03-02 enrichment] REJECTED: Mobile Reborn is a refurb phone retailer. No own ITAD processing facilities.",
+      "Rejected: Mobile Reborn \u2014 Refurbished phone retailer, not ITAD processor"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -14056,13 +14120,14 @@
     "dataQuality": "rejected",
     "contacts": [],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: Risk Free UK is a financial services software company. Not ITAD."
+      "[2026-03-02 enrichment] REJECTED: Risk Free UK is a financial services software company. Not ITAD.",
+      "Rejected: Risk Free UK \u2014 Financial services software, not ITAD"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -14093,13 +14158,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: Ingram Micro is a massive IT distributor. Not an ITAD processor partner."
+      "[2026-03-02 enrichment] REJECTED: Ingram Micro is a massive IT distributor. Not an ITAD processor partner.",
+      "Rejected: Ingram Micro \u2014 Major IT distributor. Has ITAD division but too large/corporate for Return Hub partner model"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -14172,13 +14238,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: MP Recycling is a mobile phone wholesale/reseller platform. Not ITAD processing."
+      "[2026-03-02 enrichment] REJECTED: MP Recycling is a mobile phone wholesale/reseller platform. Not ITAD processing.",
+      "Rejected: MP Recycling \u2014 Mobile phone wholesale/trading platform, not ITAD processing"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -14380,13 +14447,14 @@
       }
     ],
     "notes": [
-      "[2026-03-02 enrichment] REJECTED: Park Place Technologies is data center hardware maintenance. Not ITAD processor."
+      "[2026-03-02 enrichment] REJECTED: Park Place Technologies is data center hardware maintenance. Not ITAD processor.",
+      "Rejected: Park Place Technologies \u2014 Data centre hardware maintenance, not ITAD"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-02T09:03:22.032955+00:00",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": "2026-03-02T09:03:22.032955+00:00"
   },
   {
@@ -14922,7 +14990,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-469",
@@ -14934,13 +15002,14 @@
       }
     ],
     "notes": [
-      "REJECTED: Broker. No evidence of ITAD processing."
+      "REJECTED: Broker. No evidence of ITAD processing.",
+      "Rejected: ALTEKNIA \u2014 Minimal web presence, Spanish company, no ITAD evidence"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": null
   },
   {
@@ -14959,7 +15028,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-470",
@@ -14979,13 +15048,14 @@
       }
     ],
     "notes": [
-      "REJECTED: Website down (DNS not found). Cannot verify."
+      "REJECTED: Website down (DNS not found). Cannot verify.",
+      "Rejected: ALTERNATIVE \u2014 French company, website down/DNS failure"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": null
   },
   {
@@ -15004,7 +15074,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-472",
@@ -15024,13 +15094,14 @@
       }
     ],
     "notes": [
-      "REJECTED: Brazilian IT service provider. Not ITAD."
+      "REJECTED: Brazilian IT service provider. Not ITAD.",
+      "Rejected: Am\u00e9rica Tecnologia \u2014 Brazilian company, outside target market"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": null
   },
   {
@@ -16169,18 +16240,18 @@
     "slug": "agile-data-services",
     "name": "Agile Data Services",
     "industry": "ITAD",
-    "website": "https://www.agiledataservices.com.au/?gclid=CjwKCAiAgeeqBhBAEiwAoDDhnx0XNch0bHpuld6aPrjLUpN-RWCxTTN7I6am8f2zj56USL4sJhHL7xoCbskQAvD_BwE",
+    "website": "https://www.agiledataservices.com.au/",
     "address": "4B Wilmette Place, 2103 Mona Vale, New South Wales, Australia",
     "region": "Northern Beaches Council",
     "state": "New South Wales",
     "country": "United Kingdom",
     "lat": 52.1307,
     "lng": -3.7837,
-    "stage": "rejected",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 60,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-527",
@@ -16192,14 +16263,19 @@
       }
     ],
     "notes": [
-      "REJECTED: Australian enterprise hardware reseller. Not ITAD processor."
+      "REJECTED: Australian enterprise hardware reseller. Not ITAD processor.",
+      "Agile Data Services \u2014 Sydney, Australia. Complete ITAD service, hardware rental, support services. Small but confirmed ITAD."
     ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "ITAD",
+      "Hardware Rental",
+      "Support"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
+    "lastVerified": "2026-03-03T15:02:51.434634Z"
   },
   {
     "id": "org-524",
@@ -16426,7 +16502,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-537",
@@ -16438,13 +16514,14 @@
       }
     ],
     "notes": [
-      "REJECTED: Redirects to technoshack.co.uk - gaming PC shop. Not ITAD."
+      "REJECTED: Redirects to technoshack.co.uk - gaming PC shop. Not ITAD.",
+      "Rejected: 3B-IT (technoshack.co.uk) \u2014 No web presence as ITAD"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": null
   },
   {
@@ -16463,7 +16540,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-538",
@@ -16491,13 +16568,14 @@
       }
     ],
     "notes": [
-      "REJECTED: No website. Cannot verify."
+      "REJECTED: No website. Cannot verify.",
+      "Rejected: 3ICE IT Services \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": null
   },
   {
@@ -16516,7 +16594,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-541",
@@ -16528,13 +16606,14 @@
       }
     ],
     "notes": [
-      "REJECTED: Component distributor & excess stock management (UK). Not ITAD processing."
+      "REJECTED: Component distributor & excess stock management (UK). Not ITAD processing.",
+      "Rejected: A-TEC International \u2014 No evidence of ITAD processing"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": null
   },
   {
@@ -16553,7 +16632,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-542",
@@ -16565,13 +16644,14 @@
       }
     ],
     "notes": [
-      "REJECTED: No website. Cannot verify."
+      "REJECTED: No website. Cannot verify.",
+      "Rejected: Abdali Tech UK \u2014 No web presence, unverifiable"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": null
   },
   {
@@ -16590,7 +16670,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-543",
@@ -16602,13 +16682,14 @@
       }
     ],
     "notes": [
-      "REJECTED: Refurbished laptop/PC retail shop (UK). No enterprise ITAD processing."
+      "REJECTED: Refurbished laptop/PC retail shop (UK). No enterprise ITAD processing.",
+      "Rejected: AC Computer Warehouse \u2014 Computer reseller, not ITAD"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": null
   },
   {
@@ -16627,7 +16708,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-547",
@@ -16647,13 +16728,14 @@
       }
     ],
     "notes": [
-      "REJECTED: IT reseller/system integrator (USA). Not ITAD."
+      "REJECTED: IT reseller/system integrator (USA). Not ITAD.",
+      "Rejected: Ace Computers \u2014 US computer reseller, not ITAD"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": null
   },
   {
@@ -16672,7 +16754,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-549",
@@ -16700,13 +16782,14 @@
       }
     ],
     "notes": [
-      "REJECTED: Mobile device distribution/logistics. Not ITAD processing."
+      "REJECTED: Mobile device distribution/logistics. Not ITAD processing.",
+      "Rejected: ADAPT Global \u2014 Mobile device management, not ITAD processing"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": null
   },
   {
@@ -16725,7 +16808,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-553",
@@ -16737,13 +16820,14 @@
       }
     ],
     "notes": [
-      "REJECTED: Packaging systems company. Not IT."
+      "REJECTED: Packaging systems company. Not IT.",
+      "Rejected: AirPack Systems \u2014 Packaging systems, not ITAD"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": null
   },
   {
@@ -16762,7 +16846,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-554",
@@ -16782,13 +16866,14 @@
       }
     ],
     "notes": [
-      "REJECTED: Wholesale laptop/desktop dealer. No ITAD processing."
+      "REJECTED: Wholesale laptop/desktop dealer. No ITAD processing.",
+      "Rejected: ALM Wholesale \u2014 IT wholesale trader, not ITAD processor"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": null
   },
   {
@@ -16807,7 +16892,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-556",
@@ -16819,13 +16904,14 @@
       }
     ],
     "notes": [
-      "REJECTED: IT broker. No ITAD processing."
+      "REJECTED: IT broker. No ITAD processing.",
+      "Rejected: Apex IT Devices \u2014 No evidence of ITAD processing facility"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "updatedAt": "2026-03-03T15:02:51.434634Z",
     "lastVerified": null
   },
   {

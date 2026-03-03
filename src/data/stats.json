@@ -2,9 +2,9 @@
   "totalOrganizations": 1688,
   "totalContacts": 2786,
   "pipeline": {
-    "total": 148,
+    "total": 150,
     "byStage": {
-      "qualified": 110,
+      "qualified": 112,
       "new": 17,
       "researching": 20,
       "contacted": 1
@@ -18,7 +18,7 @@
       "Eastern Europe": 6,
       "North America": 8,
       "Rockingham County": 1,
-      "": 35,
+      "": 37,
       "Essex": 4,
       "Bristol City": 1,
       "Orange County": 1,
@@ -63,8 +63,8 @@
     "topScore": 85,
     "scoreDistribution": {
       "high": 19,
-      "medium": 123,
-      "low": 1,
+      "medium": 124,
+      "low": 2,
       "unscored": 5
     }
   },

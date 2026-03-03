@@ -74,7 +74,7 @@ const orgsByStage = stages.reduce((acc, stage) => {
             </div>
             <div class="space-y-2 kanban-cards" data-stage={stage.id} style={`background: ${stage.bgColor}; border: 1px dashed ${stage.borderColor}; border-radius: 0.5rem; padding: 0.5rem; min-height: 200px;`}>
               {(orgsByStage[stage.id] || []).map(org => (
-                <a href={`/lead/${org.slug}`} class="kanban-card block" data-name={org.name.toLowerCase()} data-country={(org.country || '').toLowerCase()}>
+                <a href={`/lead/${org.slug}`} class="kanban-card block" data-name={org.name.toLowerCase()} data-country={(org.country || '').toLowerCase()} data-lasttouch={org.pipelineData?.lastTouch || ''}>
                   <div class="flex items-center justify-between">
                     <div class="text-sm font-medium truncate" style="color: var(--text-primary);">{org.name}</div>
                     {org.score && org.score > 0 && (
@@ -85,8 +85,11 @@ const orgsByStage = stages.reduce((acc, stage) => {
                     <span class="text-xs" style="color: var(--text-tertiary);">{org.pipelineData?.flag || ''} {org.country}</span>
                     <span class="text-xs" style="color: var(--text-tertiary);">{org.pipelineData?.region || ''}</span>
                   </div>
+                  {org.pipelineData?.lastTouch && (
+                    <div class="text-xs mt-1 staleness-label" data-date={org.pipelineData.lastTouch}></div>
+                  )}
                   {org.pipelineData?.nextAction && (
-                    <div class="text-xs mt-1.5 truncate" style="color: var(--text-secondary);">Next: {org.pipelineData.nextAction}</div>
+                    <div class="text-xs mt-1 truncate" style="color: var(--text-secondary);">Next: {org.pipelineData.nextAction}</div>
                   )}
                 </a>
               ))}
@@ -100,7 +103,7 @@ const orgsByStage = stages.reduce((acc, stage) => {
     <div id="table-view" class="hidden">
       <!-- Stage Filter Chips -->
       <div class="flex flex-wrap items-center gap-2 mb-4">
-        <span class="text-xs font-medium" style="color: var(--text-tertiary);">Filter:</span>
+        <span class="text-xs font-medium" style="color: var(--text-tertiary);">Stage:</span>
         <button class="stage-chip active" data-filter="all" style="--chip-color: var(--text-secondary);">
           All <span class="chip-count">{pipeline.length}</span>
         </button>
@@ -109,6 +112,18 @@ const orgsByStage = stages.reduce((acc, stage) => {
             {stage.label} <span class="chip-count">{orgsByStage[stage.id]?.length || 0}</span>
           </button>
         ))}
+        <span class="mx-1 h-4 w-px" style="background: var(--border);"></span>
+        <span class="text-xs font-medium" style="color: var(--text-tertiary);">Freshness:</span>
+        <button class="freshness-chip" data-freshness="all" style="--chip-color: var(--text-secondary);">All</button>
+        <button class="freshness-chip" data-freshness="stale" style="--chip-color: #E74C3C;">
+          🔴 Stale (7d+)
+        </button>
+        <button class="freshness-chip" data-freshness="aging" style="--chip-color: #F59E0B;">
+          🟡 Aging (3-7d)
+        </button>
+        <button class="freshness-chip" data-freshness="fresh" style="--chip-color: #2D6B3F;">
+          🟢 Fresh (&lt;3d)
+        </button>
       </div>
       <div class="card overflow-hidden">
         <div class="overflow-x-auto">
@@ -121,12 +136,13 @@ const orgsByStage = stages.reduce((acc, stage) => {
                 <th>Country</th>
                 <th>Region</th>
                 <th>Contacts</th>
+                <th class="cursor-pointer select-none" data-sort="lasttouch">Last Touch</th>
                 <th>Next Action</th>
               </tr>
             </thead>
             <tbody id="table-body">
               {[...pipeline].sort((a, b) => (b.score || 0) - (a.score || 0)).map(org => (
-                <tr class="lead-row" data-name={org.name.toLowerCase()} data-country={(org.country || '').toLowerCase()} data-stage={org.stage} data-score={org.score || 0}>
+                <tr class="lead-row" data-name={org.name.toLowerCase()} data-country={(org.country || '').toLowerCase()} data-stage={org.stage} data-score={org.score || 0} data-lasttouch={org.pipelineData?.lastTouch || ''}>
                   <td>
                     <a href={`/lead/${org.slug}`} class="font-medium hover:underline" style="color: var(--text-primary);">
                       {org.pipelineData?.flag || ''} {org.name}
@@ -145,6 +161,9 @@ const orgsByStage = stages.reduce((acc, stage) => {
                   <td style="color: var(--text-secondary);">{org.country}</td>
                   <td style="color: var(--text-secondary);">{org.pipelineData?.region || '-'}</td>
                   <td style="color: var(--text-secondary);">{org.contacts.length}</td>
+                  <td class="text-xs lasttouch-cell" data-date={org.pipelineData?.lastTouch || ''} style="color: var(--text-secondary);">
+                    {org.pipelineData?.lastTouch || '-'}
+                  </td>
                   <td class="text-xs" style="color: var(--text-secondary);">{org.pipelineData?.nextAction || '-'}</td>
                 </tr>
               ))}
@@ -202,10 +221,65 @@ const orgsByStage = stages.reduce((acc, stage) => {
     font-size: 0.65rem;
     opacity: 0.8;
   }
+  .freshness-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 9999px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-secondary);
+    font-size: 0.7rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .freshness-chip:hover {
+    border-color: var(--chip-color);
+    color: var(--chip-color);
+  }
+  .freshness-chip.active {
+    background: var(--chip-color);
+    border-color: var(--chip-color);
+    color: white;
+  }
+  .staleness-dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-right: 4px;
+  }
 </style>
 
 <script is:inline define:vars={{ pipelineData: pipeline }}>
+  function getStaleness(dateStr) {
+    if (!dateStr) return { level: 'unknown', days: 999, label: 'No date', color: '#9CA3AF', dot: '⚪' };
+    var now = new Date();
+    var d = new Date(dateStr);
+    var days = Math.floor((now - d) / 86400000);
+    if (days >= 7) return { level: 'stale', days: days, label: days + 'd ago', color: '#E74C3C', dot: '🔴' };
+    if (days >= 3) return { level: 'aging', days: days, label: days + 'd ago', color: '#F59E0B', dot: '🟡' };
+    return { level: 'fresh', days: days, label: days <= 0 ? 'Today' : days + 'd ago', color: '#2D6B3F', dot: '🟢' };
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
+    // Render staleness labels on kanban cards
+    document.querySelectorAll('.staleness-label').forEach(function(el) {
+      var s = getStaleness(el.dataset.date);
+      el.innerHTML = '<span class="staleness-dot" style="background:' + s.color + ';"></span>' + s.label;
+      el.style.color = s.color;
+    });
+
+    // Render staleness in table cells
+    document.querySelectorAll('.lasttouch-cell').forEach(function(el) {
+      var dateStr = el.dataset.date;
+      if (!dateStr) return;
+      var s = getStaleness(dateStr);
+      el.innerHTML = '<span class="staleness-dot" style="background:' + s.color + ';"></span>' + s.label;
+      el.style.color = s.color;
+    });
     const kanbanView = document.getElementById('kanban-view');
     const tableView = document.getElementById('table-view');
     const viewKanban = document.getElementById('view-kanban');
@@ -257,11 +331,22 @@ const orgsByStage = stages.reduce((acc, stage) => {
 
     // Stage filter chips
     var activeFilter = 'all';
+    var activeFreshness = 'all';
+
     document.querySelectorAll('.stage-chip').forEach(function(chip) {
       chip.addEventListener('click', function() {
         document.querySelectorAll('.stage-chip').forEach(function(c) { c.classList.remove('active'); });
         chip.classList.add('active');
         activeFilter = chip.dataset.filter;
+        applyFilters();
+      });
+    });
+
+    document.querySelectorAll('.freshness-chip').forEach(function(chip) {
+      chip.addEventListener('click', function() {
+        document.querySelectorAll('.freshness-chip').forEach(function(c) { c.classList.remove('active'); });
+        chip.classList.add('active');
+        activeFreshness = chip.dataset.freshness;
         applyFilters();
       });
     });
@@ -272,9 +357,15 @@ const orgsByStage = stages.reduce((acc, stage) => {
         var name = row.dataset.name || '';
         var country = row.dataset.country || '';
         var stage = row.dataset.stage || '';
+        var lasttouch = row.dataset.lasttouch || '';
         var matchesSearch = name.includes(query) || country.includes(query);
         var matchesStage = activeFilter === 'all' || stage === activeFilter;
-        row.style.display = (matchesSearch && matchesStage) ? '' : 'none';
+        var matchesFreshness = true;
+        if (activeFreshness !== 'all') {
+          var s = getStaleness(lasttouch);
+          matchesFreshness = s.level === activeFreshness;
+        }
+        row.style.display = (matchesSearch && matchesStage && matchesFreshness) ? '' : 'none';
       });
     }
 
@@ -290,7 +381,7 @@ const orgsByStage = stages.reduce((acc, stage) => {
     });
 
     // Table sort by score
-    var sortDir = { name: 1, score: -1 };
+    var sortDir = { name: 1, score: -1, lasttouch: 1 };
     document.querySelectorAll('[data-sort]').forEach(function(th) {
       th.addEventListener('click', function() {
         var key = th.dataset.sort;
@@ -300,6 +391,11 @@ const orgsByStage = stages.reduce((acc, stage) => {
         rows.sort(function(a, b) {
           if (key === 'score') {
             return (Number(b.dataset.score) - Number(a.dataset.score)) * sortDir[key];
+          }
+          if (key === 'lasttouch') {
+            var da = a.dataset.lasttouch || '1970-01-01';
+            var db = b.dataset.lasttouch || '1970-01-01';
+            return da.localeCompare(db) * sortDir[key];
           }
           return a.dataset.name.localeCompare(b.dataset.name) * sortDir[key];
         });
