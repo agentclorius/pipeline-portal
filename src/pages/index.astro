@@ -1,0 +1,209 @@
+---
+import Layout from '../layouts/Layout.astro';
+import stats from '../data/stats.json';
+import pipeline from '../data/pipeline.json';
+
+// Pipeline stages
+const pipelineStages = [
+  { id: 'new', label: 'New', color: 'status-new' },
+  { id: 'researching', label: 'Researching', color: 'status-researching' },
+  { id: 'qualified', label: 'Qualified', color: 'status-qualified' },
+  { id: 'contacted', label: 'Contacted', color: 'status-contacted' },
+  { id: 'rejected', label: 'Rejected', color: 'status-rejected' },
+];
+
+// Top pipeline prospects by score
+const topProspects = [...pipeline]
+  .filter(p => p.score && p.score > 0)
+  .sort((a, b) => (b.score || 0) - (a.score || 0))
+  .slice(0, 8);
+
+// Pipeline by region
+const regionEntries = Object.entries(stats.pipeline.byRegion || {})
+  .sort((a, b) => b[1] - a[1]);
+
+// Lead pool top countries
+const lpCountries = Object.entries(stats.leadpool.byCountry || {})
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 8);
+---
+
+<Layout title="Dashboard" activeNav="dashboard">
+  <div class="space-y-6">
+    <!-- Header -->
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <div>
+        <h2 class="text-2xl font-bold" style="color: var(--text-primary);">Pipeline Dashboard</h2>
+        <p class="text-sm mt-1" style="color: var(--text-secondary);">ITAD Return Hub recruitment pipeline overview</p>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="text-xs" style="color: var(--text-tertiary);">Last updated: {new Date(stats.lastUpdated).toLocaleDateString()}</span>
+        <a href="/pipeline" class="btn-primary text-sm">View Pipeline</a>
+      </div>
+    </div>
+
+    <!-- Pipeline Stats (Primary) -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="stat-card" style="border-left: 3px solid var(--brand-green);">
+        <div class="stat-value" style="color: var(--brand-green);">{stats.pipeline.total}</div>
+        <div class="stat-label">Researched Prospects</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">{stats.pipeline.avgScore}</div>
+        <div class="stat-label">Average Score</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" style="color: var(--status-qualified);">{stats.pipeline.scoreDistribution.high}</div>
+        <div class="stat-label">Score 80+</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">{stats.pipeline.topScore}</div>
+        <div class="stat-label">Top Score</div>
+      </div>
+    </div>
+
+    <!-- Lead Pool Stats (Secondary) -->
+    <div class="card p-4 flex items-center gap-4" style="background: var(--bg-elevated); border-color: var(--border);">
+      <div class="flex items-center gap-2">
+        <div class="w-2.5 h-2.5 rounded-full" style="background: var(--status-unverified);"></div>
+        <span class="text-sm" style="color: var(--text-secondary);">
+          <strong style="color: var(--text-primary);">{stats.leadpool.total.toLocaleString()}+</strong> Unverified Leads (Certus Import)
+        </span>
+      </div>
+      <span class="text-xs" style="color: var(--text-tertiary);">|</span>
+      <span class="text-sm" style="color: var(--text-secondary);">
+        <strong style="color: var(--text-primary);">{stats.totalContacts.toLocaleString()}</strong> Contacts
+      </span>
+      <div class="flex-1"></div>
+      <a href="/leads" class="text-xs" style="color: var(--brand-green);">Browse Lead Pool</a>
+    </div>
+
+    <!-- Pipeline by Stage -->
+    <div class="card p-5">
+      <h3 class="text-sm font-semibold mb-4" style="color: var(--text-primary);">Pipeline by Stage</h3>
+      <div class="space-y-3">
+        {pipelineStages.map(stage => {
+          const count = stats.pipeline.byStage[stage.id] || 0;
+          const percentage = stats.pipeline.total > 0 ? (count / stats.pipeline.total * 100) : 0;
+          return (
+            <div class="flex items-center gap-4">
+              <div class="w-28 text-sm" style="color: var(--text-secondary);">{stage.label}</div>
+              <div class="flex-1 h-6 rounded-full overflow-hidden" style="background: var(--bg-elevated);">
+                <div
+                  class={`h-full rounded-full`}
+                  style={`width: ${Math.max(percentage, 1)}%; background: var(--${stage.color});`}
+                />
+              </div>
+              <div class="w-16 text-right text-sm font-medium" style="color: var(--text-primary);">{count}</div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+
+    <!-- Two Column Layout -->
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- Top Prospects -->
+      <div class="card p-5">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="text-sm font-semibold" style="color: var(--text-primary);">Top Prospects by Score</h3>
+          <a href="/pipeline" class="text-xs" style="color: var(--brand-green);">View All</a>
+        </div>
+        <div class="space-y-2">
+          {topProspects.map(lead => (
+            <a
+              href={`/lead/${lead.slug}`}
+              class="flex items-center justify-between py-2 px-2 rounded -mx-2 transition-colors"
+              style="border-bottom: 1px solid var(--border);"
+              onmouseover="this.style.background='var(--bg-elevated)'"
+              onmouseout="this.style.background='transparent'"
+            >
+              <div class="min-w-0 flex items-center gap-2">
+                <span class={`score-badge ${(lead.score || 0) >= 80 ? 'score-high' : (lead.score || 0) >= 70 ? 'score-mid' : 'score-low'}`}>{lead.score}</span>
+                <div>
+                  <div class="text-sm font-medium truncate" style="color: var(--text-primary);">{lead.name}</div>
+                  <div class="text-xs truncate" style="color: var(--text-tertiary);">{lead.pipelineData?.flag || ''} {lead.country}</div>
+                </div>
+              </div>
+              <span class={`status-badge status-${lead.stage}`}>{lead.stage}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <!-- Pipeline by Region -->
+      <div class="card p-5">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="text-sm font-semibold" style="color: var(--text-primary);">Pipeline by Region</h3>
+          <a href="/map" class="text-xs" style="color: var(--brand-green);">View Map</a>
+        </div>
+        <div class="space-y-2">
+          {regionEntries.map(([region, count]) => (
+            <div class="flex items-center justify-between py-1.5 border-b" style="border-color: var(--border);">
+              <span class="text-sm" style="color: var(--text-secondary);">{region}</span>
+              <span class="text-sm font-medium" style="color: var(--text-primary);">{count}</span>
+            </div>
+          ))}
+        </div>
+        <div class="mt-3 pt-3 border-t" style="border-color: var(--border);">
+          <span class="text-xs" style="color: var(--text-tertiary);">
+            {Object.keys(stats.byCountry).length} countries total across pipeline + lead pool
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Score Distribution -->
+    <div class="card p-5">
+      <h3 class="text-sm font-semibold mb-4" style="color: var(--text-primary);">Score Distribution</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="p-3 rounded" style="background: rgba(45, 107, 63, 0.1);">
+          <div class="text-lg font-semibold" style="color: var(--status-qualified);">{stats.pipeline.scoreDistribution.high}</div>
+          <div class="text-xs" style="color: var(--text-tertiary);">Score 80+ (High fit)</div>
+        </div>
+        <div class="p-3 rounded" style="background: rgba(217, 119, 6, 0.1);">
+          <div class="text-lg font-semibold" style="color: #D97706;">{stats.pipeline.scoreDistribution.medium}</div>
+          <div class="text-xs" style="color: var(--text-tertiary);">Score 70-79 (Good fit)</div>
+        </div>
+        <div class="p-3 rounded" style="background: rgba(231, 76, 60, 0.1);">
+          <div class="text-lg font-semibold" style="color: var(--status-rejected);">{stats.pipeline.scoreDistribution.low}</div>
+          <div class="text-xs" style="color: var(--text-tertiary);">Score &lt;70 (Needs review)</div>
+        </div>
+        <div class="p-3 rounded" style="background: var(--bg-elevated);">
+          <div class="text-lg font-semibold" style="color: var(--text-secondary);">{stats.pipeline.scoreDistribution.unscored}</div>
+          <div class="text-xs" style="color: var(--text-tertiary);">Unscored</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lead Pool Preview -->
+    <div class="card p-5">
+      <h3 class="text-sm font-semibold mb-4" style="color: var(--text-primary);">Lead Pool by Industry (Certus Import)</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {Object.entries(stats.leadpool.byIndustry || {})
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 8)
+          .map(([industry, count]) => (
+            <div class="p-3 rounded" style="background: var(--bg-elevated);">
+              <div class="text-lg font-semibold" style="color: var(--text-primary);">{count}</div>
+              <div class="text-xs" style="color: var(--text-tertiary);">{industry || 'Uncategorized'}</div>
+            </div>
+          ))}
+      </div>
+    </div>
+
+    <!-- Data Quality Notice -->
+    <div class="card p-4 flex items-start gap-3" style="background: rgba(251, 191, 36, 0.1); border-color: rgba(251, 191, 36, 0.3);">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-0.5">
+        <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+      </svg>
+      <div>
+        <div class="text-sm font-medium" style="color: var(--text-primary);">Data Sources</div>
+        <p class="text-xs mt-1" style="color: var(--text-secondary);">
+          <strong>{stats.pipeline.total} pipeline prospects</strong> are hand-researched and scored by Returna.
+          The remaining <strong>{stats.leadpool.total.toLocaleString()} leads</strong> are raw imports from Certus Software's Pipedrive CRM and have not been independently verified. Lead pool data may be outdated or incorrect.
+        </p>
+      </div>
+    </div>
+  </div>
+</Layout>

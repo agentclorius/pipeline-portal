@@ -1,0 +1,384 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import organizations from '../../data/organizations.json';
+
+export function getStaticPaths() {
+  return organizations.map(org => ({
+    params: { id: org.slug },
+    props: { org },
+  }));
+}
+
+const { org } = Astro.props;
+
+// Stage config
+const stageConfig: Record<string, { label: string; color: string; cssClass: string }> = {
+  new: { label: 'New', color: '#3B82F6', cssClass: 'status-new' },
+  researching: { label: 'Researching', color: '#8B5CF6', cssClass: 'status-researching' },
+  qualified: { label: 'Qualified', color: '#2D6B3F', cssClass: 'status-qualified' },
+  contacted: { label: 'Contacted', color: '#E67E22', cssClass: 'status-contacted' },
+  rejected: { label: 'Rejected', color: '#E74C3C', cssClass: 'status-rejected' },
+  unverified: { label: 'Unverified', color: '#9CA3AF', cssClass: 'status-unverified' },
+};
+
+const stage = stageConfig[org.stage] || stageConfig.unverified;
+const isPipeline = org.isPipeline;
+
+// Related orgs in same country (only pipeline if this is a pipeline org)
+const relatedOrgs = organizations
+  .filter((o: any) => o.country === org.country && o.slug !== org.slug && o.stage !== 'rejected')
+  .filter((o: any) => isPipeline ? o.isPipeline : true)
+  .slice(0, 5);
+---
+
+<Layout title={org.name} activeNav="">
+  <div class="space-y-6">
+    <!-- Breadcrumb -->
+    <nav class="flex items-center gap-2 text-sm" style="color: var(--text-tertiary);">
+      <a href={isPipeline ? "/pipeline" : "/leads"} class="hover:underline" style="color: var(--brand-green);">
+        {isPipeline ? 'Pipeline' : 'Lead Pool'}
+      </a>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      <span style="color: var(--text-secondary);">{org.name}</span>
+    </nav>
+
+    <!-- Pipeline / Unverified Banner -->
+    {isPipeline ? (
+      <div class="card p-3 flex items-center gap-3" style="background: rgba(45, 107, 63, 0.1); border-color: rgba(45, 107, 63, 0.3);">
+        <div class="w-2 h-2 rounded-full" style="background: var(--brand-green);"></div>
+        <span class="text-sm font-medium" style="color: var(--brand-green);">Pipeline Prospect</span>
+        {org.score && org.score > 0 && (
+          <span class={`score-badge ${org.score >= 80 ? 'score-high' : org.score >= 70 ? 'score-mid' : 'score-low'}`}>Score: {org.score}</span>
+        )}
+      </div>
+    ) : (
+      <div class="card p-3 flex items-center gap-3" style="background: rgba(156, 163, 175, 0.1); border-color: rgba(156, 163, 175, 0.3);">
+        <div class="w-2 h-2 rounded-full" style="background: var(--status-unverified);"></div>
+        <span class="text-sm font-medium" style="color: var(--text-secondary);">Unverified Lead (Certus Import)</span>
+        <span class="text-xs" style="color: var(--text-tertiary);">This lead has not been verified by Returna</span>
+      </div>
+    )}
+
+    <!-- Header -->
+    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+      <div>
+        <div class="flex items-center gap-3">
+          <h2 class="text-2xl font-bold" style="color: var(--text-primary);">
+            {org.pipelineData?.flag || ''} {org.name}
+          </h2>
+          <span class={`status-badge ${stage.cssClass}`}>{stage.label}</span>
+        </div>
+        <div class="flex flex-wrap items-center gap-4 mt-2 text-sm" style="color: var(--text-secondary);">
+          {org.industry && (
+            <span class="flex items-center gap-1.5">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+              {org.industry}
+            </span>
+          )}
+          {org.country && (
+            <span class="flex items-center gap-1.5">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+              {org.country}
+            </span>
+          )}
+          {org.pipelineData?.region && (
+            <span class="flex items-center gap-1.5">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              {org.pipelineData.region}
+            </span>
+          )}
+          {!org.pipelineData?.region && org.address && (
+            <span class="flex items-center gap-1.5">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              {org.address}{org.state ? `, ${org.state}` : ''}
+            </span>
+          )}
+        </div>
+      </div>
+      <div class="flex items-center gap-2 flex-shrink-0">
+        {org.website && (
+          <a href={org.website.startsWith('http') ? org.website : `https://${org.website}`} target="_blank" rel="noopener" class="btn-primary text-sm flex items-center gap-2">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Visit Website
+          </a>
+        )}
+        <a href="/map" class="text-sm px-3 py-2 rounded-md border transition-colors" style="border-color: var(--border); color: var(--text-secondary);"
+          onmouseover="this.style.background='var(--bg-elevated)'"
+          onmouseout="this.style.background='transparent'">
+          View on Map
+        </a>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <!-- Main Column -->
+      <div class="lg:col-span-2 space-y-6">
+        <!-- Pipeline Details (only for pipeline prospects) -->
+        {isPipeline && org.pipelineData && (
+          <div class="card p-5">
+            <h3 class="text-sm font-semibold mb-4" style="color: var(--text-primary);">Pipeline Details</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <div class="text-xs font-medium mb-1" style="color: var(--text-tertiary);">Stage</div>
+                <span class={`status-badge ${stage.cssClass}`}>{stage.label}</span>
+              </div>
+              <div>
+                <div class="text-xs font-medium mb-1" style="color: var(--text-tertiary);">Score</div>
+                {org.score && org.score > 0 ? (
+                  <span class={`score-badge ${org.score >= 80 ? 'score-high' : org.score >= 70 ? 'score-mid' : 'score-low'}`}>{org.score}/100</span>
+                ) : (
+                  <div class="text-sm" style="color: var(--text-tertiary);">Not scored</div>
+                )}
+              </div>
+              {org.pipelineData.employees && (
+                <div>
+                  <div class="text-xs font-medium mb-1" style="color: var(--text-tertiary);">Employees</div>
+                  <div class="text-sm" style="color: var(--text-primary);">{org.pipelineData.employees}</div>
+                </div>
+              )}
+              {org.pipelineData.revenue && (
+                <div>
+                  <div class="text-xs font-medium mb-1" style="color: var(--text-tertiary);">Revenue</div>
+                  <div class="text-sm" style="color: var(--text-primary);">{org.pipelineData.revenue}</div>
+                </div>
+              )}
+              {org.pipelineData.contact && (
+                <div>
+                  <div class="text-xs font-medium mb-1" style="color: var(--text-tertiary);">Primary Contact</div>
+                  <div class="text-sm" style="color: var(--text-primary);">{org.pipelineData.contact}</div>
+                </div>
+              )}
+              {org.pipelineData.nextAction && (
+                <div>
+                  <div class="text-xs font-medium mb-1" style="color: var(--text-tertiary);">Next Action</div>
+                  <div class="text-sm" style="color: var(--text-primary);">{org.pipelineData.nextAction}</div>
+                </div>
+              )}
+              {org.pipelineData.lastTouch && (
+                <div>
+                  <div class="text-xs font-medium mb-1" style="color: var(--text-tertiary);">Last Touch</div>
+                  <div class="text-sm" style="color: var(--text-primary);">{org.pipelineData.lastTouch}</div>
+                </div>
+              )}
+              <div>
+                <div class="text-xs font-medium mb-1" style="color: var(--text-tertiary);">Region</div>
+                <div class="text-sm" style="color: var(--text-primary);">{org.pipelineData.region || '-'}</div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        <!-- Organization Details (for non-pipeline leads) -->
+        {!isPipeline && (
+          <div class="card p-5">
+            <h3 class="text-sm font-semibold mb-4" style="color: var(--text-primary);">Organization Details</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <div class="text-xs font-medium mb-1" style="color: var(--text-tertiary);">Stage</div>
+                <span class={`status-badge ${stage.cssClass}`}>{stage.label}</span>
+              </div>
+              <div>
+                <div class="text-xs font-medium mb-1" style="color: var(--text-tertiary);">Industry</div>
+                <div class="text-sm" style="color: var(--text-primary);">{org.industry || '-'}</div>
+              </div>
+              <div>
+                <div class="text-xs font-medium mb-1" style="color: var(--text-tertiary);">Country</div>
+                <div class="text-sm" style="color: var(--text-primary);">{org.country || '-'}</div>
+              </div>
+              <div>
+                <div class="text-xs font-medium mb-1" style="color: var(--text-tertiary);">Address</div>
+                <div class="text-sm" style="color: var(--text-primary);">{org.address || '-'}{org.region ? `, ${org.region}` : ''}{org.state ? `, ${org.state}` : ''}</div>
+              </div>
+              <div>
+                <div class="text-xs font-medium mb-1" style="color: var(--text-tertiary);">Website</div>
+                {org.website ? (
+                  <a href={org.website.startsWith('http') ? org.website : `https://${org.website}`} target="_blank" rel="noopener" class="text-sm hover:underline" style="color: var(--brand-green);">
+                    {org.website.replace(/^https?:\/\//, '').replace(/\/$/, '')}
+                  </a>
+                ) : (
+                  <div class="text-sm" style="color: var(--text-tertiary);">-</div>
+                )}
+              </div>
+              {org.originalLabel && (
+                <div>
+                  <div class="text-xs font-medium mb-1" style="color: var(--text-tertiary);">Certus Label</div>
+                  <div class="text-sm" style="color: var(--text-primary);">{org.originalLabel}</div>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        <!-- Contacts -->
+        <div class="card p-5">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="text-sm font-semibold" style="color: var(--text-primary);">
+              Contacts <span class="font-normal" style="color: var(--text-tertiary);">({org.contacts.length})</span>
+            </h3>
+          </div>
+          {org.contacts.length > 0 ? (
+            <div class="space-y-3">
+              {org.contacts.map((contact: any) => (
+                <div class="p-4 rounded-lg" style="background: var(--bg-elevated);">
+                  <div class="flex items-start justify-between">
+                    <div>
+                      <div class="text-sm font-medium" style="color: var(--text-primary);">{contact.name}</div>
+                      {contact.title && (
+                        <div class="text-xs mt-0.5" style="color: var(--text-secondary);">{contact.title}</div>
+                      )}
+                    </div>
+                    <div class="w-8 h-8 rounded-full flex items-center justify-center text-xs font-medium flex-shrink-0" style="background: var(--brand-green); color: white;">
+                      {contact.name.split(' ').map((n: string) => n[0]).join('').slice(0, 2).toUpperCase()}
+                    </div>
+                  </div>
+                  <div class="flex flex-wrap gap-4 mt-3">
+                    {contact.email && (
+                      <a href={`mailto:${contact.email}`} class="flex items-center gap-1.5 text-xs hover:underline" style="color: var(--brand-green);">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        {contact.email}
+                      </a>
+                    )}
+                    {contact.phone && (
+                      <a href={`tel:${contact.phone}`} class="flex items-center gap-1.5 text-xs hover:underline" style="color: var(--brand-green);">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                        {contact.phone}
+                      </a>
+                    )}
+                    {contact.linkedin && (
+                      <a href={contact.linkedin} target="_blank" rel="noopener" class="flex items-center gap-1.5 text-xs hover:underline" style="color: var(--brand-green);">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        LinkedIn
+                      </a>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div class="text-center py-8">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="mx-auto mb-2" style="color: var(--text-tertiary);">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/>
+              </svg>
+              <p class="text-sm" style="color: var(--text-tertiary);">No contacts found for this organization</p>
+            </div>
+          )}
+        </div>
+
+        <!-- Certifications & Services -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="card p-5">
+            <h3 class="text-sm font-semibold mb-3" style="color: var(--text-primary);">Certifications</h3>
+            {org.certifications && org.certifications.length > 0 ? (
+              <div class="flex flex-wrap gap-2">
+                {org.certifications.map((cert: string) => (
+                  <span class="text-xs px-2 py-1 rounded" style="background: rgba(45, 107, 63, 0.15); color: var(--brand-green);">{cert}</span>
+                ))}
+              </div>
+            ) : (
+              <p class="text-sm" style="color: var(--text-tertiary);">No certifications recorded</p>
+            )}
+          </div>
+          <div class="card p-5">
+            <h3 class="text-sm font-semibold mb-3" style="color: var(--text-primary);">Services</h3>
+            {org.services && org.services.length > 0 ? (
+              <div class="flex flex-wrap gap-2">
+                {org.services.map((svc: string) => (
+                  <span class="text-xs px-2 py-1 rounded" style="background: var(--bg-elevated); color: var(--text-secondary);">{svc}</span>
+                ))}
+              </div>
+            ) : (
+              <p class="text-sm" style="color: var(--text-tertiary);">No services recorded</p>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="space-y-6">
+        <!-- Quick Info -->
+        <div class="card p-5">
+          <h3 class="text-sm font-semibold mb-4" style="color: var(--text-primary);">Quick Info</h3>
+          <div class="space-y-3">
+            {isPipeline && org.score && org.score > 0 && (
+              <div class="flex items-center justify-between">
+                <span class="text-sm" style="color: var(--text-tertiary);">Score</span>
+                <span class={`score-badge ${org.score >= 80 ? 'score-high' : org.score >= 70 ? 'score-mid' : 'score-low'}`}>{org.score}/100</span>
+              </div>
+            )}
+            <div class="flex items-center justify-between">
+              <span class="text-sm" style="color: var(--text-tertiary);">Contacts</span>
+              <span class="text-sm font-medium" style="color: var(--text-primary);">{org.contacts.length}</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm" style="color: var(--text-tertiary);">Certifications</span>
+              <span class="text-sm font-medium" style="color: var(--text-primary);">{org.certifications?.length || 0}</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm" style="color: var(--text-tertiary);">Data Source</span>
+              <span class="text-sm font-medium" style="color: var(--text-primary);">{isPipeline ? 'Returna' : 'Certus'}</span>
+            </div>
+            {isPipeline && org.pipelineData?.lastTouch && (
+              <div class="border-t pt-3 mt-3" style="border-color: var(--border);">
+                <div class="text-xs" style="color: var(--text-tertiary);">Last Touch</div>
+                <div class="text-sm" style="color: var(--text-secondary);">{org.pipelineData.lastTouch}</div>
+              </div>
+            )}
+          </div>
+        </div>
+
+        <!-- Research Notes (Pipeline only) -->
+        {isPipeline && org.notes && org.notes.length > 0 && (
+          <div class="card p-5">
+            <h3 class="text-sm font-semibold mb-3" style="color: var(--text-primary);">Research Notes</h3>
+            <div class="space-y-2">
+              {org.notes.map((note: string) => (
+                <div class="text-sm p-3 rounded" style="background: var(--bg-elevated); color: var(--text-secondary);">{note}</div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- Unverified Warning (Lead pool only) -->
+        {!isPipeline && (
+          <div class="card p-4 flex items-start gap-3" style="background: rgba(251, 191, 36, 0.1); border-color: rgba(251, 191, 36, 0.3);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-0.5">
+              <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+            <div>
+              <div class="text-xs font-medium" style="color: var(--text-primary);">Unverified Data</div>
+              <p class="text-xs mt-1" style="color: var(--text-secondary);">
+                This data is from Certus Software's CRM and has not been independently verified by Returna. Research thoroughly before outreach.
+              </p>
+            </div>
+          </div>
+        )}
+
+        <!-- Related Orgs -->
+        {relatedOrgs.length > 0 && (
+          <div class="card p-5">
+            <h3 class="text-sm font-semibold mb-3" style="color: var(--text-primary);">
+              Related in {org.country}
+            </h3>
+            <div class="space-y-2">
+              {relatedOrgs.map((related: any) => (
+                <a href={`/lead/${related.slug}`} class="block py-2 px-2 rounded -mx-2 transition-colors"
+                  onmouseover="this.style.background='var(--bg-elevated)'"
+                  onmouseout="this.style.background='transparent'">
+                  <div class="flex items-center justify-between">
+                    <div class="text-sm truncate" style="color: var(--text-primary);">{related.name}</div>
+                    {related.score && related.score > 0 && (
+                      <span class={`score-badge text-xs ${related.score >= 80 ? 'score-high' : related.score >= 70 ? 'score-mid' : 'score-low'}`}>{related.score}</span>
+                    )}
+                  </div>
+                  <div class="text-xs" style="color: var(--text-tertiary);">
+                    {related.isPipeline ? 'Pipeline' : related.industry || 'Lead pool'} &middot; {related.stage}
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,310 @@
+---
+import Layout from '../layouts/Layout.astro';
+import pipeline from '../data/pipeline.json';
+
+// Pipeline stages in order
+const stages = [
+  { id: 'new', label: 'New', color: 'status-new', bgColor: 'rgba(59, 130, 246, 0.1)', borderColor: 'rgba(59, 130, 246, 0.3)' },
+  { id: 'researching', label: 'Researching', color: 'status-researching', bgColor: 'rgba(139, 92, 246, 0.1)', borderColor: 'rgba(139, 92, 246, 0.3)' },
+  { id: 'qualified', label: 'Qualified', color: 'status-qualified', bgColor: 'rgba(45, 107, 63, 0.1)', borderColor: 'rgba(45, 107, 63, 0.3)' },
+  { id: 'contacted', label: 'Contacted', color: 'status-contacted', bgColor: 'rgba(230, 126, 34, 0.1)', borderColor: 'rgba(230, 126, 34, 0.3)' },
+  { id: 'rejected', label: 'Rejected', color: 'status-rejected', bgColor: 'rgba(231, 76, 60, 0.1)', borderColor: 'rgba(231, 76, 60, 0.3)' },
+];
+
+// Group pipeline orgs by stage, sorted by score within each
+const orgsByStage = stages.reduce((acc, stage) => {
+  acc[stage.id] = pipeline
+    .filter(org => org.stage === stage.id)
+    .sort((a, b) => (b.score || 0) - (a.score || 0));
+  return acc;
+}, {} as Record<string, typeof pipeline>);
+---
+
+<Layout title="Pipeline Board" activeNav="pipeline">
+  <div class="space-y-6">
+    <!-- Header -->
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <div>
+        <h2 class="text-2xl font-bold" style="color: var(--text-primary);">Pipeline Board</h2>
+        <p class="text-sm mt-1" style="color: var(--text-secondary);">
+          {pipeline.length} researched ITAD prospects — sorted by score
+        </p>
+      </div>
+      <div class="flex items-center gap-3">
+        <button id="view-kanban" class="view-toggle active" title="Kanban view">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="5" height="18" rx="1"/><rect x="10" y="3" width="5" height="12" rx="1"/><rect x="17" y="3" width="5" height="8" rx="1"/>
+          </svg>
+        </button>
+        <button id="view-table" class="view-toggle" title="Table view">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+        <div class="h-6 w-px" style="background: var(--border);"></div>
+        <input
+          type="search"
+          id="pipeline-search"
+          class="input text-sm"
+          placeholder="Search prospects..."
+          style="width: 200px;"
+        />
+        <button id="export-csv" class="btn-secondary text-sm flex items-center gap-1.5" title="Export pipeline as CSV">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          Export CSV
+        </button>
+      </div>
+    </div>
+
+    <!-- Kanban View -->
+    <div id="kanban-view" class="overflow-x-auto">
+      <div class="flex gap-4 pb-4" style="min-width: max-content;">
+        {stages.map(stage => (
+          <div class="kanban-column flex-shrink-0" style="width: 300px;">
+            <div class="flex items-center justify-between mb-3 px-1">
+              <div class="flex items-center gap-2">
+                <div class="w-2.5 h-2.5 rounded-full" style={`background: var(--${stage.color});`}></div>
+                <span class="text-sm font-semibold" style="color: var(--text-primary);">{stage.label}</span>
+              </div>
+              <span class="text-xs px-2 py-0.5 rounded-full" style="background: var(--bg-elevated); color: var(--text-secondary);">
+                {orgsByStage[stage.id]?.length || 0}
+              </span>
+            </div>
+            <div class="space-y-2 kanban-cards" data-stage={stage.id} style={`background: ${stage.bgColor}; border: 1px dashed ${stage.borderColor}; border-radius: 0.5rem; padding: 0.5rem; min-height: 200px;`}>
+              {(orgsByStage[stage.id] || []).map(org => (
+                <a href={`/lead/${org.slug}`} class="kanban-card block" data-name={org.name.toLowerCase()} data-country={(org.country || '').toLowerCase()}>
+                  <div class="flex items-center justify-between">
+                    <div class="text-sm font-medium truncate" style="color: var(--text-primary);">{org.name}</div>
+                    {org.score && org.score > 0 && (
+                      <span class={`score-badge ${org.score >= 80 ? 'score-high' : org.score >= 70 ? 'score-mid' : 'score-low'}`}>{org.score}</span>
+                    )}
+                  </div>
+                  <div class="flex items-center justify-between mt-2">
+                    <span class="text-xs" style="color: var(--text-tertiary);">{org.pipelineData?.flag || ''} {org.country}</span>
+                    <span class="text-xs" style="color: var(--text-tertiary);">{org.pipelineData?.region || ''}</span>
+                  </div>
+                  {org.pipelineData?.nextAction && (
+                    <div class="text-xs mt-1.5 truncate" style="color: var(--text-secondary);">Next: {org.pipelineData.nextAction}</div>
+                  )}
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- Table View -->
+    <div id="table-view" class="hidden">
+      <!-- Stage Filter Chips -->
+      <div class="flex flex-wrap items-center gap-2 mb-4">
+        <span class="text-xs font-medium" style="color: var(--text-tertiary);">Filter:</span>
+        <button class="stage-chip active" data-filter="all" style="--chip-color: var(--text-secondary);">
+          All <span class="chip-count">{pipeline.length}</span>
+        </button>
+        {stages.map(stage => (
+          <button class="stage-chip" data-filter={stage.id} style={`--chip-color: var(--${stage.color});`}>
+            {stage.label} <span class="chip-count">{orgsByStage[stage.id]?.length || 0}</span>
+          </button>
+        ))}
+      </div>
+      <div class="card overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th class="cursor-pointer select-none" data-sort="name">Company</th>
+                <th>Stage</th>
+                <th class="cursor-pointer select-none" data-sort="score">Score</th>
+                <th>Country</th>
+                <th>Region</th>
+                <th>Contacts</th>
+                <th>Next Action</th>
+              </tr>
+            </thead>
+            <tbody id="table-body">
+              {[...pipeline].sort((a, b) => (b.score || 0) - (a.score || 0)).map(org => (
+                <tr class="lead-row" data-name={org.name.toLowerCase()} data-country={(org.country || '').toLowerCase()} data-stage={org.stage} data-score={org.score || 0}>
+                  <td>
+                    <a href={`/lead/${org.slug}`} class="font-medium hover:underline" style="color: var(--text-primary);">
+                      {org.pipelineData?.flag || ''} {org.name}
+                    </a>
+                  </td>
+                  <td>
+                    <span class={`status-badge status-${org.stage}`}>{org.stage}</span>
+                  </td>
+                  <td>
+                    {org.score && org.score > 0 ? (
+                      <span class={`score-badge ${org.score >= 80 ? 'score-high' : org.score >= 70 ? 'score-mid' : 'score-low'}`}>{org.score}</span>
+                    ) : (
+                      <span style="color: var(--text-tertiary);">-</span>
+                    )}
+                  </td>
+                  <td style="color: var(--text-secondary);">{org.country}</td>
+                  <td style="color: var(--text-secondary);">{org.pipelineData?.region || '-'}</td>
+                  <td style="color: var(--text-secondary);">{org.contacts.length}</td>
+                  <td class="text-xs" style="color: var(--text-secondary);">{org.pipelineData?.nextAction || '-'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .view-toggle {
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-tertiary);
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .view-toggle:hover {
+    background: var(--bg-elevated);
+    color: var(--text-secondary);
+  }
+  .view-toggle.active {
+    background: var(--brand-green);
+    border-color: var(--brand-green);
+    color: white;
+  }
+  .stage-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 9999px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .stage-chip:hover {
+    border-color: var(--chip-color);
+    color: var(--chip-color);
+  }
+  .stage-chip.active {
+    background: var(--chip-color);
+    border-color: var(--chip-color);
+    color: white;
+  }
+  .chip-count {
+    font-size: 0.65rem;
+    opacity: 0.8;
+  }
+</style>
+
+<script is:inline define:vars={{ pipelineData: pipeline }}>
+  document.addEventListener('DOMContentLoaded', function() {
+    const kanbanView = document.getElementById('kanban-view');
+    const tableView = document.getElementById('table-view');
+    const viewKanban = document.getElementById('view-kanban');
+    const viewTable = document.getElementById('view-table');
+    const searchInput = document.getElementById('pipeline-search');
+
+    // View toggle
+    viewKanban?.addEventListener('click', function() {
+      kanbanView.classList.remove('hidden');
+      tableView.classList.add('hidden');
+      viewKanban.classList.add('active');
+      viewTable.classList.remove('active');
+    });
+
+    viewTable?.addEventListener('click', function() {
+      tableView.classList.remove('hidden');
+      kanbanView.classList.add('hidden');
+      viewTable.classList.add('active');
+      viewKanban.classList.remove('active');
+    });
+
+    // (Search handled via applyFilters below)
+
+    // CSV Export
+    document.getElementById('export-csv')?.addEventListener('click', function() {
+      var data = pipelineData;
+      var headers = ['Company','Stage','Score','Country','Region','Website','Contacts','Next Action'];
+      var rows = data.map(function(org) {
+        var contacts = (org.contacts || []).map(function(c) { return (c.name || '') + ' <' + (c.email || '') + '>'; }).join('; ');
+        return [
+          '"' + (org.name || '').replace(/"/g, '""') + '"',
+          org.stage || '',
+          org.score || '',
+          org.country || '',
+          (org.pipelineData && org.pipelineData.region) || '',
+          org.website || '',
+          '"' + contacts.replace(/"/g, '""') + '"',
+          '"' + ((org.pipelineData && org.pipelineData.nextAction) || '').replace(/"/g, '""') + '"'
+        ].join(',');
+      });
+      var csv = headers.join(',') + '\n' + rows.join('\n');
+      var blob = new Blob([csv], { type: 'text/csv' });
+      var a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'returna-pipeline-' + new Date().toISOString().slice(0,10) + '.csv';
+      a.click();
+      URL.revokeObjectURL(a.href);
+    });
+
+    // Stage filter chips
+    var activeFilter = 'all';
+    document.querySelectorAll('.stage-chip').forEach(function(chip) {
+      chip.addEventListener('click', function() {
+        document.querySelectorAll('.stage-chip').forEach(function(c) { c.classList.remove('active'); });
+        chip.classList.add('active');
+        activeFilter = chip.dataset.filter;
+        applyFilters();
+      });
+    });
+
+    function applyFilters() {
+      var query = (searchInput?.value || '').toLowerCase();
+      document.querySelectorAll('.lead-row').forEach(function(row) {
+        var name = row.dataset.name || '';
+        var country = row.dataset.country || '';
+        var stage = row.dataset.stage || '';
+        var matchesSearch = name.includes(query) || country.includes(query);
+        var matchesStage = activeFilter === 'all' || stage === activeFilter;
+        row.style.display = (matchesSearch && matchesStage) ? '' : 'none';
+      });
+    }
+
+    // Update search to use applyFilters
+    searchInput?.addEventListener('input', function(e) {
+      var query = e.target.value.toLowerCase();
+      document.querySelectorAll('.kanban-card').forEach(function(card) {
+        var name = card.dataset.name || '';
+        var country = card.dataset.country || '';
+        card.style.display = (name.includes(query) || country.includes(query)) ? 'block' : 'none';
+      });
+      applyFilters();
+    });
+
+    // Table sort by score
+    var sortDir = { name: 1, score: -1 };
+    document.querySelectorAll('[data-sort]').forEach(function(th) {
+      th.addEventListener('click', function() {
+        var key = th.dataset.sort;
+        sortDir[key] = -sortDir[key];
+        var tbody = document.getElementById('table-body');
+        var rows = Array.from(tbody.querySelectorAll('.lead-row'));
+        rows.sort(function(a, b) {
+          if (key === 'score') {
+            return (Number(b.dataset.score) - Number(a.dataset.score)) * sortDir[key];
+          }
+          return a.dataset.name.localeCompare(b.dataset.name) * sortDir[key];
+        });
+        rows.forEach(function(row) { tbody.appendChild(row); });
+      });
+    });
+  });
+</script>

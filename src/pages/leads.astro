@@ -1,0 +1,427 @@
+---
+import Layout from '../layouts/Layout.astro';
+import pipeline from '../data/pipeline.json';
+import leadpool from '../data/leadpool.json';
+
+// Sort pipeline by score desc
+const sortedPipeline = [...pipeline].sort((a, b) => (b.score || 0) - (a.score || 0));
+
+// Sort lead pool alphabetically
+const sortedLeadpool = [...leadpool].sort((a, b) => a.name.localeCompare(b.name));
+
+// Pipeline stage counts
+const pipelineStageCounts = sortedPipeline.reduce((acc, org) => {
+  acc[org.stage] = (acc[org.stage] || 0) + 1;
+  return acc;
+}, {} as Record<string, number>);
+
+// Lead pool industry counts
+const lpIndustryCounts = sortedLeadpool.reduce((acc, org) => {
+  const key = org.industry || 'Uncategorized';
+  acc[key] = (acc[key] || 0) + 1;
+  return acc;
+}, {} as Record<string, number>);
+
+// Lead pool stage counts
+const lpStageCounts = sortedLeadpool.reduce((acc, org) => {
+  const key = org.stage || 'unverified';
+  acc[key] = (acc[key] || 0) + 1;
+  return acc;
+}, {} as Record<string, number>);
+
+const pipelineStageOrder = ['new', 'researching', 'qualified', 'contacted', 'rejected'];
+const lpStageOrder = ['unverified', 'qualified'];
+
+// Pre-compute rejection reasons
+const rejectedLeads = sortedLeadpool.filter(o => o.stage === 'rejected').map(org => {
+  const notes = Array.isArray(org.notes) ? org.notes : [];
+  const found = notes.find(x => String(x).includes('REJECTED'));
+  const reason = found ? String(found).replace('REJECTED: ', '') : '-';
+  return { ...org, rejectionReason: reason };
+});
+---
+
+<Layout title="All Leads" activeNav="leads">
+  <div class="space-y-6">
+    <!-- Header -->
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <div>
+        <h2 class="text-2xl font-bold" style="color: var(--text-primary);">All Leads</h2>
+        <p class="text-sm mt-1" style="color: var(--text-secondary);">
+          {sortedPipeline.length} pipeline prospects + {sortedLeadpool.length.toLocaleString()} lead pool
+        </p>
+      </div>
+      <div class="flex items-center gap-3">
+        <input
+          type="search"
+          id="leads-search"
+          class="input text-sm"
+          placeholder="Search by name, country..."
+          style="width: 220px;"
+        />
+      </div>
+    </div>
+
+    <!-- Tab Toggle -->
+    <div class="flex items-center gap-1 border-b" style="border-color: var(--border);">
+      <button id="tab-pipeline" class="leads-tab active text-sm px-4 py-2.5 font-medium" style="color: var(--brand-green); border-bottom: 2px solid var(--brand-green);">
+        Pipeline ({sortedPipeline.length})
+      </button>
+      <button id="tab-leadpool" class="leads-tab text-sm px-4 py-2.5" style="color: var(--text-tertiary); border-bottom: 2px solid transparent;">
+        Lead Pool ({sortedLeadpool.filter(o => o.stage !== 'rejected').length.toLocaleString()})
+      </button>
+      <button id="tab-rejected" class="leads-tab text-sm px-4 py-2.5" style="color: var(--text-tertiary); border-bottom: 2px solid transparent;">
+        Rejected ({sortedLeadpool.filter(o => o.stage === 'rejected').length})
+      </button>
+    </div>
+
+    <!-- Pipeline Tab -->
+    <div id="pipeline-tab" class="space-y-4">
+      <!-- Pipeline Stage Filters -->
+      <div class="flex flex-wrap gap-2">
+        <button class="pipeline-pill active text-xs px-3 py-1.5 rounded-full transition-colors" data-stage="all"
+          style="border: 1px solid var(--border);">
+          All <span style="color: var(--text-tertiary);">{sortedPipeline.length}</span>
+        </button>
+        {pipelineStageOrder.map(stage => (
+          pipelineStageCounts[stage] ? (
+            <button class="pipeline-pill text-xs px-3 py-1.5 rounded-full transition-colors" data-stage={stage}
+              style="border: 1px solid var(--border);">
+              <span class="capitalize">{stage}</span>
+              <span style="color: var(--text-tertiary);">{pipelineStageCounts[stage]}</span>
+            </button>
+          ) : null
+        ))}
+      </div>
+
+      <!-- Pipeline Table -->
+      <div class="card overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Company</th>
+                <th>Country</th>
+                <th>Region</th>
+                <th>Score</th>
+                <th>Stage</th>
+                <th>Contacts</th>
+                <th>Last Action</th>
+              </tr>
+            </thead>
+            <tbody id="pipeline-tbody">
+              {sortedPipeline.map(org => (
+                <tr class="pipeline-row" data-name={org.name.toLowerCase()} data-country={(org.country || '').toLowerCase()} data-stage={org.stage} data-score={org.score || 0}>
+                  <td>
+                    <a href={`/lead/${org.slug}`} class="font-medium hover:underline" style="color: var(--text-primary);">
+                      {org.pipelineData?.flag || ''} {org.name}
+                    </a>
+                  </td>
+                  <td style="color: var(--text-secondary);">{org.country}</td>
+                  <td style="color: var(--text-secondary);">{org.pipelineData?.region || '-'}</td>
+                  <td>
+                    {org.score && org.score > 0 ? (
+                      <span class={`score-badge ${org.score >= 80 ? 'score-high' : org.score >= 70 ? 'score-mid' : 'score-low'}`}>{org.score}</span>
+                    ) : (
+                      <span style="color: var(--text-tertiary);">-</span>
+                    )}
+                  </td>
+                  <td>
+                    <span class={`status-badge status-${org.stage}`}>{org.stage}</span>
+                  </td>
+                  <td style="color: var(--text-secondary);">{org.contacts.length}</td>
+                  <td class="text-xs" style="color: var(--text-tertiary);">{org.pipelineData?.lastTouch || '-'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div id="pipeline-count" class="text-center py-3 border-t text-xs" style="border-color: var(--border); color: var(--text-tertiary);">
+          Showing {sortedPipeline.length} of {sortedPipeline.length} pipeline prospects
+        </div>
+      </div>
+    </div>
+
+    <!-- Lead Pool Tab -->
+    <div id="leadpool-tab" class="hidden space-y-4">
+      <!-- Stage Filters -->
+      <div class="flex items-center gap-3">
+        <span class="text-xs font-semibold uppercase" style="color: var(--text-tertiary);">Status:</span>
+        <div class="flex flex-wrap gap-2">
+          <button class="lp-stage-pill active text-xs px-3 py-1.5 rounded-full transition-colors" data-lpstage="all"
+            style="border: 1px solid var(--border);">
+            All <span style="color: var(--text-tertiary);">{sortedLeadpool.length.toLocaleString()}</span>
+          </button>
+          {lpStageOrder.map(stage => (
+            lpStageCounts[stage] ? (
+              <button class="lp-stage-pill text-xs px-3 py-1.5 rounded-full transition-colors" data-lpstage={stage}
+                style="border: 1px solid var(--border);">
+                <span class="capitalize">{stage}</span>
+                <span style="color: var(--text-tertiary);">{lpStageCounts[stage]}</span>
+              </button>
+            ) : null
+          ))}
+        </div>
+      </div>
+
+      <!-- Industry Filters -->
+      <div class="flex items-center gap-3">
+        <span class="text-xs font-semibold uppercase" style="color: var(--text-tertiary);">Industry:</span>
+        <div class="flex flex-wrap gap-2">
+        <button class="lp-pill active text-xs px-3 py-1.5 rounded-full transition-colors" data-industry="all"
+          style="border: 1px solid var(--border);">
+          All <span style="color: var(--text-tertiary);">{sortedLeadpool.length.toLocaleString()}</span>
+        </button>
+        {Object.entries(lpIndustryCounts)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 6)
+          .map(([industry, count]) => (
+            <button class="lp-pill text-xs px-3 py-1.5 rounded-full transition-colors" data-industry={industry}
+              style="border: 1px solid var(--border);">
+              {industry} <span style="color: var(--text-tertiary);">{count}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <!-- Lead Pool Table -->
+      <div class="card overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Company</th>
+                <th>Country</th>
+                <th>Stage</th>
+                <th>Industry</th>
+                <th>Website</th>
+              </tr>
+            </thead>
+            <tbody id="leadpool-tbody">
+              {sortedLeadpool.filter(o => o.stage !== 'rejected').map(org => (
+                <tr class="lp-row" data-name={org.name.toLowerCase()} data-country={(org.country || '').toLowerCase()} data-industry={(org.industry || '').toLowerCase()} data-stage={(org.stage || 'unverified').toLowerCase()}>
+                  <td>
+                    <a href={`/lead/${org.slug}`} class="font-medium hover:underline" style="color: var(--text-primary);">
+                      {org.name}
+                    </a>
+                  </td>
+                  <td style="color: var(--text-secondary);">{org.country}</td>
+                  <td>
+                    <span class={`status-badge status-${org.stage || 'unverified'}`}>{org.stage || 'unverified'}</span>
+                  </td>
+                  <td style="color: var(--text-secondary);">{org.industry || '-'}</td>
+                  <td>
+                    {org.website ? (
+                      <a href={org.website.startsWith('http') ? org.website : `https://${org.website}`} target="_blank" rel="noopener" class="text-sm hover:underline" style="color: var(--brand-green);">
+                        Visit
+                      </a>
+                    ) : (
+                      <span style="color: var(--text-tertiary);">-</span>
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div id="lp-count" class="text-center py-3 border-t text-xs" style="border-color: var(--border); color: var(--text-tertiary);">
+          Showing {sortedLeadpool.length.toLocaleString()} of {sortedLeadpool.length.toLocaleString()} leads
+        </div>
+      </div>
+    </div>
+
+    <!-- Rejected Tab -->
+    <div id="rejected-tab" class="hidden space-y-4">
+      <div class="card overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Company</th>
+                <th>Country</th>
+                <th>Industry</th>
+                <th>Rejection Reason</th>
+                <th>Website</th>
+              </tr>
+            </thead>
+            <tbody id="rejected-tbody">
+              {rejectedLeads.map(org => (
+                <tr class="rejected-row" data-name={org.name.toLowerCase()} data-country={(org.country || '').toLowerCase()}>
+                  <td>
+                    <a href={`/lead/${org.slug}`} class="font-medium hover:underline" style="color: var(--text-primary); opacity: 0.7;">
+                      {org.name}
+                    </a>
+                  </td>
+                  <td style="color: var(--text-secondary);">{org.country}</td>
+                  <td style="color: var(--text-secondary);">{org.industry || '-'}</td>
+                  <td class="text-xs" style="color: var(--text-tertiary); max-width: 300px;">{org.rejectionReason}</td>
+                  <td>
+                    {org.website ? (
+                      <a href={org.website.startsWith('http') ? org.website : `https://${org.website}`} target="_blank" rel="noopener" class="text-sm hover:underline" style="color: var(--brand-green);">
+                        Visit
+                      </a>
+                    ) : (
+                      <span style="color: var(--text-tertiary);">-</span>
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div id="rejected-count" class="text-center py-3 border-t text-xs" style="border-color: var(--border); color: var(--text-tertiary);">
+          {sortedLeadpool.filter(o => o.stage === 'rejected').length} rejected leads
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .leads-tab {
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    transition: all 0.15s;
+  }
+  .leads-tab:hover {
+    color: var(--text-primary) !important;
+  }
+  .pipeline-pill, .lp-pill, .lp-stage-pill {
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+  }
+  .pipeline-pill:hover, .lp-pill:hover, .lp-stage-pill:hover {
+    background: var(--bg-elevated);
+  }
+  .pipeline-pill.active, .lp-pill.active, .lp-stage-pill.active {
+    background: var(--brand-green);
+    border-color: var(--brand-green) !important;
+    color: white;
+  }
+  .pipeline-pill.active span, .lp-pill.active span, .lp-stage-pill.active span {
+    color: rgba(255,255,255,0.7) !important;
+  }
+  .lp-row-rejected {
+    opacity: 0.5;
+  }
+</style>
+
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', function() {
+    var tabPipeline = document.getElementById('tab-pipeline');
+    var tabLeadpool = document.getElementById('tab-leadpool');
+    var tabRejected = document.getElementById('tab-rejected');
+    var pipelineTab = document.getElementById('pipeline-tab');
+    var leadpoolTab = document.getElementById('leadpool-tab');
+    var rejectedTab = document.getElementById('rejected-tab');
+    var searchInput = document.getElementById('leads-search');
+    var allTabs = [tabPipeline, tabLeadpool, tabRejected];
+    var allPanels = [pipelineTab, leadpoolTab, rejectedTab];
+
+    function switchTab(activeTab, activePanel) {
+      allPanels.forEach(function(p) { p.classList.add('hidden'); });
+      allTabs.forEach(function(t) {
+        t.style.color = 'var(--text-tertiary)';
+        t.style.borderBottom = '2px solid transparent';
+      });
+      activePanel.classList.remove('hidden');
+      activeTab.style.color = 'var(--brand-green)';
+      activeTab.style.borderBottom = '2px solid var(--brand-green)';
+    }
+
+    tabPipeline.addEventListener('click', function() { switchTab(tabPipeline, pipelineTab); });
+    tabLeadpool.addEventListener('click', function() { switchTab(tabLeadpool, leadpoolTab); });
+    tabRejected.addEventListener('click', function() { switchTab(tabRejected, rejectedTab); });
+
+    // Pipeline filtering
+    var pipelineRows = document.querySelectorAll('.pipeline-row');
+    var pipelinePills = document.querySelectorAll('.pipeline-pill');
+    var pipelineCount = document.getElementById('pipeline-count');
+    var pipelineTotal = pipelineRows.length;
+    var currentPipelineStage = 'all';
+
+    function filterPipeline() {
+      var query = (searchInput.value || '').toLowerCase();
+      var visible = 0;
+      pipelineRows.forEach(function(row) {
+        var name = row.dataset.name || '';
+        var country = row.dataset.country || '';
+        var stage = row.dataset.stage || '';
+        var matchSearch = !query || name.includes(query) || country.includes(query);
+        var matchStage = currentPipelineStage === 'all' || stage === currentPipelineStage;
+        if (matchSearch && matchStage) {
+          row.style.display = '';
+          visible++;
+        } else {
+          row.style.display = 'none';
+        }
+      });
+      if (pipelineCount) pipelineCount.textContent = 'Showing ' + visible + ' of ' + pipelineTotal + ' pipeline prospects';
+    }
+
+    pipelinePills.forEach(function(pill) {
+      pill.addEventListener('click', function() {
+        pipelinePills.forEach(function(p) { p.classList.remove('active'); });
+        pill.classList.add('active');
+        currentPipelineStage = pill.dataset.stage;
+        filterPipeline();
+      });
+    });
+
+    // Lead pool filtering
+    var lpRows = document.querySelectorAll('.lp-row');
+    var lpPills = document.querySelectorAll('.lp-pill');
+    var lpStagePills = document.querySelectorAll('.lp-stage-pill');
+    var lpCount = document.getElementById('lp-count');
+    var lpTotal = lpRows.length;
+    var currentIndustry = 'all';
+    var currentLpStage = 'all';
+
+    function filterLeadpool() {
+      var query = (searchInput.value || '').toLowerCase();
+      var visible = 0;
+      lpRows.forEach(function(row) {
+        var name = row.dataset.name || '';
+        var country = row.dataset.country || '';
+        var industry = row.dataset.industry || '';
+        var stage = row.dataset.stage || '';
+        var matchSearch = !query || name.includes(query) || country.includes(query) || industry.includes(query);
+        var matchIndustry = currentIndustry === 'all' || industry === currentIndustry.toLowerCase();
+        var matchStage = currentLpStage === 'all' || stage === currentLpStage;
+        if (matchSearch && matchIndustry && matchStage) {
+          row.style.display = '';
+          visible++;
+        } else {
+          row.style.display = 'none';
+        }
+      });
+      if (lpCount) lpCount.textContent = 'Showing ' + visible + ' of ' + lpTotal + ' leads';
+    }
+
+    lpStagePills.forEach(function(pill) {
+      pill.addEventListener('click', function() {
+        lpStagePills.forEach(function(p) { p.classList.remove('active'); });
+        pill.classList.add('active');
+        currentLpStage = pill.dataset.lpstage;
+        filterLeadpool();
+      });
+    });
+
+    lpPills.forEach(function(pill) {
+      pill.addEventListener('click', function() {
+        lpPills.forEach(function(p) { p.classList.remove('active'); });
+        pill.classList.add('active');
+        currentIndustry = pill.dataset.industry;
+        filterLeadpool();
+      });
+    });
+
+    // Search applies to whichever tab is active
+    searchInput.addEventListener('input', function() {
+      filterPipeline();
+      filterLeadpool();
+    });
+  });
+</script>

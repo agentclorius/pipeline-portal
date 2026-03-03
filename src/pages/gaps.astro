@@ -1,0 +1,239 @@
+---
+import Layout from '../layouts/Layout.astro';
+import pipeline from '../data/pipeline.json';
+import stats from '../data/stats.json';
+
+// Define strategic regions with enterprise demand indicators
+// Enterprise demand is estimated based on corporate device density (Fortune 500 HQ, tech hubs, etc.)
+const strategicRegions = [
+  { region: 'North America', countries: ['United States', 'Canada', 'Mexico'], demandLevel: 'critical', demandScore: 100 },
+  { region: 'UK & Ireland', countries: ['United Kingdom', 'Ireland'], demandLevel: 'critical', demandScore: 95 },
+  { region: 'DACH', countries: ['Germany', 'Austria', 'Switzerland'], demandLevel: 'critical', demandScore: 90 },
+  { region: 'Nordics', countries: ['Denmark', 'Sweden', 'Norway', 'Finland', 'Iceland'], demandLevel: 'high', demandScore: 80 },
+  { region: 'Western Europe', countries: ['France', 'Belgium', 'Netherlands', 'Luxembourg'], demandLevel: 'high', demandScore: 85 },
+  { region: 'Southern Europe', countries: ['Spain', 'Italy', 'Portugal', 'Greece'], demandLevel: 'high', demandScore: 75 },
+  { region: 'Eastern Europe', countries: ['Poland', 'Czech Republic', 'Romania', 'Hungary', 'Bulgaria', 'Slovakia', 'Croatia', 'Slovenia', 'Estonia', 'Latvia', 'Lithuania'], demandLevel: 'medium', demandScore: 55 },
+  { region: 'APAC - Developed', countries: ['Japan', 'Australia', 'New Zealand', 'Singapore', 'South Korea', 'Hong Kong'], demandLevel: 'high', demandScore: 80 },
+  { region: 'APAC - Emerging', countries: ['India', 'Thailand', 'Malaysia', 'Philippines', 'Vietnam', 'Indonesia', 'Taiwan'], demandLevel: 'medium', demandScore: 50 },
+  { region: 'Middle East', countries: ['UAE', 'Saudi Arabia', 'Israel', 'Qatar', 'Kuwait', 'Bahrain'], demandLevel: 'medium', demandScore: 45 },
+  { region: 'Africa', countries: ['South Africa', 'Nigeria', 'Kenya', 'Egypt', 'Morocco'], demandLevel: 'low', demandScore: 25 },
+  { region: 'Latin America', countries: ['Brazil', 'Mexico', 'Chile', 'Colombia', 'Argentina'], demandLevel: 'medium', demandScore: 40 },
+];
+
+// Count pipeline leads per region
+const pipelineByRegion = {};
+pipeline.forEach(org => {
+  const r = org.region || 'Unknown';
+  pipelineByRegion[r] = (pipelineByRegion[r] || 0) + 1;
+});
+
+// Count qualified leads per region
+const qualifiedByRegion = {};
+pipeline.filter(o => o.stage === 'qualified' || o.stage === 'contacted').forEach(org => {
+  const r = org.region || 'Unknown';
+  qualifiedByRegion[r] = (qualifiedByRegion[r] || 0) + 1;
+});
+
+// Count lead pool by region (from stats)
+const leadpoolByCountry = stats.leadpool?.byCountry || {};
+
+// Build gap analysis
+const gapAnalysis = strategicRegions.map(sr => {
+  const pipelineCount = pipelineByRegion[sr.region] || 0;
+  const qualifiedCount = qualifiedByRegion[sr.region] || 0;
+  const leadpoolCount = sr.countries.reduce((sum, c) => sum + (leadpoolByCountry[c] || 0), 0);
+
+  // Coverage score: 0 = no coverage, 100 = well covered
+  let coverageScore = 0;
+  if (qualifiedCount >= 5) coverageScore = 80;
+  else if (qualifiedCount >= 3) coverageScore = 60;
+  else if (qualifiedCount >= 1) coverageScore = 40;
+  else if (pipelineCount >= 3) coverageScore = 25;
+  else if (pipelineCount >= 1) coverageScore = 15;
+  else if (leadpoolCount >= 5) coverageScore = 5;
+
+  // Gap priority = demand - coverage (higher = bigger gap to fill)
+  const gapPriority = Math.max(0, sr.demandScore - coverageScore);
+
+  // Status label
+  let status, statusColor;
+  if (coverageScore >= 60) { status = 'Good'; statusColor = '--status-qualified'; }
+  else if (coverageScore >= 30) { status = 'Partial'; statusColor = '--status-contacted'; }
+  else if (coverageScore > 0) { status = 'Minimal'; statusColor = '--status-rejected'; }
+  else { status = 'None'; statusColor = '--text-tertiary'; }
+
+  return {
+    ...sr,
+    pipelineCount,
+    qualifiedCount,
+    leadpoolCount,
+    coverageScore,
+    gapPriority,
+    status,
+    statusColor,
+  };
+}).sort((a, b) => b.gapPriority - a.gapPriority);
+
+// Summary stats
+const totalGapRegions = gapAnalysis.filter(g => g.coverageScore < 30).length;
+const criticalGaps = gapAnalysis.filter(g => g.gapPriority >= 60);
+const coveredRegions = gapAnalysis.filter(g => g.coverageScore >= 40);
+---
+
+<Layout title="Coverage Gaps" activeNav="gaps">
+  <div class="space-y-6">
+    <!-- Header -->
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <div>
+        <h2 class="text-2xl font-bold" style="color: var(--text-primary);">Coverage Gap Analysis</h2>
+        <p class="text-sm mt-1" style="color: var(--text-secondary);">
+          Where enterprise demand exceeds Return Hub coverage — prioritized recruitment targets
+        </p>
+      </div>
+    </div>
+
+    <!-- Summary Cards -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="stat-card" style="border-left: 3px solid var(--status-rejected);">
+        <div class="stat-value" style="color: var(--status-rejected);">{criticalGaps.length}</div>
+        <div class="stat-label">Critical Gaps</div>
+      </div>
+      <div class="stat-card" style="border-left: 3px solid var(--status-contacted);">
+        <div class="stat-value" style="color: var(--status-contacted);">{totalGapRegions}</div>
+        <div class="stat-label">Underserved Regions</div>
+      </div>
+      <div class="stat-card" style="border-left: 3px solid var(--status-qualified);">
+        <div class="stat-value" style="color: var(--status-qualified);">{coveredRegions.length}</div>
+        <div class="stat-label">Covered Regions</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">{strategicRegions.length}</div>
+        <div class="stat-label">Total Regions Tracked</div>
+      </div>
+    </div>
+
+    <!-- Priority Action Items -->
+    {criticalGaps.length > 0 && (
+      <div class="card p-5" style="border-left: 3px solid var(--status-rejected);">
+        <h3 class="text-sm font-semibold mb-3" style="color: var(--status-rejected);">🚨 Priority Recruitment Targets</h3>
+        <p class="text-xs mb-4" style="color: var(--text-secondary);">
+          These regions have high enterprise demand but little or no Return Hub coverage. Focus recruitment here first.
+        </p>
+        <div class="grid md:grid-cols-2 gap-3">
+          {criticalGaps.map(gap => (
+            <div class="p-3 rounded-lg" style="background: var(--bg-elevated); border: 1px solid var(--border);">
+              <div class="flex items-center justify-between mb-1">
+                <span class="text-sm font-semibold" style="color: var(--text-primary);">{gap.region}</span>
+                <span class="text-xs px-2 py-0.5 rounded-full font-medium" style={`background: rgba(231, 76, 60, 0.15); color: var(--status-rejected);`}>
+                  Gap: {gap.gapPriority}
+                </span>
+              </div>
+              <div class="text-xs" style="color: var(--text-tertiary);">
+                {gap.countries.slice(0, 4).join(', ')}{gap.countries.length > 4 ? ` +${gap.countries.length - 4} more` : ''}
+              </div>
+              <div class="flex items-center gap-3 mt-2 text-xs" style="color: var(--text-secondary);">
+                <span>Pipeline: {gap.pipelineCount}</span>
+                <span>Qualified: {gap.qualifiedCount}</span>
+                <span>Lead pool: {gap.leadpoolCount}</span>
+              </div>
+              {gap.leadpoolCount > 0 ? (
+                <div class="mt-2 text-xs" style="color: var(--brand-green);">
+                  ✓ {gap.leadpoolCount} unverified leads available — start researching
+                </div>
+              ) : (
+                <div class="mt-2 text-xs" style="color: var(--status-contacted);">
+                  ⚠ No leads in pool — needs fresh discovery
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Full Gap Table -->
+    <div class="card overflow-hidden">
+      <div class="px-5 py-4 border-b" style="border-color: var(--border);">
+        <h3 class="text-sm font-semibold" style="color: var(--text-primary);">All Regions — Coverage vs. Demand</h3>
+      </div>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr style="background: var(--bg-elevated);">
+              <th class="text-left px-5 py-3 font-medium" style="color: var(--text-secondary);">Region</th>
+              <th class="text-center px-3 py-3 font-medium" style="color: var(--text-secondary);">Demand</th>
+              <th class="text-center px-3 py-3 font-medium" style="color: var(--text-secondary);">Coverage</th>
+              <th class="text-center px-3 py-3 font-medium" style="color: var(--text-secondary);">Gap Priority</th>
+              <th class="text-center px-3 py-3 font-medium" style="color: var(--text-secondary);">Pipeline</th>
+              <th class="text-center px-3 py-3 font-medium" style="color: var(--text-secondary);">Qualified</th>
+              <th class="text-center px-3 py-3 font-medium" style="color: var(--text-secondary);">Lead Pool</th>
+              <th class="text-center px-3 py-3 font-medium" style="color: var(--text-secondary);">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            {gapAnalysis.map(gap => (
+              <tr class="border-b hover-row" style="border-color: var(--border);">
+                <td class="px-5 py-3">
+                  <div class="font-medium" style="color: var(--text-primary);">{gap.region}</div>
+                  <div class="text-xs" style="color: var(--text-tertiary);">
+                    {gap.countries.slice(0, 3).join(', ')}{gap.countries.length > 3 ? ` +${gap.countries.length - 3}` : ''}
+                  </div>
+                </td>
+                <td class="text-center px-3 py-3">
+                  <div class="inline-flex items-center gap-1.5">
+                    <div class="w-16 h-2 rounded-full overflow-hidden" style="background: var(--bg-elevated);">
+                      <div class="h-full rounded-full" style={`width: ${gap.demandScore}%; background: var(--status-new);`}></div>
+                    </div>
+                    <span class="text-xs" style="color: var(--text-tertiary);">{gap.demandScore}</span>
+                  </div>
+                </td>
+                <td class="text-center px-3 py-3">
+                  <div class="inline-flex items-center gap-1.5">
+                    <div class="w-16 h-2 rounded-full overflow-hidden" style="background: var(--bg-elevated);">
+                      <div class="h-full rounded-full" style={`width: ${gap.coverageScore}%; background: var(--status-qualified);`}></div>
+                    </div>
+                    <span class="text-xs" style="color: var(--text-tertiary);">{gap.coverageScore}</span>
+                  </div>
+                </td>
+                <td class="text-center px-3 py-3">
+                  <span class={`text-sm font-bold ${gap.gapPriority >= 60 ? '' : gap.gapPriority >= 30 ? '' : ''}`}
+                    style={`color: ${gap.gapPriority >= 60 ? 'var(--status-rejected)' : gap.gapPriority >= 30 ? 'var(--status-contacted)' : 'var(--text-secondary)'};`}>
+                    {gap.gapPriority}
+                  </span>
+                </td>
+                <td class="text-center px-3 py-3" style="color: var(--text-primary);">{gap.pipelineCount}</td>
+                <td class="text-center px-3 py-3" style="color: var(--text-primary);">{gap.qualifiedCount}</td>
+                <td class="text-center px-3 py-3" style="color: var(--text-primary);">{gap.leadpoolCount.toLocaleString()}</td>
+                <td class="text-center px-3 py-3">
+                  <span class="text-xs px-2 py-1 rounded-full font-medium"
+                    style={`background: color-mix(in srgb, var(${gap.statusColor}) 15%, transparent); color: var(${gap.statusColor});`}>
+                    {gap.status}
+                  </span>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Methodology Note -->
+    <div class="card p-4 flex items-start gap-3" style="background: var(--bg-elevated);">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-0.5" style="color: var(--text-tertiary);">
+        <circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/>
+      </svg>
+      <div class="text-xs" style="color: var(--text-tertiary);">
+        <strong style="color: var(--text-secondary);">How gap priority is calculated:</strong>
+        Demand score estimates enterprise device density by region (Fortune 500 presence, tech sector size, GDP).
+        Coverage score measures Return Hub readiness based on qualified and pipeline leads.
+        Gap priority = demand − coverage. Higher scores indicate where recruitment will have the greatest impact on Returna's ability to serve enterprise clients.
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .hover-row:hover {
+    background: var(--bg-elevated);
+  }
+</style>

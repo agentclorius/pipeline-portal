@@ -1,0 +1,348 @@
+---
+import Layout from '../layouts/Layout.astro';
+import pipeline from '../data/pipeline.json';
+import leadpool from '../data/leadpool.json';
+import stats from '../data/stats.json';
+
+// Pipeline orgs with coords
+const pipelineWithCoords = pipeline.filter(org => org.lat && org.lng);
+
+// Lead pool orgs with coords
+const leadpoolWithCoords = leadpool.filter(org => org.lat && org.lng);
+
+// Stage colors for markers
+const stageColors = {
+  new: '#3B82F6',
+  researching: '#8B5CF6',
+  qualified: '#2D6B3F',
+  contacted: '#E67E22',
+  rejected: '#E74C3C',
+  unverified: '#9CA3AF',
+};
+
+// Pipeline by region
+const regionEntries = Object.entries(stats.pipeline.byRegion || {})
+  .sort((a, b) => b[1] - a[1]);
+---
+
+<Layout title="Coverage Map" activeNav="map">
+  <div class="space-y-6">
+    <!-- Header -->
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <div>
+        <h2 class="text-2xl font-bold" style="color: var(--text-primary);">Global Coverage Map</h2>
+        <p class="text-sm mt-1" style="color: var(--text-secondary);">
+          {pipelineWithCoords.length} pipeline prospects + {leadpoolWithCoords.length.toLocaleString()} lead pool
+        </p>
+      </div>
+      <div class="flex items-center gap-3">
+        <div class="flex items-center rounded-lg overflow-hidden border" style="border-color: var(--border);">
+          <button id="view-pipeline" class="map-view-toggle active text-sm px-4 py-2" style="background: var(--brand-green); color: white;">
+            Pipeline ({pipelineWithCoords.length})
+          </button>
+          <button id="view-leadpool" class="map-view-toggle text-sm px-4 py-2" style="background: transparent; color: var(--text-secondary);">
+            Lead Pool ({leadpoolWithCoords.length.toLocaleString()})
+          </button>
+          <button id="view-all" class="map-view-toggle text-sm px-4 py-2" style="background: transparent; color: var(--text-secondary);">
+            All
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Legend -->
+    <div id="pipeline-legend" class="flex flex-wrap items-center gap-4 text-sm">
+      <span class="text-xs font-semibold" style="color: var(--text-tertiary);">PIPELINE:</span>
+      {Object.entries(stageColors).filter(([s]) => s !== 'unverified').map(([stage, color]) => (
+        <div class="flex items-center gap-2">
+          <div class="w-3 h-3 rounded-full" style={`background: ${color};`}></div>
+          <span style="color: var(--text-secondary);">
+            {stage.charAt(0).toUpperCase() + stage.slice(1)}
+          </span>
+        </div>
+      ))}
+    </div>
+    <div id="leadpool-legend" class="hidden flex flex-wrap items-center gap-4 text-sm">
+      <span class="text-xs font-semibold" style="color: var(--text-tertiary);">LEAD POOL:</span>
+      <div class="flex items-center gap-2">
+        <div class="w-3 h-3 rounded-full" style="background: #9CA3AF;"></div>
+        <span style="color: var(--text-secondary);">Unverified (Certus Import)</span>
+      </div>
+    </div>
+
+    <!-- Map Container -->
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+      <div class="lg:col-span-3">
+        <div id="map" class="card" style="height: 600px; border-radius: 0.5rem; overflow: hidden;"></div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="lg:col-span-1">
+        <div id="region-sidebar" class="card p-4" style="max-height: 600px; overflow-y: auto;">
+          <h3 class="text-sm font-semibold mb-3" style="color: var(--text-primary);">Pipeline by Region</h3>
+          <div class="space-y-2">
+            {regionEntries.map(([region, count]) => (
+              <button
+                class="region-btn w-full flex items-center justify-between py-2 px-3 rounded text-left transition-colors"
+                data-region={region}
+                style="color: var(--text-secondary);"
+                onmouseover="this.style.background='var(--bg-elevated)'"
+                onmouseout="this.style.background='transparent'"
+              >
+                <span class="text-sm truncate">{region}</span>
+                <span class="text-sm font-medium" style="color: var(--text-primary);">{count}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Coverage Stats -->
+    <div class="card p-5">
+      <h3 class="text-sm font-semibold mb-3" style="color: var(--text-primary);">Pipeline Coverage</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="p-3 rounded" style="background: var(--bg-elevated);">
+          <div class="text-2xl font-bold" style="color: var(--brand-green);">
+            {stats.pipeline.total}
+          </div>
+          <div class="text-xs" style="color: var(--text-tertiary);">Pipeline Prospects</div>
+        </div>
+        <div class="p-3 rounded" style="background: var(--bg-elevated);">
+          <div class="text-2xl font-bold" style="color: var(--status-qualified);">
+            {stats.pipeline.byStage.qualified || 0}
+          </div>
+          <div class="text-xs" style="color: var(--text-tertiary);">Qualified</div>
+        </div>
+        <div class="p-3 rounded" style="background: var(--bg-elevated);">
+          <div class="text-2xl font-bold" style="color: var(--status-researching);">
+            {stats.pipeline.byStage.researching || 0}
+          </div>
+          <div class="text-xs" style="color: var(--text-tertiary);">Researching</div>
+        </div>
+        <div class="p-3 rounded" style="background: var(--bg-elevated);">
+          <div class="text-2xl font-bold" style="color: var(--text-secondary);">
+            {Object.keys(stats.pipeline.byRegion || {}).length}
+          </div>
+          <div class="text-xs" style="color: var(--text-tertiary);">Regions Covered</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script is:inline src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+<style>
+  .marker-cluster-small { background-color: rgba(59, 130, 246, 0.3); }
+  .marker-cluster-small div { background-color: rgba(59, 130, 246, 0.7); color: #e2e8f0; }
+  .marker-cluster-medium { background-color: rgba(45, 107, 63, 0.3); }
+  .marker-cluster-medium div { background-color: rgba(45, 107, 63, 0.7); color: #e2e8f0; }
+  .marker-cluster-large { background-color: rgba(5, 150, 105, 0.3); }
+  .marker-cluster-large div { background-color: rgba(5, 150, 105, 0.7); color: #e2e8f0; }
+  .marker-cluster div { font-weight: 600; font-size: 13px; }
+
+  [data-theme="light"] .marker-cluster-small { background-color: rgba(59, 130, 246, 0.2); }
+  [data-theme="light"] .marker-cluster-small div { background-color: rgba(59, 130, 246, 0.6); color: #fff; }
+  [data-theme="light"] .marker-cluster-medium { background-color: rgba(45, 107, 63, 0.2); }
+  [data-theme="light"] .marker-cluster-medium div { background-color: rgba(45, 107, 63, 0.6); color: #fff; }
+  [data-theme="light"] .marker-cluster-large { background-color: rgba(5, 150, 105, 0.2); }
+  [data-theme="light"] .marker-cluster-large div { background-color: rgba(5, 150, 105, 0.6); color: #fff; }
+
+  .map-view-toggle { cursor: pointer; border: none; transition: all 0.15s; }
+  .map-view-toggle:hover { opacity: 0.8; }
+</style>
+
+<script is:inline define:vars={{ pipelineWithCoords, leadpoolWithCoords, stageColors }}>
+  document.addEventListener('DOMContentLoaded', function() {
+    var map = L.map('map', { center: [30, 0], zoom: 2, minZoom: 2, maxZoom: 18 });
+
+    var isDark = document.documentElement.getAttribute('data-theme') !== 'light';
+    var tileUrl = isDark
+      ? 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'
+      : 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png';
+
+    L.tileLayer(tileUrl, {
+      attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+      subdomains: 'abcd',
+      maxZoom: 20
+    }).addTo(map);
+
+    var pipelineLayer = L.layerGroup();
+    var leadpoolCluster = L.markerClusterGroup({
+      maxClusterRadius: 50,
+      spiderfyOnMaxZoom: true,
+      showCoverageOnHover: false,
+      zoomToBoundsOnClick: true,
+    });
+
+    var allPipelineMarkers = [];
+
+    // Create pipeline markers (larger, color-coded by score/stage)
+    pipelineWithCoords.forEach(function(org) {
+      var color = stageColors[org.stage] || '#9CA3AF';
+      var radius = 9;
+      if (org.score && org.score >= 80) radius = 11;
+
+      var marker = L.circleMarker([org.lat, org.lng], {
+        radius: radius,
+        fillColor: color,
+        color: '#fff',
+        weight: 2,
+        opacity: 1,
+        fillOpacity: 0.9,
+      });
+
+      var scoreHtml = org.score && org.score > 0
+        ? '<div style="font-size: 12px; margin-bottom: 4px;"><strong>Score: ' + org.score + '</strong></div>'
+        : '';
+
+      marker.bindPopup(
+        '<div style="min-width: 200px;">' +
+          '<div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #2D6B3F; margin-bottom: 4px;">Pipeline Prospect</div>' +
+          '<div style="font-weight: 600; margin-bottom: 4px; font-size: 14px;">' + org.name + '</div>' +
+          '<div style="font-size: 12px; color: #666; margin-bottom: 6px;">' + (org.pipelineData && org.pipelineData.flag ? org.pipelineData.flag + ' ' : '') + org.country + '</div>' +
+          scoreHtml +
+          '<div style="display: flex; align-items: center; gap: 6px; margin-bottom: 6px;">' +
+            '<span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: ' + color + ';"></span>' +
+            '<span style="font-size: 12px; text-transform: capitalize;">' + org.stage + '</span>' +
+          '</div>' +
+          '<a href="/lead/' + org.slug + '" style="font-size: 12px; color: #2D6B3F;">View details</a>' +
+        '</div>'
+      );
+
+      marker.org = org;
+      allPipelineMarkers.push(marker);
+      pipelineLayer.addLayer(marker);
+    });
+
+    // Create lead pool markers (smaller, grey, clustered)
+    leadpoolWithCoords.forEach(function(org) {
+      var marker = L.circleMarker([org.lat, org.lng], {
+        radius: 4,
+        fillColor: '#9CA3AF',
+        color: '#9CA3AF',
+        weight: 1,
+        opacity: 0.6,
+        fillOpacity: 0.4,
+      });
+
+      marker.bindPopup(
+        '<div style="min-width: 160px;">' +
+          '<div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #9CA3AF; margin-bottom: 4px;">Unverified Lead</div>' +
+          '<div style="font-weight: 600; margin-bottom: 4px;">' + org.name + '</div>' +
+          '<div style="font-size: 12px; color: #666; margin-bottom: 6px;">' + org.country + '</div>' +
+          (org.industry ? '<div style="font-size: 12px; margin-bottom: 6px;">' + org.industry + '</div>' : '') +
+          '<a href="/lead/' + org.slug + '" style="font-size: 12px; color: #2D6B3F;">View details</a>' +
+        '</div>'
+      );
+
+      leadpoolCluster.addLayer(marker);
+    });
+
+    // Default: show pipeline only
+    map.addLayer(pipelineLayer);
+    var currentView = 'pipeline';
+
+    // Fit to pipeline bounds
+    if (allPipelineMarkers.length > 0) {
+      var group = L.featureGroup(allPipelineMarkers);
+      map.fitBounds(group.getBounds(), { padding: [50, 50], maxZoom: 5 });
+    }
+
+    // View toggle handlers
+    var btnPipeline = document.getElementById('view-pipeline');
+    var btnLeadpool = document.getElementById('view-leadpool');
+    var btnAll = document.getElementById('view-all');
+    var pipelineLegend = document.getElementById('pipeline-legend');
+    var leadpoolLegend = document.getElementById('leadpool-legend');
+
+    function setActiveToggle(btn) {
+      [btnPipeline, btnLeadpool, btnAll].forEach(function(b) {
+        b.style.background = 'transparent';
+        b.style.color = 'var(--text-secondary)';
+      });
+      btn.style.background = 'var(--brand-green)';
+      btn.style.color = 'white';
+    }
+
+    btnPipeline.addEventListener('click', function() {
+      setActiveToggle(btnPipeline);
+      map.removeLayer(leadpoolCluster);
+      map.addLayer(pipelineLayer);
+      pipelineLegend.classList.remove('hidden');
+      leadpoolLegend.classList.add('hidden');
+      currentView = 'pipeline';
+      if (allPipelineMarkers.length > 0) {
+        var g = L.featureGroup(allPipelineMarkers);
+        map.fitBounds(g.getBounds(), { padding: [50, 50], maxZoom: 5 });
+      }
+    });
+
+    btnLeadpool.addEventListener('click', function() {
+      setActiveToggle(btnLeadpool);
+      map.removeLayer(pipelineLayer);
+      map.addLayer(leadpoolCluster);
+      pipelineLegend.classList.add('hidden');
+      leadpoolLegend.classList.remove('hidden');
+      currentView = 'leadpool';
+      map.setView([30, 0], 2);
+    });
+
+    btnAll.addEventListener('click', function() {
+      setActiveToggle(btnAll);
+      map.addLayer(pipelineLayer);
+      map.addLayer(leadpoolCluster);
+      pipelineLegend.classList.remove('hidden');
+      leadpoolLegend.classList.remove('hidden');
+      currentView = 'all';
+      map.setView([30, 0], 2);
+    });
+
+    // Region click handler
+    document.querySelectorAll('.region-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var region = this.dataset.region;
+        var regionMarkers = allPipelineMarkers.filter(function(m) {
+          return m.org.pipelineData && m.org.pipelineData.region === region;
+        });
+
+        if (regionMarkers.length > 0) {
+          // Ensure pipeline is visible
+          if (currentView === 'leadpool') {
+            btnPipeline.click();
+          }
+          var g = L.featureGroup(regionMarkers);
+          map.fitBounds(g.getBounds(), { padding: [50, 50], maxZoom: 6 });
+        }
+
+        document.querySelectorAll('.region-btn').forEach(function(b) {
+          b.style.background = 'transparent';
+        });
+        this.style.background = 'var(--bg-elevated)';
+      });
+    });
+
+    // Theme change handler
+    var observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        if (mutation.attributeName === 'data-theme') {
+          var dark = document.documentElement.getAttribute('data-theme') !== 'light';
+          var newUrl = dark
+            ? 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'
+            : 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png';
+          map.eachLayer(function(layer) {
+            if (layer._url && layer._url.includes('basemaps.cartocdn.com')) {
+              layer.setUrl(newUrl);
+            }
+          });
+        }
+      });
+    });
+    observer.observe(document.documentElement, { attributes: true });
+  });
+</script>
