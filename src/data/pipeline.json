@@ -7276,5 +7276,68 @@
     "createdAt": "2026-02-26T08:47:29.349Z",
     "updatedAt": "2026-03-03T09:02:16.063082Z",
     "lastVerified": "2026-03-03T09:02:16.063082Z"
+  },
+  {
+    "id": "org-564",
+    "slug": "bulk-gsm",
+    "name": "Bulk GSM",
+    "industry": "ITAD",
+    "website": "http://www.bulkgsm.com",
+    "address": "25 Dalmeyer Road, NW10 2XA London, , United Kingdom",
+    "region": "Greater London",
+    "state": "England",
+    "country": "United Kingdom",
+    "lat": 52.3555,
+    "lng": -1.1743,
+    "stage": "qualified",
+    "score": 85,
+    "isPipeline": true,
+    "originalLabel": "Prospect",
+    "dataQuality": "verified",
+    "contacts": [
+      {
+        "id": "contact-591",
+        "name": "Kavi W",
+        "title": "Director",
+        "email": "kavi@bulkgsm.com",
+        "phone": "'+44 20 8459 7373",
+        "linkedin": "https://www.linkedin.com/in/kavi888"
+      },
+      {
+        "id": "contact-592",
+        "name": "Bipz Kara",
+        "title": "Executive",
+        "email": "bipz@bulkgsm.com",
+        "phone": "'+44 2084597373",
+        "linkedin": "https://www.linkedin.com/in/bipz-kara-bulk-gsm-ltd-25329177"
+      },
+      {
+        "id": "contact-2334",
+        "name": "Sam",
+        "title": "",
+        "email": "sam@bulkgsm.com",
+        "phone": "",
+        "linkedin": ""
+      }
+    ],
+    "notes": [
+      "GENUINE ITAD: Own facilities, proprietary data destruction software, 20+ years experience, NIST 800-88/DoD 5220.22M certified, Environment Agency registered. Multiple facilities, 20,000+ buyer network."
+    ],
+    "certifications": [
+      "NIST 800-88",
+      "DoD 5220.22M",
+      "Environment Agency Registration"
+    ],
+    "services": [
+      "ITAD",
+      "Data Destruction",
+      "Asset Recovery",
+      "Secure Transportation",
+      "Compliance Reporting"
+    ],
+    "pipelineData": null,
+    "createdAt": "2026-02-26T08:47:29.350Z",
+    "updatedAt": "2026-03-04T22:02:57.923697Z",
+    "lastVerified": "2026-03-04T22:02:57.923697Z"
   }
 ]

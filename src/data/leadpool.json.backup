@@ -16930,7 +16930,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "unverified",
     "contacts": [
       {
         "id": "contact-557",
@@ -16956,9 +16956,8 @@
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-04T22:02:57.923697Z",
-    "lastVerified": "2026-03-04T22:02:57.923697Z",
-    "rejectReason": "IT Services Provider with basic buy-back program, not genuine ITAD with processing facilities"
+    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "lastVerified": null
   },
   {
     "id": "org-543",
@@ -16976,7 +16975,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "rejected",
+    "dataQuality": "unverified",
     "contacts": [
       {
         "id": "contact-559",
@@ -17010,9 +17009,8 @@
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-04T22:02:57.923697Z",
-    "lastVerified": "2026-03-04T22:02:57.923697Z",
-    "rejectReason": "Optical network connectivity distributor, not ITAD"
+    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "lastVerified": null
   },
   {
     "id": "org-544",
@@ -17128,7 +17126,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "needs_review",
+    "dataQuality": "unverified",
     "contacts": [
       {
         "id": "contact-567",
@@ -17140,14 +17138,14 @@
       }
     ],
     "notes": [
-      "Apple product refurbishment and resale. Basic website doesn't clearly indicate proper ITAD facilities or data destruction capabilities. Needs further verification."
+      "REJECTED: IT hardware broker. No ITAD processing."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-04T22:02:57.923697Z",
-    "lastVerified": "2026-03-04T22:02:57.923697Z"
+    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "lastVerified": null
   },
   {
     "id": "org-547",
@@ -17165,7 +17163,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "unverified",
     "contacts": [
       {
         "id": "contact-568",
@@ -17183,9 +17181,8 @@
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-04T22:02:57.923697Z",
-    "lastVerified": "2026-03-04T22:02:57.923697Z",
-    "rejectReason": "Website down/non-functional"
+    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "lastVerified": null
   },
   {
     "id": "org-548",
@@ -17203,7 +17200,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "unverified",
     "contacts": [
       {
         "id": "contact-569",
@@ -17229,9 +17226,8 @@
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-04T22:02:57.923697Z",
-    "lastVerified": "2026-03-04T22:02:57.923697Z",
-    "rejectReason": "Wholesale trader/exporter, no ITAD processing facilities"
+    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "lastVerified": null
   },
   {
     "id": "org-549",
@@ -17662,11 +17658,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "rejected",
+    "stage": "unverified",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "unverified",
     "contacts": [
       {
         "id": "contact-590",
@@ -17682,9 +17678,8 @@
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-04T22:02:57.923697Z",
-    "lastVerified": "2026-03-04T22:02:57.923697Z",
-    "rejectReason": "Website down/non-functional"
+    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "lastVerified": null
   },
   {
     "id": "org-564",
@@ -17698,11 +17693,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "qualified",
-    "score": 85,
-    "isPipeline": true,
+    "stage": "unverified",
+    "score": null,
+    "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "verified",
+    "dataQuality": "unverified",
     "contacts": [
       {
         "id": "contact-591",
@@ -17729,25 +17724,13 @@
         "linkedin": ""
       }
     ],
-    "notes": [
-      "GENUINE ITAD: Own facilities, proprietary data destruction software, 20+ years experience, NIST 800-88/DoD 5220.22M certified, Environment Agency registered. Multiple facilities, 20,000+ buyer network."
-    ],
-    "certifications": [
-      "NIST 800-88",
-      "DoD 5220.22M",
-      "Environment Agency Registration"
-    ],
-    "services": [
-      "ITAD",
-      "Data Destruction",
-      "Asset Recovery",
-      "Secure Transportation",
-      "Compliance Reporting"
-    ],
+    "notes": [],
+    "certifications": [],
+    "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-04T22:02:57.923697Z",
-    "lastVerified": "2026-03-04T22:02:57.923697Z"
+    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "lastVerified": null
   },
   {
     "id": "org-566",
@@ -17761,11 +17744,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "rejected",
+    "stage": "unverified",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "unverified",
     "contacts": [
       {
         "id": "contact-593",
@@ -17781,9 +17764,8 @@
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-04T22:02:57.923697Z",
-    "lastVerified": "2026-03-04T22:02:57.923697Z",
-    "rejectReason": "Website returns 404 error"
+    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "lastVerified": null
   },
   {
     "id": "org-567",
@@ -17797,11 +17779,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "rejected",
+    "stage": "unverified",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "rejected",
+    "dataQuality": "unverified",
     "contacts": [
       {
         "id": "contact-594",
@@ -17825,9 +17807,8 @@
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-04T22:02:57.923697Z",
-    "lastVerified": "2026-03-04T22:02:57.923697Z",
-    "rejectReason": "Retail refurbished laptop reseller, not genuine ITAD"
+    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "lastVerified": null
   },
   {
     "id": "org-569",
@@ -17946,11 +17927,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "rejected",
+    "stage": "unverified",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "unverified",
     "contacts": [
       {
         "id": "contact-599",
@@ -17982,9 +17963,8 @@
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-04T22:02:57.923697Z",
-    "lastVerified": "2026-03-04T22:02:57.923697Z",
-    "rejectReason": "IT maintenance/support provider, not ITAD"
+    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "lastVerified": null
   },
   {
     "id": "org-575",
@@ -17998,11 +17978,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "rejected",
+    "stage": "unverified",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "rejected",
+    "dataQuality": "unverified",
     "contacts": [
       {
         "id": "contact-602",
@@ -18034,9 +18014,8 @@
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-04T22:02:57.923697Z",
-    "lastVerified": "2026-03-04T22:02:57.923697Z",
-    "rejectReason": "Website down/non-functional"
+    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "lastVerified": null
   },
   {
     "id": "org-578",
@@ -18304,7 +18283,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "needs_review",
+    "dataQuality": "unverified",
     "contacts": [
       {
         "id": "contact-617",
@@ -18323,15 +18302,13 @@
         "linkedin": "https://www.linkedin.com/in/john-mcilwaine-b7512731"
       }
     ],
-    "notes": [
-      "Telecoms equipment repair/refurb specialist with multiple facilities. Does asset recovery and recycling but focused on network equipment rather than traditional ITAD. Needs further assessment for ITAD classification."
-    ],
+    "notes": [],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-04T22:02:57.923697Z",
-    "lastVerified": "2026-03-04T22:02:57.923697Z"
+    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "lastVerified": null
   },
   {
     "id": "org-589",
@@ -18529,7 +18506,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "needs_review",
+    "dataQuality": "unverified",
     "contacts": [
       {
         "id": "contact-628",
@@ -18540,15 +18517,13 @@
         "linkedin": "https://www.linkedin.com/in/roger-martin-6064402a"
       }
     ],
-    "notes": [
-      "Operating since 1992, mentions IT recycling and buying equipment. Basic website doesn't clearly show ITAD facilities or certifications. Needs further verification."
-    ],
+    "notes": [],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-04T22:02:57.923697Z",
-    "lastVerified": "2026-03-04T22:02:57.923697Z"
+    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "lastVerified": null
   },
   {
     "id": "org-595",
@@ -18844,11 +18819,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "rejected",
+    "stage": "unverified",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "rejected",
+    "dataQuality": "unverified",
     "contacts": [
       {
         "id": "contact-645",
@@ -18888,9 +18863,8 @@
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-04T22:02:57.923697Z",
-    "lastVerified": "2026-03-04T22:02:57.923697Z",
-    "rejectReason": "IT solutions/procurement provider, not ITAD"
+    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "lastVerified": null
   },
   {
     "id": "org-604",
@@ -18904,11 +18878,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "rejected",
+    "stage": "unverified",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "unverified",
     "contacts": [
       {
         "id": "contact-649",
@@ -18924,9 +18898,8 @@
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-03-04T22:02:57.923697Z",
-    "lastVerified": "2026-03-04T22:02:57.923697Z",
-    "rejectReason": "Website down/non-functional"
+    "updatedAt": "2026-02-26T08:47:29.350Z",
+    "lastVerified": null
   },
   {
     "id": "org-605",
