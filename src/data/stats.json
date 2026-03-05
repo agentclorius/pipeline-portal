@@ -2,9 +2,9 @@
   "totalOrganizations": 1688,
   "totalContacts": 2786,
   "pipeline": {
-    "total": 150,
+    "total": 151,
     "byStage": {
-      "qualified": 112,
+      "qualified": 113,
       "new": 17,
       "researching": 20,
       "contacted": 1
@@ -42,7 +42,7 @@
       "Suffolk": 1,
       "County Durham": 1,
       "South Lanarkshire": 1,
-      "Greater London": 1,
+      "Greater London": 2,
       "Cheshire East": 1,
       "Greater Manchester": 3,
       "Worcester County": 1,
@@ -62,7 +62,7 @@
     "avgScore": 72,
     "topScore": 85,
     "scoreDistribution": {
-      "high": 19,
+      "high": 20,
       "medium": 124,
       "low": 2,
       "unscored": 5

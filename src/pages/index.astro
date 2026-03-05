@@ -18,6 +18,27 @@ const topProspects = [...pipeline]
   .sort((a, b) => (b.score || 0) - (a.score || 0))
   .slice(0, 8);
 
+// Recent activity - prospects with updates in the last 7 days
+const recentActivity = [...pipeline]
+  .filter(p => {
+    if (p.dateUpdated) {
+      const updateDate = new Date(p.dateUpdated);
+      const sevenDaysAgo = new Date();
+      sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+      return updateDate >= sevenDaysAgo;
+    }
+    return false;
+  })
+  .sort((a, b) => new Date(b.dateUpdated) - new Date(a.dateUpdated))
+  .slice(0, 10);
+
+// If no recent updates by date, show recently qualified prospects
+const recentQualified = recentActivity.length === 0 ? 
+  [...pipeline]
+    .filter(p => p.stage === 'qualified' && p.score > 0)
+    .sort((a, b) => (b.score || 0) - (a.score || 0))
+    .slice(0, 6) : [];
+
 // Pipeline by region
 const regionEntries = Object.entries(stats.pipeline.byRegion || {})
   .sort((a, b) => b[1] - a[1]);
@@ -76,6 +97,63 @@ const lpCountries = Object.entries(stats.leadpool.byCountry || {})
       </span>
       <div class="flex-1"></div>
       <a href="/leads" class="text-xs" style="color: var(--brand-green);">Browse Lead Pool</a>
+    </div>
+
+    <!-- Recent Activity -->
+    <div class="card p-5">
+      <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center gap-2">
+          <h3 class="text-sm font-semibold" style="color: var(--text-primary);">Recent Activity</h3>
+          <div class="w-2 h-2 rounded-full animate-pulse" style="background: var(--brand-green);"></div>
+        </div>
+        <a href="/pipeline" class="text-xs" style="color: var(--brand-green);">View All Changes</a>
+      </div>
+      <div class="space-y-2">
+        {(recentActivity.length > 0 ? recentActivity : recentQualified).map(lead => (
+          <a
+            href={`/lead/${lead.slug}`}
+            class="flex items-center justify-between py-2 px-2 rounded -mx-2 transition-colors hover:bg-opacity-50"
+            style="border-bottom: 1px solid var(--border);"
+            onmouseover="this.style.background='var(--bg-elevated)'"
+            onmouseout="this.style.background='transparent'"
+          >
+            <div class="min-w-0 flex items-center gap-3">
+              <div class="flex flex-col">
+                <span class={`score-badge mb-1 ${(lead.score || 0) >= 80 ? 'score-high' : (lead.score || 0) >= 70 ? 'score-mid' : 'score-low'}`}>{lead.score || '—'}</span>
+                {recentActivity.length > 0 && lead.dateUpdated && (
+                  <span class="text-xs px-1.5 py-0.5 rounded" style="background: rgba(45, 107, 63, 0.1); color: var(--brand-green);">
+                    {new Date(lead.dateUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                  </span>
+                )}
+              </div>
+              <div>
+                <div class="text-sm font-medium truncate" style="color: var(--text-primary);">{lead.name}</div>
+                <div class="text-xs truncate" style="color: var(--text-tertiary);">{lead.pipelineData?.flag || ''} {lead.country}</div>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class={`status-badge status-${lead.stage}`}>{lead.stage}</span>
+              {recentActivity.length > 0 && (
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--brand-green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20,6 9,17 4,12"/>
+                </svg>
+              )}
+            </div>
+          </a>
+        ))}
+        {(recentActivity.length === 0 && recentQualified.length === 0) && (
+          <div class="text-center py-6" style="color: var(--text-tertiary);">
+            <div class="text-sm mb-1">No recent activity</div>
+            <div class="text-xs">Pipeline updates will appear here</div>
+          </div>
+        )}
+      </div>
+      <div class="mt-3 pt-3 border-t text-xs" style="border-color: var(--border); color: var(--text-tertiary);">
+        {recentActivity.length > 0 ? 
+          `${recentActivity.length} prospects updated in the last 7 days` :
+          `Showing ${recentQualified.length} recently qualified prospects`
+        }
+      </div>
     </div>
 
     <!-- Pipeline by Stage -->
