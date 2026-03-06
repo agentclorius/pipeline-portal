@@ -1,0 +1,815 @@
+{
+  "batch": "ultra_fast_51-150",
+  "qualified": [],
+  "maybe": [
+    {
+      "id": "org-788",
+      "name": "TES Consumer Solutions",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "https://www.tesconsumersolutions.com/"
+    },
+    {
+      "id": "org-789",
+      "name": "Tetronik",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "http://www.tetronik.co.uk"
+    },
+    {
+      "id": "org-796",
+      "name": "The Refurb Company",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "https://TheRefurbCompany.com"
+    },
+    {
+      "id": "org-803",
+      "name": "Torotec Ltd",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "http://www.torotec.co.uk"
+    },
+    {
+      "id": "org-811",
+      "name": "Wildfire Systems",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "http://www.wildfiresystems.com"
+    },
+    {
+      "id": "org-812",
+      "name": "Useagain.co.uk",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "www.useagain.co.uk"
+    },
+    {
+      "id": "org-816",
+      "name": "ZASSR",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "http://www.zassr.co.uk"
+    },
+    {
+      "id": "org-818",
+      "name": "Lesharne Limited",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "http://www.lesharneltd.com"
+    },
+    {
+      "id": "org-819",
+      "name": "IT-Green",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "http://www.it-green.co.uk"
+    },
+    {
+      "id": "org-820",
+      "name": "Computer Disposal Experts",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "computerdisposalexperts.com"
+    },
+    {
+      "id": "org-821",
+      "name": "Copiatek",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "https://www.copiatek.nl"
+    },
+    {
+      "id": "org-822",
+      "name": "Corporate Mobile Recycling",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "http://www.cmrecycling.co.uk"
+    },
+    {
+      "id": "org-823",
+      "name": "CUMBRIA RECYCLING",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "cumbria-recycling.com"
+    },
+    {
+      "id": "org-827",
+      "name": "Global Asset Services",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "globalassetservices.eu"
+    },
+    {
+      "id": "org-829",
+      "name": "IT Hardware Services (SM)",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "https://ithsci.com/"
+    },
+    {
+      "id": "org-830",
+      "name": "The ITSA Digital Trust (formerly IT Schools Africa)",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "https://itsadigitaltrust.org/"
+    },
+    {
+      "id": "org-839",
+      "name": "PC4 Recycling",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "http://www.pc4recycling.co.uk"
+    },
+    {
+      "id": "org-844",
+      "name": "IT HARDWARE GROUP",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "https://www.ithardwaregroup.co.uk/"
+    },
+    {
+      "id": "org-890",
+      "name": "Multimessage",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "https://multimessage.co.uk"
+    },
+    {
+      "id": "org-897",
+      "name": "Dicoll Data Storage Solutions",
+      "decision": "maybe",
+      "reason": "Single ITAD indicator or industry match",
+      "score": 60,
+      "website": "http://www.dicolldata.co.uk"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "org-781",
+      "name": "Tech-365",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.tech-365.co.uk"
+    },
+    {
+      "id": "org-782",
+      "name": "Tech-Bazaar.com",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.tech-bazaar.com"
+    },
+    {
+      "id": "org-783",
+      "name": "Technical Reality - IT Hardware for Businesses",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.technicalreality.co.uk"
+    },
+    {
+      "id": "org-784",
+      "name": "Technology Refurb UK",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": ""
+    },
+    {
+      "id": "org-785",
+      "name": "dr-computer.biz",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.dr-computer.biz"
+    },
+    {
+      "id": "org-786",
+      "name": "Tekeurope UK",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.tekeurope.co.uk"
+    },
+    {
+      "id": "org-787",
+      "name": "Telefone Resources UK",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.telefoneresources.com"
+    },
+    {
+      "id": "org-790",
+      "name": "The Change Organisation",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.thechange.co.uk"
+    },
+    {
+      "id": "org-791",
+      "name": "The IT Exchange",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.fixyourownprinter.co.uk"
+    },
+    {
+      "id": "org-792",
+      "name": "The Jolly Savage",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.thejollysavage.co.uk"
+    },
+    {
+      "id": "org-794",
+      "name": "THE LAPTOP SPARES SHOP",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.laptopsparesshop.co.uk"
+    },
+    {
+      "id": "org-795",
+      "name": "The Printer Broker Limited",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.theprinterbroker.co.uk"
+    },
+    {
+      "id": "org-797",
+      "name": "The Renewed Store",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "https://www.therenewedstore.com"
+    },
+    {
+      "id": "org-799",
+      "name": "Titan Data Solutions",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.titandatasolutions.com"
+    },
+    {
+      "id": "org-800",
+      "name": "TJL",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.tjl.co.uk"
+    },
+    {
+      "id": "org-801",
+      "name": "Today Tech LLP",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.todaytechnology.co.uk"
+    },
+    {
+      "id": "org-802",
+      "name": "TonerOne",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.tonerone.co.uk"
+    },
+    {
+      "id": "org-804",
+      "name": "Trade Copiers",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.tradecopiers.co.uk"
+    },
+    {
+      "id": "org-805",
+      "name": "UK GROUPE",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.click3click.co.uk"
+    },
+    {
+      "id": "org-806",
+      "name": "USMAC UK",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.usmac.co.uk"
+    },
+    {
+      "id": "org-808",
+      "name": "Unipart Logistics",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.unipart.com/logistics"
+    },
+    {
+      "id": "org-809",
+      "name": "Ware-Cycle",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.ware-cycle.co.uk"
+    },
+    {
+      "id": "org-810",
+      "name": "West Tech Computer Services",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.wysechoice.co.uk"
+    },
+    {
+      "id": "org-813",
+      "name": "Xtrasoft Limited",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.xtrasoft.eu"
+    },
+    {
+      "id": "org-814",
+      "name": "Yelto.IT",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": ""
+    },
+    {
+      "id": "org-815",
+      "name": "YesAgain",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.crs-uk.biz"
+    },
+    {
+      "id": "org-817",
+      "name": "ZED-UK",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.zed-uklimited.co.uk"
+    },
+    {
+      "id": "org-825",
+      "name": "EX Networks",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.exn.uk"
+    },
+    {
+      "id": "org-826",
+      "name": "G & A",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "https://www.g-a.nl"
+    },
+    {
+      "id": "org-828",
+      "name": "Greenlight Computers",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "greenlightcomputers.co.uk"
+    },
+    {
+      "id": "org-831",
+      "name": "LAPTRONIC SYSTEMS",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "https://www.laptronics.co.uk/"
+    },
+    {
+      "id": "org-834",
+      "name": "Mgk Tech Srls",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "https://www.mgktech.it/"
+    },
+    {
+      "id": "org-835",
+      "name": "ServerParts",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.serverparts.eu"
+    },
+    {
+      "id": "org-836",
+      "name": "Netstar | part of the Air IT Group",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "https://www.netstar.co.uk"
+    },
+    {
+      "id": "org-837",
+      "name": "Nexus Fusion",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://nexusfusion.co.uk"
+    },
+    {
+      "id": "org-838",
+      "name": "Ologic",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.ologic.co.uk"
+    },
+    {
+      "id": "org-840",
+      "name": "Cyber Enjin",
+      "decision": "reject",
+      "reason": "No website",
+      "score": 0,
+      "website": ""
+    },
+    {
+      "id": "org-842",
+      "name": "Multiple Networks",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "https://www.multiplenetworks.co.uk/"
+    },
+    {
+      "id": "org-845",
+      "name": "Stuff-uk",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "https://www.stuff-uk.net/home.aspx"
+    },
+    {
+      "id": "org-847",
+      "name": "F2 Networks",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.f2networks.co.uk"
+    },
+    {
+      "id": "org-848",
+      "name": "MORGAN INGLAND",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "https://miatlantic.com/"
+    },
+    {
+      "id": "org-850",
+      "name": "Megatron Global UK",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "https://megadevices.co.uk/"
+    },
+    {
+      "id": "org-851",
+      "name": "Eccentric Professionals",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "https://ecprof.com/"
+    },
+    {
+      "id": "org-854",
+      "name": "TXO",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "https://www.txo.com/"
+    },
+    {
+      "id": "org-855",
+      "name": "Euroland Computers",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "https://www.eurolanditservices.co.uk/"
+    },
+    {
+      "id": "org-856",
+      "name": "Systems-Express",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.systems-express.com"
+    },
+    {
+      "id": "org-857",
+      "name": "Innovative Business",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.mystoragedevices.com"
+    },
+    {
+      "id": "org-859",
+      "name": "Flex",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.flex.com"
+    },
+    {
+      "id": "org-860",
+      "name": "EET United Kingdom",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "https://uk.eetgroup.com/"
+    },
+    {
+      "id": "org-861",
+      "name": "Ultratec",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.ultratec.co.uk"
+    },
+    {
+      "id": "org-862",
+      "name": "Shields",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "https://www.shields-e.com"
+    },
+    {
+      "id": "org-863",
+      "name": "ONE TEN GLOBAL",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": ""
+    },
+    {
+      "id": "org-864",
+      "name": "MIT Services UK",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.mitservices.com"
+    },
+    {
+      "id": "org-865",
+      "name": "IT Reliance",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.itreliance.co.uk"
+    },
+    {
+      "id": "org-866",
+      "name": "Likewize",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "https://likewize.com/"
+    },
+    {
+      "id": "org-867",
+      "name": "Otep Technologied",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.otep.co.uk"
+    },
+    {
+      "id": "org-870",
+      "name": "Require IT",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "https://www.requireit.co.uk/"
+    },
+    {
+      "id": "org-871",
+      "name": "T.I DIGITAL SOLUTION",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://theinsightsolutions.com"
+    },
+    {
+      "id": "org-873",
+      "name": "Lynx UK",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.lynx-uk.com"
+    },
+    {
+      "id": "org-874",
+      "name": "Renfrewshire Electronics",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.rel-group.com"
+    },
+    {
+      "id": "org-875",
+      "name": "ITNHUB",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://itnhub.co.uk"
+    },
+    {
+      "id": "org-876",
+      "name": "Rapid Solution Technology",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://rapidsoltech.co.uk"
+    },
+    {
+      "id": "org-878",
+      "name": "SUBSERVE",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "https://subserve.co.uk"
+    },
+    {
+      "id": "org-879",
+      "name": "TECH SELLER UK",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.mytechseller.com"
+    },
+    {
+      "id": "org-880",
+      "name": "Bulk Devices",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "https://bulkdevices.co.uk"
+    },
+    {
+      "id": "org-881",
+      "name": "Carritech",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.carritech.com"
+    },
+    {
+      "id": "org-882",
+      "name": "Euro IT Solution",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://euroitsolution.co.uk"
+    },
+    {
+      "id": "org-883",
+      "name": "Sierra Indigo Limited",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://sierra-indigo.com"
+    },
+    {
+      "id": "org-887",
+      "name": "Enterprise Hardware",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.enterprisehardware.co.uk"
+    },
+    {
+      "id": "org-888",
+      "name": "ServerStock",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "https://serverstock.co.uk"
+    },
+    {
+      "id": "org-891",
+      "name": "EU Serial",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "https://euserial.co.uk/"
+    },
+    {
+      "id": "org-894",
+      "name": "Get IT Supply",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.getitsupply.co.uk"
+    },
+    {
+      "id": "org-895",
+      "name": "BestBuy EStore",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.bestbuystore.co.uk"
+    },
+    {
+      "id": "org-898",
+      "name": "PIXTEL IT",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": ""
+    },
+    {
+      "id": "org-900",
+      "name": "TekTube",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.tektube.co.uk"
+    },
+    {
+      "id": "org-902",
+      "name": "NOCTA",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://noctaltd.co.uk"
+    },
+    {
+      "id": "org-903",
+      "name": "Origin Storage",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "http://www.originstorage.co.uk"
+    },
+    {
+      "id": "org-905",
+      "name": "Techblinders PVT",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.techblinders.co.uk"
+    },
+    {
+      "id": "org-906",
+      "name": "Sol Tech Supply",
+      "decision": "reject",
+      "reason": "Pattern: broker",
+      "score": 0,
+      "website": "https://soltechsupply.co.uk"
+    },
+    {
+      "id": "org-907",
+      "name": "Castle Computers",
+      "decision": "reject",
+      "reason": "No clear ITAD indicators",
+      "score": 0,
+      "website": "http://www.castlecomputers.uk.net"
+    }
+  ],
+  "summary": {
+    "total": 100,
+    "qualified": 0,
+    "maybe": 20,
+    "rejected": 80
+  },
+  "timestamp": "2026-03-06 23:07:33"
+}

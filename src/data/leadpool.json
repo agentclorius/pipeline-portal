@@ -22761,11 +22761,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-801",
@@ -22776,13 +22776,20 @@
         "linkedin": "https://www.linkedin.com/in/mike-bickley-18043a53"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Disqualified: web hosting"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-717",
@@ -23089,11 +23096,11 @@
     "country": "United States",
     "lat": 37.0902,
     "lng": -95.7129,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-812",
@@ -23104,13 +23111,20 @@
         "linkedin": "https://www.linkedin.com/in/tony-okan-sonmez-3484b72a"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Insufficient ITAD evidence"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-727",
@@ -23193,11 +23207,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-815",
@@ -23224,13 +23238,20 @@
         "linkedin": "https://www.linkedin.com/in/shane-watson-b5537a44"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Insufficient ITAD evidence"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-732",
@@ -23515,11 +23536,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-831",
@@ -23538,13 +23559,20 @@
         "linkedin": "https://www.linkedin.com/in/psiwebtech"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Insufficient ITAD evidence"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-745",
@@ -23558,11 +23586,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 52,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-836",
@@ -23573,13 +23601,23 @@
         "linkedin": "https://www.linkedin.com/in/mark-bonito-b33432a4"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Verified ITAD processor. High confidence ITAD processor"
+      }
+    ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "ITAD Processing",
+      "Asset Recovery"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-747",
@@ -23593,11 +23631,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-837",
@@ -23608,13 +23646,20 @@
         "linkedin": "https://www.linkedin.com/in/luke-cooper-0156a0184"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Insufficient ITAD evidence"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-748",
@@ -23687,11 +23732,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 38,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-842",
@@ -23710,13 +23755,23 @@
         "linkedin": "https://www.linkedin.com/in/james-patterson-689242205"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Verified ITAD processor. High confidence ITAD processor"
+      }
+    ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "ITAD Processing",
+      "Asset Recovery"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-752",
@@ -23731,10 +23786,10 @@
     "lat": 55.3781,
     "lng": -3.436,
     "stage": "unverified",
-    "score": null,
+    "score": 12,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-849",
@@ -23753,13 +23808,20 @@
         "linkedin": "https://www.linkedin.com/in/kay-powsey-b4226138"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Possible ITAD processor"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-753",
@@ -23993,11 +24055,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Hot lead",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-868",
@@ -24008,13 +24070,20 @@
         "linkedin": "https://www.linkedin.com/in/inam-ul-haq-b215819"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Disqualified: software development"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-760",
@@ -24063,11 +24132,11 @@
     "country": "United Kingdom",
     "lat": 56.4907,
     "lng": -4.2026,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-870",
@@ -24078,13 +24147,20 @@
         "linkedin": "https://www.linkedin.com/in/joannacadman-goodwin"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Disqualified: web design"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-762",
@@ -24098,11 +24174,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 22,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-871",
@@ -24129,13 +24205,23 @@
         "linkedin": "https://www.linkedin.com/in/david-claughton-2126111b"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Verified ITAD processor. High confidence ITAD processor"
+      }
+    ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "ITAD Processing",
+      "Asset Recovery"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-764",
@@ -24150,10 +24236,10 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 12,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-874",
@@ -24164,13 +24250,20 @@
         "linkedin": "https://www.linkedin.com/in/lee-turner94"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Possible ITAD processor"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-765",
@@ -24460,11 +24553,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 59,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-886",
@@ -24475,13 +24568,23 @@
         "linkedin": "https://www.linkedin.com/in/majid-hussain-b7a68513a"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Verified ITAD processor. High confidence ITAD processor"
+      }
+    ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "ITAD Processing",
+      "Asset Recovery"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-774",
@@ -24565,11 +24668,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 34,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-890",
@@ -24612,13 +24715,23 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Verified ITAD processor. High confidence ITAD processor"
+      }
+    ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "ITAD Processing",
+      "Asset Recovery"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-778",
@@ -24632,11 +24745,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 24,
+    "isPipeline": true,
     "originalLabel": "Warm lead",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-893",
@@ -24655,13 +24768,23 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Verified ITAD processor. High confidence ITAD processor"
+      }
+    ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "ITAD Processing",
+      "Asset Recovery"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-779",
@@ -24710,11 +24833,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 49,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-895",
@@ -24741,13 +24864,23 @@
         "linkedin": "https://www.linkedin.com/in/darron-farmer-bba818172"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Verified ITAD processor. High confidence ITAD processor"
+      }
+    ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "ITAD Processing",
+      "Asset Recovery"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-781",
@@ -24761,19 +24894,26 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-782",
@@ -24787,11 +24927,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-898",
@@ -24802,13 +24942,20 @@
         "linkedin": "https://www.linkedin.com/in/sajidh"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-783",
@@ -24822,11 +24969,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-899",
@@ -24845,13 +24992,20 @@
         "linkedin": "https://www.linkedin.com/in/george-mccarthy-401859251"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-784",
@@ -24865,19 +25019,26 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-785",
@@ -24891,11 +25052,11 @@
     "country": "United Kingdom",
     "lat": 54.7877,
     "lng": -6.4923,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-902",
@@ -24906,13 +25067,20 @@
         "linkedin": "https://www.linkedin.com/in/patrick-mccormack-57521227"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-786",
@@ -24926,11 +25094,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-903",
@@ -24941,13 +25109,20 @@
         "linkedin": "https://www.linkedin.com/in/john-barrett-4736295b"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-787",
@@ -24961,11 +25136,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-904",
@@ -24976,13 +25151,20 @@
         "linkedin": "https://www.linkedin.com/in/andreas-georgiou-32948060"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-788",
@@ -24997,10 +25179,10 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-905",
@@ -25019,13 +25201,20 @@
         "linkedin": "https://www.linkedin.com/in/johnny-lai-cx"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-789",
@@ -25040,18 +25229,25 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-790",
@@ -25065,11 +25261,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-907",
@@ -25104,13 +25300,20 @@
         "linkedin": "https://www.linkedin.com/in/simon-fisher-0044001bb"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-791",
@@ -25124,11 +25327,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-911",
@@ -25139,13 +25342,20 @@
         "linkedin": "https://www.linkedin.com/in/theitexchange"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-792",
@@ -25159,11 +25369,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-912",
@@ -25182,13 +25392,20 @@
         "linkedin": "https://www.linkedin.com/in/sjevanstjs"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-794",
@@ -25202,11 +25419,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-914",
@@ -25217,13 +25434,20 @@
         "linkedin": "https://www.linkedin.com/in/tim-airey-b33391216"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-795",
@@ -25237,11 +25461,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-915",
@@ -25252,13 +25476,20 @@
         "linkedin": "https://www.linkedin.com/in/danny-keenan-16792b21"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-796",
@@ -25273,10 +25504,10 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-916",
@@ -25295,13 +25526,20 @@
         "linkedin": "https://www.linkedin.com/in/dave-hartley-1a5a2424"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-797",
@@ -25315,11 +25553,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-918",
@@ -25346,13 +25584,20 @@
         "linkedin": "https://www.linkedin.com/in/harry-jones-366849131"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-799",
@@ -25366,11 +25611,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-921",
@@ -25389,13 +25634,20 @@
         "linkedin": "https://www.linkedin.com/in/benjackson12"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-800",
@@ -25409,19 +25661,26 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-801",
@@ -25435,19 +25694,26 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-802",
@@ -25461,19 +25727,26 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-803",
@@ -25488,10 +25761,10 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-923",
@@ -25502,13 +25775,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-804",
@@ -25522,11 +25802,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-924",
@@ -25537,13 +25817,20 @@
         "linkedin": "https://www.linkedin.com/in/billykinnard"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-805",
@@ -25557,11 +25844,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-925",
@@ -25572,13 +25859,20 @@
         "linkedin": "https://www.linkedin.com/in/hisham-moursy-b979721b7"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-806",
@@ -25592,11 +25886,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-926",
@@ -25623,13 +25917,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-808",
@@ -25643,11 +25944,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-928",
@@ -25698,13 +25999,20 @@
         "linkedin": "https://www.linkedin.com/in/harikrishnan-chakkamalayath"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-809",
@@ -25718,11 +26026,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-938",
@@ -25733,13 +26041,20 @@
         "linkedin": "https://www.linkedin.com/in/sevi-aysel"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-810",
@@ -25753,11 +26068,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-939",
@@ -25768,13 +26083,20 @@
         "linkedin": "https://www.linkedin.com/in/frank-ohanessyan-6160b188"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-811",
@@ -25789,18 +26111,25 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-812",
@@ -25815,18 +26144,25 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-813",
@@ -25840,19 +26176,26 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-814",
@@ -25866,11 +26209,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-940",
@@ -25881,13 +26224,20 @@
         "linkedin": "https://www.linkedin.com/in/ron-tschanschek-149318135"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-815",
@@ -25901,11 +26251,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-941",
@@ -25924,13 +26274,20 @@
         "linkedin": "https://www.linkedin.com/in/ahmednshamso"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-816",
@@ -25945,10 +26302,10 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-943",
@@ -25959,13 +26316,20 @@
         "linkedin": "https://www.linkedin.com/in/rashid-rahaman-90b12165"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-817",
@@ -25979,11 +26343,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-944",
@@ -25994,13 +26358,20 @@
         "linkedin": "https://www.linkedin.com/in/zill-z-57263867"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-818",
@@ -26015,18 +26386,25 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-819",
@@ -26041,10 +26419,10 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-945",
@@ -26055,13 +26433,20 @@
         "linkedin": "https://www.linkedin.com/in/nipont-chartkul-3b800216b"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-820",
@@ -26076,10 +26461,10 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-946",
@@ -26090,13 +26475,20 @@
         "linkedin": "https://www.linkedin.com/in/nick-burgh-786998ba"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-821",
@@ -26111,10 +26503,10 @@
     "lat": 52.1326,
     "lng": 5.2913,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-947",
@@ -26133,13 +26525,20 @@
         "linkedin": "https://www.linkedin.com/in/mardten-de-bakker-174a7623"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-822",
@@ -26154,10 +26553,10 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-949",
@@ -26176,13 +26575,20 @@
         "linkedin": "https://www.linkedin.com/in/jim-fowler-69650a87"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-823",
@@ -26197,10 +26603,10 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-951",
@@ -26211,13 +26617,20 @@
         "linkedin": "https://www.linkedin.com/in/chris-smith-0ba1742b"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-825",
@@ -26231,11 +26644,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-952",
@@ -26254,13 +26667,20 @@
         "linkedin": "https://www.linkedin.com/in/stefshelford"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-826",
@@ -26274,11 +26694,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-954",
@@ -26289,13 +26709,20 @@
         "linkedin": "https://www.linkedin.com/in/mike-gardiner-b06a3a"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-827",
@@ -26310,10 +26737,10 @@
     "lat": 52.1326,
     "lng": 5.2913,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-955",
@@ -26324,13 +26751,20 @@
         "linkedin": "https://www.linkedin.com/in/joeybrammer"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-828",
@@ -26344,11 +26778,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-956",
@@ -26359,13 +26793,20 @@
         "linkedin": "https://www.linkedin.com/in/johnhayesgreenlight"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-829",
@@ -26380,10 +26821,10 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-957",
@@ -26394,13 +26835,20 @@
         "linkedin": "https://www.linkedin.com/in/stuartithsci"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-830",
@@ -26415,10 +26863,10 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-958",
@@ -26429,13 +26877,20 @@
         "linkedin": "https://www.linkedin.com/in/simon-richardson-4b801043"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-831",
@@ -26449,11 +26904,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-959",
@@ -26480,13 +26935,20 @@
         "linkedin": "https://www.linkedin.com/in/rob-weller-4105291a1"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-834",
@@ -26500,11 +26962,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-962",
@@ -26515,13 +26977,20 @@
         "linkedin": "https://www.linkedin.com/in/gurnam-singh-aa8502a5"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-835",
@@ -26535,11 +27004,11 @@
     "country": "Netherlands",
     "lat": 52.1326,
     "lng": 5.2913,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-963",
@@ -26550,13 +27019,20 @@
         "linkedin": "https://www.linkedin.com/in/bruno-windau-713a789"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-836",
@@ -26570,11 +27046,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-964",
@@ -26585,13 +27061,20 @@
         "linkedin": "https://www.linkedin.com/in/ciprian-nemes-334a7a130"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-837",
@@ -26605,11 +27088,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-965",
@@ -26636,13 +27119,20 @@
         "linkedin": "https://www.linkedin.com/in/garciaadam"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-838",
@@ -26656,11 +27146,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-968",
@@ -26671,13 +27161,20 @@
         "linkedin": "https://www.linkedin.com/in/mitch-smith-30349733"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-839",
@@ -26692,10 +27189,10 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-969",
@@ -26706,13 +27203,20 @@
         "linkedin": "https://www.linkedin.com/in/steve-holmes-505a0ba"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-840",
@@ -26726,11 +27230,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Warm lead",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-970",
@@ -26741,13 +27245,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No website"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-842",
@@ -26761,11 +27272,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-971",
@@ -26792,13 +27303,20 @@
         "linkedin": "https://www.linkedin.com/in/maha-israr-9b2394244"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-844",
@@ -26813,10 +27331,10 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-1031",
@@ -26835,13 +27353,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-845",
@@ -26855,11 +27380,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-974",
@@ -26878,13 +27403,20 @@
         "linkedin": "https://www.linkedin.com/in/alanstanley"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-847",
@@ -26898,19 +27430,26 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-848",
@@ -26924,11 +27463,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-976",
@@ -26955,13 +27494,20 @@
         "linkedin": "https://www.linkedin.com/in/alan-preston-1bbbb0190"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-850",
@@ -26975,11 +27521,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-979",
@@ -26990,13 +27536,20 @@
         "linkedin": "https://www.linkedin.com/in/muhammad-ali-4845a4114"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-851",
@@ -27010,11 +27563,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-980",
@@ -27049,13 +27602,20 @@
         "linkedin": "https://www.linkedin.com/in/shaan-khan-93b221a8"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-854",
@@ -27069,11 +27629,11 @@
     "country": "United Kingdom",
     "lat": 52.1307,
     "lng": -3.7837,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-984",
@@ -27100,13 +27660,20 @@
         "linkedin": "https://www.linkedin.com/in/julia-evans-353a235"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-855",
@@ -27120,11 +27687,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1033",
@@ -27151,13 +27718,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-856",
@@ -27171,11 +27745,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-987",
@@ -27202,13 +27776,20 @@
         "linkedin": "https://www.linkedin.com/in/barnabas-koszo-b28765174"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-857",
@@ -27222,11 +27803,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-990",
@@ -27237,13 +27818,20 @@
         "linkedin": "https://www.linkedin.com/in/tony-jackson-4834551b5"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-859",
@@ -27257,11 +27845,11 @@
     "country": "United States",
     "lat": 37.0902,
     "lng": -95.7129,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-991",
@@ -27280,13 +27868,20 @@
         "linkedin": "https://www.linkedin.com/in/amelie-blanchard-b80800166"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-860",
@@ -27300,11 +27895,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1036",
@@ -27315,13 +27910,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-861",
@@ -27335,11 +27937,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-993",
@@ -27366,13 +27968,20 @@
         "linkedin": "https://www.linkedin.com/in/mikhail-mavritsin-b845175a"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-862",
@@ -27386,11 +27995,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-996",
@@ -27409,13 +28018,20 @@
         "linkedin": "https://www.linkedin.com/in/monika-petrauskaite-08a86a99"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-863",
@@ -27429,11 +28045,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1037",
@@ -27460,13 +28076,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-864",
@@ -27480,11 +28103,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-998",
@@ -27495,13 +28118,20 @@
         "linkedin": "https://www.linkedin.com/in/mooresheila"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-865",
@@ -27515,11 +28145,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-999",
@@ -27530,13 +28160,20 @@
         "linkedin": "https://www.linkedin.com/in/dale-robinson-41721b11"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-866",
@@ -27550,11 +28187,11 @@
     "country": "United States",
     "lat": 37.0902,
     "lng": -95.7129,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1000",
@@ -27573,13 +28210,20 @@
         "linkedin": "https://www.linkedin.com/in/paul-miller-28b5756"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-867",
@@ -27593,11 +28237,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1002",
@@ -27624,13 +28268,20 @@
         "linkedin": "https://www.linkedin.com/in/stanislaw-golubienko-84745852"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-870",
@@ -27644,11 +28295,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1005",
@@ -27667,13 +28318,20 @@
         "linkedin": "https://www.linkedin.com/in/gary-hamilton-b6583241"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-871",
@@ -27687,11 +28345,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1007",
@@ -27702,13 +28360,20 @@
         "linkedin": "https://www.linkedin.com/in/m-adil-waheed-1214b140"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-873",
@@ -27722,11 +28387,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1009",
@@ -27753,13 +28418,20 @@
         "linkedin": "https://www.linkedin.com/in/steve-richardson-032040200"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-874",
@@ -27773,11 +28445,11 @@
     "country": "United Kingdom",
     "lat": 56.4907,
     "lng": -4.2026,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1012",
@@ -27788,13 +28460,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-875",
@@ -27808,11 +28487,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1013",
@@ -27847,13 +28526,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-876",
@@ -27867,11 +28553,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1017",
@@ -27898,13 +28584,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-878",
@@ -27918,11 +28611,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1020",
@@ -27933,13 +28626,20 @@
         "linkedin": "https://www.linkedin.com/in/aqeel-n-342459127"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-879",
@@ -27953,11 +28653,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1021",
@@ -27968,13 +28668,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-880",
@@ -27988,11 +28695,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1022",
@@ -28011,13 +28718,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-881",
@@ -28031,11 +28745,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1024",
@@ -28054,13 +28768,20 @@
         "linkedin": "https://www.linkedin.com/in/paul-stevens-rowe-59a745b2"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-882",
@@ -28074,11 +28795,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1026",
@@ -28113,13 +28834,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-883",
@@ -28133,11 +28861,11 @@
     "country": "United Kingdom",
     "lat": 52.1307,
     "lng": -3.7837,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1030",
@@ -28148,13 +28876,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-887",
@@ -28168,11 +28903,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1043",
@@ -28199,13 +28934,20 @@
         "linkedin": "https://www.linkedin.com/in/kate-jackson-17725a232"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-888",
@@ -28219,11 +28961,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1046",
@@ -28242,13 +28984,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-890",
@@ -28263,10 +29012,10 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-1048",
@@ -28277,13 +29026,20 @@
         "linkedin": "https://www.linkedin.com/in/rob-cunnane-602b5950"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-891",
@@ -28297,11 +29053,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1049",
@@ -28320,13 +29076,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-894",
@@ -28340,11 +29103,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1055",
@@ -28387,13 +29150,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-895",
@@ -28407,11 +29177,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1060",
@@ -28462,13 +29232,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-897",
@@ -28483,10 +29260,10 @@
     "lat": 52.3555,
     "lng": -1.1743,
     "stage": "unverified",
-    "score": null,
+    "score": 60,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "partial",
     "contacts": [
       {
         "id": "contact-1066",
@@ -28505,13 +29282,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-898",
@@ -28525,11 +29309,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1068",
@@ -28572,13 +29356,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-900",
@@ -28592,11 +29383,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1073",
@@ -28615,13 +29406,20 @@
         "linkedin": "https://www.linkedin.com/in/paul-buckby-20132687"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-902",
@@ -28635,11 +29433,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1075",
@@ -28650,13 +29448,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-903",
@@ -28670,11 +29475,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1076",
@@ -28701,13 +29506,20 @@
         "linkedin": "https://www.linkedin.com/in/thomas-hames-99885843"
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-905",
@@ -28721,11 +29533,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1079",
@@ -28736,13 +29548,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-906",
@@ -28756,11 +29575,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1080",
@@ -28771,13 +29590,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. Pattern: broker"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-907",
@@ -28791,11 +29617,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
+    "stage": "rejected",
+    "score": 0,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1081",
@@ -28806,13 +29632,20 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-1772834881",
+        "author": "Clorius",
+        "date": "2026-03-06",
+        "content": "Not ITAD processor. No clear ITAD indicators"
+      }
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
     "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-06"
   },
   {
     "id": "org-908",

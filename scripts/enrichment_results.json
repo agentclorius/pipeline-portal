@@ -1,0 +1,508 @@
+{
+  "processed": 50,
+  "qualified": 0,
+  "rejected": 34,
+  "results": [
+    {
+      "id": "org-699",
+      "name": "DMH Trading",
+      "website": "http://www.pc247.co.uk",
+      "decision": "reject",
+      "reason": "Red flag: broker",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-700",
+      "name": "E-Revive Limited",
+      "website": "",
+      "decision": "reject",
+      "reason": "Website issue: No website provided",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-703",
+      "name": "Epos Distribution",
+      "website": "",
+      "decision": "reject",
+      "reason": "Website issue: No website provided",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-705",
+      "name": "NARMI PROPERTY",
+      "website": "http://www.narmi-tech.com",
+      "decision": "reject",
+      "reason": "Red flag: broker",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-709",
+      "name": "neu-comp",
+      "website": "http://www.neucompco.com",
+      "decision": "reject",
+      "reason": "Red flag: broker",
+      "score": null,
+      "original_industry": "Data Centre, Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-711",
+      "name": "Newelltek",
+      "website": "",
+      "decision": "reject",
+      "reason": "Website issue: No website provided",
+      "score": null,
+      "original_industry": "ITAD",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-712",
+      "name": "NH Trading (NW)",
+      "website": "http://www.nh-trading.co.uk",
+      "decision": "reject",
+      "reason": "Red flag: broker",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-713",
+      "name": "NORTH LONDON TELECOM SYSTEMS",
+      "website": "http://www.nlts.co.uk",
+      "decision": "reject",
+      "reason": "Red flag: broker",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-716",
+      "name": "Fm Laptop Repairs",
+      "website": "http://www.notebookrepair.co.uk",
+      "decision": "manual_review",
+      "reason": "Manual review needed",
+      "score": null,
+      "original_industry": "IT Service Provider",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-718",
+      "name": "NSYS Group",
+      "website": "https://nsysgroup.com/products/nsys-diagnostics/?utm_source=thebrokersite&utm_medium=social&utm_campaign=profile_info",
+      "decision": "reject",
+      "reason": "Red flag: broker",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-719",
+      "name": "OCC Components",
+      "website": "http://www.occcomponents.com",
+      "decision": "reject",
+      "reason": "Website issue: Website error: HTTPConnectionPool(host='www.occcomponents.com', p",
+      "score": null,
+      "original_industry": "ITAD",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-720",
+      "name": "OMICRON PARTS & SERVICES",
+      "website": "http://www.omicronparts.co.uk",
+      "decision": "reject",
+      "reason": "Website issue: Website error: HTTPConnectionPool(host='www.omicronparts.co.uk', ",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-723",
+      "name": "The pcwarehouse",
+      "website": "http://www.pcwarehouseltd.co.uk",
+      "decision": "reject",
+      "reason": "Website issue: HTTP 405",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-725",
+      "name": "Phonesmart",
+      "website": "http://www.plunc.com",
+      "decision": "reject",
+      "reason": "Website issue: Website error: HTTPSConnectionPool(host='www.plunc.com', port=443",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-726",
+      "name": "Plan B IT Solutions",
+      "website": "http://www.planb-eu.com",
+      "decision": "manual_review",
+      "reason": "Manual review needed",
+      "score": null,
+      "original_industry": "IT Service Provider",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-727",
+      "name": "Platinum Components",
+      "website": "http://www.platinum-components.com",
+      "decision": "reject",
+      "reason": "Red flag: broker",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-729",
+      "name": "Plexian International",
+      "website": "http://www.plexian.com",
+      "decision": "reject",
+      "reason": "Red flag: broker",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-730",
+      "name": "PLM Global",
+      "website": "http://www.plm-global.co.uk",
+      "decision": "manual_review",
+      "reason": "Manual review needed",
+      "score": null,
+      "original_industry": "ITAD",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-737",
+      "name": "Premier Technologies",
+      "website": "http://www.printermaintenanceuk.com",
+      "decision": "reject",
+      "reason": "Website issue: HTTP 403",
+      "score": null,
+      "original_industry": "ITAD",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-739",
+      "name": "Printer Maintenance",
+      "website": "http://www.printermaintenanceuk.com",
+      "decision": "reject",
+      "reason": "Website issue: HTTP 403",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-742",
+      "name": "Proactive Distribution",
+      "website": "http://www.proactivedistribution.co.uk",
+      "decision": "reject",
+      "reason": "Website issue: Website error: HTTPConnectionPool(host='www.proactivedistribution",
+      "score": null,
+      "original_industry": "IT Service Provider",
+      "analysis": "Red flag: distribution"
+    },
+    {
+      "id": "org-744",
+      "name": "PSI WEB TECH",
+      "website": "http://www.psiwebtech.com",
+      "decision": "manual_review",
+      "reason": "Manual review needed",
+      "score": null,
+      "original_industry": "IT Service Provider",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-745",
+      "name": "PWC Recycling",
+      "website": "http://www.pwcrecycling.com",
+      "decision": "manual_review",
+      "reason": "ITAD indicator: recycling",
+      "score": null,
+      "original_industry": "ITAD",
+      "analysis": "ITAD indicator: recycling"
+    },
+    {
+      "id": "org-747",
+      "name": "RAPIDSOURCE IT",
+      "website": "http://www.rapidsource.co.uk",
+      "decision": "manual_review",
+      "reason": "Manual review needed",
+      "score": null,
+      "original_industry": "IT Service Provider",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-748",
+      "name": "RDUK (Resource Development UK)",
+      "website": "https://www.rduk.co.uk",
+      "decision": "reject",
+      "reason": "Red flag: development",
+      "score": null,
+      "original_industry": "ITAD",
+      "analysis": "Red flag: development"
+    },
+    {
+      "id": "org-749",
+      "name": "Re-Certify",
+      "website": "http://www.re-certify.co.uk",
+      "decision": "manual_review",
+      "reason": "Manual review needed",
+      "score": null,
+      "original_industry": "ITAD",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-752",
+      "name": "Recommerce IT",
+      "website": "http://www.recommerceit.co.uk",
+      "decision": "manual_review",
+      "reason": "Manual review needed",
+      "score": null,
+      "original_industry": "ITAD",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-753",
+      "name": "Reconome",
+      "website": "http://www.recono.me",
+      "decision": "reject",
+      "reason": "Website issue: Website error: HTTPConnectionPool(host='www.recono.me', port=80):",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-754",
+      "name": "RecTech",
+      "website": "http://www.rectech.co.uk",
+      "decision": "reject",
+      "reason": "Red flag: broker",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-757",
+      "name": "Certara",
+      "website": "",
+      "decision": "reject",
+      "reason": "Website issue: No website provided",
+      "score": null,
+      "original_industry": "",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-758",
+      "name": "Relltek",
+      "website": "http://www.relltek.com",
+      "decision": "reject",
+      "reason": "Red flag: broker",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-759",
+      "name": "Root Communication Limited",
+      "website": "http://www.rootcommunication.co.uk",
+      "decision": "manual_review",
+      "reason": "Manual review needed",
+      "score": null,
+      "original_industry": "ITAD",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-760",
+      "name": "RP-Resale",
+      "website": "",
+      "decision": "reject",
+      "reason": "Website issue: No website provided",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-761",
+      "name": "Scottish Data Systems",
+      "website": "http://www.sdsspares.com",
+      "decision": "manual_review",
+      "reason": "Manual review needed",
+      "score": null,
+      "original_industry": "IT Service Provider",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-762",
+      "name": "SEAMLESS IT",
+      "website": "http://www.seamlessit.com",
+      "decision": "manual_review",
+      "reason": "Manual review needed",
+      "score": null,
+      "original_industry": "ITAD, IT Service Provider",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-764",
+      "name": "SecondLife",
+      "website": "http://www.secondlifeltd.co.uk",
+      "decision": "manual_review",
+      "reason": "Manual review needed",
+      "score": null,
+      "original_industry": "ITAD",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-765",
+      "name": "Secure Disk Technologies",
+      "website": "http://securedisktech.co.uk",
+      "decision": "reject",
+      "reason": "Red flag: broker",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-766",
+      "name": "ServerFi",
+      "website": "http://www.serverfi.co.uk",
+      "decision": "reject",
+      "reason": "Red flag: broker",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-767",
+      "name": "Server Source",
+      "website": "http://www.serversource.co.uk",
+      "decision": "reject",
+      "reason": "Red flag: broker",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-769",
+      "name": "SHB Solutions Ltd.",
+      "website": "http://www.shbsolutions.co.uk",
+      "decision": "reject",
+      "reason": "Website issue: HTTP 406",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-770",
+      "name": "Silent Computing",
+      "website": "http://www.silentcomputing.co.uk",
+      "decision": "reject",
+      "reason": "Website issue: HTTP 403",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-771",
+      "name": "Sims Lifecycle Services",
+      "website": "http://www.simslifecycle.com",
+      "decision": "reject",
+      "reason": "Website issue: HTTP 403",
+      "score": null,
+      "original_industry": "ITAD",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-772",
+      "name": "SM Global Traders",
+      "website": "",
+      "decision": "reject",
+      "reason": "Website issue: No website provided",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-773",
+      "name": "Smart Tech Recycling",
+      "website": "http://www.smarttechrecycling.co.uk",
+      "decision": "manual_review",
+      "reason": "ITAD indicator: recycling",
+      "score": null,
+      "original_industry": "ITAD",
+      "analysis": "ITAD indicator: recycling"
+    },
+    {
+      "id": "org-774",
+      "name": "SmartChannel",
+      "website": "http://www.smartchannelltd.com",
+      "decision": "reject",
+      "reason": "Red flag: broker",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-775",
+      "name": "SNStockSolutions",
+      "website": "http://www.snstocksolutions.co.uk",
+      "decision": "reject",
+      "reason": "Red flag: broker",
+      "score": null,
+      "original_industry": "Broker",
+      "analysis": "Red flag: broker"
+    },
+    {
+      "id": "org-777",
+      "name": "Stone Group A Converge Company",
+      "website": "http://www.stonegroup.co.uk",
+      "decision": "manual_review",
+      "reason": "Manual review needed",
+      "score": null,
+      "original_industry": "ITAD",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-778",
+      "name": "T & J ASSOCIATES",
+      "website": "http://www.tjituk.com",
+      "decision": "manual_review",
+      "reason": "Manual review needed",
+      "score": null,
+      "original_industry": "ITAD",
+      "analysis": "Manual review needed"
+    },
+    {
+      "id": "org-779",
+      "name": "Tech Disposal",
+      "website": "http://www.techdisposal.co.uk",
+      "decision": "reject",
+      "reason": "Website issue: Website error: HTTPConnectionPool(host='www.techdisposal.co.uk', ",
+      "score": null,
+      "original_industry": "ITAD",
+      "analysis": "ITAD indicator: disposal"
+    },
+    {
+      "id": "org-780",
+      "name": "Tech Recycle",
+      "website": "http://www.tech-recycle.com",
+      "decision": "manual_review",
+      "reason": "Manual review needed",
+      "score": null,
+      "original_industry": "ITAD",
+      "analysis": "Manual review needed"
+    }
+  ],
+  "timestamp": "2026-03-06 23:02:38"
+}

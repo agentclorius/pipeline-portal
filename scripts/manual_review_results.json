@@ -1,0 +1,159 @@
+{
+  "qualified": [
+    {
+      "id": "org-745",
+      "name": "PWC Recycling",
+      "website": "http://www.pwcrecycling.com",
+      "decision": "qualified",
+      "reason": "High confidence ITAD processor",
+      "analysis": "Score: 52, Found: Strong: data destruction, Strong: data erasure, Strong: asset disposal",
+      "score": 52
+    },
+    {
+      "id": "org-749",
+      "name": "Re-Certify",
+      "website": "http://www.re-certify.co.uk",
+      "decision": "qualified",
+      "reason": "High confidence ITAD processor",
+      "analysis": "Score: 38, Found: Strong: data erasure, Strong: it disposal, Strong: weee",
+      "score": 38
+    },
+    {
+      "id": "org-762",
+      "name": "SEAMLESS IT",
+      "website": "http://www.seamlessit.com",
+      "decision": "qualified",
+      "reason": "High confidence ITAD processor",
+      "analysis": "Score: 22, Found: Strong: iso 14001, Medium: refurbishment, Weak: laptop",
+      "score": 22
+    },
+    {
+      "id": "org-773",
+      "name": "Smart Tech Recycling",
+      "website": "http://www.smarttechrecycling.co.uk",
+      "decision": "qualified",
+      "reason": "High confidence ITAD processor",
+      "analysis": "Score: 59, Found: Strong: data destruction, Strong: asset disposal, Strong: it disposal",
+      "score": 59
+    },
+    {
+      "id": "org-777",
+      "name": "Stone Group A Converge Company",
+      "website": "http://www.stonegroup.co.uk",
+      "decision": "qualified",
+      "reason": "High confidence ITAD processor",
+      "analysis": "Score: 34, Found: Strong: data erasure, Strong: weee, Medium: itad",
+      "score": 34
+    },
+    {
+      "id": "org-778",
+      "name": "T & J ASSOCIATES",
+      "website": "http://www.tjituk.com",
+      "decision": "qualified",
+      "reason": "High confidence ITAD processor",
+      "analysis": "Score: 24, Found: Strong: data destruction, Strong: weee, Weak: laptop",
+      "score": 24
+    },
+    {
+      "id": "org-780",
+      "name": "Tech Recycle",
+      "website": "http://www.tech-recycle.com",
+      "decision": "qualified",
+      "reason": "High confidence ITAD processor",
+      "analysis": "Score: 49, Found: Strong: data destruction, Strong: weee, Strong: shredding",
+      "score": 49
+    }
+  ],
+  "maybe": [
+    {
+      "id": "org-752",
+      "name": "Recommerce IT",
+      "website": "http://www.recommerceit.co.uk",
+      "decision": "maybe",
+      "reason": "Possible ITAD processor",
+      "analysis": "Score: 12, Found: Medium: refurbishment, Weak: laptop, Weak: desktop",
+      "score": 12
+    },
+    {
+      "id": "org-764",
+      "name": "SecondLife",
+      "website": "http://www.secondlifeltd.co.uk",
+      "decision": "maybe",
+      "reason": "Possible ITAD processor",
+      "analysis": "Score: 12, Found: Medium: refurbishment, Weak: it recycling, Weak: laptop",
+      "score": 12
+    }
+  ],
+  "rejected": [
+    {
+      "id": "org-716",
+      "name": "Fm Laptop Repairs",
+      "website": "http://www.notebookrepair.co.uk",
+      "decision": "reject",
+      "reason": "Disqualified: web hosting",
+      "analysis": null,
+      "score": 0
+    },
+    {
+      "id": "org-726",
+      "name": "Plan B IT Solutions",
+      "website": "http://www.planb-eu.com",
+      "decision": "reject",
+      "reason": "Insufficient ITAD evidence",
+      "analysis": "Score: 0, Found: ",
+      "score": 0
+    },
+    {
+      "id": "org-730",
+      "name": "PLM Global",
+      "website": "http://www.plm-global.co.uk",
+      "decision": "reject",
+      "reason": "Insufficient ITAD evidence",
+      "analysis": "Score: 0, Found: ",
+      "score": 0
+    },
+    {
+      "id": "org-744",
+      "name": "PSI WEB TECH",
+      "website": "http://www.psiwebtech.com",
+      "decision": "reject",
+      "reason": "Insufficient ITAD evidence",
+      "analysis": "Score: 0, Found: ",
+      "score": 0
+    },
+    {
+      "id": "org-747",
+      "name": "RAPIDSOURCE IT",
+      "website": "http://www.rapidsource.co.uk",
+      "decision": "reject",
+      "reason": "Insufficient ITAD evidence",
+      "analysis": "Score: 7, Found: Weak: laptop, Weak: desktop, Business indicators",
+      "score": 7
+    },
+    {
+      "id": "org-759",
+      "name": "Root Communication Limited",
+      "website": "http://www.rootcommunication.co.uk",
+      "decision": "reject",
+      "reason": "Disqualified: software development",
+      "analysis": null,
+      "score": 0
+    },
+    {
+      "id": "org-761",
+      "name": "Scottish Data Systems",
+      "website": "http://www.sdsspares.com",
+      "decision": "reject",
+      "reason": "Disqualified: web design",
+      "analysis": null,
+      "score": 0
+    }
+  ],
+  "summary": {
+    "total": 16,
+    "qualified": 7,
+    "maybe": 2,
+    "rejected": 7
+  },
+  "timestamp": "2026-03-06 23:04:20"
+}
