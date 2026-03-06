@@ -231,9 +231,28 @@ const lpCountries = Object.entries(stats.leadpool.byCountry || {})
       </div>
     </div>
 
-    <!-- Score Distribution -->
+    <!-- Charts Section -->
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- Pipeline Stage Chart -->
+      <div class="card p-5">
+        <h3 class="text-sm font-semibold mb-4" style="color: var(--text-primary);">Pipeline Stages</h3>
+        <div class="h-64 flex items-center justify-center">
+          <canvas id="stageChart" width="250" height="250"></canvas>
+        </div>
+      </div>
+
+      <!-- Score Distribution Chart -->
+      <div class="card p-5">
+        <h3 class="text-sm font-semibold mb-4" style="color: var(--text-primary);">Score Distribution</h3>
+        <div class="h-64 flex items-center justify-center">
+          <canvas id="scoreChart" width="250" height="200"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Score Distribution (Legacy Grid) -->
     <div class="card p-5">
-      <h3 class="text-sm font-semibold mb-4" style="color: var(--text-primary);">Score Distribution</h3>
+      <h3 class="text-sm font-semibold mb-4" style="color: var(--text-primary);">Score Breakdown</h3>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div class="p-3 rounded" style="background: rgba(45, 107, 63, 0.1);">
           <div class="text-lg font-semibold" style="color: var(--status-qualified);">{stats.pipeline.scoreDistribution.high}</div>
@@ -285,3 +304,179 @@ const lpCountries = Object.entries(stats.leadpool.byCountry || {})
     </div>
   </div>
 </Layout>
+
+<!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+
+<script is:inline define:vars={{ statsData: stats }}>
+document.addEventListener('DOMContentLoaded', function() {
+  // Get theme-aware colors
+  function getThemeColors() {
+    const theme = document.documentElement.getAttribute('data-theme') || 'dark';
+    return theme === 'dark' ? {
+      text: '#f1f5f9',
+      textSecondary: '#94a3b8',
+      grid: '#334155',
+      background: 'rgba(30, 41, 59, 0.8)'
+    } : {
+      text: '#1e293b',
+      textSecondary: '#64748b',
+      grid: '#e2e8f0',
+      background: 'rgba(255, 255, 255, 0.8)'
+    };
+  }
+
+  // Pipeline Stage Chart (Doughnut)
+  function createStageChart() {
+    const ctx = document.getElementById('stageChart');
+    if (!ctx) return;
+    
+    const colors = getThemeColors();
+    const stageData = statsData.pipeline.byStage;
+    
+    new Chart(ctx, {
+      type: 'doughnut',
+      data: {
+        labels: ['Qualified', 'New', 'Researching', 'Contacted', 'Rejected'],
+        datasets: [{
+          data: [
+            stageData.qualified || 0,
+            stageData.new || 0, 
+            stageData.researching || 0,
+            stageData.contacted || 0,
+            stageData.rejected || 0
+          ],
+          backgroundColor: [
+            '#2D6B3F', // qualified - green
+            '#3B82F6', // new - blue
+            '#8B5CF6', // researching - purple
+            '#E67E22', // contacted - orange
+            '#E74C3C'  // rejected - red
+          ],
+          borderWidth: 2,
+          borderColor: colors.background
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            position: 'bottom',
+            labels: {
+              color: colors.text,
+              padding: 15,
+              usePointStyle: true,
+              font: { size: 11 }
+            }
+          },
+          tooltip: {
+            backgroundColor: colors.background,
+            titleColor: colors.text,
+            bodyColor: colors.text,
+            borderColor: colors.grid,
+            borderWidth: 1
+          }
+        }
+      }
+    });
+  }
+
+  // Score Distribution Chart (Bar)
+  function createScoreChart() {
+    const ctx = document.getElementById('scoreChart');
+    if (!ctx) return;
+    
+    const colors = getThemeColors();
+    const scoreData = statsData.pipeline.scoreDistribution;
+    
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['80+', '70-79', '<70', 'Unscored'],
+        datasets: [{
+          label: 'Prospects',
+          data: [
+            scoreData.high || 0,
+            scoreData.medium || 0, 
+            scoreData.low || 0,
+            scoreData.unscored || 0
+          ],
+          backgroundColor: [
+            '#2D6B3F', // high - green
+            '#D97706', // medium - orange
+            '#E74C3C', // low - red
+            '#64748B'  // unscored - gray
+          ],
+          borderWidth: 0,
+          borderRadius: 4
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            display: false
+          },
+          tooltip: {
+            backgroundColor: colors.background,
+            titleColor: colors.text,
+            bodyColor: colors.text,
+            borderColor: colors.grid,
+            borderWidth: 1
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            ticks: {
+              color: colors.textSecondary,
+              font: { size: 11 }
+            },
+            grid: {
+              color: colors.grid,
+              lineWidth: 0.5
+            }
+          },
+          x: {
+            ticks: {
+              color: colors.textSecondary,
+              font: { size: 11 }
+            },
+            grid: {
+              display: false
+            }
+          }
+        }
+      }
+    });
+  }
+
+  // Initialize charts
+  createStageChart();
+  createScoreChart();
+
+  // Re-create charts on theme change
+  let charts = [];
+  const observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+      if (mutation.type === 'attributes' && mutation.attributeName === 'data-theme') {
+        // Destroy existing charts
+        Chart.getChart('stageChart')?.destroy();
+        Chart.getChart('scoreChart')?.destroy();
+        // Recreate with new theme
+        setTimeout(() => {
+          createStageChart();
+          createScoreChart();
+        }, 100);
+      }
+    });
+  });
+  
+  observer.observe(document.documentElement, { 
+    attributes: true, 
+    attributeFilter: ['data-theme'] 
+  });
+});
+</script>
