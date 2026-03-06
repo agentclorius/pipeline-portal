@@ -39,8 +39,8 @@ const recentQualified = recentActivity.length === 0 ?
     .sort((a, b) => (b.score || 0) - (a.score || 0))
     .slice(0, 6) : [];
 
-// Pipeline by region
-const regionEntries = Object.entries(stats.pipeline.byRegion || {})
+// Pipeline by country
+const regionEntries = Object.entries(stats.pipeline.byCountry || stats.pipeline.byRegion || {})
   .sort((a, b) => b[1] - a[1]);
 
 // Lead pool top countries
@@ -209,10 +209,10 @@ const lpCountries = Object.entries(stats.leadpool.byCountry || {})
         </div>
       </div>
 
-      <!-- Pipeline by Region -->
+      <!-- Pipeline by Country -->
       <div class="card p-5">
         <div class="flex items-center justify-between mb-4">
-          <h3 class="text-sm font-semibold" style="color: var(--text-primary);">Pipeline by Region</h3>
+          <h3 class="text-sm font-semibold" style="color: var(--text-primary);">Pipeline by Country</h3>
           <a href="/map" class="text-xs" style="color: var(--brand-green);">View Map</a>
         </div>
         <div class="space-y-2">
