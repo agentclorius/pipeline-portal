@@ -2,9 +2,9 @@
   "totalOrganizations": 1688,
   "totalContacts": 2786,
   "pipeline": {
-    "total": 191,
+    "total": 196,
     "byStage": {
-      "qualified": 152,
+      "qualified": 157,
       "new": 17,
       "researching": 21,
       "contacted": 1
@@ -58,12 +58,12 @@
       "Fulton County": 1,
       "Tyne and Wear": 1,
       "Bayside Council": 1,
-      "APAC": 40
+      "APAC": 45
     },
     "avgScore": 75,
-    "topScore": 92,
+    "topScore": 95,
     "scoreDistribution": {
-      "high": 57,
+      "high": 62,
       "medium": 127,
       "low": 2,
       "unscored": 5
