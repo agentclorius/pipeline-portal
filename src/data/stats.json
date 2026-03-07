@@ -2,9 +2,9 @@
   "totalOrganizations": 1688,
   "totalContacts": 2786,
   "pipeline": {
-    "total": 196,
+    "total": 202,
     "byStage": {
-      "qualified": 157,
+      "qualified": 163,
       "new": 17,
       "researching": 21,
       "contacted": 1
@@ -30,8 +30,8 @@
       "Lancashire": 3,
       "Pijnacker-Nootdorp": 1,
       "Alpes-Maritimes": 1,
-      "Département de Paris": 1,
-      "Rhône": 2,
+      "D\u00e9partement de Paris": 1,
+      "Rh\u00f4ne": 2,
       "Madrid": 1,
       "Westmoreland County": 1,
       "Surrey": 2,
@@ -58,12 +58,13 @@
       "Fulton County": 1,
       "Tyne and Wear": 1,
       "Bayside Council": 1,
-      "APAC": 45
+      "APAC": 45,
+      "EU": 6
     },
-    "avgScore": 75,
-    "topScore": 95,
+    "avgScore": 76,
+    "topScore": 100,
     "scoreDistribution": {
-      "high": 62,
+      "high": 68,
       "medium": 127,
       "low": 2,
       "unscored": 5
