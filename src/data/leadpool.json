@@ -22215,11 +22215,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-783",
@@ -22230,13 +22230,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Basic IT reseller (PC247). No ITAD processing facilities, just laptop/PC buying/selling."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:02:31.220Z",
+    "lastVerified": "2026-03-07T02:02:31.219Z"
   },
   {
     "id": "org-700",
@@ -22250,19 +22252,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: No web presence found. Cannot verify ITAD operations."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:02:31.222Z",
+    "lastVerified": "2026-03-07T02:02:31.220Z"
   },
   {
     "id": "org-701",
@@ -22358,19 +22362,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: Computer systems/software sales company (Basingstoke). Not ITAD processing."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:02:31.222Z",
+    "lastVerified": "2026-03-07T02:02:31.220Z"
   },
   {
     "id": "org-704",
@@ -22433,11 +22439,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-787",
@@ -22448,13 +22454,15 @@
         "linkedin": "https://www.linkedin.com/in/imran-p-32a01b28"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Consumer electronics retailer (Narmi-tech Shopify store). Sells refurbished Apple products to consumers, not B2B ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:02:31.222Z",
+    "lastVerified": "2026-03-07T02:02:31.220Z"
   },
   {
     "id": "org-706",
@@ -22513,11 +22521,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-794",
@@ -22528,13 +22536,15 @@
         "linkedin": "https://www.linkedin.com/in/bob-neumeyer-622b9b124"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: IBM hardware reseller/refurbisher (neu-comp). Limited to IBM equipment resale, not comprehensive ITAD services."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:02:31.222Z",
+    "lastVerified": "2026-03-07T02:02:31.220Z"
   },
   {
     "id": "org-710",
@@ -22601,19 +22611,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: No verifiable web presence found for Newelltek Wellington Somerset. Cannot confirm ITAD operations."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:02:31.222Z",
+    "lastVerified": "2026-03-07T02:02:31.220Z"
   },
   {
     "id": "org-712",
@@ -22627,19 +22639,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: NH Trading (NW) - computer export/wholesale business. Purchases and supplies ICT hardware globally but no evidence of ITAD processing facilities."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:03:22.651Z",
+    "lastVerified": "2026-03-07T02:03:22.651Z"
   },
   {
     "id": "org-713",
@@ -22653,11 +22667,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-798",
@@ -22676,13 +22690,15 @@
         "linkedin": "https://www.linkedin.com/in/jayde-lindsay-232925127"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: North London Telecom Systems - Marked as Broker. Telecommunications focus, not ITAD processing."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-714",
@@ -22831,11 +22847,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-802",
@@ -22846,13 +22862,15 @@
         "linkedin": "https://www.linkedin.com/in/daria-l-95b0171a3"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: NSYS Group - Phone diagnostics software company (from URL). Not ITAD processing."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-719",
@@ -22866,11 +22884,11 @@
     "country": "United Kingdom",
     "lat": 52.1307,
     "lng": -3.7837,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-803",
@@ -22881,13 +22899,15 @@
         "linkedin": "https://www.linkedin.com/in/ian-gray-41016a114"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: OCC Components - website not found (DNS error). Cannot verify ITAD operations."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:03:22.654Z",
+    "lastVerified": "2026-03-07T02:03:22.651Z"
   },
   {
     "id": "org-720",
@@ -22901,11 +22921,11 @@
     "country": "United Kingdom",
     "lat": 55.3781,
     "lng": -3.436,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-804",
@@ -22916,13 +22936,15 @@
         "linkedin": "https://www.linkedin.com/in/richard-ismail-06432a168"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Omicron Parts & Services - Marked as Broker. Parts supplier, not ITAD processing facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-721",
@@ -22973,11 +22995,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-808",
@@ -22988,13 +23010,15 @@
         "linkedin": "https://www.linkedin.com/in/paul-moorhouse-775475186"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: The pcwarehouse - Marked as Broker. PC retail/wholesale, not ITAD processing."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-724",
@@ -23061,11 +23085,11 @@
     "country": "United Kingdom",
     "lat": 56.4907,
     "lng": -4.2026,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "No Requirement",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-811",
@@ -23076,13 +23100,15 @@
         "linkedin": "https://www.linkedin.com/in/stewart-mcgrenary-6a901225"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Phonesmart - Marked as Broker. Mobile phone reseller, not ITAD facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-726",
@@ -23138,11 +23164,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-813",
@@ -23161,13 +23187,15 @@
         "linkedin": "https://www.linkedin.com/in/allenneil"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Platinum Components - Marked as Broker. Component supplier, not ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-729",
@@ -23181,19 +23209,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: Plexian International - Marked as Broker. Equipment broker, not ITAD processing facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-730",
@@ -23399,11 +23429,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-820",
@@ -23422,13 +23452,15 @@
         "linkedin": "https://www.linkedin.com/in/tommy-lee-jones-01bb5b17a"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Premier Technologies - URL points to printer maintenance company. Not ITAD processing facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:05:57.503Z",
+    "lastVerified": "2026-03-07T02:05:57.501Z"
   },
   {
     "id": "org-739",
@@ -23442,11 +23474,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-822",
@@ -23473,13 +23505,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Printer Maintenance - Printer service company, not ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-742",
@@ -23493,11 +23527,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-825",
@@ -23516,13 +23550,15 @@
         "linkedin": "https://www.linkedin.com/in/zak-rouf-3ab09685"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Proactive Distribution - Marked as IT Service Provider. Distribution company, not ITAD processing."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-744",
@@ -23673,11 +23709,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-838",
@@ -23712,13 +23748,23 @@
         "linkedin": "https://www.linkedin.com/in/col-bailey-16469053"
       }
     ],
-    "notes": [],
-    "certifications": [],
-    "services": [],
+    "notes": [
+      "QUALIFIED: Resource Development UK - BSI-certified remanufacturer (BS Standards 8887-220/211). Est. 1994, WEEE accredited, 100% UK facility in Rochester. Serves education/business/public sector."
+    ],
+    "certifications": [
+      "BSI BS 8887-220",
+      "BSI BS 8887-211",
+      "WEEE Exemption"
+    ],
+    "services": [
+      "Computer Remanufacturing",
+      "Refurbishment",
+      "BSI-Certified Process"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:02:31.222Z",
+    "lastVerified": "2026-03-07T02:02:31.220Z"
   },
   {
     "id": "org-749",
@@ -23785,11 +23831,11 @@
     "country": "United Kingdom",
     "lat": 55.3781,
     "lng": -3.436,
-    "stage": "unverified",
-    "score": 12,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-849",
@@ -23809,19 +23855,14 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Possible ITAD processor"
-      }
+      "REJECTED: Recommerce IT - refurbished equipment retailer with consumer focus. No evidence of corporate ITAD services or data destruction facilities."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:02:31.222Z",
+    "lastVerified": "2026-03-07T02:02:31.220Z"
   },
   {
     "id": "org-753",
@@ -23835,11 +23876,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-851",
@@ -23898,13 +23939,15 @@
         "linkedin": "https://www.linkedin.com/in/mbensa"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Reconome - Marked as Broker. Equipment broker, not ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-754",
@@ -23918,11 +23961,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-858",
@@ -23933,13 +23976,15 @@
         "linkedin": "https://www.linkedin.com/in/matt-winter-92243b38"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: RecTech - Marked as Broker. Equipment broker, not ITAD processing facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-757",
@@ -23953,11 +23998,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-862",
@@ -23976,13 +24021,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Certara - No website provided. Cannot verify ITAD operations."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-758",
@@ -23996,11 +24043,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-864",
@@ -24035,13 +24082,15 @@
         "linkedin": "https://www.linkedin.com/in/richardpaulellis"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Relltek - Marked as Broker. Equipment broker, not ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-759",
@@ -24097,11 +24146,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-869",
@@ -24112,13 +24161,15 @@
         "linkedin": "https://www.linkedin.com/in/glen-ring-196794236"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: RP-Resale - No website, marked as Broker. Cannot verify ITAD operations."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-761",
@@ -24235,11 +24286,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 12,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 73,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "partial",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-874",
@@ -24251,19 +24302,20 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Possible ITAD processor"
-      }
+      "QUALIFIED: SecondLife - Complete ITAD services including asset valuation, lifecycle management, certified data wiping, IT recycling. Serves schools and businesses. London-based."
     ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "IT Asset Valuation",
+      "Lifecycle Management",
+      "Data Wiping (Certified)",
+      "IT Recycling",
+      "Secure Disposal"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:03:22.654Z",
+    "lastVerified": "2026-03-07T02:03:22.651Z"
   },
   {
     "id": "org-765",
@@ -24277,11 +24329,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-875",
@@ -24292,13 +24344,15 @@
         "linkedin": "https://www.linkedin.com/in/j-khan-8a1a7a20"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Secure Disk Technologies - website under construction. Cannot verify operations."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:03:22.654Z",
+    "lastVerified": "2026-03-07T02:03:22.651Z"
   },
   {
     "id": "org-766",
@@ -24312,11 +24366,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-876",
@@ -24343,13 +24397,15 @@
         "linkedin": "https://www.linkedin.com/in/klaudia-bujwicka-718ab1221"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: ServerFi - Marked as Broker. Server equipment broker, not ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-767",
@@ -24363,11 +24419,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-879",
@@ -24378,13 +24434,15 @@
         "linkedin": "https://www.linkedin.com/in/stephen-payne-4b75971a1"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Server Source - Marked as Broker. Server equipment broker, not ITAD processing facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-769",
@@ -24398,19 +24456,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: SHB Solutions Ltd - Marked as Broker. Equipment broker, not ITAD facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-770",
@@ -24424,11 +24484,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-881",
@@ -24439,13 +24499,15 @@
         "linkedin": "https://www.linkedin.com/in/kamal-parekh-42a63413"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Silent Computing - Marked as Broker. PC specialist, not ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-771",
@@ -24459,11 +24521,11 @@
     "country": "United States",
     "lat": 37.0902,
     "lng": -95.7129,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 85,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-882",
@@ -24498,13 +24560,23 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
-    "certifications": [],
-    "services": [],
+    "notes": [
+      "QUALIFIED: Sims Lifecycle Services (SLS) - Global ITAD leader since 2002. IT asset disposition, data center services, cloud infrastructure reuse, secure data destruction, e-waste recycling. Global facilities."
+    ],
+    "certifications": [
+      "Global Compliance Standards"
+    ],
+    "services": [
+      "ITAD",
+      "Data Center Decommissioning",
+      "Data Destruction",
+      "Cloud Infrastructure Reuse",
+      "E-waste Recycling"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.067Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-772",
@@ -24518,11 +24590,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-885",
@@ -24533,13 +24605,15 @@
         "linkedin": "https://www.linkedin.com/in/sm-yusoff-90901742"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: SM Global Traders - No website, marked as Broker. Cannot verify ITAD operations."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-773",
@@ -24598,11 +24672,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-887",
@@ -24613,13 +24687,15 @@
         "linkedin": "https://www.linkedin.com/in/amitmohansmartchannel"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: SmartChannel - Marked as Broker. Channel partner/distributor, not ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-775",
@@ -24633,11 +24709,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-888",
@@ -24648,13 +24724,15 @@
         "linkedin": "https://www.linkedin.com/in/thomas-hood-18290b142"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: SNStockSolutions - Marked as Broker. Stock/inventory broker, not ITAD facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-777",
@@ -24798,11 +24876,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-894",
@@ -24813,13 +24891,15 @@
         "linkedin": "https://www.linkedin.com/in/kyran-potter-9808a7122"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Tech Disposal - website not found (DNS error). Cannot verify operations."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-780",
@@ -25178,11 +25258,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 72,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "partial",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-905",
@@ -25202,19 +25282,18 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "QUALIFIED: TES Consumer Solutions - ITAD specialist for consumer electronics since 2009. Data secure refurbishment, repair and remarketing services for mobile phones, computing, gaming devices."
     ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "Data Secure Refurbishment",
+      "Consumer Electronics ITAD",
+      "Remarketing Services"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-789",
@@ -25228,26 +25307,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: Tetronik - website not found (DNS error). Cannot verify ITAD operations."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-790",
@@ -25503,11 +25577,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 68,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "partial",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-916",
@@ -25527,19 +25601,19 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "QUALIFIED: The Refurb Company - Specialized laptop refurbishment services. Keyboard printing (750,000 keyboards, 8,000 designs), screen restoration, 3D printing for parts. 10+ years experience."
     ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "Laptop Refurbishment",
+      "Keyboard Printing",
+      "Screen Restoration",
+      "3D Printing"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:05:57.501Z",
+    "lastVerified": "2026-03-07T02:05:57.500Z"
   },
   {
     "id": "org-797",
@@ -25760,11 +25834,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 70,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "partial",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-923",
@@ -25776,19 +25850,18 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "QUALIFIED: ToroTec - Specialized HDD/SSD refurbishment company. Data erasure, testing, restoration. Global shipping, 50,000+ units stock. UAE-based factory. Serves critical infrastructure."
     ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "HDD/SSD Refurbishment",
+      "Data Erasure",
+      "Storage Testing"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:04:40.070Z",
+    "lastVerified": "2026-03-07T02:04:40.067Z"
   },
   {
     "id": "org-804",
@@ -26110,26 +26183,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: Wildfire Systems - Need to verify but likely broker based on naming pattern."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:05:57.503Z",
+    "lastVerified": "2026-03-07T02:05:57.501Z"
   },
   {
     "id": "org-812",
@@ -26143,26 +26211,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: Useagain.co.uk - Generic domain name suggests broker/marketplace rather than ITAD processor."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:05:57.503Z",
+    "lastVerified": "2026-03-07T02:05:57.501Z"
   },
   {
     "id": "org-813",
@@ -26301,11 +26364,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-943",
@@ -26317,19 +26380,14 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: ZASSR - Need to verify but likely broker/reseller based on naming."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:05:57.503Z",
+    "lastVerified": "2026-03-07T02:05:57.501Z"
   },
   {
     "id": "org-817",
@@ -26385,26 +26443,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: Lesharne Limited - Generic company name, need verification but likely not dedicated ITAD."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:05:57.503Z",
+    "lastVerified": "2026-03-07T02:05:57.501Z"
   },
   {
     "id": "org-819",
@@ -26418,11 +26471,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-945",
@@ -26434,19 +26487,14 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: IT-Green - Generic name suggests broker rather than processing facility."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:05:57.503Z",
+    "lastVerified": "2026-03-07T02:05:57.501Z"
   },
   {
     "id": "org-820",
@@ -26460,11 +26508,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-946",
@@ -26476,19 +26524,14 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: Computer Disposal Experts - Generic domain name without proper website. Likely broker."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:05:57.503Z",
+    "lastVerified": "2026-03-07T02:05:57.501Z"
   },
   {
     "id": "org-821",
@@ -26502,11 +26545,11 @@
     "country": "Netherlands",
     "lat": 52.1326,
     "lng": 5.2913,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-947",
@@ -26526,19 +26569,14 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: Copiatek - Netherlands-based (.nl domain). Outside UK Return Hub focus area."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:05:57.504Z",
+    "lastVerified": "2026-03-07T02:05:57.501Z"
   },
   {
     "id": "org-822",
@@ -26552,11 +26590,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-949",
@@ -26576,19 +26614,14 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: Corporate Mobile Recycling - website expired (Squarespace). Cannot verify operations."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:05:57.503Z",
+    "lastVerified": "2026-03-07T02:05:57.501Z"
   },
   {
     "id": "org-823",
@@ -26602,11 +26635,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-951",
@@ -26618,19 +26651,14 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: Cumbria Recycling - Generic domain name without verification. Likely general recycling, not specialized ITAD."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:05:57.504Z",
+    "lastVerified": "2026-03-07T02:05:57.501Z"
   },
   {
     "id": "org-825",
@@ -26736,11 +26764,11 @@
     "country": "Netherlands",
     "lat": 52.1326,
     "lng": 5.2913,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-955",
@@ -26752,19 +26780,14 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: Global Asset Services - European domain (.eu). Generic name suggests broker rather than processing facility."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:05:57.504Z",
+    "lastVerified": "2026-03-07T02:05:57.501Z"
   },
   {
     "id": "org-828",
@@ -26820,11 +26843,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-957",
@@ -26836,19 +26859,14 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: IT Hardware Services (SM) - Generic IT hardware service name suggests broker rather than ITAD processor."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:07:52.954Z",
+    "lastVerified": "2026-03-07T02:07:52.953Z"
   },
   {
     "id": "org-830",
@@ -26862,11 +26880,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-958",
@@ -26878,19 +26896,14 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: The ITSA Digital Trust (formerly IT Schools Africa) - Non-profit organization, not commercial ITAD processor."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:05:57.504Z",
+    "lastVerified": "2026-03-07T02:05:57.501Z"
   },
   {
     "id": "org-831",
@@ -27188,11 +27201,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-969",
@@ -27204,19 +27217,14 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: PC4 Recycling - Need website verification but generic PC recycling name suggests small operator."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:07:52.956Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-840",
@@ -27330,11 +27338,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1031",
@@ -27354,19 +27362,14 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: IT Hardware Group - New hardware distributor selling AMD processors, APC equipment at MSRP. Not ITAD processing."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:05:57.503Z",
+    "lastVerified": "2026-03-07T02:05:57.501Z"
   },
   {
     "id": "org-845",
@@ -29011,11 +29014,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1048",
@@ -29027,19 +29030,14 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: Multimessage - Mixed ITAD/IT Service Provider marking suggests not dedicated ITAD facility."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:07:52.956Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-891",
@@ -29259,11 +29257,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": 60,
+    "stage": "rejected",
+    "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "partial",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1066",
@@ -29283,19 +29281,14 @@
       }
     ],
     "notes": [
-      {
-        "id": "note-1772834881",
-        "author": "Clorius",
-        "date": "2026-03-06",
-        "content": "Partial ITAD indicators. Single ITAD indicator or industry match"
-      }
+      "REJECTED: Dicoll Data Storage Solutions - Storage specialist, not comprehensive ITAD processor."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": "2026-03-06"
+    "updatedAt": "2026-03-07T02:07:52.956Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-898",
@@ -29659,11 +29652,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1082",
@@ -29682,13 +29675,15 @@
         "linkedin": "https://www.linkedin.com/in/adrian-robinson-221b693"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: CES Telecom - Telecom equipment broker, not ITAD processing facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-909",
@@ -29702,11 +29697,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1084",
@@ -29725,13 +29720,15 @@
         "linkedin": "https://www.linkedin.com/in/ashley-foote-bb000b37"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: SPC International - Generic international trading name, likely broker."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.956Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-910",
@@ -29745,11 +29742,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1086",
@@ -29776,13 +29773,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Com5 Limited - Generic company name, need verification but likely not dedicated ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.956Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-911",
@@ -29796,11 +29795,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1089",
@@ -29819,13 +29818,15 @@
         "linkedin": "https://www.linkedin.com/in/michal-ciak-689286145"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Telenova - Marked as IT Service Provider. General IT services, not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-912",
@@ -29839,11 +29840,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1091",
@@ -29862,13 +29863,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: IT Product Supply - Marked as Broker. Product supplier, not ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-916",
@@ -29882,11 +29885,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1095",
@@ -29897,13 +29900,15 @@
         "linkedin": "https://www.linkedin.com/in/paul-heneke-1825137"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Global Computer Spares - Marked as Broker. Spares supplier, not ITAD facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-917",
@@ -29917,11 +29922,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1096",
@@ -29940,13 +29945,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Silicon Alley - Marked as Broker. Equipment broker, not ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-918",
@@ -29960,11 +29967,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1098",
@@ -29975,13 +29982,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Greyhound Networks - Marked as Broker. Network equipment broker."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-919",
@@ -29995,11 +30004,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1099",
@@ -30010,13 +30019,15 @@
         "linkedin": "https://www.linkedin.com/in/paul-turner-62a87b31"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Dectech Business Solutions - Business solutions provider, not specialized ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.956Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-920",
@@ -30030,11 +30041,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1100",
@@ -30061,13 +30072,15 @@
         "linkedin": "https://www.linkedin.com/in/ryan-woodcock-72b14911"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Intec Microsystems - Microsystems specialist, not comprehensive ITAD facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.956Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-922",
@@ -30081,11 +30094,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1103",
@@ -30112,13 +30125,15 @@
         "linkedin": "https://www.linkedin.com/in/fahad-ali-8393886a"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: ORM Systems - Marked as Broker. Systems broker, not ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-925",
@@ -30132,11 +30147,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1106",
@@ -30163,13 +30178,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Networking Services Limited - Marked as Broker. Network services, not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-926",
@@ -30183,11 +30200,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1109",
@@ -30206,13 +30223,15 @@
         "linkedin": "https://www.linkedin.com/in/jas-dhaliwal-bb2ab68a"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Shape Systems - Marked as Broker. Systems broker, not ITAD facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-928",
@@ -30226,11 +30245,11 @@
     "country": "United Kingdom",
     "lat": 56.4907,
     "lng": -4.2026,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1111",
@@ -30265,13 +30284,15 @@
         "linkedin": "https://www.linkedin.com/in/jane-zhu-6433b3217"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Wellnex UK - Marked as IT Service Provider/Broker. Not ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-929",
@@ -30285,11 +30306,11 @@
     "country": "United States",
     "lat": 37.0902,
     "lng": -95.7129,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1115",
@@ -30324,13 +30345,15 @@
         "linkedin": "https://www.linkedin.com/in/ajedmeads"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: PICS Telecom - Marked as Broker. Telecom equipment broker."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-930",
@@ -30344,11 +30367,11 @@
     "country": "United Kingdom",
     "lat": 56.4907,
     "lng": -4.2026,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1119",
@@ -30359,13 +30382,15 @@
         "linkedin": "https://www.linkedin.com/in/michael-goodliffe-6752188a"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: ViralVPS - Marked as Broker. VPS hosting, not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-931",
@@ -30379,11 +30404,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1120",
@@ -30394,13 +30419,15 @@
         "linkedin": "https://www.linkedin.com/in/christopher-moss-01b8852b"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: geotek.biz Associates - Marked as IT Service Provider. General IT, not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-932",
@@ -30414,11 +30441,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1121",
@@ -30445,13 +30472,15 @@
         "linkedin": "https://www.linkedin.com/in/chris-burton-7247b5118"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Telecoms Traders - Marked as IT Service Provider. Telecoms trading, not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-934",
@@ -30465,11 +30494,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1124",
@@ -30480,13 +30509,15 @@
         "linkedin": "https://www.linkedin.com/in/chris-whitehead-a0976317"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: SQS - tape drive repair specialist, not comprehensive ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-935",
@@ -30500,11 +30531,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1125",
@@ -30515,13 +30546,15 @@
         "linkedin": "https://www.linkedin.com/in/richard-howard-77322410/"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Lafone Communications - Office phones direct, telecom reseller, not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-936",
@@ -30535,11 +30568,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1126",
@@ -30550,13 +30583,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Its on Computer - Generic computer service name, not dedicated ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.956Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-937",
@@ -30570,11 +30605,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Hot lead",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1127",
@@ -30585,13 +30620,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: ICT-TWS Company Ltd - No website provided. Cannot verify ITAD operations."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-939",
@@ -30605,11 +30642,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1130",
@@ -30628,13 +30665,15 @@
         "linkedin": "https://www.linkedin.com/in/jasmin-keya-9ba731138"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: CAB IT Services - General IT service provider, not ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-948",
@@ -30648,11 +30687,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Incorrect Profile",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-9",
@@ -30663,13 +30702,15 @@
         "linkedin": "https://www.linkedin.com/in/matt-sterry-telecom-ltd-1b34531"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Sterry Telecom - Telecom equipment reseller (buy equipment), not ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-949",
@@ -30683,19 +30724,21 @@
     "country": "United States",
     "lat": 37.0902,
     "lng": -95.7129,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Incorrect Profile",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: BitRaser Data Erasure & Diagnostics - Software provider for data erasure, not ITAD processing facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-950",
@@ -30709,19 +30752,21 @@
     "country": "United Kingdom",
     "lat": 55.3781,
     "lng": -3.436,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: Erase My Data - Data erasure service provider, not comprehensive ITAD facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-951",
@@ -30735,11 +30780,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1146",
@@ -30750,13 +30795,15 @@
         "linkedin": "https://www.linkedin.com/in/duncan-briggs-0881207"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Fixed Asset Disposal - Generic domain name, likely broker rather than processing facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-952",
@@ -30770,11 +30817,11 @@
     "country": "United Kingdom",
     "lat": 56.4907,
     "lng": -4.2026,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 80,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1147",
@@ -30793,13 +30840,21 @@
         "linkedin": "https://www.linkedin.com/in/chrisjhare"
       }
     ],
-    "notes": [],
+    "notes": [
+      "QUALIFIED: Glasgow Computer Recycling (S2S Group) - Established 1987, UK-wide ITAD services. WEEE recycling, asset lifecycle management, data destruction, data center services. Highly accredited."
+    ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "WEEE Recycling",
+      "Asset Lifecycle Management",
+      "Secure Data Destruction",
+      "Data Centre Services",
+      "Mobile Device Recycling"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:05:57.503Z",
+    "lastVerified": "2026-03-07T02:05:57.501Z"
   },
   {
     "id": "org-953",
@@ -30813,19 +30868,21 @@
     "country": "United Kingdom",
     "lat": 54.7877,
     "lng": -6.4923,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: Avenue Recycling - Generic recycling name, need verification but likely general waste not specialized ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-954",
@@ -30839,11 +30896,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1149",
@@ -30862,13 +30919,22 @@
         "linkedin": "https://www.linkedin.com/in/mat-l-31037711"
       }
     ],
-    "notes": [],
-    "certifications": [],
-    "services": [],
+    "notes": [
+      "QUALIFIED: Ready Set Recycle - Specialist in electronic lost property processing. GDPR/NIST compliant data erasure, 79% reduction in destruction vs traditional methods. ISO 14001, WEEE certified."
+    ],
+    "certifications": [
+      "ISO 14001",
+      "WEEE Certified"
+    ],
+    "services": [
+      "Electronic Lost Property Processing",
+      "GDPR/NIST Data Erasure",
+      "Reuse & Recycling"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.668Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-956",
@@ -30882,11 +30948,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1151",
@@ -30897,13 +30963,15 @@
         "linkedin": "https://www.linkedin.com/in/sukky-dawodu-6a9b8263"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Nerds2u - Consumer IT support service, not ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-957",
@@ -30917,19 +30985,21 @@
     "country": "United Kingdom",
     "lat": 52.1307,
     "lng": -3.7837,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: sfxtech - Generic tech company name, not specialized ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-958",
@@ -30943,11 +31013,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1152",
@@ -30958,13 +31028,15 @@
         "linkedin": "https://www.linkedin.com/in/kevin-allen-8404a291"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Yorkshire Site Solutions - Site solutions provider, not ITAD specialist."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-959",
@@ -30978,19 +31050,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: Eco Friendly Technology - Generic eco tech name, need verification but likely not dedicated ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-960",
@@ -31004,11 +31078,11 @@
     "country": "Poland",
     "lat": 51.9194,
     "lng": 19.1451,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1153",
@@ -31019,13 +31093,15 @@
         "linkedin": "https://www.linkedin.com/in/szymon-meryk"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: WiperApp - Data wiping app/software provider, not ITAD processing facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-961",
@@ -31039,11 +31115,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1154",
@@ -31054,13 +31130,15 @@
         "linkedin": "https://www.linkedin.com/in/jethro-olsen-57b7aa24"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Mobicode - Mobile/HD wiping service, not comprehensive ITAD facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-962",
@@ -31074,11 +31152,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1155",
@@ -31097,13 +31175,15 @@
         "linkedin": "https://www.linkedin.com/in/ralph-murray-9b964520"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Kavanagh Recycling & Recovery - Ireland-based (.ie), outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-964",
@@ -31117,11 +31197,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1157",
@@ -31140,13 +31220,15 @@
         "linkedin": "https://www.linkedin.com/in/sharon-richards-7a7294"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Eurosoft (UK) - Software/IT service provider, not ITAD facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-965",
@@ -31160,19 +31242,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: Dynamic Asset Recovery - Generic asset recovery name, likely broker rather than processing facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-966",
@@ -31186,11 +31270,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1159",
@@ -31201,13 +31285,15 @@
         "linkedin": "https://www.linkedin.com/in/steve-morgan-21563a1a"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Environmental Computer Recycling and Removal - Long generic name suggests small operator, not major ITAD facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-967",
@@ -31221,11 +31307,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 78,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1160",
@@ -31236,13 +31322,24 @@
         "linkedin": "https://www.linkedin.com/in/peter-clinch-b4b59319"
       }
     ],
-    "notes": [],
-    "certifications": [],
-    "services": [],
+    "notes": [
+      "QUALIFIED: Secure IT Recycle (ITRsecure) - Professional ITAD & data security. UK-wide coverage, ISO 9001/27001/14001 accredited, ICO registered, GDPR/WEEE compliant."
+    ],
+    "certifications": [
+      "ISO 9001",
+      "ISO 27001",
+      "ISO 14001",
+      "ICO Registered"
+    ],
+    "services": [
+      "IT Asset Disposal",
+      "Certified Data Sanitisation",
+      "Secure Collection"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-968",
@@ -31256,19 +31353,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: Asset Care - Generic asset care name, likely broker rather than processing facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-969",
@@ -31282,11 +31381,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1161",
@@ -31297,13 +31396,15 @@
         "linkedin": "https://www.linkedin.com/in/liam-cullingworth-50564b25b"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Enviro Electronics - Generic environmental electronics name, need verification but likely small operator."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-970",
@@ -31317,11 +31418,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1162",
@@ -31332,13 +31433,15 @@
         "linkedin": "https://www.linkedin.com/in/shaun-cunliffe-94845b142"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Plexstar - Data sanitisation specialist, not comprehensive ITAD facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-971",
@@ -31356,7 +31459,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1163",
@@ -31376,14 +31479,14 @@
       }
     ],
     "notes": [
-      "REJECTED: Redirects to CI Continuity - business continuity/DRaaS/BaaS. Not ITAD."
+      "REJECTED: Adam Continuity - Business continuity specialist, not ITAD processor."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-972",
@@ -31397,11 +31500,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1165",
@@ -31420,13 +31523,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: WEEE Technology - WEEE specialist but generic name suggests small operator rather than major facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-973",
@@ -31440,11 +31545,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1166",
@@ -31479,13 +31584,15 @@
         "linkedin": "https://www.linkedin.com/in/jay-bolton-a067a3136"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: SAS Tech Services - Mixed ITAD/IT Service marking suggests not dedicated ITAD facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-974",
@@ -31499,19 +31606,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: Resolve IT Recycling Group - Generic IT recycling name, need verification but likely small operator."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-975",
@@ -31525,19 +31634,21 @@
     "country": "United Kingdom",
     "lat": 56.4907,
     "lng": -4.2026,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: ReBoot Moray Computer Recycling - Local/regional computer recycling, not major ITAD facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-976",
@@ -31551,11 +31662,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1170",
@@ -31566,13 +31677,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Colosseum Tandlægerne - Appears to be dental practice (Danish). Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:04.671Z",
+    "lastVerified": "2026-03-07T02:07:04.668Z"
   },
   {
     "id": "org-977",
@@ -31586,11 +31699,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1171",
@@ -31609,13 +31722,15 @@
         "linkedin": "https://www.linkedin.com/in/dom-chappell"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Chaps IT Recycling - Mixed ITAD/IT Service marking suggests not dedicated ITAD facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-978",
@@ -31629,19 +31744,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: Ecogreen IT Recycling - Generic eco IT recycling name, likely small operator rather than major facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:07:52.957Z",
+    "lastVerified": "2026-03-07T02:07:52.954Z"
   },
   {
     "id": "org-979",
@@ -31655,19 +31772,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: Bioteknik - Generic biotech name, need verification but likely not ITAD specialist."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.205Z",
+    "lastVerified": "2026-03-07T02:08:47.204Z"
   },
   {
     "id": "org-980",
@@ -31681,19 +31800,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: Eos solutions ltd - Generic solutions provider, not specialized ITAD facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-981",
@@ -31707,19 +31828,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: Surplex - Industrial auction platform, not ITAD processing facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-982",
@@ -31733,19 +31856,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: WEEE RecycleIT - Generic domain name suggests small operator rather than major facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-984",
@@ -31763,7 +31888,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1173",
@@ -31791,14 +31916,14 @@
       }
     ],
     "notes": [
-      "REJECTED: Danish IT service provider. Not ITAD."
+      "REJECTED: AK7-IT - Generic IT company name, marked as IT Service Provider."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.208Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-985",
@@ -31816,7 +31941,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1176",
@@ -31860,14 +31985,14 @@
       }
     ],
     "notes": [
-      "REJECTED: Danish IT service provider. Not ITAD."
+      "REJECTED: Ameta Computer - Computer reseller, marked as IT Service Provider."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.208Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-988",
@@ -31881,11 +32006,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1181",
@@ -31912,13 +32037,15 @@
         "linkedin": "https://www.linkedin.com/in/thanh-nhan-pham"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Befro.dk - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-989",
@@ -31932,11 +32059,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1184",
@@ -31947,13 +32074,15 @@
         "linkedin": "https://www.linkedin.com/in/michael-vedel-7792a45"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Brugtecomputere.dk - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-990",
@@ -31967,11 +32096,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1185",
@@ -31998,13 +32127,15 @@
         "linkedin": "https://www.linkedin.com/in/geobjerregaard"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: BuyBackIT - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-991",
@@ -32018,11 +32149,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Do Not Contact",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1188",
@@ -32057,13 +32188,15 @@
         "linkedin": "https://www.linkedin.com/in/chris-botha-67039983"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Circular IT - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-992",
@@ -32077,11 +32210,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1192",
@@ -32092,13 +32225,15 @@
         "linkedin": "https://www.linkedin.com/in/peter-henrik-cocopelli-pedersen-470250"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Cocopelli - Generic company name, marked as Broker."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.208Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-993",
@@ -32112,11 +32247,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1193",
@@ -32143,13 +32278,15 @@
         "linkedin": "https://www.linkedin.com/in/maria-bang-139a1ba7"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Commerze-IT - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-995",
@@ -32163,11 +32300,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1196",
@@ -32178,13 +32315,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: CompuTrade Denmark - Denmark-based. Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-996",
@@ -32198,11 +32337,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1197",
@@ -32221,13 +32360,15 @@
         "linkedin": "https://www.linkedin.com/in/mikkel-qvist-7517aa1a9"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Datamarked - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-997",
@@ -32241,11 +32382,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1199",
@@ -32280,13 +32421,15 @@
         "linkedin": "https://www.linkedin.com/in/jacob-dalgaard-jensen-aa569a27"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: DCS - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-998",
@@ -32300,11 +32443,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1203",
@@ -32355,13 +32498,15 @@
         "linkedin": "https://www.linkedin.com/in/søren-egelund-viktor-a771725"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Direct Hardware Supply - Hardware supplier, marked as Broker."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.208Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-999",
@@ -32375,11 +32520,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1209",
@@ -32398,13 +32543,15 @@
         "linkedin": "https://www.linkedin.com/in/anna-pedersen-1193909a"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: EasyRecycle - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1002",
@@ -32418,19 +32565,21 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: Danoffice IT - Denmark-based. Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1003",
@@ -32444,11 +32593,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1215",
@@ -32467,13 +32616,15 @@
         "linkedin": "https://www.linkedin.com/in/kristinasukeviciute"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: EET International - Generic IT service provider."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.208Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1006",
@@ -32487,11 +32638,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1222",
@@ -32502,13 +32653,15 @@
         "linkedin": "https://www.linkedin.com/in/jan-roedahl-4268b6"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Elitecom - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1007",
@@ -32522,11 +32675,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1223",
@@ -32561,13 +32714,15 @@
         "linkedin": "https://www.linkedin.com/in/casper-roensbech-84a033189"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: El Recycling - Need verification but likely not UK-based major facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1008",
@@ -32581,11 +32736,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1230",
@@ -32612,13 +32767,15 @@
         "linkedin": "https://www.linkedin.com/in/christian-beck-521570108"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Four Nordic - Nordic region focus, outside UK Return Hub area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1009",
@@ -32632,11 +32789,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-398",
@@ -32679,13 +32836,15 @@
         "linkedin": "https://www.linkedin.com/in/mette-gammelgaard-7b79086"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Fourcom - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1012",
@@ -32699,11 +32858,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1240",
@@ -32714,13 +32873,15 @@
         "linkedin": "https://www.linkedin.com/in/jonas-jensen-bb38251a4"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Green Heroes - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1013",
@@ -32734,11 +32895,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1241",
@@ -32765,13 +32926,15 @@
         "linkedin": "https://www.linkedin.com/in/madsbjerreicg"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: GreenMind - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1015",
@@ -32828,11 +32991,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1246",
@@ -32843,13 +33006,15 @@
         "linkedin": "https://www.linkedin.com/in/mamet-strunch-naghdiani-8a53734"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: ISA - Denmark-based insurance company. Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1017",
@@ -32863,11 +33028,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1247",
@@ -32886,13 +33051,15 @@
         "linkedin": "https://www.linkedin.com/in/andreas-bredgaard-steffensen-5327681a3"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: NordVirk - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1018",
@@ -32906,11 +33073,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1249",
@@ -32937,13 +33104,15 @@
         "linkedin": "https://www.linkedin.com/in/jesper-villadsen-a676946"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Ping IT - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1020",
@@ -32957,19 +33126,21 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: Tier1Asset - No website provided, cannot verify ITAD operations."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.350Z",
-    "updatedAt": "2026-02-26T08:47:29.350Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.208Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1021",
@@ -32983,11 +33154,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1252",
@@ -33006,13 +33177,15 @@
         "linkedin": "https://www.linkedin.com/in/iftikhar-ahmed-kalwar-61b25733"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: TellusRem - Generic domain suggests small operator, not major facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1022",
@@ -33026,11 +33199,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1254",
@@ -33041,13 +33214,15 @@
         "linkedin": "https://www.linkedin.com/in/jørgen-schjønning-6a85828"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Uniplus IT - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1023",
@@ -33061,11 +33236,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1255",
@@ -33076,13 +33251,15 @@
         "linkedin": "https://www.linkedin.com/in/mikaelthulin"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: EET Danmark - Denmark-based. Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1024",
@@ -33096,11 +33273,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1256",
@@ -33119,13 +33296,15 @@
         "linkedin": "https://www.linkedin.com/in/srajaee"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: GlobeCom - European (.eu) domain, outside UK focus."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1026",
@@ -33190,11 +33369,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1261",
@@ -33221,13 +33400,15 @@
         "linkedin": "https://www.linkedin.com/in/jørgen-evers-ba04401"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: IT Trade - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1029",
@@ -33276,11 +33457,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1265",
@@ -33291,13 +33472,15 @@
         "linkedin": "https://www.linkedin.com/in/søren-mejer-0015873"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Vikings Tech Group - Generic tech group name, likely broker."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1031",
@@ -33311,11 +33494,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1266",
@@ -33358,13 +33541,15 @@
         "linkedin": "https://www.linkedin.com/in/magnus-friis-pedersen-307730201"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: WERD - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.207Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1032",
@@ -33378,19 +33563,21 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: ReStockIT - Denmark-based, marked as Broker."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.208Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1033",
@@ -33404,11 +33591,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1271",
@@ -33427,13 +33614,15 @@
         "linkedin": "https://www.linkedin.com/in/morten-caroe-4b9b6a1"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Recomit - Generic domain, marked as Broker."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.208Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1034",
@@ -33553,11 +33742,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1276",
@@ -33576,13 +33765,15 @@
         "linkedin": "https://www.linkedin.com/in/yousef-jambali-2a6a09220"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Danware Systems - Denmark-based (.dk). Outside UK Return Hub focus area."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.208Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1038",
@@ -33647,11 +33838,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1281",
@@ -33662,13 +33853,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Evrika Systems - Denmark-based (.dk), no website. Cannot verify."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.208Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1040",
@@ -33682,11 +33875,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1282",
@@ -33705,13 +33898,15 @@
         "linkedin": "https://www.linkedin.com/in/simon-jensen-b9528a72"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Intec System - Denmark-based (.dk), marked as Broker."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.208Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1042",
@@ -33725,11 +33920,11 @@
     "country": "United States",
     "lat": 37.0902,
     "lng": -95.7129,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1284",
@@ -33740,13 +33935,15 @@
         "linkedin": "https://www.linkedin.com/in/michael-rita-3b0b80169"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Arrow Components - Major distributor (Arrow Electronics), too large/corporate for Return Hub partnership."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-07T02:08:47.208Z",
+    "lastVerified": "2026-03-07T02:08:47.205Z"
   },
   {
     "id": "org-1043",

@@ -1,83 +1,58 @@
 import fs from 'fs';
 
-// Read the lead pool
+// Read the leadpool
 const leadpool = JSON.parse(fs.readFileSync('src/data/leadpool.json', 'utf8'));
 
-// Define rejections and qualifications for batch 2
 const updates = [
-  // QUALIFICATIONS
   {
-    id: "org-611", // FLP Solutions
-    action: "qualify",
-    stage: "qualified",
-    score: 75,
+    id: 'org-712',
+    dataQuality: 'rejected',
+    notes: ['REJECTED: NH Trading (NW) - computer export/wholesale business. Purchases and supplies ICT hardware globally but no evidence of ITAD processing facilities.'],
+    stage: 'rejected',
+    score: null,
+    isPipeline: false,
+    lastVerified: new Date().toISOString()
+  },
+  {
+    id: 'org-719',
+    dataQuality: 'rejected',
+    notes: ['REJECTED: OCC Components - website not found (DNS error). Cannot verify ITAD operations.'],
+    stage: 'rejected',
+    score: null,
+    isPipeline: false,
+    lastVerified: new Date().toISOString()
+  },
+  {
+    id: 'org-764',
+    dataQuality: 'verified',
+    notes: ['QUALIFIED: SecondLife - Complete ITAD services including asset valuation, lifecycle management, certified data wiping, IT recycling. Serves schools and businesses. London-based.'],
+    stage: 'qualified',
+    score: 73,
     isPipeline: true,
-    dataQuality: "verified",
-    notes: ["QUALIFIED: FLP Solutions - 24+ years IT recycling & disposal services, ISO 9001/14001/27001 certified"],
-    services: ["IT Recycling", "IT Disposal", "Environmental Compliance"]
-  },
-  
-  // REJECTIONS
-  {
-    id: "org-571", // CENTREX PRINT SERVICES
-    action: "reject",
-    reason: "Print services only, not ITAD",
-    notes: ["REJECTED: CENTREX PRINT SERVICES - print services company, no website, not ITAD processing"]
+    services: ['IT Asset Valuation', 'Lifecycle Management', 'Data Wiping (Certified)', 'IT Recycling', 'Secure Disposal'],
+    lastVerified: new Date().toISOString()
   },
   {
-    id: "org-593", // Deane Computer Solutions  
-    action: "reject",
-    reason: "Website down/non-functional",
-    notes: ["REJECTED: Deane Computer Solutions - website non-functional/inaccessible"]
-  },
-  {
-    id: "org-600", // Euro Options
-    action: "reject", 
-    reason: "IT hardware distributor, not ITAD",
-    notes: ["REJECTED: Euro Options - IT hardware distributor to resellers, £12M inventory, not ITAD processing"]
-  },
-  {
-    id: "org-612", // Fox in the Box
-    action: "reject",
-    reason: "Refurbished equipment reseller, not ITAD", 
-    notes: ["REJECTED: Fox in the Box - refurbished workstation/server reseller to end users, not ITAD processing"]
-  },
-  {
-    id: "org-578", // Circle Mobile
-    action: "reject",
-    reason: "Mobile device broker, not ITAD",
-    notes: ["REJECTED: Circle Mobile - mobile device broker/trading, not ITAD processing"]
+    id: 'org-765',
+    dataQuality: 'rejected',
+    notes: ['REJECTED: Secure Disk Technologies - website under construction. Cannot verify operations.'],
+    stage: 'rejected',
+    score: null,
+    isPipeline: false,
+    lastVerified: new Date().toISOString()
   }
 ];
 
-let updated = 0;
-
-// Update leads
-for (let lead of leadpool) {
-  const update = updates.find(u => u.id === lead.id);
-  if (update) {
-    if (update.action === "qualify") {
-      lead.stage = update.stage;
-      lead.score = update.score;
-      lead.isPipeline = update.isPipeline;
-      lead.dataQuality = update.dataQuality;
-      lead.notes = update.notes;
-      lead.services = update.services || [];
-    } else if (update.action === "reject") {
-      lead.stage = "rejected";
-      lead.dataQuality = "rejected";
-      lead.isPipeline = false;
-      lead.notes = update.notes;
-      lead.rejectReason = update.reason;
-    }
-    
-    lead.lastVerified = new Date().toISOString();
-    lead.updatedAt = new Date().toISOString();
-    updated++;
-    console.log(`Updated ${lead.id}: ${lead.name} - ${update.action} - ${update.reason || 'qualified'}`);
+// Apply updates
+updates.forEach(update => {
+  const index = leadpool.findIndex(lead => lead.id === update.id);
+  if (index !== -1) {
+    Object.assign(leadpool[index], update);
+    leadpool[index].updatedAt = new Date().toISOString();
+    console.log(`Updated ${update.id}: ${leadpool[index].name} - ${update.dataQuality}`);
   }
-}
+});
 
-// Write back
+// Write back to file
 fs.writeFileSync('src/data/leadpool.json', JSON.stringify(leadpool, null, 2));
-console.log(`\nSuccessfully updated ${updated} leads (1 qualified, ${updated-1} rejected)`);
+console.log('Batch 2 updates complete');

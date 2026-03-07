@@ -1,65 +1,95 @@
 import fs from 'fs';
 
-// Read the lead pool
+// Read the leadpool
 const leadpool = JSON.parse(fs.readFileSync('src/data/leadpool.json', 'utf8'));
 
-// Define rejections for this session
-const rejections = [
+const updates = [
   {
-    id: "org-569", 
-    reason: "Printer repair/refurbishment only, not ITAD",
-    notes: ["REJECTED: CDS Printer Solutions - printer repair and refurbishment company, not ITAD processing"]
+    id: 'org-699',
+    dataQuality: 'rejected',
+    notes: ['REJECTED: Basic IT reseller (PC247). No ITAD processing facilities, just laptop/PC buying/selling.'],
+    stage: 'rejected',
+    score: null,
+    isPipeline: false,
+    lastVerified: new Date().toISOString()
   },
   {
-    id: "org-570",
-    reason: "Consumer electronics retailer, not ITAD", 
-    notes: ["REJECTED: Celebrium Technologies - gaming PC and electronics e-commerce store, not ITAD"]
+    id: 'org-700',
+    dataQuality: 'rejected', 
+    notes: ['REJECTED: No web presence found. Cannot verify ITAD operations.'],
+    stage: 'rejected',
+    score: null,
+    isPipeline: false,
+    lastVerified: new Date().toISOString()
   },
   {
-    id: "org-595",
-    reason: "Website down/non-functional",
-    notes: ["REJECTED: Dragon Computer Remarketing - website domain for sale, business inactive"]
+    id: 'org-703',
+    dataQuality: 'rejected',
+    notes: ['REJECTED: Computer systems/software sales company (Basingstoke). Not ITAD processing.'],
+    stage: 'rejected',
+    score: null,
+    isPipeline: false,
+    lastVerified: new Date().toISOString()
   },
   {
-    id: "org-610", 
-    reason: "Website down/non-functional",
-    notes: ["REJECTED: Flogit2us.com - website non-functional/inaccessible"]
+    id: 'org-705',
+    dataQuality: 'rejected',
+    notes: ['REJECTED: Consumer electronics retailer (Narmi-tech Shopify store). Sells refurbished Apple products to consumers, not B2B ITAD.'],
+    stage: 'rejected', 
+    score: null,
+    isPipeline: false,
+    lastVerified: new Date().toISOString()
   },
   {
-    id: "org-615",
-    reason: "Website down/non-functional", 
-    notes: ["REJECTED: Gentronics Solutions - website misconfigured/non-functional"]
+    id: 'org-709',
+    dataQuality: 'rejected',
+    notes: ['REJECTED: IBM hardware reseller/refurbisher (neu-comp). Limited to IBM equipment resale, not comprehensive ITAD services.'],
+    stage: 'rejected',
+    score: null,
+    isPipeline: false,
+    lastVerified: new Date().toISOString()
   },
   {
-    id: "org-619",
-    reason: "Technology distributor, not ITAD",
-    notes: ["REJECTED: Genuine Solutions - smart technology distributor, no ITAD processing"]
+    id: 'org-711',
+    dataQuality: 'rejected',
+    notes: ['REJECTED: No verifiable web presence found for Newelltek Wellington Somerset. Cannot confirm ITAD operations.'],
+    stage: 'rejected',
+    score: null,
+    isPipeline: false,
+    lastVerified: new Date().toISOString()
   },
   {
-    id: "org-590",
-    reason: "Consumer electronics reseller, not ITAD",
-    notes: ["REJECTED: Crown Workspace (ITresale) - refurbished electronics B2C reseller, not ITAD"]
+    id: 'org-748',
+    dataQuality: 'verified',
+    notes: ['QUALIFIED: Resource Development UK - BSI-certified remanufacturer (BS Standards 8887-220/211). Est. 1994, WEEE accredited, 100% UK facility in Rochester. Serves education/business/public sector.'],
+    stage: 'qualified',
+    score: 75,
+    isPipeline: true,
+    services: ['Computer Remanufacturing', 'Refurbishment', 'BSI-Certified Process'],
+    certifications: ['BSI BS 8887-220', 'BSI BS 8887-211', 'WEEE Exemption'],
+    lastVerified: new Date().toISOString()
+  },
+  {
+    id: 'org-752',
+    dataQuality: 'rejected',
+    notes: ['REJECTED: Recommerce IT - refurbished equipment retailer with consumer focus. No evidence of corporate ITAD services or data destruction facilities.'],
+    stage: 'rejected',
+    score: null,
+    isPipeline: false,
+    lastVerified: new Date().toISOString()
   }
 ];
 
-let updated = 0;
-
-// Update leads
-for (let lead of leadpool) {
-  const rejection = rejections.find(r => r.id === lead.id);
-  if (rejection) {
-    lead.stage = "rejected";
-    lead.dataQuality = "rejected"; 
-    lead.isPipeline = false;
-    lead.notes = rejection.notes;
-    lead.rejectReason = rejection.reason;
-    lead.lastVerified = new Date().toISOString();
-    lead.updatedAt = new Date().toISOString();
-    updated++;
-    console.log(`Updated ${lead.id}: ${lead.name} - ${rejection.reason}`);
+// Apply updates
+updates.forEach(update => {
+  const index = leadpool.findIndex(lead => lead.id === update.id);
+  if (index !== -1) {
+    Object.assign(leadpool[index], update);
+    leadpool[index].updatedAt = new Date().toISOString();
+    console.log(`Updated ${update.id}: ${leadpool[index].name} - ${update.dataQuality}`);
   }
-}
+});
 
-// Write back
+// Write back to file
 fs.writeFileSync('src/data/leadpool.json', JSON.stringify(leadpool, null, 2));
-console.log(`\nSuccessfully updated ${updated} leads with rejections`);
+console.log('Updates complete');
