@@ -1,0 +1,2241 @@
+{
+  "pipeline": [
+    {
+      "id": "org-apac-1701",
+      "slug": "itc-asset-management",
+      "name": "ITC Asset Management",
+      "industry": "ITAD",
+      "website": "itcassetmanagement.com.au",
+      "address": "Sydney",
+      "region": "APAC",
+      "state": "New South Wales",
+      "country": "Australia",
+      "lat": -33.8688,
+      "lng": 151.2093,
+      "stage": "qualified",
+      "score": 82,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Sydney-based ITAD specialist. ISO 14001:2015 certified. Corporate e-waste recycling, certified data destruction, free collection for qualifying volumes. Serves corporate, education, and government sectors since 2018."
+      ],
+      "certifications": [
+        "ISO 14001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇦🇺",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": true,
+        "contact": "1300 048 226",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T08:00:00.000Z",
+      "updatedAt": "2026-03-07T08:00:00.000Z",
+      "lastVerified": "2026-03-07T08:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1702",
+      "slug": "eraseit-australia",
+      "name": "EraseIT",
+      "industry": "ITAD",
+      "website": "eraseit.com.au",
+      "address": "",
+      "region": "APAC",
+      "state": "",
+      "country": "Australia",
+      "lat": -25.2744,
+      "lng": 133.7751,
+      "stage": "qualified",
+      "score": 85,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Australian ITAD specialist with ISO9001 and ISO27001 certifications. Carbon-neutral powered facilities. Secure data erasure, hardware repurposing, disposal. End-to-end asset disposal services."
+      ],
+      "certifications": [
+        "ISO 9001",
+        "ISO 27001"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇦🇺",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Research contact details",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T08:00:00.000Z",
+      "updatedAt": "2026-03-07T08:00:00.000Z",
+      "lastVerified": "2026-03-07T08:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1703",
+      "slug": "zircodata-au",
+      "name": "ZircoDATA Australia",
+      "industry": "ITAD",
+      "website": "zircodata.com",
+      "address": "",
+      "region": "APAC",
+      "state": "",
+      "country": "Australia",
+      "lat": -25.2744,
+      "lng": 133.7751,
+      "stage": "qualified",
+      "score": 80,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Australian ITAD services. Compliant with Australian Signals Directorate ISM controls, ISO 27001, NAID AAA with PSPF endorsement. Secure chain-of-custody protocols, end-to-end tracking."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "NAID AAA"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇦🇺",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Research contact details",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T08:00:00.000Z",
+      "updatedAt": "2026-03-07T08:00:00.000Z",
+      "lastVerified": "2026-03-07T08:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1704",
+      "slug": "itad-nz",
+      "name": "ITAD NZ",
+      "industry": "ITAD",
+      "website": "itad.co.nz",
+      "address": "Gate 9, 312 Postman Road, Dairy Flat, Auckland",
+      "region": "APAC",
+      "state": "Auckland",
+      "country": "New Zealand",
+      "lat": -36.8485,
+      "lng": 174.7633,
+      "stage": "qualified",
+      "score": 88,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [
+        {
+          "id": "contact-apac-1",
+          "name": "Chris",
+          "title": "",
+          "email": "chris@itad.co.nz",
+          "phone": "",
+          "linkedin": ""
+        }
+      ],
+      "notes": [
+        "New Zealand's dedicated ITAD specialist. NIST 800-88 certified data destruction, nationwide coverage, buy-back program up to 70% market value. Blancco wiping, NZISM compliant. Circular economy focus."
+      ],
+      "certifications": [
+        "NIST 800-88"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇳🇿",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "chris@itad.co.nz",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T08:00:00.000Z",
+      "updatedAt": "2026-03-07T08:00:00.000Z",
+      "lastVerified": "2026-03-07T08:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1705",
+      "slug": "echo-tech-nz",
+      "name": "Echo Tech",
+      "industry": "ITAD",
+      "website": "echotech.co.nz",
+      "address": "Penrose, Auckland",
+      "region": "APAC",
+      "state": "Auckland",
+      "country": "New Zealand",
+      "lat": -36.8485,
+      "lng": 174.7633,
+      "stage": "qualified",
+      "score": 84,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "New Zealand's largest e-waste recycling company. IT asset management solutions, secure data destruction, NZISM-certified facilities. Goal to recover 20,000 tonnes annually by 2028. Serves major corporates including Deloitte, KiwiRail."
+      ],
+      "certifications": [
+        "NZISM"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇳🇿",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Research contact details",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T08:00:00.000Z",
+      "updatedAt": "2026-03-07T08:00:00.000Z",
+      "lastVerified": "2026-03-07T08:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1706",
+      "slug": "km-technology",
+      "name": "KM Technology",
+      "industry": "ITAD",
+      "website": "kmtech.com.au",
+      "address": "",
+      "region": "APAC",
+      "state": "",
+      "country": "Australia",
+      "lat": -25.2744,
+      "lng": 133.7751,
+      "stage": "researching",
+      "score": 75,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Australian MSP with ITAD services. NIST 800-88 certified data wiping, 50/50 revenue share on resale, GPS-tracked transport, zero landfill policies. ISO certified."
+      ],
+      "certifications": [
+        "NIST 800-88"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇦🇺",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Verify ITAD focus vs MSP",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T08:00:00.000Z",
+      "updatedAt": "2026-03-07T08:00:00.000Z",
+      "lastVerified": "2026-03-07T08:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1707",
+      "slug": "arkiva-singapore",
+      "name": "Arkiva Singapore",
+      "industry": "ITAD",
+      "website": "arkiva.com.sg",
+      "address": "Singapore",
+      "region": "APAC",
+      "state": "",
+      "country": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "stage": "qualified",
+      "score": 84,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "NEA licensed, i-SIGMA & ISO certified ITAD company. Data wiping compliant with DOD 5220.22-M, Peter Gutman, NIST 800-88, Bruce Schneier standards. Singapore-based with 100% compliance focus."
+      ],
+      "certifications": [
+        "NEA Licensed",
+        "i-SIGMA",
+        "ISO",
+        "DOD 5220.22-M",
+        "NIST 800-88"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇸🇬",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T08:00:00.000Z",
+      "updatedAt": "2026-03-07T08:00:00.000Z",
+      "lastVerified": "2026-03-07T08:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1708",
+      "slug": "td-itad-singapore",
+      "name": "Tech Dynamic ITAD",
+      "industry": "ITAD",
+      "website": "td-itad.com",
+      "address": "Singapore",
+      "region": "APAC",
+      "state": "",
+      "country": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "stage": "qualified",
+      "score": 87,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Since 2014, serves government ministries and private sector. NEA GWC License Class A, ISO 9001/14001/45001, SS587, BizSafe Star certified. Specializes in secure e-waste disposal with comprehensive certifications."
+      ],
+      "certifications": [
+        "NEA GWC License Class A",
+        "ISO 9001",
+        "ISO 14001",
+        "ISO 45001",
+        "SS 587",
+        "BizSafe Star"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇸🇬",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": true,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T08:00:00.000Z",
+      "updatedAt": "2026-03-07T08:00:00.000Z",
+      "lastVerified": "2026-03-07T08:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1709",
+      "slug": "metalo-international",
+      "name": "Metalo International",
+      "industry": "ITAD",
+      "website": "metalointernational.com",
+      "address": "Singapore",
+      "region": "APAC",
+      "state": "",
+      "country": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "stage": "qualified",
+      "score": 83,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Singapore e-waste management company. ISO 27001 & 14001 certified, R2v3 certified, follows NSA/DoD guidelines. PDPC compliant data destruction, NEA waste licensing. Circular economy focus."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 14001",
+        "R2v3",
+        "PDPC",
+        "NEA Licensed"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇸🇬",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T08:00:00.000Z",
+      "updatedAt": "2026-03-07T08:00:00.000Z",
+      "lastVerified": "2026-03-07T08:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1710",
+      "slug": "asia-data-destruction",
+      "name": "Asia Data Destruction",
+      "industry": "ITAD",
+      "website": "asiadatadestruction.com",
+      "address": "ASEAN Regional",
+      "region": "APAC",
+      "state": "",
+      "country": "Thailand",
+      "lat": 13.7367,
+      "lng": 100.5232,
+      "stage": "qualified",
+      "score": 85,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "15 years experience, 500+ companies served. GDPR, ISO 27001/20000/22301, HIPAA, PCI-DSS, PDPA compliant. Operates in 80+ countries across ASEAN including Thailand, Malaysia, Singapore, Indonesia, Japan, South Korea."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "ISO 20000",
+        "ISO 22301",
+        "GDPR",
+        "HIPAA",
+        "PCI-DSS",
+        "PDPA"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇹🇭",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Research ASEAN coverage",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T08:00:00.000Z",
+      "updatedAt": "2026-03-07T08:00:00.000Z",
+      "lastVerified": "2026-03-07T08:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1711",
+      "slug": "koei-japan",
+      "name": "KOEI Japan",
+      "industry": "ITAD",
+      "website": "koei-j.co.jp",
+      "address": "Japan",
+      "region": "APAC",
+      "state": "",
+      "country": "Japan",
+      "lat": 35.6762,
+      "lng": 139.6503,
+      "stage": "qualified",
+      "score": 80,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Japanese ITAD specialist. Handles servers, PCs, smartphones, tablets, network equipment. High-security ITAD center with certified data erasure and destruction certificates. Offers buy-back services."
+      ],
+      "certifications": [
+        "Data Erasure Certified"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇯🇵",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Research certifications",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T08:00:00.000Z",
+      "updatedAt": "2026-03-07T08:00:00.000Z",
+      "lastVerified": "2026-03-07T08:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1712",
+      "slug": "sk-tes-korea",
+      "name": "SK TES Korea",
+      "industry": "ITAD",
+      "website": "sktes.com",
+      "address": "Seoul",
+      "region": "APAC",
+      "state": "Seoul",
+      "country": "South Korea",
+      "lat": 37.5665,
+      "lng": 126.978,
+      "stage": "qualified",
+      "score": 82,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Global ITAD provider with Seoul facility (TES-AMM Korea Inc). 40+ owned sites worldwide, serves 100+ countries. Full ITAD services including data destruction, e-waste recycling, data center decommissioning."
+      ],
+      "certifications": [
+        "Global ITAD Standards"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇰🇷",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Verify local operations",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T08:00:00.000Z",
+      "updatedAt": "2026-03-07T08:00:00.000Z",
+      "lastVerified": "2026-03-07T08:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1713",
+      "slug": "greentek-reman-india",
+      "name": "GreenTek Reman",
+      "industry": "ITAD",
+      "website": "greentekreman.com",
+      "address": "India",
+      "region": "APAC",
+      "state": "",
+      "country": "India",
+      "lat": 20.5937,
+      "lng": 78.9629,
+      "stage": "qualified",
+      "score": 78,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Pan-India ITAD services. State-of-the-art facilities for secure IT asset removal and processing. Certified data destruction and recycling services across multiple Indian cities."
+      ],
+      "certifications": [
+        "Certified ITAD"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇮🇳",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Research certifications & coverage",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T08:00:00.000Z",
+      "updatedAt": "2026-03-07T08:00:00.000Z",
+      "lastVerified": "2026-03-07T08:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1714",
+      "slug": "iron-mountain-apac",
+      "name": "Iron Mountain APAC",
+      "industry": "ITAD",
+      "website": "ironmountain.com",
+      "address": "Regional APAC",
+      "region": "APAC",
+      "state": "",
+      "country": "Regional",
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "stage": "qualified",
+      "score": 88,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Global ITAD provider with operations across APAC (Singapore, Malaysia, New Zealand, India). NIST 800-88 compliant data sanitization, DIN 66399 media shredding. Enterprise-grade services."
+      ],
+      "certifications": [
+        "NIST 800-88",
+        "DIN 66399"
+      ],
+      "services": [],
+      "pipelineData": {
+        "flag": "🌏",
+        "region": "APAC",
+        "employees": "Global",
+        "revenue": "Public Company",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Research APAC contacts",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T08:00:00.000Z",
+      "updatedAt": "2026-03-07T08:00:00.000Z",
+      "lastVerified": "2026-03-07T08:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1750",
+      "slug": "td-itad-singapore",
+      "name": "TD ITAD",
+      "industry": "ITAD",
+      "website": "td-itad.com",
+      "address": "Singapore",
+      "region": "APAC",
+      "state": "",
+      "country": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "stage": "qualified",
+      "score": 88,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Leading certified ITAD company in Singapore since 2011. ISO 9001, ISO 14001, ISO 45001 certified. NEA licensed GWC collector Class A. SS 587 compliant. Full ITAD services including secure data erasure, media destruction, asset buyback, and environmental compliance."
+      ],
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001",
+        "ISO 45001",
+        "NEA GWC License Class A",
+        "SS 587"
+      ],
+      "services": [
+        "Data Erasure",
+        "Media Destruction",
+        "Asset Buyback",
+        "ITAD",
+        "Document Shredding"
+      ],
+      "pipelineData": {
+        "flag": "🇸🇬",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": true,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1751",
+      "slug": "arkiva-singapore",
+      "name": "Arkiva Data Destruction",
+      "industry": "ITAD",
+      "website": "arkiva.com.sg",
+      "address": "Singapore",
+      "region": "APAC",
+      "state": "",
+      "country": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "stage": "qualified",
+      "score": 85,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "NEA licensed and ISO certified ITAD company in Singapore. Trusted by over 1000 companies. Data wiping according to DOD 5220.22-M, Peter Gutman, NIST 800-88, and Bruce Schneier standards. PDPA compliant."
+      ],
+      "certifications": [
+        "NEA Licensed",
+        "ISO Certified",
+        "i-SIGMA"
+      ],
+      "services": [
+        "ITAD",
+        "Data Destruction",
+        "Document Shredding",
+        "E-Waste Recycling"
+      ],
+      "pipelineData": {
+        "flag": "🇸🇬",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1752",
+      "slug": "kgs-singapore",
+      "name": "KGS",
+      "industry": "ITAD",
+      "website": "kgs.com.sg",
+      "address": "Singapore",
+      "region": "APAC",
+      "state": "",
+      "country": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "stage": "qualified",
+      "score": 82,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Singapore-based ITAD specialist offering secure IT asset disposition with PDPA compliance. Enterprise-focused with structured workflow and complete documentation. Covers decommissioning computers, servers, and electronics."
+      ],
+      "certifications": [],
+      "services": [
+        "ITAD",
+        "Data Destruction",
+        "Electronics Recycling",
+        "Server Decommissioning"
+      ],
+      "pipelineData": {
+        "flag": "🇸🇬",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1753",
+      "slug": "sams-singapore",
+      "name": "SAMS",
+      "industry": "ITAD",
+      "website": "samsolu.com",
+      "address": "Singapore",
+      "region": "APAC",
+      "state": "",
+      "country": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "stage": "qualified",
+      "score": 80,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Singapore electronic waste management company providing IT Asset Disposition services. Focus on compliance with local and international regulations to prevent data breaches and environmental violations."
+      ],
+      "certifications": [],
+      "services": [
+        "ITAD",
+        "E-Waste Management",
+        "Data Security"
+      ],
+      "pipelineData": {
+        "flag": "🇸🇬",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1754",
+      "slug": "maxicom-singapore",
+      "name": "Maxicom Singapore",
+      "industry": "ITAD",
+      "website": "maxicom.sg",
+      "address": "Singapore",
+      "region": "APAC",
+      "state": "",
+      "country": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "stage": "qualified",
+      "score": 78,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Secure and sustainable IT Asset Disposal services in Singapore. Focus on data protection, compliance, and environmental sustainability."
+      ],
+      "certifications": [],
+      "services": [
+        "ITAD",
+        "Data Protection",
+        "Sustainable Disposal"
+      ],
+      "pipelineData": {
+        "flag": "🇸🇬",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1755",
+      "slug": "asia-data-destruction",
+      "name": "Asia Data Destruction",
+      "industry": "ITAD",
+      "website": "asiadatadestruction.com",
+      "address": "Bangkok, Thailand",
+      "region": "APAC",
+      "state": "",
+      "country": "Thailand",
+      "lat": 13.7563,
+      "lng": 100.5018,
+      "stage": "qualified",
+      "score": 90,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Leading ITAD company across ASEAN with 15+ years experience serving 500+ companies. Operating in Thailand, Malaysia, Singapore, Philippines, Indonesia, and 80+ countries globally. ISO 9001:2015, NAID AAA certified. GDPR, ISO 27001, HIPAA, PCI-DSS, PDPA compliant."
+      ],
+      "certifications": [
+        "ISO 9001:2015",
+        "NAID AAA",
+        "GDPR Compliant",
+        "ISO 27001 Compliant",
+        "HIPAA Compliant",
+        "PCI-DSS Compliant",
+        "PDPA Compliant"
+      ],
+      "services": [
+        "ITAD",
+        "Data Destruction",
+        "E-Waste Recycling",
+        "Compliance Management"
+      ],
+      "pipelineData": {
+        "flag": "🇹🇭",
+        "region": "APAC",
+        "employees": "50-100",
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "High priority outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1756",
+      "slug": "iron-mountain-malaysia",
+      "name": "Iron Mountain Malaysia",
+      "industry": "ITAD",
+      "website": "ironmountain.com/en-my",
+      "address": "Kuala Lumpur",
+      "region": "APAC",
+      "state": "Federal Territory",
+      "country": "Malaysia",
+      "lat": 3.139,
+      "lng": 101.6869,
+      "stage": "qualified",
+      "score": 92,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Major global ITAD provider with Malaysian operations. Offers certified data destruction, e-waste recycling, and computer disposal services. Strong focus on data center decommissioning and enterprise IT asset lifecycle management."
+      ],
+      "certifications": [],
+      "services": [
+        "ITAD",
+        "Data Center Decommissioning",
+        "Certified Data Destruction",
+        "E-Waste Recycling"
+      ],
+      "pipelineData": {
+        "flag": "🇲🇾",
+        "region": "APAC",
+        "employees": "Global - 26,000+",
+        "revenue": "Public - $5B+ USD",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Enterprise target - immediate outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1757",
+      "slug": "maxicom-global-malaysia",
+      "name": "Maxicom Global Malaysia",
+      "industry": "ITAD",
+      "website": "my.maxicomglobal.com",
+      "address": "Kuala Lumpur",
+      "region": "APAC",
+      "state": "Federal Territory",
+      "country": "Malaysia",
+      "lat": 3.139,
+      "lng": 101.6869,
+      "stage": "qualified",
+      "score": 83,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Complete ITAD services across Malaysia ensuring secure disposal of servers, laptops, networking devices. Full adherence to Malaysian regulations with environmental focus."
+      ],
+      "certifications": [],
+      "services": [
+        "ITAD",
+        "Server Disposal",
+        "Laptop Disposal",
+        "Network Equipment Disposal"
+      ],
+      "pipelineData": {
+        "flag": "🇲🇾",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1758",
+      "slug": "isecure-malaysia",
+      "name": "iSecure Information Security",
+      "industry": "ITAD",
+      "website": "i-secure.co",
+      "address": "Kuala Lumpur",
+      "region": "APAC",
+      "state": "Federal Territory",
+      "country": "Malaysia",
+      "lat": 3.139,
+      "lng": 101.6869,
+      "stage": "qualified",
+      "score": 85,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Certified ITAD services in Malaysia with focus on secure and environmentally responsible disposal. Provides certificate of destruction and serial number reporting."
+      ],
+      "certifications": [
+        "Certified ITAD Provider"
+      ],
+      "services": [
+        "ITAD",
+        "Secure Disposal",
+        "Certificate of Destruction",
+        "Serial Number Reporting"
+      ],
+      "pipelineData": {
+        "flag": "🇲🇾",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1759",
+      "slug": "redchip-it-philippines",
+      "name": "Redchip IT Solutions Inc.",
+      "industry": "ITAD",
+      "website": "redchipcomputers.com",
+      "address": "Philippines",
+      "region": "APAC",
+      "state": "",
+      "country": "Philippines",
+      "lat": 14.5995,
+      "lng": 120.9842,
+      "stage": "qualified",
+      "score": 87,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Complete ITAD services across Philippines including secure data destruction, certified recycling, and asset value recovery. Comprehensive e-waste management with focus on Data Privacy Act compliance. Strong expertise in remote staff equipment retrieval."
+      ],
+      "certifications": [
+        "Data Privacy Act Compliant"
+      ],
+      "services": [
+        "ITAD",
+        "Secure Data Destruction",
+        "Certified Recycling",
+        "Asset Recovery",
+        "Remote Equipment Retrieval"
+      ],
+      "pipelineData": {
+        "flag": "🇵🇭",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Priority outreach - comprehensive services",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1760",
+      "slug": "crown-rms-philippines",
+      "name": "Crown Information Management Philippines",
+      "industry": "ITAD",
+      "website": "crownrms.com/ph",
+      "address": "Philippines",
+      "region": "APAC",
+      "state": "",
+      "country": "Philippines",
+      "lat": 14.5995,
+      "lng": 120.9842,
+      "stage": "qualified",
+      "score": 85,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "E-waste and IT asset disposal services in Philippines. Provides certification with proof of destruction certificate confirming secure and ethical disposal."
+      ],
+      "certifications": [
+        "Proof of Destruction Certificate"
+      ],
+      "services": [
+        "E-Waste Disposal",
+        "ITAD",
+        "Secure Destruction",
+        "Certification"
+      ],
+      "pipelineData": {
+        "flag": "🇵🇭",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1761",
+      "slug": "dataexpert-indonesia",
+      "name": "PT DataExpert Technology Indonesia",
+      "industry": "ITAD",
+      "website": "dataexpert.id",
+      "address": "Jakarta",
+      "region": "APAC",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "stage": "qualified",
+      "score": 89,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Professional ITAD services in Indonesia since 20+ years. NIST SP 800-88 compliant data destruction (wiping, shredding, degaussing). R2v3 SERI and ISO 14001:2015 compliant. Serves banking, government, healthcare, and enterprise sectors. Full lifecycle IT asset management."
+      ],
+      "certifications": [
+        "R2v3 SERI",
+        "ISO 14001:2015",
+        "NIST SP 800-88 Compliant"
+      ],
+      "services": [
+        "ITAD",
+        "Certified Data Destruction",
+        "IT Asset Buyback",
+        "E-Waste Recycling",
+        "Audit & Reporting"
+      ],
+      "pipelineData": {
+        "flag": "🇮🇩",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": true,
+        "contact": "+62-851-2192-5840",
+        "nextAction": "High priority - established certifications",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1762",
+      "slug": "mmi-indonesia",
+      "name": "MMI (PT Mitra Mandiri Informatika)",
+      "industry": "ITAD",
+      "website": "mmi.co.id",
+      "address": "Jakarta",
+      "region": "APAC",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "stage": "qualified",
+      "score": 82,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "IT Asset Recycling & Disposition services in Indonesia. Secure IT asset destruction process with focus on business risk mitigation and compliance."
+      ],
+      "certifications": [],
+      "services": [
+        "IT Asset Recycling",
+        "ITAD",
+        "Secure Destruction",
+        "Risk Mitigation"
+      ],
+      "pipelineData": {
+        "flag": "🇮🇩",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1763",
+      "slug": "eco-beringin-indonesia",
+      "name": "Eco Beringin",
+      "industry": "ITAD",
+      "website": "ecoberingin.com",
+      "address": "Jakarta",
+      "region": "APAC",
+      "state": "DKI Jakarta",
+      "country": "Indonesia",
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "stage": "qualified",
+      "score": 84,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "ITAD, data destruction, e-waste recycling and device remarketing services in Indonesia. Professional disposal service with testimonials from major corporations like Accenture. On-site and off-site data destruction options."
+      ],
+      "certifications": [],
+      "services": [
+        "ITAD",
+        "Data Destruction",
+        "E-Waste Recycling",
+        "Device Remarketing"
+      ],
+      "pipelineData": {
+        "flag": "🇮🇩",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1764",
+      "slug": "eraseit-australia",
+      "name": "EraseIT Australia",
+      "industry": "ITAD",
+      "website": "eraseit.com.au",
+      "address": "Melbourne",
+      "region": "APAC",
+      "state": "Victoria",
+      "country": "Australia",
+      "lat": -37.8136,
+      "lng": 144.9631,
+      "stage": "qualified",
+      "score": 90,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "ISO 9001 and ISO 27001 certified ITAD services in Australia. Carbon-neutral facilities optimised for processing surplus and end-of-life IT equipment. Comprehensive data destruction, hardware repurposing, and hardware disposal services."
+      ],
+      "certifications": [
+        "ISO 9001",
+        "ISO 27001"
+      ],
+      "services": [
+        "ITAD",
+        "Data Destruction",
+        "Hardware Repurposing",
+        "Carbon-neutral Processing"
+      ],
+      "pipelineData": {
+        "flag": "🇦🇺",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "High priority - strong certifications",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1765",
+      "slug": "iron-mountain-australia",
+      "name": "Iron Mountain Australia",
+      "industry": "ITAD",
+      "website": "ironmountain.com/en-au",
+      "address": "Sydney",
+      "region": "APAC",
+      "state": "New South Wales",
+      "country": "Australia",
+      "lat": -33.8688,
+      "lng": 151.2093,
+      "stage": "qualified",
+      "score": 92,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Major global ITAD provider with Australian operations. NIST 800-88 compliant data sanitisation, DIN 66399 compliant media shredding. Comprehensive IT asset disposition for corporate end-user devices with risk mitigation focus."
+      ],
+      "certifications": [
+        "NIST 800-88 Compliant",
+        "DIN 66399 Compliant"
+      ],
+      "services": [
+        "ITAD",
+        "Data Sanitisation",
+        "Media Shredding",
+        "Risk Mitigation"
+      ],
+      "pipelineData": {
+        "flag": "🇦🇺",
+        "region": "APAC",
+        "employees": "Global - 26,000+",
+        "revenue": "Public - $5B+ USD",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Enterprise target - immediate outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1766",
+      "slug": "sydney-ewaste-services",
+      "name": "Sydney eWaste Services",
+      "industry": "ITAD",
+      "website": "sydneyewasteservices.com.au",
+      "address": "Sydney",
+      "region": "APAC",
+      "state": "New South Wales",
+      "country": "Australia",
+      "lat": -33.8688,
+      "lng": 151.2093,
+      "stage": "qualified",
+      "score": 83,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Secure IT asset collection, data destruction, and e-waste recycling in Sydney. Accredited secure end-to-end chain of custody for secure disposal of e-waste and IT assets."
+      ],
+      "certifications": [
+        "Accredited Chain of Custody"
+      ],
+      "services": [
+        "ITAD",
+        "Data Destruction",
+        "E-Waste Recycling",
+        "Secure Collection"
+      ],
+      "pipelineData": {
+        "flag": "🇦🇺",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1767",
+      "slug": "eco-it-solutions-australia",
+      "name": "Eco IT Solutions",
+      "industry": "ITAD",
+      "website": "ecoitsolutions.com",
+      "address": "Sydney",
+      "region": "APAC",
+      "state": "New South Wales",
+      "country": "Australia",
+      "lat": -33.8688,
+      "lng": 151.2093,
+      "stage": "qualified",
+      "score": 85,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Sydney-based ITAD provider serving Australia and Asia Pacific. Environmentally responsible solutions for business IT equipment disposal. Secure and cost-effective services across the region."
+      ],
+      "certifications": [],
+      "services": [
+        "ITAD",
+        "Environmentally Responsible Disposal",
+        "Regional Coverage"
+      ],
+      "pipelineData": {
+        "flag": "🇦🇺",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1768",
+      "slug": "manmade-cycle-australia",
+      "name": "ManMade Cycle",
+      "industry": "ITAD",
+      "website": "manmadecycle.com.au",
+      "address": "Australia",
+      "region": "APAC",
+      "state": "",
+      "country": "Australia",
+      "lat": -25.2744,
+      "lng": 133.7751,
+      "stage": "qualified",
+      "score": 82,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Safe, secure, and cost-effective ITAD services across Australia. Focus on secure and sustainable IT hardware disposal with comprehensive service coverage."
+      ],
+      "certifications": [],
+      "services": [
+        "ITAD",
+        "Secure Disposal",
+        "Sustainable Solutions"
+      ],
+      "pipelineData": {
+        "flag": "🇦🇺",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1769",
+      "slug": "itad-nz",
+      "name": "ITAD NZ",
+      "industry": "ITAD",
+      "website": "itad.co.nz",
+      "address": "Auckland",
+      "region": "APAC",
+      "state": "Auckland",
+      "country": "New Zealand",
+      "lat": -36.8485,
+      "lng": 174.7633,
+      "stage": "qualified",
+      "score": 88,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "New Zealand's trusted local ITAD partner. NIST-aligned data destruction with military and financial grade standards. Certified data destruction bins service, asset decommissioning, and comprehensive chain of custody. Certificates issued within 5 business days."
+      ],
+      "certifications": [
+        "NIST-aligned Data Destruction",
+        "Military Grade Standards",
+        "Financial Grade Standards"
+      ],
+      "services": [
+        "ITAD",
+        "Data Destruction",
+        "Asset Decommissioning",
+        "Certified Disposal"
+      ],
+      "pipelineData": {
+        "flag": "🇳🇿",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "High priority - specialized local leader",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1770",
+      "slug": "iron-mountain-new-zealand",
+      "name": "Iron Mountain New Zealand",
+      "industry": "ITAD",
+      "website": "ironmountain.com/en-nz",
+      "address": "Auckland",
+      "region": "APAC",
+      "state": "Auckland",
+      "country": "New Zealand",
+      "lat": -36.8485,
+      "lng": 174.7633,
+      "stage": "qualified",
+      "score": 90,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Global ITAD provider with New Zealand operations. NIST 800-88 and DIN 66399 compliant data destruction. Risk mitigation focus for data breaches during IT asset disposal."
+      ],
+      "certifications": [
+        "NIST 800-88 Compliant",
+        "DIN 66399 Compliant"
+      ],
+      "services": [
+        "ITAD",
+        "Data Sanitisation",
+        "Media Shredding",
+        "Risk Mitigation"
+      ],
+      "pipelineData": {
+        "flag": "🇳🇿",
+        "region": "APAC",
+        "employees": "Global - 26,000+",
+        "revenue": "Public - $5B+ USD",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Enterprise target - immediate outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1771",
+      "slug": "crown-rms-new-zealand",
+      "name": "Crown Information Management New Zealand",
+      "industry": "ITAD",
+      "website": "crownrms.com/nz",
+      "address": "Auckland",
+      "region": "APAC",
+      "state": "Auckland",
+      "country": "New Zealand",
+      "lat": -36.8485,
+      "lng": 174.7633,
+      "stage": "qualified",
+      "score": 83,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "E-waste and IT disposal services in New Zealand. Responsible recycling with material extraction and proof of destruction certificates for secure and ethical disposal."
+      ],
+      "certifications": [
+        "Proof of Destruction Certificate"
+      ],
+      "services": [
+        "E-Waste Disposal",
+        "ITAD",
+        "Responsible Recycling",
+        "Certification"
+      ],
+      "pipelineData": {
+        "flag": "🇳🇿",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1772",
+      "slug": "koei-japan",
+      "name": "Koei Japan Co., Ltd.",
+      "industry": "ITAD",
+      "website": "koei-j.co.jp",
+      "address": "Tokyo",
+      "region": "APAC",
+      "state": "Tokyo",
+      "country": "Japan",
+      "lat": 35.6762,
+      "lng": 139.6503,
+      "stage": "qualified",
+      "score": 87,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Comprehensive ITAD services across Japan. ISO 27001 and R2 (Responsible Recycling) compliant. Serves servers, PCs, smartphones, tablets, network equipment. Robust security with certified data destruction and data erasure certificates. Asset buyback services available."
+      ],
+      "certifications": [
+        "ISO 27001",
+        "R2 (Responsible Recycling)"
+      ],
+      "services": [
+        "ITAD",
+        "Data Destruction",
+        "Asset Buyback",
+        "Electronics Recycling"
+      ],
+      "pipelineData": {
+        "flag": "🇯🇵",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "High priority - strong certifications",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1773",
+      "slug": "spas-recycling-india",
+      "name": "SPAS Recycling",
+      "industry": "ITAD",
+      "website": "spasrecycling.com",
+      "address": "Mumbai",
+      "region": "APAC",
+      "state": "Maharashtra",
+      "country": "India",
+      "lat": 19.076,
+      "lng": 72.8777,
+      "stage": "qualified",
+      "score": 85,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "ITAD solutions in India focused on e-waste reduction through dismantling, recycling, and redeployment. Secure logistics services with official certificates of disposal and recycling provided."
+      ],
+      "certifications": [
+        "Certificates of Disposal and Recycling"
+      ],
+      "services": [
+        "ITAD",
+        "E-Waste Reduction",
+        "Secure Logistics",
+        "Asset Redeployment"
+      ],
+      "pipelineData": {
+        "flag": "🇮🇳",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1774",
+      "slug": "brp-infotech-india",
+      "name": "BRP Infotech",
+      "industry": "ITAD",
+      "website": "brpinfotech.in",
+      "address": "India",
+      "region": "APAC",
+      "state": "",
+      "country": "India",
+      "lat": 20.5937,
+      "lng": 78.9629,
+      "stage": "qualified",
+      "score": 82,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "ITAD services in India with certificates of data destruction and recycling documentation. Fully compliant services supporting sustainability initiatives for organizations."
+      ],
+      "certifications": [
+        "Data Destruction Certificates"
+      ],
+      "services": [
+        "ITAD",
+        "Data Destruction",
+        "Recycling Documentation",
+        "Compliance"
+      ],
+      "pipelineData": {
+        "flag": "🇮🇳",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1775",
+      "slug": "crapbin-india",
+      "name": "Crapbin",
+      "industry": "ITAD",
+      "website": "crapbin.com",
+      "address": "India",
+      "region": "APAC",
+      "state": "",
+      "country": "India",
+      "lat": 20.5937,
+      "lng": 78.9629,
+      "stage": "qualified",
+      "score": 84,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Professional ITAD services across India including secure data destruction, hardware disposal, and certified e-waste recycling. Comprehensive coverage across multiple Indian cities."
+      ],
+      "certifications": [
+        "Certified E-Waste Recycling"
+      ],
+      "services": [
+        "ITAD",
+        "Secure Data Destruction",
+        "Hardware Disposal",
+        "E-Waste Recycling"
+      ],
+      "pipelineData": {
+        "flag": "🇮🇳",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T11:00:00.000Z",
+      "updatedAt": "2026-03-07T11:00:00.000Z",
+      "lastVerified": "2026-03-07T11:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1776",
+      "slug": "luckily-international-taiwan",
+      "name": "Luckily International",
+      "industry": "ITAD",
+      "website": "luckilyint.com.tw",
+      "address": "Taiwan",
+      "region": "APAC",
+      "state": "",
+      "country": "Taiwan",
+      "lat": 25.033,
+      "lng": 121.5654,
+      "stage": "qualified",
+      "score": 92,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Taiwan's only EPA-licensed ITAD provider with in-house processing facility. Ministry of Environment (MOE) supervision ensures full compliance. NIST SP 800.88 and NAID compliant data destruction. ISO 9001, ISO 14001, ISO 27001 certified. On-site and off-site solutions, personalized corporate e-waste recycling service."
+      ],
+      "certifications": [
+        "EPA Licensed",
+        "NIST SP 800.88",
+        "NAID Guidelines",
+        "ISO 9001",
+        "ISO 14001",
+        "ISO 27001"
+      ],
+      "services": [
+        "ITAD",
+        "Data Destruction",
+        "E-Waste Recycling",
+        "Asset Buyback",
+        "Device Refurbishment"
+      ],
+      "pipelineData": {
+        "flag": "🇹🇼",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "Via website",
+        "nextAction": "Priority outreach - only EPA licensed provider",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T15:00:00.000Z",
+      "updatedAt": "2026-03-07T15:00:00.000Z",
+      "lastVerified": "2026-03-07T15:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1777",
+      "slug": "ee-recycling-taiwan",
+      "name": "E&E Recycling",
+      "industry": "ITAD",
+      "website": "eer.com.tw",
+      "address": "Yangmei City, Taoyuan County",
+      "region": "APAC",
+      "state": "Taoyuan",
+      "country": "Taiwan",
+      "lat": 24.9175,
+      "lng": 121.2168,
+      "stage": "qualified",
+      "score": 88,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Founded 1998, first professional e-waste recycling company in Asia. Strategic alliance of Taiwan's 12 major household appliance manufacturers for Extended Producer Responsibility. German ADELMANN Company partnership. ISO 14001:2015, ISO 45001 certified. Listed on OTC Markets since 2012. 1.4M waste appliances treated annually with 30% market share in Taiwan."
+      ],
+      "certifications": [
+        "ISO 14001:2015",
+        "ISO 45001"
+      ],
+      "services": [
+        "E-Waste Recycling",
+        "ITAD",
+        "Technology Export",
+        "Extended Producer Responsibility"
+      ],
+      "pipelineData": {
+        "flag": "🇹🇼",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Listed Company",
+        "iso27001": null,
+        "iso14001": true,
+        "contact": "02-2381-8000",
+        "nextAction": "High priority - first in Asia, established leader",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T15:00:00.000Z",
+      "updatedAt": "2026-03-07T15:00:00.000Z",
+      "lastVerified": "2026-03-07T15:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1778",
+      "slug": "sk-tes-taiwan",
+      "name": "SK TES Taiwan",
+      "industry": "ITAD",
+      "website": "sktes.com/facility/taiwan-taipei",
+      "address": "Taipei",
+      "region": "APAC",
+      "state": "Taipei",
+      "country": "Taiwan",
+      "lat": 25.033,
+      "lng": 121.5654,
+      "stage": "qualified",
+      "score": 85,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Global ITAD provider with Taiwan facility in Taipei. Services include ITAD, data destruction, Extended Producer Responsibility (EPR), managed deployment services, data center decommissioning, and e-waste recycling. Part of SK TES global network with 40+ owned sites worldwide."
+      ],
+      "certifications": [
+        "Global ITAD Standards"
+      ],
+      "services": [
+        "ITAD",
+        "Data Destruction",
+        "EPR",
+        "Data Center Decommissioning",
+        "E-Waste Recycling"
+      ],
+      "pipelineData": {
+        "flag": "🇹🇼",
+        "region": "APAC",
+        "employees": "Global",
+        "revenue": "Global Enterprise",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Enterprise target - global network",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T15:00:00.000Z",
+      "updatedAt": "2026-03-07T15:00:00.000Z",
+      "lastVerified": "2026-03-07T15:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1779",
+      "slug": "hkrt-hong-kong",
+      "name": "Hong Kong Recycling Trading Company (HKRT)",
+      "industry": "ITAD",
+      "website": "itad.com.hk",
+      "address": "Hong Kong",
+      "region": "APAC",
+      "state": "",
+      "country": "Hong Kong",
+      "lat": 22.3193,
+      "lng": 114.1694,
+      "stage": "qualified",
+      "score": 95,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "20+ years experience providing secure, transparent and fully traceable ITAD services in Hong Kong. ISO 9001, ISO 14001, ISO 27001, ISO 45001 certified. Strict chain-of-custody procedures including serial-number capture, video-recorded destruction, certified reporting and environmentally responsible processing. Trusted by global enterprises with IT operations in Hong Kong."
+      ],
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001",
+        "ISO 27001",
+        "ISO 45001"
+      ],
+      "services": [
+        "ITAD",
+        "Data Destruction",
+        "On-site Hard Drive Shredding",
+        "IT Equipment Recycling",
+        "Product Destruction",
+        "Data Centre Decommissioning"
+      ],
+      "pipelineData": {
+        "flag": "🇭🇰",
+        "region": "APAC",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": true,
+        "iso14001": true,
+        "contact": "+852 36194638",
+        "nextAction": "Immediate outreach - highest quality certifications",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T15:00:00.000Z",
+      "updatedAt": "2026-03-07T15:00:00.000Z",
+      "lastVerified": "2026-03-07T15:00:00.000Z"
+    },
+    {
+      "id": "org-apac-1780",
+      "slug": "brocent-asia",
+      "name": "Brocent Asia",
+      "industry": "ITAD",
+      "website": "brocentasia.com",
+      "address": "Regional Asia",
+      "region": "APAC",
+      "state": "",
+      "country": "Multi-Regional",
+      "lat": 22.3193,
+      "lng": 114.1694,
+      "stage": "qualified",
+      "score": 90,
+      "isPipeline": true,
+      "originalLabel": "Fresh Data",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "Pan-Asia ITAD provider offering services across China, Hong Kong, Japan, Singapore and most Asian countries. Comprehensive services including e-waste recycling, data destruction using BLANCCO, IT asset remarketing, and full lifecycle management. DBS checked and security vetted personnel. Dedicated collections with constant transit security."
+      ],
+      "certifications": [
+        "BLANCCO Certified",
+        "Government Security Vetted"
+      ],
+      "services": [
+        "ITAD",
+        "E-Waste Recycling",
+        "Data Destruction",
+        "IT Asset Remarketing",
+        "On-site/Off-site Destruction",
+        "Full Audit Trail"
+      ],
+      "pipelineData": {
+        "flag": "🌏",
+        "region": "APAC",
+        "employees": "Regional",
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "High priority - pan-Asia coverage",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T15:00:00.000Z",
+      "updatedAt": "2026-03-07T15:00:00.000Z",
+      "lastVerified": "2026-03-07T15:00:00.000Z"
+    },
+    {
+      "id": "org-enrichment-2",
+      "slug": "absolute-it-asset-disposals",
+      "name": "Absolute IT Asset Disposals Ltd",
+      "industry": "ITAD",
+      "website": "absoluteitad.com",
+      "address": "",
+      "region": "EU",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": null,
+      "lng": null,
+      "stage": "qualified",
+      "score": 100,
+      "isPipeline": true,
+      "originalLabel": "Enrichment March 2026",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "QUALIFIED: Strong ITAD indicators (3 strong, 2 medium)",
+        "Confirmed ITAD processor with certified processes"
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇬🇧",
+        "region": "EU",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T22:06:11.349890+00:00",
+      "updatedAt": "2026-03-07T22:06:11.349890+00:00",
+      "lastVerified": "2026-03-07T22:06:11.349890+00:00"
+    },
+    {
+      "id": "org-enrichment-81",
+      "slug": "gigacycle",
+      "name": "Gigacycle",
+      "industry": "ITAD",
+      "website": "ecosystems-group.co.uk",
+      "address": "",
+      "region": "EU",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": null,
+      "lng": null,
+      "stage": "qualified",
+      "score": 80,
+      "isPipeline": true,
+      "originalLabel": "Enrichment March 2026",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "QUALIFIED: Strong ITAD indicators (3 strong, 1 medium)",
+        "Confirmed ITAD processor with certified processes"
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇬🇧",
+        "region": "EU",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T22:06:11.349890+00:00",
+      "updatedAt": "2026-03-07T22:06:11.349890+00:00",
+      "lastVerified": "2026-03-07T22:06:11.349890+00:00"
+    },
+    {
+      "id": "org-enrichment-96",
+      "slug": "ict-reverse",
+      "name": "ICT Reverse",
+      "industry": "ITAD",
+      "website": "ictreverse.com",
+      "address": "Lancashire",
+      "region": "EU",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": null,
+      "lng": null,
+      "stage": "qualified",
+      "score": 90,
+      "isPipeline": true,
+      "originalLabel": "Enrichment March 2026",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "QUALIFIED: Strong ITAD indicators (3 strong, 0 medium)",
+        "Confirmed ITAD processor with certified processes"
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇬🇧",
+        "region": "EU",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T22:06:11.349890+00:00",
+      "updatedAt": "2026-03-07T22:06:11.349890+00:00",
+      "lastVerified": "2026-03-07T22:06:11.349890+00:00"
+    },
+    {
+      "id": "org-enrichment-123",
+      "slug": "mac-itad---the-bookyard",
+      "name": "MAC ITAD / The Bookyard LTD",
+      "industry": "ITAD",
+      "website": "macitad.com",
+      "address": "",
+      "region": "EU",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": null,
+      "lng": null,
+      "stage": "qualified",
+      "score": 80,
+      "isPipeline": true,
+      "originalLabel": "Enrichment March 2026",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "QUALIFIED: Strong ITAD indicators (3 strong, 1 medium)",
+        "Confirmed ITAD processor with certified processes"
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇬🇧",
+        "region": "EU",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T22:06:11.349890+00:00",
+      "updatedAt": "2026-03-07T22:06:11.349890+00:00",
+      "lastVerified": "2026-03-07T22:06:11.349890+00:00"
+    },
+    {
+      "id": "org-enrichment-131",
+      "slug": "nanosoft-corporation-limited",
+      "name": "Nanosoft Corporation Limited",
+      "industry": "ITAD",
+      "website": "nanosoftltd.com",
+      "address": "Chelmsford",
+      "region": "EU",
+      "state": "England",
+      "country": "United Kingdom",
+      "lat": null,
+      "lng": null,
+      "stage": "qualified",
+      "score": 100,
+      "isPipeline": true,
+      "originalLabel": "Enrichment March 2026",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "QUALIFIED: Strong ITAD indicators (6 strong, 1 medium)",
+        "High confidence ITAD processor with comprehensive services"
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇬🇧",
+        "region": "EU",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T22:06:11.349890+00:00",
+      "updatedAt": "2026-03-07T22:06:11.349890+00:00",
+      "lastVerified": "2026-03-07T22:06:11.349890+00:00"
+    },
+    {
+      "id": "org-enrichment-166",
+      "slug": "s2s-group",
+      "name": "S2S Group",
+      "industry": "ITAD",
+      "website": "s2s.uk.com",
+      "address": "",
+      "region": "EU",
+      "state": "",
+      "country": "United Kingdom",
+      "lat": null,
+      "lng": null,
+      "stage": "qualified",
+      "score": 100,
+      "isPipeline": true,
+      "originalLabel": "Enrichment March 2026",
+      "dataQuality": "verified",
+      "contacts": [],
+      "notes": [
+        "QUALIFIED: Strong ITAD indicators (3 strong, 1 medium)",
+        "Confirmed ITAD processor with certified processes"
+      ],
+      "certifications": [],
+      "services": [],
+      "pipelineData": {
+        "flag": "🇬🇧",
+        "region": "EU",
+        "employees": null,
+        "revenue": "Unknown",
+        "iso27001": null,
+        "iso14001": null,
+        "contact": "Via website",
+        "nextAction": "Initial outreach",
+        "lastTouch": "2026-03-07"
+      },
+      "createdAt": "2026-03-07T22:06:11.349890+00:00",
+      "updatedAt": "2026-03-07T22:06:11.349890+00:00",
+      "lastVerified": "2026-03-07T22:06:11.349890+00:00"
+    }
+  ]
+}
