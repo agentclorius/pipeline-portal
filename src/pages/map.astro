@@ -20,8 +20,8 @@ const stageColors = {
   unverified: '#9CA3AF',
 };
 
-// Pipeline by region
-const regionEntries = Object.entries(stats.pipeline.byRegion || {})
+// Pipeline by country
+const regionEntries = Object.entries(stats.pipeline.byCountry || {})
   .sort((a, b) => b[1] - a[1]);
 ---
 
@@ -122,9 +122,9 @@ const regionEntries = Object.entries(stats.pipeline.byRegion || {})
         </div>
         <div class="p-3 rounded" style="background: var(--bg-elevated);">
           <div class="text-2xl font-bold" style="color: var(--text-secondary);">
-            {Object.keys(stats.pipeline.byRegion || {}).length}
+            {Object.keys(stats.pipeline.byCountry || {}).length}
           </div>
-          <div class="text-xs" style="color: var(--text-tertiary);">Regions Covered</div>
+          <div class="text-xs" style="color: var(--text-tertiary);">Countries Covered</div>
         </div>
       </div>
     </div>

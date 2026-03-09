@@ -40,7 +40,7 @@ const recentQualified = recentActivity.length === 0 ?
     .slice(0, 6) : [];
 
 // Pipeline by country
-const regionEntries = Object.entries(stats.pipeline.byCountry || stats.pipeline.byRegion || {})
+const regionEntries = Object.entries(stats.pipeline.byCountry || {})
   .sort((a, b) => b[1] - a[1]);
 
 // Lead pool top countries
@@ -52,34 +52,34 @@ const lpCountries = Object.entries(stats.leadpool.byCountry || {})
 <Layout title="Dashboard" activeNav="dashboard">
   <div class="space-y-6">
     <!-- Header -->
-    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-2">
       <div>
-        <h2 class="text-2xl font-bold" style="color: var(--text-primary);">Pipeline Dashboard</h2>
-        <p class="text-sm mt-1" style="color: var(--text-secondary);">ITAD Return Hub recruitment pipeline overview</p>
+        <h2 class="text-2xl md:text-3xl font-bold" style="color: var(--text-primary);">Pipeline Dashboard</h2>
+        <p class="text-sm md:text-base mt-1" style="color: var(--text-secondary);">ITAD Return Hub recruitment pipeline overview</p>
       </div>
-      <div class="flex items-center gap-3">
-        <span class="text-xs" style="color: var(--text-tertiary);">Last updated: {new Date(stats.lastUpdated).toLocaleDateString()}</span>
-        <a href="/pipeline" class="btn-primary text-sm">View Pipeline</a>
+      <div class="flex flex-col md:flex-row md:items-center gap-3">
+        <span class="text-xs md:text-sm" style="color: var(--text-tertiary);">Last updated: {new Date(stats.lastUpdated).toLocaleDateString()}</span>
+        <a href="/pipeline" class="btn-primary text-sm md:text-base mobile-touch-target text-center">View Pipeline</a>
       </div>
     </div>
 
     <!-- Pipeline Stats (Primary) -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <div class="stat-card" style="border-left: 3px solid var(--brand-green);">
-        <div class="stat-value" style="color: var(--brand-green);">{stats.pipeline.total}</div>
-        <div class="stat-label">Researched Prospects</div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+      <div class="stat-card mobile-tap-highlight" style="border-left: 3px solid var(--brand-green);">
+        <div class="stat-value text-xl md:text-2xl" style="color: var(--brand-green);">{stats.pipeline.total}</div>
+        <div class="stat-label text-xs md:text-sm">Researched Prospects</div>
       </div>
-      <div class="stat-card">
-        <div class="stat-value">{stats.pipeline.avgScore}</div>
-        <div class="stat-label">Average Score</div>
+      <div class="stat-card mobile-tap-highlight">
+        <div class="stat-value text-xl md:text-2xl">{stats.pipeline.avgScore}</div>
+        <div class="stat-label text-xs md:text-sm">Average Score</div>
       </div>
-      <div class="stat-card">
-        <div class="stat-value" style="color: var(--status-qualified);">{stats.pipeline.scoreDistribution.high}</div>
-        <div class="stat-label">Score 80+</div>
+      <div class="stat-card mobile-tap-highlight">
+        <div class="stat-value text-xl md:text-2xl" style="color: var(--status-qualified);">{stats.pipeline.scoreDistribution.high}</div>
+        <div class="stat-label text-xs md:text-sm">Score 80+</div>
       </div>
-      <div class="stat-card">
-        <div class="stat-value">{stats.pipeline.topScore}</div>
-        <div class="stat-label">Top Score</div>
+      <div class="stat-card mobile-tap-highlight">
+        <div class="stat-value text-xl md:text-2xl">{stats.pipeline.topScore}</div>
+        <div class="stat-label text-xs md:text-sm">Top Score</div>
       </div>
     </div>
 
@@ -108,11 +108,11 @@ const lpCountries = Object.entries(stats.leadpool.byCountry || {})
         </div>
         <a href="/pipeline" class="text-xs" style="color: var(--brand-green);">View All Changes</a>
       </div>
-      <div class="space-y-2">
+      <div class="space-y-1 md:space-y-2">
         {(recentActivity.length > 0 ? recentActivity : recentQualified).map(lead => (
           <a
             href={`/lead/${lead.slug}`}
-            class="flex items-center justify-between py-2 px-2 rounded -mx-2 transition-colors hover:bg-opacity-50"
+            class="flex items-center justify-between py-3 md:py-2 px-3 md:px-2 rounded-lg md:rounded -mx-3 md:-mx-2 transition-colors mobile-touch-target mobile-tap-highlight"
             style="border-bottom: 1px solid var(--border);"
             onmouseover="this.style.background='var(--bg-elevated)'"
             onmouseout="this.style.background='transparent'"
@@ -180,18 +180,18 @@ const lpCountries = Object.entries(stats.leadpool.byCountry || {})
     </div>
 
     <!-- Two Column Layout -->
-    <div class="grid md:grid-cols-2 gap-6">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
       <!-- Top Prospects -->
       <div class="card p-5">
         <div class="flex items-center justify-between mb-4">
           <h3 class="text-sm font-semibold" style="color: var(--text-primary);">Top Prospects by Score</h3>
           <a href="/pipeline" class="text-xs" style="color: var(--brand-green);">View All</a>
         </div>
-        <div class="space-y-2">
+        <div class="space-y-1 md:space-y-2">
           {topProspects.map(lead => (
             <a
               href={`/lead/${lead.slug}`}
-              class="flex items-center justify-between py-2 px-2 rounded -mx-2 transition-colors"
+              class="flex items-center justify-between py-3 md:py-2 px-3 md:px-2 rounded-lg md:rounded -mx-3 md:-mx-2 transition-colors mobile-touch-target mobile-tap-highlight"
               style="border-bottom: 1px solid var(--border);"
               onmouseover="this.style.background='var(--bg-elevated)'"
               onmouseout="this.style.background='transparent'"
@@ -232,28 +232,28 @@ const lpCountries = Object.entries(stats.leadpool.byCountry || {})
     </div>
 
     <!-- Charts Section -->
-    <div class="grid md:grid-cols-2 gap-6">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
       <!-- Pipeline Stage Chart -->
-      <div class="card p-5">
-        <h3 class="text-sm font-semibold mb-4" style="color: var(--text-primary);">Pipeline Stages</h3>
-        <div class="h-64 flex items-center justify-center">
+      <div class="card p-4 md:p-5">
+        <h3 class="text-sm md:text-base font-semibold mb-4" style="color: var(--text-primary);">Pipeline Stages</h3>
+        <div class="h-56 md:h-64 flex items-center justify-center">
           <canvas id="stageChart" width="250" height="250"></canvas>
         </div>
       </div>
 
       <!-- Score Distribution Chart -->
-      <div class="card p-5">
-        <h3 class="text-sm font-semibold mb-4" style="color: var(--text-primary);">Score Distribution</h3>
-        <div class="h-64 flex items-center justify-center">
+      <div class="card p-4 md:p-5">
+        <h3 class="text-sm md:text-base font-semibold mb-4" style="color: var(--text-primary);">Score Distribution</h3>
+        <div class="h-56 md:h-64 flex items-center justify-center">
           <canvas id="scoreChart" width="250" height="200"></canvas>
         </div>
       </div>
     </div>
 
     <!-- Score Distribution (Legacy Grid) -->
-    <div class="card p-5">
-      <h3 class="text-sm font-semibold mb-4" style="color: var(--text-primary);">Score Breakdown</h3>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="card p-4 md:p-5">
+      <h3 class="text-sm md:text-base font-semibold mb-4" style="color: var(--text-primary);">Score Breakdown</h3>
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4">
         <div class="p-3 rounded" style="background: rgba(45, 107, 63, 0.1);">
           <div class="text-lg font-semibold" style="color: var(--status-qualified);">{stats.pipeline.scoreDistribution.high}</div>
           <div class="text-xs" style="color: var(--text-tertiary);">Score 80+ (High fit)</div>
