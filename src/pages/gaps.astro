@@ -21,17 +21,12 @@ const strategicRegions = [
 ];
 
 // Count pipeline leads per region
+// Count pipeline and qualified leads per strategic region (by country match)
 const pipelineByRegion = {};
-pipeline.forEach(org => {
-  const r = org.region || 'Unknown';
-  pipelineByRegion[r] = (pipelineByRegion[r] || 0) + 1;
-});
-
-// Count qualified leads per region
 const qualifiedByRegion = {};
-pipeline.filter(o => o.stage === 'qualified' || o.stage === 'contacted').forEach(org => {
-  const r = org.region || 'Unknown';
-  qualifiedByRegion[r] = (qualifiedByRegion[r] || 0) + 1;
+strategicRegions.forEach(sr => {
+  pipelineByRegion[sr.region] = pipeline.filter(o => sr.countries.includes(o.country)).length;
+  qualifiedByRegion[sr.region] = pipeline.filter(o => sr.countries.includes(o.country) && (o.stage === 'qualified' || o.stage === 'contacted')).length;
 });
 
 // Count lead pool by region (from stats)
