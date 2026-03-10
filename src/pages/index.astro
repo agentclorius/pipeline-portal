@@ -216,12 +216,38 @@ const lpCountries = Object.entries(stats.leadpool.byCountry || {})
           <a href="/map" class="text-xs" style="color: var(--brand-green);">View Map</a>
         </div>
         <div class="space-y-2">
-          {regionEntries.map(([region, count]) => (
+          {regionEntries.slice(0, 7).map(([region, count]) => (
             <div class="flex items-center justify-between py-1.5 border-b" style="border-color: var(--border);">
               <span class="text-sm" style="color: var(--text-secondary);">{region}</span>
               <span class="text-sm font-medium" style="color: var(--text-primary);">{count}</span>
             </div>
           ))}
+          <div id="country-remaining-items" class="space-y-2" style="display: none;">
+            {regionEntries.slice(7).map(([region, count]) => (
+              <div class="flex items-center justify-between py-1.5 border-b" style="border-color: var(--border);">
+                <span class="text-sm" style="color: var(--text-secondary);">{region}</span>
+                <span class="text-sm font-medium" style="color: var(--text-primary);">{count}</span>
+              </div>
+            ))}
+          </div>
+          {regionEntries.length > 7 && (
+            <button 
+              id="country-toggle-btn"
+              class="w-full mt-3 py-2 px-3 rounded-lg text-sm transition-colors border"
+              style="color: var(--brand-green); border-color: var(--border); background: transparent;"
+              onmouseover="this.style.background='var(--bg-elevated)'"
+              onmouseout="this.style.background='transparent'"
+            >
+              <span id="country-show-text">Show {regionEntries.length - 7} more countries</span>
+              <span id="country-hide-text" style="display: none;">Show fewer countries</span>
+              <svg id="country-chevron-down" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline ml-1">
+                <polyline points="6,9 12,15 18,9"></polyline>
+              </svg>
+              <svg id="country-chevron-up" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline ml-1" style="display: none;">
+                <polyline points="18,15 12,9 6,15"></polyline>
+              </svg>
+            </button>
+          )}
         </div>
         <div class="mt-3 pt-3 border-t" style="border-color: var(--border);">
           <span class="text-xs" style="color: var(--text-tertiary);">
@@ -462,5 +488,35 @@ document.addEventListener('DOMContentLoaded', function() {
     attributes: true, 
     attributeFilter: ['data-theme'] 
   });
+
+  // Country list toggle functionality
+  const toggleBtn = document.getElementById('country-toggle-btn');
+  const remainingItems = document.getElementById('country-remaining-items');
+  const showText = document.getElementById('country-show-text');
+  const hideText = document.getElementById('country-hide-text');
+  const chevronDown = document.getElementById('country-chevron-down');
+  const chevronUp = document.getElementById('country-chevron-up');
+  
+  let isExpanded = false;
+
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', function() {
+      isExpanded = !isExpanded;
+      
+      if (isExpanded) {
+        remainingItems.style.display = 'block';
+        showText.style.display = 'none';
+        hideText.style.display = 'inline';
+        chevronDown.style.display = 'none';
+        chevronUp.style.display = 'inline';
+      } else {
+        remainingItems.style.display = 'none';
+        showText.style.display = 'inline';
+        hideText.style.display = 'none';
+        chevronDown.style.display = 'inline';
+        chevronUp.style.display = 'none';
+      }
+    });
+  }
 });
 </script>
