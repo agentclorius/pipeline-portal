@@ -33324,7 +33324,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1258",
@@ -33351,13 +33351,15 @@
         "linkedin": "https://www.linkedin.com/in/dennisnielsen"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:03: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:03:27.488399Z"
   },
   {
     "id": "org-1027",
@@ -33428,7 +33430,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1264",
@@ -33439,13 +33441,15 @@
         "linkedin": "https://www.linkedin.com/in/clausnielsen179"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:03: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:03:29.631812Z"
   },
   {
     "id": "org-1030",
@@ -33716,7 +33720,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Incorrect Profile",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1275",
@@ -33727,13 +33731,15 @@
         "linkedin": "https://www.linkedin.com/in/andersbechjensen"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:03: Limited ITAD focus (score: 1)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:03:31.487035Z"
   },
   {
     "id": "org-1037",
@@ -34042,7 +34048,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1287",
@@ -34061,13 +34067,15 @@
         "linkedin": "https://www.linkedin.com/in/tina-wu-220b2a7"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:03: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:03:33.038817Z"
   },
   {
     "id": "org-1046",
@@ -34085,7 +34093,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1289",
@@ -34096,13 +34104,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:03: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:03:35.175742Z"
   },
   {
     "id": "org-1047",
@@ -34157,15 +34167,17 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:03: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:03:36.384163Z"
   },
   {
     "id": "org-1049",
@@ -34183,7 +34195,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1291",
@@ -34194,13 +34206,15 @@
         "linkedin": "https://www.linkedin.com/in/lucas-o-connor-7a2945195"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:03: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:03:37.715026Z"
   },
   {
     "id": "org-1050",
@@ -34218,7 +34232,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1292",
@@ -34229,13 +34243,15 @@
         "linkedin": "https://www.linkedin.com/in/thair-ahmad-117879b7"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:03: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:03:38.865253Z"
   },
   {
     "id": "org-1051",
@@ -34253,7 +34269,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1293",
@@ -34264,13 +34280,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:03: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:03:39.998952Z"
   },
   {
     "id": "org-1052",
@@ -34288,7 +34306,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1294",
@@ -34299,13 +34317,15 @@
         "linkedin": "https://www.linkedin.com/in/kennethheggenbahl"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:03: Limited ITAD focus (score: 1)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:03:42.124477Z"
   },
   {
     "id": "org-1053",
@@ -34323,7 +34343,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1295",
@@ -34334,13 +34354,15 @@
         "linkedin": "https://www.linkedin.com/in/jan-rune-hopland-3b425110"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:03: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:03:44.942057Z"
   },
   {
     "id": "org-1055",
@@ -34354,11 +34376,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1298",
@@ -34369,13 +34391,15 @@
         "linkedin": "https://www.linkedin.com/in/dr-abdel-wahab-el-kaffas-58b4a430"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:03: ITAD focus (score: 2)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:03:49.099104Z"
   },
   {
     "id": "org-1056",
@@ -34393,7 +34417,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1299",
@@ -34404,13 +34428,15 @@
         "linkedin": "https://www.linkedin.com/in/steffen-henry-andersen-496aa61b1"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:03: Limited ITAD focus (score: 1)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:03:50.455603Z"
   },
   {
     "id": "org-1057",
@@ -34428,7 +34454,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1300",
@@ -34439,13 +34465,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:03: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:03:51.605771Z"
   },
   {
     "id": "org-1058",
@@ -34463,7 +34491,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1301",
@@ -34474,13 +34502,15 @@
         "linkedin": "https://www.linkedin.com/in/morten-kristensen-58580221"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:03: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:03:57.161226Z"
   },
   {
     "id": "org-1059",
@@ -34498,7 +34528,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1302",
@@ -34525,13 +34555,15 @@
         "linkedin": "https://www.linkedin.com/in/cathrinebore"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:03: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:03:58.528607Z"
   },
   {
     "id": "org-1060",
@@ -34549,7 +34581,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1305",
@@ -34560,13 +34592,15 @@
         "linkedin": "https://www.linkedin.com/in/eirikhjelle"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:00.300958Z"
   },
   {
     "id": "org-1061",
@@ -34580,11 +34614,11 @@
     "country": "Norway",
     "lat": 60.472,
     "lng": 8.4689,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Dissolved",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1306",
@@ -34611,13 +34645,15 @@
         "linkedin": "https://www.linkedin.com/in/balta-ovidiu-b500baa0"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: ITAD focus (score: 2)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:02.028236Z"
   },
   {
     "id": "org-1062",
@@ -34635,7 +34671,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Warm lead",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1309",
@@ -34646,13 +34682,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:03.174396Z"
   },
   {
     "id": "org-1063",
@@ -34670,7 +34708,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1312",
@@ -34690,14 +34728,15 @@
       }
     ],
     "notes": [
-      "REJECTED: Large IT distributor (Switzerland). Not ITAD processor."
+      "REJECTED: Large IT distributor (Switzerland). Not ITAD processor.",
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:04.629397Z"
   },
   {
     "id": "org-1064",
@@ -34715,7 +34754,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1314",
@@ -34726,13 +34765,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:05.769117Z"
   },
   {
     "id": "org-1065",
@@ -34750,7 +34791,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1315",
@@ -34769,13 +34810,15 @@
         "linkedin": "https://www.linkedin.com/in/joni-kukkonen-41655118"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:07.043349Z"
   },
   {
     "id": "org-1066",
@@ -34793,7 +34836,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1317",
@@ -34804,13 +34847,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:08.968079Z"
   },
   {
     "id": "org-1068",
@@ -34824,11 +34869,11 @@
     "country": "Finland",
     "lat": 61.9241,
     "lng": 25.7482,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1318",
@@ -34839,13 +34884,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: ITAD focus (score: 2)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:11.096758Z"
   },
   {
     "id": "org-1069",
@@ -34859,11 +34906,11 @@
     "country": "Finland",
     "lat": 61.9241,
     "lng": 25.7482,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1319",
@@ -34874,13 +34921,15 @@
         "linkedin": "https://www.linkedin.com/in/hayk-hovhannisyan-429081187"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: ITAD focus (score: 2)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:12.814277Z"
   },
   {
     "id": "org-1070",
@@ -34898,7 +34947,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1320",
@@ -34933,13 +34982,15 @@
         "linkedin": "https://www.linkedin.com/in/mikko-kuusilehto-1663a75"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 1)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:14.337200Z"
   },
   {
     "id": "org-1071",
@@ -34957,7 +35008,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1324",
@@ -34984,13 +35035,15 @@
         "linkedin": "https://www.linkedin.com/in/erno-sarja-3485753"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:15.462444Z"
   },
   {
     "id": "org-1074",
@@ -35008,7 +35061,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1327",
@@ -35027,13 +35080,15 @@
         "linkedin": "https://www.linkedin.com/in/vesa-heirola-46a84790"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:17.367143Z"
   },
   {
     "id": "org-1075",
@@ -35051,7 +35106,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1329",
@@ -35062,13 +35117,15 @@
         "linkedin": "https://www.linkedin.com/in/mikko-veijola-b391211a5"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:19.010312Z"
   },
   {
     "id": "org-1076",
@@ -35086,7 +35143,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1330",
@@ -35097,13 +35154,15 @@
         "linkedin": "https://www.linkedin.com/in/maxim-kokarev-34963067"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:20.800362Z"
   },
   {
     "id": "org-1077",
@@ -35121,7 +35180,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1331",
@@ -35132,13 +35191,15 @@
         "linkedin": "https://www.linkedin.com/in/mickeforslund"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:21.846952Z"
   },
   {
     "id": "org-1078",
@@ -35156,7 +35217,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1332",
@@ -35167,13 +35228,15 @@
         "linkedin": "https://www.linkedin.com/in/teemu-pokela-183494170"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:23.786668Z"
   },
   {
     "id": "org-1079",
@@ -35191,7 +35254,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1333",
@@ -35202,13 +35265,15 @@
         "linkedin": "https://www.linkedin.com/in/fyslimran"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 1)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:25.104227Z"
   },
   {
     "id": "org-1080",
@@ -35226,7 +35291,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1334",
@@ -35237,13 +35302,15 @@
         "linkedin": "https://www.linkedin.com/in/kevinohlsson"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:26.432116Z"
   },
   {
     "id": "org-1081",
@@ -35261,7 +35328,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1335",
@@ -35280,13 +35347,15 @@
         "linkedin": "https://www.linkedin.com/in/tordhenryson"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:28.169000Z"
   },
   {
     "id": "org-1082",
@@ -35304,7 +35373,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1337",
@@ -35315,13 +35384,15 @@
         "linkedin": "https://www.linkedin.com/in/stril"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 1)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:29.487837Z"
   },
   {
     "id": "org-1083",
@@ -35339,7 +35410,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1338",
@@ -35358,13 +35429,15 @@
         "linkedin": "https://www.linkedin.com/in/danielryman"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:31.436060Z"
   },
   {
     "id": "org-1084",
@@ -35382,7 +35455,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1340",
@@ -35401,13 +35474,15 @@
         "linkedin": "https://www.linkedin.com/in/rene\u00e9-ljungstr\u00f6m-81a6a557"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:33.283080Z"
   },
   {
     "id": "org-1086",
@@ -35425,7 +35500,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1342",
@@ -35445,14 +35520,15 @@
       }
     ],
     "notes": [
-      "REJECTED: Swedish IT service provider. Not ITAD."
+      "REJECTED: Swedish IT service provider. Not ITAD.",
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:36.705753Z"
   },
   {
     "id": "org-1087",
@@ -35470,7 +35546,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1344",
@@ -35481,13 +35557,15 @@
         "linkedin": "https://www.linkedin.com/in/jonas-gr\u00f6ndahl-42b2ab21b"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:40.406526Z"
   },
   {
     "id": "org-1088",
@@ -35505,7 +35583,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1345",
@@ -35516,13 +35594,15 @@
         "linkedin": "https://www.linkedin.com/in/naila-awais-66b6701b2"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:41.961315Z"
   },
   {
     "id": "org-1089",
@@ -35540,7 +35620,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1346",
@@ -35551,13 +35631,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:43.111539Z"
   },
   {
     "id": "org-1091",
@@ -35575,7 +35657,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1347",
@@ -35587,14 +35669,15 @@
       }
     ],
     "notes": [
-      "REJECTED: Large Nordic IT service provider. Too big, own systems."
+      "REJECTED: Large Nordic IT service provider. Too big, own systems.",
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:44.389643Z"
   },
   {
     "id": "org-1092",
@@ -35612,7 +35695,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1348",
@@ -35623,13 +35706,15 @@
         "linkedin": "https://www.linkedin.com/in/andr\u00e9-l\u00f6fgren-92200aa7"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:46.058755Z"
   },
   {
     "id": "org-1093",
@@ -35647,7 +35732,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1349",
@@ -35658,13 +35743,15 @@
         "linkedin": "https://www.linkedin.com/in/gottfrid-garp-46542562"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:48.500033Z"
   },
   {
     "id": "org-1094",
@@ -35682,7 +35769,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1350",
@@ -35701,13 +35788,15 @@
         "linkedin": "https://www.linkedin.com/in/patrick-lindberg-ab7747143"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:50.604124Z"
   },
   {
     "id": "org-1095",
@@ -35721,11 +35810,11 @@
     "country": "Sweden",
     "lat": 60.1282,
     "lng": 18.6435,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1351",
@@ -35744,13 +35833,15 @@
         "linkedin": "https://www.linkedin.com/in/jacques-de-vrij-a4aa8170"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: ITAD focus (score: 3)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:52.888479Z"
   },
   {
     "id": "org-1096",
@@ -35768,7 +35859,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1353",
@@ -35779,13 +35870,15 @@
         "linkedin": "https://www.linkedin.com/in/kesavan-veeraraghavan-8510ba23"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:55.694035Z"
   },
   {
     "id": "org-1097",
@@ -35803,7 +35896,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1354",
@@ -35814,13 +35907,15 @@
         "linkedin": "https://www.linkedin.com/in/dabspnab"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:57.442940Z"
   },
   {
     "id": "org-1098",
@@ -35838,7 +35933,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-402",
@@ -35857,13 +35952,15 @@
         "linkedin": "https://www.linkedin.com/in/andr\u00e9-salestam-a99213174"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:04:58.818008Z"
   },
   {
     "id": "org-1099",
@@ -35881,7 +35978,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1356",
@@ -35900,13 +35997,15 @@
         "linkedin": "https://www.linkedin.com/in/claes-eriksson-b6593bb4"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:01.655555Z"
   },
   {
     "id": "org-1100",
@@ -35920,11 +36019,11 @@
     "country": "Sweden",
     "lat": 60.1282,
     "lng": 18.6435,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1358",
@@ -35935,13 +36034,15 @@
         "linkedin": "https://www.linkedin.com/in/gustaf-dyrssen-94a8688"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: ITAD focus (score: 2)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:03.591709Z"
   },
   {
     "id": "org-1101",
@@ -35959,7 +36060,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Hot lead",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1359",
@@ -35970,13 +36071,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:04.714540Z"
   },
   {
     "id": "org-1102",
@@ -35994,7 +36097,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Hot lead",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1360",
@@ -36005,13 +36108,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:05.781201Z"
   },
   {
     "id": "org-1103",
@@ -36029,7 +36134,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1362",
@@ -36040,13 +36145,15 @@
         "linkedin": "https://www.linkedin.com/in/jonas-h\u00f8jer-015695192"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:07.027713Z"
   },
   {
     "id": "org-1104",
@@ -36060,11 +36167,11 @@
     "country": "Netherlands",
     "lat": 52.1326,
     "lng": 5.2913,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1363",
@@ -36075,13 +36182,15 @@
         "linkedin": "https://www.linkedin.com/in/ashley-ross-bb781b16"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: ITAD focus (score: 3)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:09.998438Z"
   },
   {
     "id": "org-1105",
@@ -36095,11 +36204,11 @@
     "country": "Netherlands",
     "lat": 52.1326,
     "lng": 5.2913,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1364",
@@ -36118,13 +36227,15 @@
         "linkedin": "https://www.linkedin.com/in/gijsbertgeerders"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: ITAD focus (score: 4)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:12.507586Z"
   },
   {
     "id": "org-1106",
@@ -36138,11 +36249,11 @@
     "country": "United States",
     "lat": 37.0902,
     "lng": -95.7129,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1366",
@@ -36169,13 +36280,15 @@
         "linkedin": "https://www.linkedin.com/in/joshuagalacar"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: ITAD focus (score: 3)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:14.517098Z"
   },
   {
     "id": "org-1107",
@@ -36189,11 +36302,11 @@
     "country": "Sweden",
     "lat": 60.1282,
     "lng": 18.6435,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1367",
@@ -36212,13 +36325,15 @@
         "linkedin": "https://www.linkedin.com/in/tytec-tyler"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: ITAD focus (score: 4)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:16.406842Z"
   },
   {
     "id": "org-1109",
@@ -36232,11 +36347,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1369",
@@ -36255,13 +36370,15 @@
         "linkedin": "https://www.linkedin.com/in/saurabh-sharma-29125244"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: ITAD focus (score: 3)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:18.591249Z"
   },
   {
     "id": "org-1110",
@@ -36275,19 +36392,21 @@
     "country": "Canada",
     "lat": 56.1304,
     "lng": -106.3468,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: ITAD focus (score: 5)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:23.552967Z"
   },
   {
     "id": "org-1111",
@@ -36305,7 +36424,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1371",
@@ -36324,13 +36443,15 @@
         "linkedin": "https://www.linkedin.com/in/thomas-augustesen-5328877"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:25.183123Z"
   },
   {
     "id": "org-1112",
@@ -36348,7 +36469,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1214",
@@ -36375,13 +36496,15 @@
         "linkedin": "https://www.linkedin.com/in/theis-gamsted-kaae-25167b138"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:26.333321Z"
   },
   {
     "id": "org-1113",
@@ -36399,7 +36522,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1375",
@@ -36410,13 +36533,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:27.477722Z"
   },
   {
     "id": "org-1114",
@@ -36434,7 +36559,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1376",
@@ -36453,13 +36578,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:28.627963Z"
   },
   {
     "id": "org-1115",
@@ -36477,7 +36604,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1377",
@@ -36512,13 +36639,15 @@
         "linkedin": "https://www.linkedin.com/in/frederik-ravn-ba4a08275"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:30.225743Z"
   },
   {
     "id": "org-1117",
@@ -36532,11 +36661,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1381",
@@ -36555,13 +36684,15 @@
         "linkedin": "https://www.linkedin.com/in/bj\u00f8rn-laursen-117a8467"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: ITAD focus (score: 2)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:32.111148Z"
   },
   {
     "id": "org-1118",
@@ -36579,7 +36710,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1383",
@@ -36598,13 +36729,15 @@
         "linkedin": "https://www.linkedin.com/in/bjornalinder"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:33.486095Z"
   },
   {
     "id": "org-1120",
@@ -36622,7 +36755,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1387",
@@ -36641,13 +36774,15 @@
         "linkedin": "https://www.linkedin.com/in/emasini"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:35.416452Z"
   },
   {
     "id": "org-1121",
@@ -36665,7 +36800,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1393",
@@ -36684,13 +36819,15 @@
         "linkedin": "https://www.linkedin.com/in/janengstrom"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:36.935802Z"
   },
   {
     "id": "org-1122",
@@ -36708,7 +36845,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1395",
@@ -36719,13 +36856,15 @@
         "linkedin": "https://www.linkedin.com/in/henrik-\u00e5qvist-51218012a"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:38.490054Z"
   },
   {
     "id": "org-1123",
@@ -36739,11 +36878,11 @@
     "country": "United States",
     "lat": 37.0902,
     "lng": -95.7129,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1396",
@@ -36778,13 +36917,15 @@
         "linkedin": "https://www.linkedin.com/in/andrew-ramos-143849216"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: ITAD focus (score: 4)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:41.488505Z"
   },
   {
     "id": "org-1124",
@@ -36802,7 +36943,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1398",
@@ -36821,13 +36962,15 @@
         "linkedin": "https://www.linkedin.com/in/lars-bruntse-7805251"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:44.424990Z"
   },
   {
     "id": "org-1125",
@@ -36845,7 +36988,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1400",
@@ -36864,13 +37007,15 @@
         "linkedin": "https://www.linkedin.com/in/tobias-hjeltman"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:46.015877Z"
   },
   {
     "id": "org-1126",
@@ -36888,7 +37033,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1402",
@@ -36899,13 +37044,15 @@
         "linkedin": "https://www.linkedin.com/in/pauldefreene"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:47.302938Z"
   },
   {
     "id": "org-1127",
@@ -36923,7 +37070,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1403",
@@ -36934,13 +37081,15 @@
         "linkedin": "https://www.linkedin.com/in/rogerlindholm"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:50.242891Z"
   },
   {
     "id": "org-1128",
@@ -36958,17 +37107,18 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
     "notes": [
-      "REJECTED: Golf company. Not IT."
+      "REJECTED: Golf company. Not IT.",
+      "Evening enrichment 2026-03-10 23:05: Website issue: No website"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:51.368654Z"
   },
   {
     "id": "org-1129",
@@ -36986,7 +37136,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1404",
@@ -36998,14 +37148,15 @@
       }
     ],
     "notes": [
-      "REJECTED: Swedish IT service provider. Not ITAD."
+      "REJECTED: Swedish IT service provider. Not ITAD.",
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:53.048767Z"
   },
   {
     "id": "org-1130",
@@ -37023,7 +37174,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1405",
@@ -37050,13 +37201,15 @@
         "linkedin": "https://www.linkedin.com/in/p\u00e9ter-kr\u00e1l-381662165"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:54.655622Z"
   },
   {
     "id": "org-1131",
@@ -37074,7 +37227,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1408",
@@ -37093,13 +37246,15 @@
         "linkedin": "https://www.linkedin.com/in/bernd-corpeleijn-23986414"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:55.927914Z"
   },
   {
     "id": "org-1132",
@@ -37117,7 +37272,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1410",
@@ -37144,13 +37299,15 @@
         "linkedin": "https://www.linkedin.com/in/darren-cassidy-30124455"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:57.069195Z"
   },
   {
     "id": "org-1135",
@@ -37168,7 +37325,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1413",
@@ -37179,13 +37336,15 @@
         "linkedin": "https://www.linkedin.com/in/saisai-zhang-19732253"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:05: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:05:58.398894Z"
   },
   {
     "id": "org-1136",
@@ -37203,7 +37362,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1414",
@@ -37222,13 +37381,15 @@
         "linkedin": "https://www.linkedin.com/in/niklas-bruhn-729b1847"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:00.118720Z"
   },
   {
     "id": "org-1138",
@@ -37246,7 +37407,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1416",
@@ -37258,14 +37419,15 @@
       }
     ],
     "notes": [
-      "REJECTED: IT consulting/freelance staffing company (Denmark). Not ITAD."
+      "REJECTED: IT consulting/freelance staffing company (Denmark). Not ITAD.",
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:01.656721Z"
   },
   {
     "id": "org-1139",
@@ -37283,7 +37445,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1417",
@@ -37318,13 +37480,15 @@
         "linkedin": "https://www.linkedin.com/in/joakim-moreau-450508197"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:02.964004Z"
   },
   {
     "id": "org-1140",
@@ -37338,11 +37502,11 @@
     "country": "Canada",
     "lat": 56.1304,
     "lng": -106.3468,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1421",
@@ -37353,13 +37517,15 @@
         "linkedin": "https://www.linkedin.com/in/kcpeterson91"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: ITAD focus (score: 4)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:06.848415Z"
   },
   {
     "id": "org-1141",
@@ -37377,7 +37543,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1422",
@@ -37412,13 +37578,15 @@
         "linkedin": "https://www.linkedin.com/in/terrelljason"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:08.055723Z"
   },
   {
     "id": "org-1142",
@@ -37436,7 +37604,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1426",
@@ -37455,13 +37623,15 @@
         "linkedin": "https://www.linkedin.com/in/ian-adams-344950"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:10.110532Z"
   },
   {
     "id": "org-1143",
@@ -37475,11 +37645,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1428",
@@ -37498,13 +37668,15 @@
         "linkedin": "https://www.linkedin.com/in/sajith-rafeeth-271b303"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: ITAD focus (score: 6)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:11.932608Z"
   },
   {
     "id": "org-1145",
@@ -37518,11 +37690,11 @@
     "country": "France",
     "lat": 46.2276,
     "lng": 2.2137,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1430",
@@ -37549,13 +37721,15 @@
         "linkedin": "https://www.linkedin.com/in/laurent-steinmetz-25897824"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: ITAD focus (score: 3)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:14.967570Z"
   },
   {
     "id": "org-1146",
@@ -37573,7 +37747,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1433",
@@ -37600,13 +37774,15 @@
         "linkedin": "https://www.linkedin.com/in/david-brindefalk-7a25b71"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:16.589455Z"
   },
   {
     "id": "org-1147",
@@ -37624,7 +37800,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1436",
@@ -37635,13 +37811,15 @@
         "linkedin": "https://www.linkedin.com/in/tolga-celebi-5a110917a"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:18.663256Z"
   },
   {
     "id": "org-1148",
@@ -37659,7 +37837,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1437",
@@ -37678,13 +37856,15 @@
         "linkedin": "https://www.linkedin.com/in/eugenio-lukianov-5a835485"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:23.190985Z"
   },
   {
     "id": "org-1149",
@@ -37698,11 +37878,11 @@
     "country": "United Kingdom",
     "lat": 55.3781,
     "lng": -3.436,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1439",
@@ -37713,13 +37893,15 @@
         "linkedin": "https://www.linkedin.com/in/alex-moorecroft-99092765"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: ITAD focus (score: 8)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:24.671172Z"
   },
   {
     "id": "org-1150",
@@ -37733,11 +37915,11 @@
     "country": "United States",
     "lat": 37.0902,
     "lng": -95.7129,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1440",
@@ -37764,13 +37946,15 @@
         "linkedin": "https://www.linkedin.com/in/dorota-lemanska-3882773"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: ITAD focus (score: 5)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:27.009575Z"
   },
   {
     "id": "org-1151",
@@ -37788,7 +37972,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1443",
@@ -37808,14 +37992,15 @@
       }
     ],
     "notes": [
-      "REJECTED: Swedish IT partner/MSP. Not ITAD."
+      "REJECTED: Swedish IT partner/MSP. Not ITAD.",
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:29.779110Z"
   },
   {
     "id": "org-1153",
@@ -37833,7 +38018,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1445",
@@ -37844,13 +38029,15 @@
         "linkedin": "https://www.linkedin.com/in/jasper-van-harten-0a4476136"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:33.682685Z"
   },
   {
     "id": "org-1154",
@@ -37868,7 +38055,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1446",
@@ -37903,13 +38090,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:34.862252Z"
   },
   {
     "id": "org-1155",
@@ -37927,7 +38116,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1449",
@@ -37938,13 +38127,15 @@
         "linkedin": "https://www.linkedin.com/in/jonas-lindstr\u00f6m-3a3b0b111"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:36.224586Z"
   },
   {
     "id": "org-1156",
@@ -37962,7 +38153,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1450",
@@ -37989,13 +38180,15 @@
         "linkedin": "https://www.linkedin.com/in/jessica-flyckt-43977a66"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:37.727150Z"
   },
   {
     "id": "org-1157",
@@ -38013,7 +38206,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1453",
@@ -38040,13 +38233,15 @@
         "linkedin": "https://www.linkedin.com/in/ahmet-dogan-830538252"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:39.893353Z"
   },
   {
     "id": "org-1158",
@@ -38064,7 +38259,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1456",
@@ -38075,13 +38270,15 @@
         "linkedin": "https://www.linkedin.com/in/magnus-hedstr\u00f6m-lang-505344b"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:41.629338Z"
   },
   {
     "id": "org-1159",
@@ -38099,7 +38296,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1457",
@@ -38110,13 +38307,15 @@
         "linkedin": "https://www.linkedin.com/in/danielhersen"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:42.995703Z"
   },
   {
     "id": "org-1160",
@@ -38134,7 +38333,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1459",
@@ -38146,14 +38345,15 @@
       }
     ],
     "notes": [
-      "REJECTED: Swedish data recovery & IT forensics company. Not ITAD."
+      "REJECTED: Swedish data recovery & IT forensics company. Not ITAD.",
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:44.886966Z"
   },
   {
     "id": "org-1161",
@@ -38171,7 +38371,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1460",
@@ -38182,13 +38382,15 @@
         "linkedin": "https://www.linkedin.com/in/mark-adsett-36057a24"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 1)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:46.142112Z"
   },
   {
     "id": "org-1163",
@@ -38202,11 +38404,11 @@
     "country": "Singapore",
     "lat": 1.3521,
     "lng": 103.8198,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 75,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1461",
@@ -38217,13 +38419,15 @@
         "linkedin": "https://www.linkedin.com/in/t-max-470a34184"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: ITAD focus (score: 5)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:48.307055Z"
   },
   {
     "id": "org-1164",
@@ -38241,7 +38445,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1462",
@@ -38253,14 +38457,15 @@
       }
     ],
     "notes": [
-      "REJECTED: Swedish IT service provider. Not ITAD."
+      "REJECTED: Swedish IT service provider. Not ITAD.",
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:52.148080Z"
   },
   {
     "id": "org-1165",
@@ -38278,7 +38483,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1464",
@@ -38297,13 +38502,15 @@
         "linkedin": "https://www.linkedin.com/in/kalle-sundvall-154aa895"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:06: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:06:57.534766Z"
   },
   {
     "id": "org-1167",
@@ -38321,7 +38528,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1466",
@@ -38332,13 +38539,15 @@
         "linkedin": "https://www.linkedin.com/in/christopher-svensson-hbg"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:02.672829Z"
   },
   {
     "id": "org-1168",
@@ -38356,7 +38565,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1467",
@@ -38376,14 +38585,15 @@
       }
     ],
     "notes": [
-      "REJECTED: Duplicate of Aderian Group (Gothenburg office). Not ITAD."
+      "REJECTED: Duplicate of Aderian Group (Gothenburg office). Not ITAD.",
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:06.441839Z"
   },
   {
     "id": "org-1169",
@@ -38401,7 +38611,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1469",
@@ -38412,13 +38622,15 @@
         "linkedin": "https://www.linkedin.com/in/jonas-brammesj\u00f6-22973327"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:08.078919Z"
   },
   {
     "id": "org-1170",
@@ -38436,7 +38648,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1470",
@@ -38455,13 +38667,15 @@
         "linkedin": "https://www.linkedin.com/in/anders-nordfeldt"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:09.392736Z"
   },
   {
     "id": "org-1171",
@@ -38479,7 +38693,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1472",
@@ -38506,13 +38720,15 @@
         "linkedin": "https://www.linkedin.com/in/simon-anjert-925a81b3"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:16.992435Z"
   },
   {
     "id": "org-1173",
@@ -38530,7 +38746,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1475",
@@ -38541,13 +38757,15 @@
         "linkedin": "https://www.linkedin.com/in/jenskullander"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:20.674079Z"
   },
   {
     "id": "org-1174",
@@ -38565,7 +38783,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1476",
@@ -38576,13 +38794,15 @@
         "linkedin": "https://www.linkedin.com/in/jesper-lindberg-35463085"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:22.115936Z"
   },
   {
     "id": "org-1175",
@@ -38600,7 +38820,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1477",
@@ -38619,13 +38839,15 @@
         "linkedin": "https://www.linkedin.com/in/marcus-karlsson-740a97112"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:26.127242Z"
   },
   {
     "id": "org-1177",
@@ -38643,7 +38865,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1479",
@@ -38670,13 +38892,15 @@
         "linkedin": "https://www.linkedin.com/in/anne-kolehmainen-904a3148"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:27.859135Z"
   },
   {
     "id": "org-1178",
@@ -38694,7 +38918,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1482",
@@ -38753,13 +38977,15 @@
         "linkedin": "https://www.linkedin.com/in/marko-tuuminen"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:29.217877Z"
   },
   {
     "id": "org-1182",
@@ -38777,7 +39003,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1489",
@@ -38804,13 +39030,15 @@
         "linkedin": "https://www.linkedin.com/in/janstrombe"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:31.397914Z"
   },
   {
     "id": "org-1183",
@@ -38828,7 +39056,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1492",
@@ -38863,13 +39091,15 @@
         "linkedin": "https://www.linkedin.com/in/jannekivisto1"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:33.614740Z"
   },
   {
     "id": "org-1185",
@@ -38887,15 +39117,17 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:34.764948Z"
   },
   {
     "id": "org-1186",
@@ -38913,7 +39145,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1496",
@@ -38940,13 +39172,15 @@
         "linkedin": "https://www.linkedin.com/in/jaskarantala"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:37.073287Z"
   },
   {
     "id": "org-1187",
@@ -38964,7 +39198,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1499",
@@ -39015,13 +39249,15 @@
         "linkedin": "https://www.linkedin.com/in/neha-sharma-hec"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:38.960007Z"
   },
   {
     "id": "org-1188",
@@ -39039,7 +39275,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Hot lead",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1505",
@@ -39058,13 +39294,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:40.088047Z"
   },
   {
     "id": "org-1189",
@@ -39082,7 +39320,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1506",
@@ -39101,13 +39339,15 @@
         "linkedin": "https://www.linkedin.com/in/katariinatouronen"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:44.372327Z"
   },
   {
     "id": "org-1190",
@@ -39125,7 +39365,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1508",
@@ -39144,13 +39384,15 @@
         "linkedin": "https://www.linkedin.com/in/petri-rautiainen"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:46.460580Z"
   },
   {
     "id": "org-1191",
@@ -39168,7 +39410,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Do Not Contact",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1510",
@@ -39195,13 +39437,15 @@
         "linkedin": "https://www.linkedin.com/in/ove-fagerlund-16941a1"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:47.952442Z"
   },
   {
     "id": "org-1193",
@@ -39219,7 +39463,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1513",
@@ -39262,13 +39506,15 @@
         "linkedin": "https://www.linkedin.com/in/jnilss80"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:49.430511Z"
   },
   {
     "id": "org-1194",
@@ -39286,7 +39532,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1518",
@@ -39321,13 +39567,15 @@
         "linkedin": "https://www.linkedin.com/in/anttikoskelin"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:52.585233Z"
   },
   {
     "id": "org-1195",
@@ -39345,7 +39593,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1522",
@@ -39397,14 +39645,15 @@
       }
     ],
     "notes": [
-      "REJECTED: Large Nordic IT service provider. Too big, own systems."
+      "REJECTED: Large Nordic IT service provider. Too big, own systems.",
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
     "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:53.819725Z"
   },
   {
     "id": "org-1196",
@@ -39422,7 +39671,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1528",
@@ -39465,13 +39714,15 @@
         "linkedin": "https://www.linkedin.com/in/simopaasi"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:55.133283Z"
   },
   {
     "id": "org-1197",
@@ -39489,7 +39740,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1533",
@@ -39540,13 +39791,15 @@
         "linkedin": "https://www.linkedin.com/in/timi-n-3b51182"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:57.231340Z"
   },
   {
     "id": "org-1198",
@@ -39564,7 +39817,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1539",
@@ -39584,14 +39837,15 @@
       }
     ],
     "notes": [
-      "REJECTED: Finnish healthcare ICT solutions provider. Not ITAD."
+      "REJECTED: Finnish healthcare ICT solutions provider. Not ITAD.",
+      "Evening enrichment 2026-03-10 23:07: Limited ITAD focus (score: 0)"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:07:59.164892Z"
   },
   {
     "id": "org-1199",
@@ -39609,7 +39863,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1541",
@@ -39636,13 +39890,15 @@
         "linkedin": "https://www.linkedin.com/in/jyrki-kilpinen-456a6b60"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:08: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:00.627378Z"
   },
   {
     "id": "org-1200",
@@ -39660,7 +39916,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1544",
@@ -39687,13 +39943,15 @@
         "linkedin": "https://www.linkedin.com/in/mikalausamo"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:08: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:02.832637Z"
   },
   {
     "id": "org-1201",
@@ -39711,7 +39969,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1547",
@@ -39762,13 +40020,15 @@
         "linkedin": "https://www.linkedin.com/in/minna-peltokukka-karhu-b5669362"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:08: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:05.110838Z"
   },
   {
     "id": "org-1203",
@@ -39786,7 +40046,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1553",
@@ -39805,13 +40065,15 @@
         "linkedin": "https://www.linkedin.com/in/tomasz-k-05a736176"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:08: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:06.498817Z"
   },
   {
     "id": "org-1204",
@@ -39829,7 +40091,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1555",
@@ -39848,13 +40110,15 @@
         "linkedin": "https://www.linkedin.com/in/sami-juppala"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:08: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:08.450012Z"
   },
   {
     "id": "org-1205",
@@ -39872,7 +40136,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1557",
@@ -39907,13 +40171,15 @@
         "linkedin": "https://www.linkedin.com/in/timoollikainen"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:08: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:10.285695Z"
   },
   {
     "id": "org-1206",
@@ -39931,15 +40197,17 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:08: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:11.435931Z"
   },
   {
     "id": "org-1207",
@@ -39957,7 +40225,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-25",
@@ -39976,13 +40244,15 @@
         "linkedin": "https://www.linkedin.com/in/mike-schack-andersen-39b71531"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:08: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:12.586147Z"
   },
   {
     "id": "org-1208",
@@ -40000,7 +40270,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Warm lead",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1561",
@@ -40011,13 +40281,15 @@
         "linkedin": ""
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:08: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:13.736352Z"
   },
   {
     "id": "org-1209",
@@ -40035,7 +40307,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1562",
@@ -40046,13 +40318,15 @@
         "linkedin": "https://www.linkedin.com/in/lars-kristian-kj\u00f8lberg-04aba71"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:08: Website issue: No website"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:14.885151Z"
   },
   {
     "id": "org-1210",
@@ -40070,7 +40344,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1563",
@@ -40081,13 +40355,15 @@
         "linkedin": "https://www.linkedin.com/in/heidihund"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:08: Website issue: HTTPConnectionPool(host='www.dfindconsulting.no', "
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:15.938737Z"
   },
   {
     "id": "org-1211",
@@ -40105,7 +40381,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1564",
@@ -40132,13 +40408,15 @@
         "linkedin": "https://www.linkedin.com/in/felixwoxholth"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:08: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:17.585893Z"
   },
   {
     "id": "org-1212",
@@ -40156,7 +40434,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1567",
@@ -40167,13 +40445,15 @@
         "linkedin": "https://www.linkedin.com/in/laura-hersey-762ba64a"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:08: Website issue: HTTPConnectionPool(host='www.soprasteria.com', por"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:18.808078Z"
   },
   {
     "id": "org-1213",
@@ -40191,7 +40471,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1568",
@@ -40210,13 +40490,15 @@
         "linkedin": "https://www.linkedin.com/in/dagrinden"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:08: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:20.375942Z"
   },
   {
     "id": "org-1214",
@@ -40234,7 +40516,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1570",
@@ -40254,14 +40536,15 @@
       }
     ],
     "notes": [
-      "REJECTED: Norwegian IT service provider (MSP). Not ITAD."
+      "REJECTED: Norwegian IT service provider (MSP). Not ITAD.",
+      "Evening enrichment 2026-03-10 23:08: Limited ITAD focus (score: 0)"
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:21.882756Z"
   },
   {
     "id": "org-1215",
@@ -40279,7 +40562,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1572",
@@ -40314,13 +40597,15 @@
         "linkedin": "https://www.linkedin.com/in/vendelajonsson"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:08: Limited ITAD focus (score: 0)"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:23.735443Z"
   },
   {
     "id": "org-1216",
@@ -40338,7 +40623,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "rejected",
     "contacts": [
       {
         "id": "contact-1576",
@@ -40349,13 +40634,15 @@
         "linkedin": "https://www.linkedin.com/in/stuart-hinkley-67a69945"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Evening enrichment 2026-03-10 23:08: Website issue: HTTPConnectionPool(host='www.soprasteria.com', por"
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
     "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "lastVerified": "2026-03-10T22:08:24.792719Z"
   },
   {
     "id": "org-1217",
