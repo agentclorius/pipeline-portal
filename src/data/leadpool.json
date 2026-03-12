@@ -6507,7 +6507,7 @@
     "id": "org-173",
     "slug": "servero",
     "name": "Servero",
-    "industry": "ITAD",
+    "industry": "Hardware Reseller",
     "website": "https://www.servero.co.uk/",
     "address": "",
     "region": "",
@@ -6519,7 +6519,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Warm lead",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-92",
@@ -6531,14 +6531,14 @@
       }
     ],
     "notes": [
-      "REJECTED: Not ITAD - server/networking hardware reseller (Supermicro specialist). No disposal/recycling/erasure services."
+      "REJECTED: Server/networking hardware reseller (Supermicro specialist). Not ITAD."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.349Z",
-    "updatedAt": "2026-02-27T09:03:46.292340Z",
-    "lastVerified": "2026-02-27T09:03:46.292340Z"
+    "updatedAt": "2026-03-12T01:02:09.406Z",
+    "lastVerified": "2026-03-12T01:02:09.406Z"
   },
   {
     "id": "org-175",
@@ -6556,7 +6556,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-2",
@@ -6576,21 +6576,21 @@
       }
     ],
     "notes": [
-      "REJECTED: Paper shredding company primarily. Hard drive destruction is secondary service, no ITAD processing/refurb facilities."
+      "REJECTED: Paper shredding & confidential waste destruction company. Not ITAD processor."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.349Z",
-    "updatedAt": "2026-02-27T09:03:46.292340Z",
-    "lastVerified": "2026-02-27T09:03:46.292340Z"
+    "updatedAt": "2026-03-12T01:02:09.406Z",
+    "lastVerified": "2026-03-12T01:02:09.406Z"
   },
   {
     "id": "org-176",
     "slug": "signals-it-limited",
     "name": "Signals IT Limited",
     "industry": "ITAD",
-    "website": "",
+    "website": "https://www.signalsit.com/",
     "address": "Manchester",
     "region": "Greater Manchester",
     "state": "England",
@@ -6601,7 +6601,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Lapsed Customer",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-249",
@@ -6613,14 +6613,14 @@
       }
     ],
     "notes": [
-      "REJECTED: No website found. Companies House only. Insufficient evidence of ITAD operations with own facilities."
+      "REJECTED: IT repair/maintenance company (Signals IT, Manchester). Repair hub for logistics/retail, not ITAD processor."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.349Z",
-    "updatedAt": "2026-02-27T09:03:46.292340Z",
-    "lastVerified": "2026-02-27T09:03:46.292340Z"
+    "updatedAt": "2026-03-12T01:02:09.406Z",
+    "lastVerified": "2026-03-12T01:02:09.406Z"
   },
   {
     "id": "org-177",
@@ -6770,17 +6770,17 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [],
     "notes": [
-      "REJECTED: No web presence found. Cannot verify ITAD operations."
+      "REJECTED: No web presence. Zero search results. Unverifiable."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.349Z",
-    "updatedAt": "2026-02-27T09:03:46.292340Z",
-    "lastVerified": "2026-02-27T09:03:46.292340Z"
+    "updatedAt": "2026-03-12T01:02:09.406Z",
+    "lastVerified": "2026-03-12T01:02:09.406Z"
   },
   {
     "id": "org-181",
@@ -6847,7 +6847,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-889",
@@ -6859,14 +6859,14 @@
       }
     ],
     "notes": [
-      "REJECTED: Dead website (404/domain parked). Cannot verify operations."
+      "REJECTED: Website dead (domain parked/404). Unverifiable."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.349Z",
-    "updatedAt": "2026-02-27T09:03:46.292340Z",
-    "lastVerified": "2026-02-27T09:03:46.292340Z"
+    "updatedAt": "2026-03-12T01:02:09.406Z",
+    "lastVerified": "2026-03-12T01:02:09.406Z"
   },
   {
     "id": "org-183",
@@ -6884,17 +6884,17 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [],
     "notes": [
-      "REJECTED: Acquired by Restore plc. WEEE recycling subsidiary - now part of larger corporate group. Not independent ITAD partner."
+      "REJECTED: WEEE recycling Portsmouth. Part of Restore Technology group (already tracked via CDL/Euro Recycling/IT Efficient). Duplicate."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.349Z",
-    "updatedAt": "2026-02-27T09:03:46.292340Z",
-    "lastVerified": "2026-02-27T09:03:46.292340Z"
+    "updatedAt": "2026-03-12T01:02:09.406Z",
+    "lastVerified": "2026-03-12T01:02:09.406Z"
   },
   {
     "id": "org-184",
@@ -6908,11 +6908,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "rejected",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 68,
+    "isPipeline": true,
     "originalLabel": "Warm lead",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-5",
@@ -6924,14 +6924,23 @@
       }
     ],
     "notes": [
-      "REJECTED: No search results for ITAD/recycling operations. Cannot verify."
+      "Spotbuyer Group (Device Services). Asset recovery, refurbishment, remarketing. Stourbridge, West Midlands. 14 employees. ISO 27001/14001/9001. Mobile + IT processing. Own facility."
     ],
-    "certifications": [],
-    "services": [],
+    "certifications": [
+      "ISO 27001",
+      "ISO 14001",
+      "ISO 9001"
+    ],
+    "services": [
+      "Asset Recovery",
+      "Refurbishment",
+      "Remarketing",
+      "Device Repair"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.349Z",
-    "updatedAt": "2026-02-27T09:03:46.292340Z",
-    "lastVerified": "2026-02-27T09:03:46.292340Z"
+    "updatedAt": "2026-03-12T01:02:09.406Z",
+    "lastVerified": "2026-03-12T01:02:09.406Z"
   },
   {
     "id": "org-185",
@@ -6949,17 +6958,17 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [],
     "notes": [
-      "REJECTED: General IT support company that disposes of equipment as side service. No own ITAD facility."
+      "REJECTED: IT support/MSP company (computer repairs, managed IT, cyber security). Not ITAD."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.349Z",
-    "updatedAt": "2026-02-27T09:03:46.292340Z",
-    "lastVerified": "2026-02-27T09:03:46.292340Z"
+    "updatedAt": "2026-03-12T01:02:09.406Z",
+    "lastVerified": "2026-03-12T01:02:09.406Z"
   },
   {
     "id": "org-186",
@@ -6977,17 +6986,17 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Incorrect Profile",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [],
     "notes": [
-      "REJECTED: Property maintenance company in Preston. Not IT-related at all."
+      "REJECTED: Property maintenance company. Not IT-related."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.349Z",
-    "updatedAt": "2026-02-27T09:03:46.292340Z",
-    "lastVerified": "2026-02-27T09:03:46.292340Z"
+    "updatedAt": "2026-03-12T01:02:09.406Z",
+    "lastVerified": "2026-03-12T01:02:09.406Z"
   },
   {
     "id": "org-188",
@@ -7005,17 +7014,17 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Customer",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [],
     "notes": [
-      "REJECTED: Refurbished laptop reseller (GoDaddy basic site). No ITAD processing facility."
+      "REJECTED: Refurbished computer retailer (GoDaddy/Shopify store). Not ITAD processor."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.349Z",
-    "updatedAt": "2026-02-27T09:03:46.292340Z",
-    "lastVerified": "2026-02-27T09:03:46.292340Z"
+    "updatedAt": "2026-03-12T01:02:09.406Z",
+    "lastVerified": "2026-03-12T01:02:09.406Z"
   },
   {
     "id": "org-189",
@@ -7033,7 +7042,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-95",
@@ -7053,14 +7062,14 @@
       }
     ],
     "notes": [
-      "REJECTED: Now 11:11 Systems - cloud platform/managed infrastructure company. Not ITAD."
+      "REJECTED: Redirects to 11:11 Systems (cloud/DR platform). Sungard AS acquired. Not ITAD."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.349Z",
-    "updatedAt": "2026-02-27T09:03:46.292340Z",
-    "lastVerified": "2026-02-27T09:03:46.292340Z"
+    "updatedAt": "2026-03-12T01:02:09.406Z",
+    "lastVerified": "2026-03-12T01:02:09.406Z"
   },
   {
     "id": "org-190",
@@ -7078,17 +7087,17 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [],
     "notes": [
-      "REJECTED: Website returned no content. Cannot verify ITAD operations."
+      "REJECTED: IT & Compliance services MSP (Midlands). Not ITAD."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.349Z",
-    "updatedAt": "2026-02-27T09:03:46.292340Z",
-    "lastVerified": "2026-02-27T09:03:46.292340Z"
+    "updatedAt": "2026-03-12T01:02:09.406Z",
+    "lastVerified": "2026-03-12T01:02:09.406Z"
   },
   {
     "id": "org-191",
@@ -7212,7 +7221,7 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-21",
@@ -7224,14 +7233,14 @@
       }
     ],
     "notes": [
-      "REJECTED: TD SYNNEX - massive IT distributor ($60B+ revenue). ITAD is minor service line. Too large/corporate for Return Hub partnership."
+      "REJECTED: TD SYNNEX — massive IT distributor (22,000 employees, 100+ countries). Way too large. Connects resellers with ITAD partners, not an ITAD itself."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.349Z",
-    "updatedAt": "2026-02-27T09:03:46.292340Z",
-    "lastVerified": "2026-02-27T09:03:46.292340Z"
+    "updatedAt": "2026-03-12T01:02:09.406Z",
+    "lastVerified": "2026-03-12T01:02:09.406Z"
   },
   {
     "id": "org-194",
@@ -7249,17 +7258,17 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "Unqualified",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [],
     "notes": [
-      "REJECTED: No web presence found for \"Team ITAD\". Cannot verify."
+      "REJECTED: No web presence. Zero search results. Unverifiable."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.349Z",
-    "updatedAt": "2026-02-27T09:03:46.292340Z",
-    "lastVerified": "2026-02-27T09:03:46.292340Z"
+    "updatedAt": "2026-03-12T01:02:09.406Z",
+    "lastVerified": "2026-03-12T01:02:09.406Z"
   },
   {
     "id": "org-195",
@@ -7277,17 +7286,17 @@
     "score": null,
     "isPipeline": false,
     "originalLabel": "",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [],
     "notes": [
-      "REJECTED: Tec-It-Out - refurbished laptop retailer (Shopify store). No ITAD processing facility."
+      "REJECTED: Refurbished laptop/computer retailer (Shopify store). Not ITAD processor."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.349Z",
-    "updatedAt": "2026-02-27T09:03:46.292340Z",
-    "lastVerified": "2026-02-27T09:03:46.292340Z"
+    "updatedAt": "2026-03-12T01:02:09.406Z",
+    "lastVerified": "2026-03-12T01:02:09.406Z"
   },
   {
     "id": "org-196",
@@ -35218,11 +35227,11 @@
     "country": "Finland",
     "lat": 61.9241,
     "lng": 25.7482,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1332",
@@ -35234,20 +35243,20 @@
       }
     ],
     "notes": [
-      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+      "REJECTED: Telecom screening/repair/testing company (Finland). Not ITAD."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": "2026-03-10T22:04:23.786668Z"
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
   },
   {
     "id": "org-1079",
     "slug": "reliance-solutions",
     "name": "Reliance Solutions",
-    "industry": "IT Service Provider",
+    "industry": "Other",
     "website": "https://www.reliancesolutions.eu/",
     "address": "132A Woodlands Road, IG11JP Ilford, Essex, United Kingdom",
     "region": "Greater London",
@@ -35255,11 +35264,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1333",
@@ -35271,14 +35280,14 @@
       }
     ],
     "notes": [
-      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 1)"
+      "REJECTED: Website is a news aggregator, not an IT company. Not ITAD."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": "2026-03-10T22:04:25.104227Z"
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
   },
   {
     "id": "org-1080",
@@ -35292,11 +35301,11 @@
     "country": "Sweden",
     "lat": 60.1282,
     "lng": 18.6435,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1334",
@@ -35308,20 +35317,20 @@
       }
     ],
     "notes": [
-      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+      "REJECTED: Military/government system integration since 1984. Not ITAD."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": "2026-03-10T22:04:26.432116Z"
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
   },
   {
     "id": "org-1081",
     "slug": "tech-konsulter",
     "name": "Tech Konsulter",
-    "industry": "IT Service Provider",
+    "industry": "ITAD",
     "website": "http://www.techauction.se",
     "address": ",  Stockholm, , Sweden",
     "region": "",
@@ -35329,11 +35338,11 @@
     "country": "Sweden",
     "lat": 60.1282,
     "lng": 18.6435,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 72,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1335",
@@ -35353,14 +35362,19 @@
       }
     ],
     "notes": [
-      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+      "Now Itreon (techauction.se redirects to itreon.eu). Circular IT: take-back, data erasure (serial-level certs), reuse, recycling. Own TakeBack Portal. Sweden-based."
     ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "ITAD",
+      "Data Erasure",
+      "Refurbishment",
+      "Recycling"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": "2026-03-10T22:04:28.169000Z"
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
   },
   {
     "id": "org-1082",
@@ -35374,11 +35388,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1337",
@@ -35390,14 +35404,14 @@
       }
     ],
     "notes": [
-      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 1)"
+      "REJECTED: Refurbished network equipment reseller (Stockholm). No ITAD processing facility."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": "2026-03-10T22:04:29.487837Z"
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
   },
   {
     "id": "org-1083",
@@ -35411,11 +35425,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1338",
@@ -35435,20 +35449,20 @@
       }
     ],
     "notes": [
-      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+      "REJECTED: Telecom circular asset management (network equipment reutilization). Not IT/ITAD processing."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": "2026-03-10T22:04:31.436060Z"
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
   },
   {
     "id": "org-1084",
     "slug": "reuseit-sweden-fka-azalea-global-it",
     "name": "ReuseIT Sweden(fka Azalea Global IT)",
-    "industry": "IT Service Provider",
+    "industry": "ITAD",
     "website": "http://www.azaleait.se",
     "address": "Illervägen, 352 45 Växjö, Kronoberg County, Sweden",
     "region": "",
@@ -35456,11 +35470,11 @@
     "country": "Sweden",
     "lat": 60.1282,
     "lng": 18.6435,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 70,
+    "isPipeline": true,
     "originalLabel": "Prospect",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1340",
@@ -35480,14 +35494,19 @@
       }
     ],
     "notes": [
-      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+      "ReuseIT Sweden AB (fka Azalea Global IT). Subsidiary of Elanders Group. Data erasure, reconditioning, reuse of IT equipment. Partnership with Kjell & Company. Own processing."
     ],
     "certifications": [],
-    "services": [],
+    "services": [
+      "ITAD",
+      "Data Erasure",
+      "Refurbishment",
+      "Reuse"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": "2026-03-10T22:04:33.283080Z"
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
   },
   {
     "id": "org-1086",
@@ -35539,7 +35558,7 @@
     "id": "org-1087",
     "slug": "gsit-distribution",
     "name": "GSIT Distribution",
-    "industry": "IT Service Provider",
+    "industry": "Broker",
     "website": "www.gsit.se",
     "address": "Källbäcksrydsgatan 9e, 507 42 Borås, Vastra Gotaland County, Sweden",
     "region": "",
@@ -35547,11 +35566,11 @@
     "country": "Sweden",
     "lat": 60.1282,
     "lng": 18.6435,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1344",
@@ -35563,20 +35582,20 @@
       }
     ],
     "notes": [
-      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+      "REJECTED: IT hardware distributor (servers, storage, networking). Borås, Sweden. No ITAD processing."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": "2026-03-10T22:04:40.406526Z"
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
   },
   {
     "id": "org-1088",
     "slug": "tech-network-supply",
     "name": "Tech Network Supply",
-    "industry": "IT Service Provider",
+    "industry": "Broker",
     "website": "http://www.technetworksupply.com",
     "address": "606 8th St, 50010 Ames, Iowa, United States",
     "region": "Story County",
@@ -35584,11 +35603,11 @@
     "country": "United States",
     "lat": 37.0902,
     "lng": -95.7129,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1345",
@@ -35600,20 +35619,20 @@
       }
     ],
     "notes": [
-      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+      "REJECTED: Refurbished hardware e-commerce (US). No ITAD processing facility."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": "2026-03-10T22:04:41.961315Z"
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
   },
   {
     "id": "org-1089",
     "slug": "velocity-electronics-sweden-ab",
     "name": "Velocity Electronics Sweden AB",
-    "industry": "",
+    "industry": "Broker",
     "website": "",
     "address": "Torshamnsgatan 30A, Kista, Sweden",
     "region": "",
@@ -35621,11 +35640,11 @@
     "country": "Sweden",
     "lat": 60.1282,
     "lng": 18.6435,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1346",
@@ -35637,14 +35656,14 @@
       }
     ],
     "notes": [
-      "Evening enrichment 2026-03-10 23:04: Website issue: No website"
+      "REJECTED: Electronics component wholesaler (Kista, 3 employees). Not ITAD."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": "2026-03-10T22:04:43.111539Z"
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
   },
   {
     "id": "org-1091",
@@ -35696,11 +35715,11 @@
     "country": "Sweden",
     "lat": 60.1282,
     "lng": 18.6435,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1348",
@@ -35712,14 +35731,14 @@
       }
     ],
     "notes": [
-      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+      "REJECTED: Refurbished laptop/electronics online retailer. No own ITAD processing."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": "2026-03-10T22:04:46.058755Z"
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
   },
   {
     "id": "org-1093",
@@ -35733,11 +35752,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1349",
@@ -35749,14 +35768,14 @@
       }
     ],
     "notes": [
-      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+      "REJECTED: Small used IT equipment retail shop (Klavreström, Sweden). No ITAD processing facility."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": "2026-03-10T22:04:48.500033Z"
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
   },
   {
     "id": "org-1094",
@@ -35770,11 +35789,11 @@
     "country": "Sweden",
     "lat": 60.1282,
     "lng": 18.6435,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1350",
@@ -35794,14 +35813,14 @@
       }
     ],
     "notes": [
-      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+      "REJECTED: Refurbished Apple Mac retailer (mresell.se). No own ITAD processing."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": "2026-03-10T22:04:50.604124Z"
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
   },
   {
     "id": "org-1095",
@@ -35860,11 +35879,11 @@
     "country": "Sweden",
     "lat": 60.1282,
     "lng": 18.6435,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1353",
@@ -35876,14 +35895,14 @@
       }
     ],
     "notes": [
-      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+      "REJECTED: Refurbished computer/laptop reseller (Kista). Basic Shopify-style store. No ITAD processing."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": "2026-03-10T22:04:55.694035Z"
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
   },
   {
     "id": "org-1097",
@@ -35897,11 +35916,11 @@
     "country": "Sweden",
     "lat": 60.1282,
     "lng": 18.6435,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "rejected",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1354",
@@ -35913,14 +35932,14 @@
       }
     ],
     "notes": [
-      "Evening enrichment 2026-03-10 23:04: Limited ITAD focus (score: 0)"
+      "REJECTED: Refurbished IT broker/reseller (cirkulerad.se). Sells refurbished laptops but no evidence of own ITAD processing facility."
     ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.351Z",
-    "updatedAt": "2026-02-26T08:47:29.351Z",
-    "lastVerified": "2026-03-10T22:04:57.442940Z"
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
   },
   {
     "id": "org-1098",
@@ -40661,11 +40680,11 @@
     "country": "Norway",
     "lat": 60.472,
     "lng": 8.4689,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1577",
@@ -40676,13 +40695,15 @@
         "linkedin": "https://www.linkedin.com/in/linn-sandvik-796563b"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: ODA-Nettverk is a diversity-in-tech network/community org (Norway). Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T01:00:00.000Z",
+    "lastVerified": "2026-03-12T01:00:00.000Z"
   },
   {
     "id": "org-1219",
@@ -40696,11 +40717,11 @@
     "country": "Norway",
     "lat": 60.472,
     "lng": 8.4689,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1578",
@@ -40719,13 +40740,15 @@
         "linkedin": "https://www.linkedin.com/in/reidarsande"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Bekk is a Norwegian IT consultancy. Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T01:00:00.000Z",
+    "lastVerified": "2026-03-12T01:00:00.000Z"
   },
   {
     "id": "org-1220",
@@ -40739,11 +40762,11 @@
     "country": "Norway",
     "lat": 60.472,
     "lng": 8.4689,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Do Not Contact",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1580",
@@ -40778,13 +40801,15 @@
         "linkedin": "https://www.linkedin.com/in/petter-moe"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Atea Norge is a major Nordic IT distributor/reseller (~7,400 employees). Too large, not ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T01:00:00.000Z",
+    "lastVerified": "2026-03-12T01:00:00.000Z"
   },
   {
     "id": "org-1222",
@@ -40798,11 +40823,11 @@
     "country": "Norway",
     "lat": 60.472,
     "lng": 8.4689,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1584",
@@ -40821,13 +40846,15 @@
         "linkedin": "https://www.linkedin.com/in/hans-henrik-merckoll"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: IKT-Norge is Norway's ICT industry association. Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T01:00:00.000Z",
+    "lastVerified": "2026-03-12T01:00:00.000Z"
   },
   {
     "id": "org-1223",
@@ -40841,11 +40868,11 @@
     "country": "France",
     "lat": 46.2276,
     "lng": 2.2137,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1586",
@@ -40872,13 +40899,15 @@
         "linkedin": "https://www.linkedin.com/in/olivier-sevillia-760865"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Capgemini is a global IT consulting giant (~350K employees). Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T01:00:00.000Z",
+    "lastVerified": "2026-03-12T01:00:00.000Z"
   },
   {
     "id": "org-1224",
@@ -40892,11 +40921,11 @@
     "country": "United States",
     "lat": 37.0902,
     "lng": -95.7129,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1589",
@@ -40939,13 +40968,15 @@
         "linkedin": "https://www.linkedin.com/in/biswarupbarman"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Cognizant is a global IT services/consulting company (~350K employees). Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T01:00:00.000Z",
+    "lastVerified": "2026-03-12T01:00:00.000Z"
   },
   {
     "id": "org-1225",
@@ -40959,11 +40990,11 @@
     "country": "Norway",
     "lat": 60.472,
     "lng": 8.4689,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1595",
@@ -40998,13 +41029,15 @@
         "linkedin": "https://www.linkedin.com/in/aakero"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Miles is a Norwegian IT consultancy. Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T01:00:00.000Z",
+    "lastVerified": "2026-03-12T01:00:00.000Z"
   },
   {
     "id": "org-1227",
@@ -41018,11 +41051,11 @@
     "country": "Norway",
     "lat": 60.472,
     "lng": 8.4689,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1599",
@@ -41049,13 +41082,15 @@
         "linkedin": "https://www.linkedin.com/in/kenstephansen"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Webstep is a Norwegian IT consultancy. Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T01:00:00.000Z",
+    "lastVerified": "2026-03-12T01:00:00.000Z"
   },
   {
     "id": "org-1228",
@@ -41069,11 +41104,11 @@
     "country": "Norway",
     "lat": 60.472,
     "lng": 8.4689,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1602",
@@ -41100,13 +41135,15 @@
         "linkedin": "https://www.linkedin.com/in/odd-håvard-skevik-8724433"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Q-Free is a tolling/intelligent transport systems company. Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T01:00:00.000Z",
+    "lastVerified": "2026-03-12T01:00:00.000Z"
   },
   {
     "id": "org-1229",
@@ -41120,11 +41157,11 @@
     "country": "Norway",
     "lat": 60.472,
     "lng": 8.4689,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1605",
@@ -41143,13 +41180,15 @@
         "linkedin": "https://www.linkedin.com/in/emilie-garnes-3273a573"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Cubit is a Norwegian public services software company. Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T01:00:00.000Z",
+    "lastVerified": "2026-03-12T01:00:00.000Z"
   },
   {
     "id": "org-1231",
@@ -41163,11 +41202,11 @@
     "country": "Norway",
     "lat": 60.472,
     "lng": 8.4689,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1607",
@@ -41194,13 +41233,15 @@
         "linkedin": "https://www.linkedin.com/in/helle-frisak-sem-602942"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Computas is a Norwegian IT consultancy/software company. Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T01:00:00.000Z",
+    "lastVerified": "2026-03-12T01:00:00.000Z"
   },
   {
     "id": "org-1233",
@@ -41214,11 +41255,11 @@
     "country": "Norway",
     "lat": 60.472,
     "lng": 8.4689,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1610",
@@ -41237,13 +41278,15 @@
         "linkedin": "https://www.linkedin.com/in/thomassolbjor"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Forte Digital is a Norwegian digital consultancy. Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T01:00:00.000Z",
+    "lastVerified": "2026-03-12T01:00:00.000Z"
   },
   {
     "id": "org-1234",
@@ -41257,11 +41300,11 @@
     "country": "Sweden",
     "lat": 60.1282,
     "lng": 18.6435,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1612",
@@ -41288,13 +41331,15 @@
         "linkedin": "https://www.linkedin.com/in/annika-nordlander-93a7251"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Cybercom Group (now Knowit) is a Nordic IT consultancy. Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T01:00:00.000Z",
+    "lastVerified": "2026-03-12T01:00:00.000Z"
   },
   {
     "id": "org-1235",
@@ -41308,11 +41353,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1615",
@@ -41347,13 +41392,15 @@
         "linkedin": "https://www.linkedin.com/in/anders-thall-9a23074"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Netlight is an IT consultancy (Stockholm/London). Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T01:00:00.000Z",
+    "lastVerified": "2026-03-12T01:00:00.000Z"
   },
   {
     "id": "org-1236",
@@ -41367,25 +41414,27 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [],
-    "notes": [],
+    "notes": [
+      "REJECTED: Nettools — website dead (DNS failure). Unverifiable."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T01:00:00.000Z",
+    "lastVerified": "2026-03-12T01:00:00.000Z"
   },
   {
     "id": "org-1237",
     "slug": "jetico",
     "name": "Jetico",
-    "industry": "Data Centre",
+    "industry": "Software",
     "website": "https://www.jetico.com",
     "address": "Metsänneidonkuja 10, 02130 Espoo, , Finland",
     "region": "Helsinki",
@@ -41393,11 +41442,11 @@
     "country": "Finland",
     "lat": 61.9241,
     "lng": 25.7482,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1619",
@@ -41408,19 +41457,21 @@
         "linkedin": "https://www.linkedin.com/in/aleksei-boltunov-b70725190"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Data wiping/encryption software company (Jetico, Finland). Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
   },
   {
     "id": "org-1238",
     "slug": "it2trust",
     "name": "IT2Trust",
-    "industry": "Data Centre",
+    "industry": "IT Service Provider",
     "website": "http://www.it2trust.com/",
     "address": "Lautruphøj 5-7, DK-2750 Ballerup, , Denmark",
     "region": "",
@@ -41428,11 +41479,11 @@
     "country": "Denmark",
     "lat": 56.2639,
     "lng": 9.5018,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1620",
@@ -41459,19 +41510,21 @@
         "linkedin": "https://www.linkedin.com/in/patrick-christensen-2ab80110"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Cybersecurity/networking consultancy (IT2Trust, Denmark). Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
   },
   {
     "id": "org-1239",
     "slug": "phiston-technologies",
     "name": "Phiston Technologies",
-    "industry": "Data Centre",
+    "industry": "Hardware Manufacturer",
     "website": "http://www.phiston.com",
     "address": "9904 Premier Pkwy, 33025 Miramar, Florida, United States",
     "region": "Broward County",
@@ -41479,11 +41532,11 @@
     "country": "United States",
     "lat": 37.0902,
     "lng": -95.7129,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1624",
@@ -41510,19 +41563,21 @@
         "linkedin": "https://www.linkedin.com/in/shahrouz-ebadian"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Manufactures data destruction devices/shredders (Phiston Technologies). Not an ITAD service provider."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
   },
   {
     "id": "org-1240",
     "slug": "privacyengine",
     "name": "PrivacyEngine",
-    "industry": "",
+    "industry": "Software",
     "website": "https://www.privacyengine.io/",
     "address": "77 Sir John Rogerson's Quay, D02 F540 Dublin, County Dublin, Ireland",
     "region": "",
@@ -41530,11 +41585,11 @@
     "country": "Ireland",
     "lat": 53.1424,
     "lng": -7.6921,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1627",
@@ -41553,19 +41608,21 @@
         "linkedin": "https://www.linkedin.com/in/mike-morrissey-5b732292"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: GDPR/privacy compliance SaaS platform (PrivacyEngine, Ireland). Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
   },
   {
     "id": "org-1241",
     "slug": "ontrack",
     "name": "Ontrack",
-    "industry": "Data Centre",
+    "industry": "Data Recovery",
     "website": "https://www.ontrack.com/en-us",
     "address": "9023 Columbine Road, 55347 Eden Prairie, Minnesota, United States",
     "region": "Hennepin County",
@@ -41573,11 +41630,11 @@
     "country": "United States",
     "lat": 37.0902,
     "lng": -95.7129,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1629",
@@ -41604,13 +41661,15 @@
         "linkedin": "https://www.linkedin.com/in/shan-subenthiran-03226b2"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Data recovery company (Ontrack/KLDiscovery). Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
   },
   {
     "id": "org-1242",
@@ -41624,11 +41683,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 72,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1632",
@@ -41655,19 +41714,30 @@
         "linkedin": "https://www.linkedin.com/in/jarrod-guillou-619932159"
       }
     ],
-    "notes": [],
-    "certifications": [],
-    "services": [],
+    "notes": [
+      "ISO 27001/14001/9001 certified ITAD. On/off-site data destruction, reuse & recycling. Guernsey-based. Own secure facility."
+    ],
+    "certifications": [
+      "ISO 27001",
+      "ISO 14001",
+      "ISO 9001"
+    ],
+    "services": [
+      "ITAD",
+      "Data Destruction",
+      "Reuse",
+      "Recycling"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
   },
   {
     "id": "org-1243",
     "slug": "kertos",
     "name": "Kertos",
-    "industry": "Data Centre",
+    "industry": "Software",
     "website": "https://kertos.io",
     "address": "Nymphenburgerstraße 86, 80636 München, , Germany",
     "region": "Oberbayern",
@@ -41675,11 +41745,11 @@
     "country": "Germany",
     "lat": 51.1657,
     "lng": 10.4515,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1636",
@@ -41690,19 +41760,21 @@
         "linkedin": "https://www.linkedin.com/in/alexander-prams"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Compliance SaaS platform (Kertos, Germany). ISO/SOC/GDPR tools. Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
   },
   {
     "id": "org-1244",
     "slug": "data-terminator",
     "name": "DATA TERMINATOR",
-    "industry": "Data Centre",
+    "industry": "Hardware Manufacturer",
     "website": "http://data-terminator.com",
     "address": "1 Bukit Batok Crescent, 658064 Singapore, Singapore, Singapore",
     "region": "",
@@ -41710,11 +41782,11 @@
     "country": "Singapore",
     "lat": 1.3521,
     "lng": 103.8198,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1637",
@@ -41733,19 +41805,21 @@
         "linkedin": "https://www.linkedin.com/in/patrick-tan-288178215"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Data destruction equipment vendor (Data Terminator, Singapore). Not ITAD processor."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
   },
   {
     "id": "org-1245",
     "slug": "cigent-technology",
     "name": "Cigent Technology",
-    "industry": "Data Centre",
+    "industry": "Hardware Manufacturer",
     "website": "http://www.cigent.com",
     "address": "2211 Widman Way, 33901 Fort Myers, Florida, United States",
     "region": "Lee County",
@@ -41753,11 +41827,11 @@
     "country": "United States",
     "lat": 37.0902,
     "lng": -95.7129,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1639",
@@ -41776,19 +41850,21 @@
         "linkedin": "https://www.linkedin.com/in/wolfdave"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Military/government encrypted SSD manufacturer (Cigent Technology). Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
   },
   {
     "id": "org-1246",
     "slug": "planitroi",
     "name": "PlanITROI",
-    "industry": "IT Service Provider",
+    "industry": "ITAD",
     "website": "http://www.planitroi.com",
     "address": "100 Ford Road, Denville, New Jersey 07834, USA",
     "region": "Morris County",
@@ -41796,11 +41872,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 78,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1641",
@@ -41811,19 +41887,30 @@
         "linkedin": "https://www.linkedin.com/in/daniel-ingersoll-3a33a48b"
       }
     ],
-    "notes": [],
-    "certifications": [],
-    "services": [],
+    "notes": [
+      "Global ITAD since 2001. NAID AAA, ISO 27001. Data erasure, refurbishment, asset value recovery, reverse logistics. Own processing, global operations. ESG/CSR focus."
+    ],
+    "certifications": [
+      "NAID AAA",
+      "ISO 27001"
+    ],
+    "services": [
+      "ITAD",
+      "Data Erasure",
+      "Refurbishment",
+      "Asset Value Recovery",
+      "Reverse Logistics"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
   },
   {
     "id": "org-1248",
     "slug": "guardian-data-destruction",
     "name": "Guardian Data Destruction",
-    "industry": "Data Centre",
+    "industry": "IT Service Provider",
     "website": "http://www.guardiandatadestruction.com",
     "address": "80 Wesley St - Unit 3, 07606 South Hackensack, New Jersey, United States",
     "region": "Bergen County",
@@ -41831,11 +41918,11 @@
     "country": "United States",
     "lat": 37.0902,
     "lng": -95.7129,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1645",
@@ -41878,19 +41965,21 @@
         "linkedin": "https://www.linkedin.com/in/mikealev"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: On-site data destruction subcontractor via channel partners (Guardian Data Destruction, US). Not own ITAD facility."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
   },
   {
     "id": "org-1249",
     "slug": "second-it-store",
     "name": "Second IT Store",
-    "industry": "",
+    "industry": "ITAD",
     "website": "http://www.second-it.de",
     "address": "Steinbeisweg 1, 74523 Schwäbisch Hall, , Germany",
     "region": "Stuttgart",
@@ -41898,19 +41987,28 @@
     "country": "Germany",
     "lat": 51.1657,
     "lng": 10.4515,
-    "stage": "unverified",
-    "score": null,
-    "isPipeline": false,
+    "stage": "qualified",
+    "score": 70,
+    "isPipeline": true,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [],
-    "notes": [],
-    "certifications": [],
-    "services": [],
+    "notes": [
+      "German ITAD. BSI-compliant data erasure, IT remarketing, own logistics. 4+ DIN/ISO standards. Refurbishment, own facility, online shop for refurbished IT."
+    ],
+    "certifications": [
+      "BSI"
+    ],
+    "services": [
+      "ITAD",
+      "Data Erasure",
+      "Remarketing",
+      "Refurbishment"
+    ],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
   },
   {
     "id": "org-1250",
@@ -41924,11 +42022,11 @@
     "country": "Germany",
     "lat": 51.1657,
     "lng": 10.4515,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1650",
@@ -41955,19 +42053,21 @@
         "linkedin": "https://www.linkedin.com/in/thomas-liewald-40337674"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Duplicate of org-1249 (Second IT Store)."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
   },
   {
     "id": "org-1251",
     "slug": "brainotech-it-solutions",
     "name": "Brainotech IT Solutions",
-    "industry": "Data Centre",
+    "industry": "IT Service Provider",
     "website": "http://www.brainotechs.com",
     "address": "Winterhuder Weg 29, 22085 Hamburg, Germany , Germany",
     "region": "",
@@ -41975,11 +42075,11 @@
     "country": "Germany",
     "lat": 51.1657,
     "lng": 10.4515,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Fresh Data",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1653",
@@ -41990,19 +42090,21 @@
         "linkedin": "https://www.linkedin.com/in/nadeem-rana-068a96173"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Global managed IT services provider (Brainotech). Field engineering, networking, cloud. Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
   },
   {
     "id": "org-1252",
     "slug": "redpalm-technology-services",
     "name": "Redpalm Technology Services",
-    "industry": "ITAD",
+    "industry": "IT Service Provider",
     "website": "https://www.redpalm.co.uk",
     "address": "12 Moulton Park Office Village, NN3 6AP Northampton, , United Kingdom",
     "region": "Northamptonshire",
@@ -42010,11 +42112,11 @@
     "country": "United Kingdom",
     "lat": 52.3555,
     "lng": -1.1743,
-    "stage": "unverified",
+    "stage": "rejected",
     "score": null,
     "isPipeline": false,
     "originalLabel": "Prospect",
-    "dataQuality": "unverified",
+    "dataQuality": "verified",
     "contacts": [
       {
         "id": "contact-1654",
@@ -42033,13 +42135,15 @@
         "linkedin": "https://www.linkedin.com/in/simon-purkiss-552599a0"
       }
     ],
-    "notes": [],
+    "notes": [
+      "REJECTED: Managed IT services/cybersecurity company (Redpalm, UK). Not ITAD."
+    ],
     "certifications": [],
     "services": [],
     "pipelineData": null,
     "createdAt": "2026-02-26T08:47:29.352Z",
-    "updatedAt": "2026-02-26T08:47:29.352Z",
-    "lastVerified": null
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
   },
   {
     "id": "org-1254",

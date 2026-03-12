@@ -102,7 +102,15 @@ const navItems = [
       </div>
       <div class="flex-1 flex items-center justify-between px-6">
         <h1 class="text-base font-semibold" style="color: var(--text-primary);">{title}</h1>
-        <button id="theme-toggle" class="p-2 rounded-lg border transition-colors" style="border-color: var(--border); color: var(--text-tertiary);" title="Toggle light/dark mode">
+        <div class="flex items-center gap-3">
+          <button id="global-search-trigger" class="flex items-center gap-2 px-3 py-1.5 rounded-lg border text-sm transition-colors hover:opacity-80" style="border-color: var(--border); color: var(--text-tertiary); background: var(--bg-elevated);" title="Search everything (⌘K)">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+            <span class="hidden md:inline">Search...</span>
+            <span class="text-xs px-1.5 py-0.5 rounded border" style="border-color: var(--border); background: var(--bg-tertiary);">⌘K</span>
+          </button>
+          <button id="theme-toggle" class="p-2 rounded-lg border transition-colors" style="border-color: var(--border); color: var(--text-tertiary);" title="Toggle light/dark mode">
           <svg id="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
             <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
           </svg>
@@ -184,6 +192,85 @@ const navItems = [
         </div>
       </main>
     </div>
+
+    <!-- Global Search Modal -->
+    <div id="search-modal" class="fixed inset-0 z-50 hidden" style="background: rgba(0,0,0,0.6);">
+      <div class="flex items-start justify-center min-h-screen pt-20 px-4">
+        <div class="w-full max-w-2xl">
+          <div class="card overflow-hidden" style="max-height: 70vh;">
+            <!-- Search Header -->
+            <div class="px-4 py-3 border-b" style="border-color: var(--border);">
+              <div class="flex items-center gap-3">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-tertiary);">
+                  <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                </svg>
+                <input 
+                  type="text" 
+                  id="global-search-input" 
+                  placeholder="Search companies, contacts, or leads..."
+                  class="flex-1 bg-transparent text-lg outline-none"
+                  style="color: var(--text-primary);"
+                  autocomplete="off"
+                />
+                <button id="search-close" class="p-1 text-xs rounded" style="color: var(--text-tertiary);">ESC</button>
+              </div>
+            </div>
+            
+            <!-- Search Results -->
+            <div id="search-results" class="overflow-y-auto" style="max-height: 60vh;">
+              <div id="search-loading" class="hidden p-8 text-center" style="color: var(--text-tertiary);">
+                <div class="animate-spin w-6 h-6 mx-auto mb-2 border-2 border-transparent rounded-full" style="border-top-color: var(--brand-green);"></div>
+                Searching...
+              </div>
+              
+              <div id="search-empty" class="p-8 text-center" style="color: var(--text-tertiary);">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="mx-auto mb-3 opacity-50">
+                  <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                </svg>
+                <div class="text-sm">Type to search across all companies and contacts</div>
+              </div>
+              
+              <div id="search-no-results" class="hidden p-8 text-center" style="color: var(--text-tertiary);">
+                <div class="text-sm">No results found</div>
+              </div>
+              
+              <!-- Results will be populated here -->
+              <div id="search-content" class="hidden">
+                <!-- Pipeline Results -->
+                <div id="pipeline-results-section" class="hidden">
+                  <div class="px-4 py-2 text-xs font-medium uppercase tracking-wide border-b" style="color: var(--text-tertiary); background: var(--bg-elevated); border-color: var(--border);">
+                    Pipeline Partners
+                  </div>
+                  <div id="pipeline-results"></div>
+                </div>
+                
+                <!-- Lead Pool Results -->
+                <div id="leadpool-results-section" class="hidden">
+                  <div class="px-4 py-2 text-xs font-medium uppercase tracking-wide border-b" style="color: var(--text-tertiary); background: var(--bg-elevated); border-color: var(--border);">
+                    Lead Pool
+                  </div>
+                  <div id="leadpool-results"></div>
+                </div>
+                
+                <!-- Contacts Results -->
+                <div id="contacts-results-section" class="hidden">
+                  <div class="px-4 py-2 text-xs font-medium uppercase tracking-wide border-b" style="color: var(--text-tertiary); background: var(--bg-elevated); border-color: var(--border);">
+                    Contacts
+                  </div>
+                  <div id="contacts-results"></div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Search Footer -->
+            <div class="px-4 py-2 border-t text-xs flex items-center justify-between" style="border-color: var(--border); background: var(--bg-elevated); color: var(--text-tertiary);">
+              <div>Use ↑↓ to navigate, Enter to open, ESC to close</div>
+              <div>⌘K to search again</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script is:inline>
@@ -264,7 +351,278 @@ const navItems = [
         document.getElementById('mobile-menu-btn')?.addEventListener('click', openMenu);
         document.getElementById('mobile-close-btn')?.addEventListener('click', closeMenu);
         overlay?.addEventListener('click', function(e) { if (e.target === overlay) closeMenu(); });
+
+        // Global Search Functionality
+        initGlobalSearch();
       });
+
+      // Global Search
+      function initGlobalSearch() {
+        const modal = document.getElementById('search-modal');
+        const input = document.getElementById('global-search-input');
+        const trigger = document.getElementById('global-search-trigger');
+        const closeBtn = document.getElementById('search-close');
+        const searchContent = document.getElementById('search-content');
+        const searchEmpty = document.getElementById('search-empty');
+        const searchLoading = document.getElementById('search-loading');
+        const searchNoResults = document.getElementById('search-no-results');
+        
+        let searchData = null;
+        let selectedIndex = -1;
+        let searchResults = [];
+
+        // Load search data
+        function loadSearchData() {
+          return Promise.all([
+            fetch('/src/data/pipeline.json').then(r => r.json()),
+            fetch('/src/data/organizations.json').then(r => r.json()),
+            fetch('/src/data/contacts.json').then(r => r.json())
+          ]).then(([pipeline, organizations, contacts]) => {
+            searchData = { pipeline, organizations, contacts };
+          }).catch(() => {
+            // Fallback if files not accessible
+            searchData = { pipeline: [], organizations: [], contacts: [] };
+          });
+        }
+
+        // Open modal
+        function openSearch() {
+          modal.classList.remove('hidden');
+          input.focus();
+          if (!searchData) {
+            loadSearchData();
+          }
+        }
+
+        // Close modal
+        function closeSearch() {
+          modal.classList.add('hidden');
+          input.value = '';
+          clearResults();
+          selectedIndex = -1;
+        }
+
+        // Clear search results
+        function clearResults() {
+          searchContent.classList.add('hidden');
+          searchEmpty.classList.remove('hidden');
+          searchNoResults.classList.add('hidden');
+          searchLoading.classList.add('hidden');
+          searchResults = [];
+        }
+
+        // Perform search
+        function performSearch(query) {
+          if (!searchData || query.length < 2) {
+            clearResults();
+            return;
+          }
+
+          searchEmpty.classList.add('hidden');
+          searchLoading.classList.remove('hidden');
+          
+          setTimeout(() => {
+            const results = {
+              pipeline: [],
+              leadpool: [],
+              contacts: []
+            };
+
+            query = query.toLowerCase();
+
+            // Search pipeline
+            searchData.pipeline.forEach(org => {
+              if (org.name?.toLowerCase().includes(query) || 
+                  org.country?.toLowerCase().includes(query) ||
+                  org.website?.toLowerCase().includes(query) ||
+                  org.pipelineData?.notes?.toLowerCase().includes(query)) {
+                results.pipeline.push(org);
+              }
+            });
+
+            // Search organizations (leadpool)
+            searchData.organizations.forEach(org => {
+              if (org.name?.toLowerCase().includes(query) || 
+                  org.country?.toLowerCase().includes(query) ||
+                  org.website?.toLowerCase().includes(query)) {
+                results.leadpool.push(org);
+              }
+            });
+
+            // Search contacts
+            searchData.contacts.forEach(contact => {
+              if (contact.name?.toLowerCase().includes(query) || 
+                  contact.email?.toLowerCase().includes(query) ||
+                  contact.title?.toLowerCase().includes(query) ||
+                  contact.companyName?.toLowerCase().includes(query)) {
+                results.contacts.push(contact);
+              }
+            });
+
+            displayResults(results);
+            searchLoading.classList.add('hidden');
+          }, 100);
+        }
+
+        // Display search results
+        function displayResults(results) {
+          const pipelineSection = document.getElementById('pipeline-results-section');
+          const leadpoolSection = document.getElementById('leadpool-results-section');
+          const contactsSection = document.getElementById('contacts-results-section');
+          const pipelineContainer = document.getElementById('pipeline-results');
+          const leadpoolContainer = document.getElementById('leadpool-results');
+          const contactsContainer = document.getElementById('contacts-results');
+
+          // Reset
+          pipelineSection.classList.add('hidden');
+          leadpoolSection.classList.add('hidden');
+          contactsSection.classList.add('hidden');
+          searchResults = [];
+
+          const totalResults = results.pipeline.length + results.leadpool.length + results.contacts.length;
+
+          if (totalResults === 0) {
+            searchNoResults.classList.remove('hidden');
+            return;
+          }
+
+          searchContent.classList.remove('hidden');
+
+          // Pipeline results
+          if (results.pipeline.length > 0) {
+            pipelineSection.classList.remove('hidden');
+            pipelineContainer.innerHTML = results.pipeline.slice(0, 5).map((org, idx) => {
+              const globalIdx = searchResults.length;
+              searchResults.push({ type: 'pipeline', data: org });
+              return `
+                <a href="/lead/${org.slug}" class="search-result-item flex items-center justify-between px-4 py-3 border-b hover-bg-elevated transition-colors" data-index="${globalIdx}" style="border-color: var(--border);">
+                  <div class="min-w-0 flex items-center gap-3">
+                    <span class="score-badge ${(org.score || 0) >= 80 ? 'score-high' : (org.score || 0) >= 70 ? 'score-mid' : 'score-low'}">${org.score || '—'}</span>
+                    <div>
+                      <div class="text-sm font-medium truncate" style="color: var(--text-primary);">${org.name}</div>
+                      <div class="text-xs truncate" style="color: var(--text-tertiary);">${org.country} • ${org.stage}</div>
+                    </div>
+                  </div>
+                  <div class="text-xs" style="color: var(--text-tertiary);">Pipeline</div>
+                </a>
+              `;
+            }).join('');
+          }
+
+          // Lead pool results
+          if (results.leadpool.length > 0) {
+            leadpoolSection.classList.remove('hidden');
+            leadpoolContainer.innerHTML = results.leadpool.slice(0, 5).map((org, idx) => {
+              const globalIdx = searchResults.length;
+              searchResults.push({ type: 'leadpool', data: org });
+              return `
+                <a href="/lead/${org.slug}" class="search-result-item flex items-center justify-between px-4 py-3 border-b hover-bg-elevated transition-colors" data-index="${globalIdx}" style="border-color: var(--border);">
+                  <div class="min-w-0 flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-full flex items-center justify-center text-xs" style="background: var(--bg-tertiary); color: var(--text-tertiary);">?</div>
+                    <div>
+                      <div class="text-sm font-medium truncate" style="color: var(--text-primary);">${org.name}</div>
+                      <div class="text-xs truncate" style="color: var(--text-tertiary);">${org.country} • Unverified</div>
+                    </div>
+                  </div>
+                  <div class="text-xs" style="color: var(--text-tertiary);">Lead Pool</div>
+                </a>
+              `;
+            }).join('');
+          }
+
+          // Contact results
+          if (results.contacts.length > 0) {
+            contactsSection.classList.remove('hidden');
+            contactsContainer.innerHTML = results.contacts.slice(0, 5).map((contact, idx) => {
+              const globalIdx = searchResults.length;
+              searchResults.push({ type: 'contact', data: contact });
+              return `
+                <div class="search-result-item flex items-center justify-between px-4 py-3 border-b hover-bg-elevated transition-colors cursor-pointer" data-index="${globalIdx}" style="border-color: var(--border);">
+                  <div class="min-w-0 flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-full flex items-center justify-center text-xs" style="background: var(--brand-green); color: white;">${(contact.name?.[0] || '?').toUpperCase()}</div>
+                    <div>
+                      <div class="text-sm font-medium truncate" style="color: var(--text-primary);">${contact.name}</div>
+                      <div class="text-xs truncate" style="color: var(--text-tertiary);">${contact.title || ''} • ${contact.companyName || ''}</div>
+                    </div>
+                  </div>
+                  <div class="text-xs" style="color: var(--text-tertiary);">Contact</div>
+                </div>
+              `;
+            }).join('');
+          }
+
+          // Add click handlers
+          document.querySelectorAll('.search-result-item').forEach(item => {
+            item.addEventListener('click', () => {
+              if (item.href) {
+                window.location.href = item.href;
+              }
+              closeSearch();
+            });
+          });
+        }
+
+        // Navigation
+        function navigate(direction) {
+          const items = document.querySelectorAll('.search-result-item');
+          if (items.length === 0) return;
+
+          // Remove previous selection
+          items[selectedIndex]?.classList.remove('selected');
+
+          if (direction === 'up') {
+            selectedIndex = selectedIndex <= 0 ? items.length - 1 : selectedIndex - 1;
+          } else {
+            selectedIndex = selectedIndex >= items.length - 1 ? 0 : selectedIndex + 1;
+          }
+
+          // Add new selection
+          items[selectedIndex]?.classList.add('selected');
+          items[selectedIndex]?.scrollIntoView({ block: 'nearest' });
+        }
+
+        // Event listeners
+        trigger?.addEventListener('click', openSearch);
+        closeBtn?.addEventListener('click', closeSearch);
+        modal?.addEventListener('click', (e) => {
+          if (e.target === modal) closeSearch();
+        });
+
+        input?.addEventListener('input', (e) => {
+          performSearch(e.target.value);
+          selectedIndex = -1;
+        });
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+          // Global shortcuts
+          if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+            e.preventDefault();
+            openSearch();
+            return;
+          }
+
+          // Modal shortcuts
+          if (!modal.classList.contains('hidden')) {
+            if (e.key === 'Escape') {
+              e.preventDefault();
+              closeSearch();
+            } else if (e.key === 'ArrowUp') {
+              e.preventDefault();
+              navigate('up');
+            } else if (e.key === 'ArrowDown') {
+              e.preventDefault();
+              navigate('down');
+            } else if (e.key === 'Enter') {
+              e.preventDefault();
+              const selected = document.querySelector('.search-result-item.selected');
+              if (selected) {
+                selected.click();
+              }
+            }
+          }
+        });
+      }
     })();
   </script>
 </body>

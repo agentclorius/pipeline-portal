@@ -303,3 +303,32 @@ body {
   background: white;
   color: var(--text-primary);
 }
+
+/* Global Search Styles */
+.search-result-item.selected {
+  background: var(--bg-elevated) !important;
+  box-shadow: inset 2px 0 0 var(--brand-green);
+}
+
+.hover-bg-elevated:hover {
+  background: var(--bg-elevated);
+}
+
+.score-badge {
+  @apply inline-flex items-center justify-center w-8 h-8 rounded-full text-xs font-bold;
+}
+
+.score-high {
+  background: rgba(45, 107, 63, 0.15);
+  color: var(--brand-green);
+}
+
+.score-mid {
+  background: rgba(139, 92, 246, 0.15);
+  color: var(--status-researching);
+}
+
+.score-low {
+  background: rgba(100, 100, 100, 0.15);
+  color: var(--text-secondary);
+}

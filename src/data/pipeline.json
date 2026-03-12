@@ -9576,5 +9576,294 @@
     "createdAt": "2026-03-07T22:06:11.349890+00:00",
     "updatedAt": "2026-03-07T22:06:11.349890+00:00",
     "lastVerified": "2026-03-07T22:06:11.349890+00:00"
+  },
+  {
+    "id": "org-1081",
+    "slug": "tech-konsulter",
+    "name": "Tech Konsulter",
+    "industry": "ITAD",
+    "website": "http://www.techauction.se",
+    "address": ",  Stockholm, , Sweden",
+    "region": "",
+    "state": "Stockholm County",
+    "country": "Sweden",
+    "lat": 60.1282,
+    "lng": 18.6435,
+    "stage": "qualified",
+    "score": 72,
+    "isPipeline": true,
+    "originalLabel": "Prospect",
+    "dataQuality": "verified",
+    "contacts": [
+      {
+        "id": "contact-1335",
+        "name": "Alexander Rydbeck",
+        "title": "Chief Executive Officer",
+        "email": "alexander.rydbeck@techauction.se",
+        "phone": "'+46709389599",
+        "linkedin": "https://www.linkedin.com/in/alexander-rydbeck-819a232b"
+      },
+      {
+        "id": "contact-1336",
+        "name": "Tord Henryson",
+        "title": "Partner",
+        "email": "tord.henryson@techkonsulter.se",
+        "phone": "'+46709389599",
+        "linkedin": "https://www.linkedin.com/in/tordhenryson"
+      }
+    ],
+    "notes": [
+      "Now Itreon (techauction.se redirects to itreon.eu). Circular IT: take-back, data erasure (serial-level certs), reuse, recycling. Own TakeBack Portal. Sweden-based."
+    ],
+    "certifications": [],
+    "services": [
+      "ITAD",
+      "Data Erasure",
+      "Refurbishment",
+      "Recycling"
+    ],
+    "pipelineData": null,
+    "createdAt": "2026-02-26T08:47:29.351Z",
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
+  },
+  {
+    "id": "org-1084",
+    "slug": "reuseit-sweden-fka-azalea-global-it",
+    "name": "ReuseIT Sweden(fka Azalea Global IT)",
+    "industry": "ITAD",
+    "website": "http://www.azaleait.se",
+    "address": "Illervägen, 352 45 Växjö, Kronoberg County, Sweden",
+    "region": "",
+    "state": "Kronobergs län",
+    "country": "Sweden",
+    "lat": 60.1282,
+    "lng": 18.6435,
+    "stage": "qualified",
+    "score": 70,
+    "isPipeline": true,
+    "originalLabel": "Prospect",
+    "dataQuality": "verified",
+    "contacts": [
+      {
+        "id": "contact-1340",
+        "name": "David Akerblom",
+        "title": "Key Account Manager",
+        "email": "david.akerblom@reuseit.se",
+        "phone": "'+46 4 70 70 35 00",
+        "linkedin": "https://www.linkedin.com/in/david-åkerblom-473a56205"
+      },
+      {
+        "id": "contact-1341",
+        "name": "Renee Ljungstrom",
+        "title": "Key Account Manager",
+        "email": "renee.ljungstrom@reuseit.se",
+        "phone": "'+46 4 70 70 35 00",
+        "linkedin": "https://www.linkedin.com/in/reneé-ljungström-81a6a557"
+      }
+    ],
+    "notes": [
+      "ReuseIT Sweden AB (fka Azalea Global IT). Subsidiary of Elanders Group. Data erasure, reconditioning, reuse of IT equipment. Partnership with Kjell & Company. Own processing."
+    ],
+    "certifications": [],
+    "services": [
+      "ITAD",
+      "Data Erasure",
+      "Refurbishment",
+      "Reuse"
+    ],
+    "pipelineData": null,
+    "createdAt": "2026-02-26T08:47:29.351Z",
+    "updatedAt": "2026-03-11T23:01:56.429Z",
+    "lastVerified": "2026-03-11T23:01:56.429Z"
+  },
+  {
+    "id": "org-184",
+    "slug": "spotbuyer-group",
+    "name": "Spotbuyer Group",
+    "industry": "ITAD",
+    "website": "",
+    "address": "Sutton Coldfield",
+    "region": "",
+    "state": "",
+    "country": "United Kingdom",
+    "lat": 52.3555,
+    "lng": -1.1743,
+    "stage": "qualified",
+    "score": 68,
+    "isPipeline": true,
+    "originalLabel": "Warm lead",
+    "dataQuality": "verified",
+    "contacts": [
+      {
+        "id": "contact-5",
+        "name": "Simon Parkinson",
+        "title": "Owner",
+        "email": "simon@spotbuyer.co.uk",
+        "phone": "",
+        "linkedin": "https://www.linkedin.com/in/simon-parkinson-835157a"
+      }
+    ],
+    "notes": [
+      "Spotbuyer Group (Device Services). Asset recovery, refurbishment, remarketing. Stourbridge, West Midlands. 14 employees. ISO 27001/14001/9001. Mobile + IT processing. Own facility."
+    ],
+    "certifications": [
+      "ISO 27001",
+      "ISO 14001",
+      "ISO 9001"
+    ],
+    "services": [
+      "Asset Recovery",
+      "Refurbishment",
+      "Remarketing",
+      "Device Repair"
+    ],
+    "pipelineData": null,
+    "createdAt": "2026-02-26T08:47:29.349Z",
+    "updatedAt": "2026-03-12T01:02:09.406Z",
+    "lastVerified": "2026-03-12T01:02:09.406Z"
+  },
+  {
+    "id": "org-1242",
+    "slug": "galaxy-ci",
+    "name": "Galaxy CI",
+    "industry": "ITAD",
+    "website": "http://www.galaxyci.com/",
+    "address": "Unit 2C, GY3 5VB Vale, Guernsey, Guernsey",
+    "region": "",
+    "state": "",
+    "country": "United Kingdom",
+    "lat": 52.3555,
+    "lng": -1.1743,
+    "stage": "qualified",
+    "score": 72,
+    "isPipeline": true,
+    "originalLabel": "Fresh Data",
+    "dataQuality": "verified",
+    "contacts": [
+      {
+        "id": "contact-1632",
+        "name": "Matt Strachan",
+        "title": "General Manager",
+        "email": "matt.strachan@grgcorp.com",
+        "phone": "'+44 1481 235300",
+        "linkedin": "https://www.linkedin.com/in/matt-strachan-6942221a1"
+      },
+      {
+        "id": "contact-1633",
+        "name": "Ben Harrison",
+        "title": "ITAD Operative",
+        "email": "",
+        "phone": "",
+        "linkedin": "https://www.linkedin.com/in/ben-harrison-29410518"
+      },
+      {
+        "id": "contact-1634",
+        "name": "Jarrod Guillou",
+        "title": "Assistant Manager",
+        "email": "jarrod.guillou@galaxyci.com",
+        "phone": "'+44 1481 740022",
+        "linkedin": "https://www.linkedin.com/in/jarrod-guillou-619932159"
+      }
+    ],
+    "notes": [
+      "ISO 27001/14001/9001 certified ITAD. On/off-site data destruction, reuse & recycling. Guernsey-based. Own secure facility."
+    ],
+    "certifications": [
+      "ISO 27001",
+      "ISO 14001",
+      "ISO 9001"
+    ],
+    "services": [
+      "ITAD",
+      "Data Destruction",
+      "Reuse",
+      "Recycling"
+    ],
+    "pipelineData": null,
+    "createdAt": "2026-02-26T08:47:29.352Z",
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
+  },
+  {
+    "id": "org-1246",
+    "slug": "planitroi",
+    "name": "PlanITROI",
+    "industry": "ITAD",
+    "website": "http://www.planitroi.com",
+    "address": "100 Ford Road, Denville, New Jersey 07834, USA",
+    "region": "Morris County",
+    "state": "New Jersey",
+    "country": "United Kingdom",
+    "lat": 52.3555,
+    "lng": -1.1743,
+    "stage": "qualified",
+    "score": 78,
+    "isPipeline": true,
+    "originalLabel": "Fresh Data",
+    "dataQuality": "verified",
+    "contacts": [
+      {
+        "id": "contact-1641",
+        "name": "Daniel Ingersoll",
+        "title": "Executive Director of Operations",
+        "email": "dingersoll@planitroi.com",
+        "phone": "'+1973-664-0700",
+        "linkedin": "https://www.linkedin.com/in/daniel-ingersoll-3a33a48b"
+      }
+    ],
+    "notes": [
+      "Global ITAD since 2001. NAID AAA, ISO 27001. Data erasure, refurbishment, asset value recovery, reverse logistics. Own processing, global operations. ESG/CSR focus."
+    ],
+    "certifications": [
+      "NAID AAA",
+      "ISO 27001"
+    ],
+    "services": [
+      "ITAD",
+      "Data Erasure",
+      "Refurbishment",
+      "Asset Value Recovery",
+      "Reverse Logistics"
+    ],
+    "pipelineData": null,
+    "createdAt": "2026-02-26T08:47:29.352Z",
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
+  },
+  {
+    "id": "org-1249",
+    "slug": "second-it-store",
+    "name": "Second IT Store",
+    "industry": "ITAD",
+    "website": "http://www.second-it.de",
+    "address": "Steinbeisweg 1, 74523 Schwäbisch Hall, , Germany",
+    "region": "Stuttgart",
+    "state": "Baden-Württemberg",
+    "country": "Germany",
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "stage": "qualified",
+    "score": 70,
+    "isPipeline": true,
+    "originalLabel": "Fresh Data",
+    "dataQuality": "verified",
+    "contacts": [],
+    "notes": [
+      "German ITAD. BSI-compliant data erasure, IT remarketing, own logistics. 4+ DIN/ISO standards. Refurbishment, own facility, online shop for refurbished IT."
+    ],
+    "certifications": [
+      "BSI"
+    ],
+    "services": [
+      "ITAD",
+      "Data Erasure",
+      "Remarketing",
+      "Refurbishment"
+    ],
+    "pipelineData": null,
+    "createdAt": "2026-02-26T08:47:29.352Z",
+    "updatedAt": "2026-03-12T02:02:08.608Z",
+    "lastVerified": "2026-03-12T02:02:08.608Z"
   }
 ]
